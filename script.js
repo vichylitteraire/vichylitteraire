@@ -61,7 +61,7 @@ function applyAds() {
     // --- Настройка рекламы кафе (Только если есть ?place=) ---
     const ads = {
         'paul': {
-            text: { fr: "Votre pub ici", en: "Your ad here" },
+            text: { fr: "Votre annonce ici", en: "Your ad here" },
             
         },
         'luna': {
