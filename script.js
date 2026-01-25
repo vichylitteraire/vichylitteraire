@@ -53,7 +53,7 @@ function applyAds() {
 
     // --- Настройка твоей почты (Всегда видна) ---
     const myEmail = "vichylitteraire@gmail.com";
-    contactLabel.innerText = (currentLang === 'en') ? "Your ad here:" : "Votre pub ici :";
+    contactLabel.innerText = (currentLang === 'en') ? "Your ad here:" : "Votre annonce ici :";
     emailLink.innerText = myEmail;
     // mailto: открывает почтовое приложение
     emailLink.href = "mailto:" + myEmail + "?subject=Publicité Vichy Littéraire"; 
