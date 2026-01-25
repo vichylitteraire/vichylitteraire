@@ -60,7 +60,7 @@ function applyAds() {
 
     // --- Настройка рекламы кафе (Только если есть ?place=) ---
     const ads = {
-        'opera': {
+        'paul': {
             text: { fr: "☕️ -10% au Cafe Opera !", en: "☕️ -10% at Cafe Opera!" },
             url: "https://instagram.com/opera"
         },
