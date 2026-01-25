@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vichy Littéraire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="language-screen">
+        <div class="lang-box">
+            <h1>VICHY LITTÉRAIRE</h1>
+            <p>Select your language / Choisissez votre langue</p>
+            <div class="lang-buttons">
+                <button onclick="setLanguage('fr')">Français 🇫🇷</button>
+                <button onclick="setLanguage('en')">English 🇬🇧</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="main-content" style="display: none;">
+        <header>
+            <div class="logo">VICHY LITTÉRAIRE</div>
+        </header>
+
+        <main class="wrapper">
+            <article class="paper">
+                <h2 id="story-title"></h2>
+                <div id="story-content">
+                    </div>
+                <div class="meta">
+                    <span id="label-author">Par</span> <strong id="author-name"></strong>
+                </div>
+            </article>
+
+            <button id="btn-next" onclick="loadStory()">Autre histoire</button>
+
+            <footer class="ad-container">
+                
+                <div id="cafe-ad-box" class="ad-box" style="display: none; margin-bottom: 25px;">
+                    <p id="ad-text"></p>
+                    <a id="ad-link" href="#" target="_blank">En savoir plus</a>
+                </div>
+
+                <div class="contact-box">
+                    <p id="contact-label">Votre pub ici :</p>
+                    <a id="email-link" class="email-btn" href="mailto:vichylitteraire@gmail.com">vichylitteraire@gmail.com</a>
+                </div>
+
+            </footer>
+        </main>
+    </div>
+
+    <script src="stories.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
