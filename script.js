@@ -54,7 +54,7 @@ function applyAds() {
 
     // --- Настройка твоей почты (Всегда видна) ---
     const myEmail = "vichylitteraire@gmail.com";
-    contactLabel.innerText = (currentLang === 'en') ? "Become a partner:" : "Devenir partenaire :";
+    contactLabel.innerText = (currentLang === 'en') ? "Contact us:" : "Pour nous contacter :";
     emailLink.innerText = myEmail;
     // mailto: открывает почтовое приложение
     emailLink.href = "mailto:" + myEmail + "?subject=Publicité Vichy Littéraire"; 
@@ -62,7 +62,7 @@ function applyAds() {
     // --- Настройка рекламы кафе (Только если есть ?place=) ---
     const ads = {
         'paul': {
-            text: { fr: "Votre marque ici\n\n Soutenez un projet culturel", en: "Your brand here\n\n Support a cultural project" },
+            text: { fr: " Soutenez notre projet culturel\n\n Devenez partenaire", en: "Support our cultural project\n\n Become a partner" },
             
         },
         'luna': {
