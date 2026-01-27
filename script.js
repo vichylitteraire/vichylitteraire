@@ -29,7 +29,7 @@ function loadStory() {
     const btnNext = document.getElementById('btn-next');
     const labelAuthor = document.getElementById('label-author');
     
-    btnNext.innerText = (currentLang === 'en') ? "Another story" : "Autre histoire";
+    btnNext.innerText = (currentLang === 'en') ? "Another story 🎲" : "Autre histoire 🎲";
     labelAuthor.innerText = (currentLang === 'en') ? "By" : "Par";
 
     // Обновляем всю рекламу внизу
