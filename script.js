@@ -1,9 +1,7 @@
-
-
 let currentLang = 'fr';
 let currentStoryIndex = 0;
 
-// 2. ВЫБОР ЯЗЫКА
+// 1. ВЫБОР ЯЗЫКА
 function setLanguage(lang) {
     currentLang = lang;
     
@@ -14,13 +12,15 @@ function setLanguage(lang) {
     loadStory(); // Загружаем контент
 }
 
-// 3. ЗАГРУЗКА ИСТОРИИ
+// 2. ЗАГРУЗКА ИСТОРИИ
 function loadStory() {
     // Выбираем случайную историю
-   let newIndex;
-do { newIndex = Math.floor(Math.random() * stories.length); } 
-while (newIndex === currentStoryIndex && stories.length > 1);
-currentStoryIndex = newIndex;
+    let newIndex;
+    do { 
+        newIndex = Math.floor(Math.random() * stories.length); 
+    } while (newIndex === currentStoryIndex && stories.length > 1);
+    
+    currentStoryIndex = newIndex;
     const story = stories[currentStoryIndex];
     
     // Вставляем тексты истории
@@ -37,57 +37,55 @@ currentStoryIndex = newIndex;
 
     // Обновляем всю рекламу внизу
     applyAds();
-}
 
-// 4. УМНАЯ РЕКЛАМА И ПОЧТА
+    // Скролл вверх при нажатии кнопки "Другая история"
+    window.scrollTo(0, 0);
+    document.documentElement.scrollTop = 0;
+} // <--- ВОТ ЭТА СКОБКА БЫЛА ПРОПУЩЕНА
+
+// 3. УМНАЯ РЕКЛАМА И ПОЧТА
 function applyAds() {
-    // Читаем "хвостик" из ссылки
     const urlParams = new URLSearchParams(window.location.search);
     const cafeName = urlParams.get('place');
     
-    // Элементы рекламы кафе
     const cafeBox = document.getElementById('cafe-ad-box');
     const adText = document.getElementById('ad-text');
     const adLink = document.getElementById('ad-link');
     
-    // Элементы твоей почты
     const contactLabel = document.getElementById('contact-label');
     const emailLink = document.getElementById('email-link');
 
-    // --- Настройка твоей почты (Всегда видна) ---
     const myEmail = "vichylitteraire@gmail.com";
     contactLabel.innerText = (currentLang === 'en') ? "Contact us:" : "Pour nous contacter :";
     emailLink.innerText = myEmail;
-    // mailto: открывает почтовое приложение
     emailLink.href = "mailto:" + myEmail + "?subject=Publicité Vichy Littéraire"; 
 
-    // --- Настройка рекламы кафе (Только если есть ?place=) ---
     const ads = {
         'paul': {
-            text: { fr: " Soutenez notre projet culturel\n\n Devenez partenaire", en: "Support our cultural project\n\n Become a partner" },
-            
+            text: { fr: " Soutenez notre проект культурный\n\n Devenez partenaire", en: "Support our cultural project\n\n Become a partner" },
+            url: "#"
         },
         'colada': {
             text: { fr: "❀ VOTRE LOGO ICI ❀\n\n Soutenez ce projet local", en: "❀ YOUR LOGO HERE ❀\n\n Support this local project" },
+            url: "#"
         }
     };
 
     if (cafeName && ads[cafeName]) {
-        cafeBox.style.display = 'block'; // Показываем блок кафе
+        cafeBox.style.display = 'block';
         adText.innerText = ads[cafeName].text[currentLang];
-        adLink.href = ads[cafeName].url;
+        adLink.href = ads[cafeName].url || "#";
         adLink.innerText = (currentLang === 'en') ? "Learn more →" : "En savoir plus →";
     } else {
-        cafeBox.style.display = 'none'; // Скрываем блок кафе, если хвостика нет
+        cafeBox.style.display = 'none';
     }
-}
+} // <--- ЭТА СКОБКА ТОЖЕ БЫЛА НУЖНА
 
-// Этот код сработает ОДИН РАЗ при полной загрузке страницы,
-// даже если зашли по ссылке с "хвостиком"
+// 4. СКРОЛЛ ПРИ ПЕРВОЙ ЗАГРУЗКЕ (ДЛЯ ХВОСТИКА)
 window.addEventListener('load', () => {
     setTimeout(() => {
         window.scrollTo(0, 0);
         document.documentElement.scrollTop = 0;
         document.body.scrollTop = 0;
-    }, 500); // Даем полсекунды, чтобы всё прогрузилось (реклама, шрифты)
+    }, 500);
 });
