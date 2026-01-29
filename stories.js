@@ -10,10 +10,10 @@ const stories = [
     },
 
     {
-        title: { fr: "CONFESSION", en: "CONFESSION" },
+        title: { fr: "LILY", en: "LILY" },
         content: { 
             fr: `« — Ça fait longtemps que je voulais te dire... Non, pas comme ça. Lily, ça fait une éternité qu’on est ensemble... Fait chier, non. Hmm... Lily, ce que je ressens pour toi... c’est plus grand que l’univers. Je t’aime... Mon Dieu, c’est tellement ridicule ! »
-
+            
 Cela durait depuis vingt minutes. Derrière le mur, la voix tombait parfois dans un murmure, avant de s’emporter dans un grognement agacé — il changeait les mots, déplaçait les accents et s'en voulait à nouveau pour sa maladresse. Savait-il que dans cette nouvelle maison, les murs étaient fins comme du papier à cigarette ? J'ai souri malgré moi. J'avais envie de lui dire que ces hésitations et ses « pas comme ça » désespérés étaient la vérité la plus pure que Lily puisse jamais entendre.`,
             en: `« — Ça fait longtemps que je voulais te dire... Non, pas comme ça. Lily, ça fait une éternité qu’on est ensemble... Fait chier, non. Hmm... Lily, ce que je ressens pour toi... c’est plus grand que l’univers. Je t’aime... Mon Dieu, c’est tellement ridicule ! »
 
