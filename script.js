@@ -34,7 +34,7 @@ function loadStory() {
 
     // Обновляем всю рекламу внизу
     applyAds();
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo(0, 0);
 }
 
 // 4. УМНАЯ РЕКЛАМА И ПОЧТА
