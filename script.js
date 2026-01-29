@@ -38,16 +38,8 @@ currentStoryIndex = newIndex;
     // Обновляем всю рекламу внизу
     applyAds();
  setTimeout(() => {
-        // Находим самый верхний блок, где лежит логотип и текст
-        const wrapper = document.querySelector('.wrapper');
-        if (wrapper) {
-            // Скроллим так, чтобы верхушка wrapper (вместе с логотипом) была видна
-            wrapper.scrollIntoView({ behavior: 'instant', block: 'start' });
-        }
-        
-        // Дублируем жестким сбросом координат
-        window.scrollTo(0, 0);
-        document.documentElement.scrollTop = 0;
+        window.scrollTo(0, 0); // Прыжок для обычных браузеров
+        document.documentElement.scrollTop = 0; // Принудительный прыжок для iPhone
     }, 100);
 }
 
