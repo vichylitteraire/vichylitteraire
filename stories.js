@@ -15,9 +15,9 @@ const stories = [
             fr: `« — Ça fait longtemps que je voulais te dire... Non, pas comme ça. Lily, ça fait une éternité qu’on est ensemble... Fait chier, non. Hmm... Lily, ce que je ressens pour toi... c’est plus grand que l’univers. Je t’aime... Mon Dieu, c’est tellement ridicule ! »
             
 Cela durait depuis vingt minutes. Derrière le mur, la voix tombait parfois dans un murmure, avant de s’emporter dans un grognement agacé — il changeait les mots, déplaçait les accents et s'en voulait à nouveau pour sa maladresse. Savait-il que dans cette nouvelle maison, les murs étaient fins comme du papier à cigarette ? J'ai souri malgré moi. J'avais envie de lui dire que ces hésitations et ses « pas comme ça » désespérés étaient la vérité la plus pure que Lily puisse jamais entendre.`,
-            en: `« — Ça fait longtemps que je voulais te dire... Non, pas comme ça. Lily, ça fait une éternité qu’on est ensemble... Fait chier, non. Hmm... Lily, ce que je ressens pour toi... c’est plus grand que l’univers. Je t’aime... Mon Dieu, c’est tellement ridicule ! »
-
-Cela durait depuis vingt minutes. Derrière le mur, la voix tombait parfois dans un murmure, avant de s’emporter dans un grognement agacé — il changeait les mots, déplaçait les accents et s'en voulait à nouveau pour sa maladresse. Savait-il que dans cette nouvelle maison, les murs étaient fins comme du papier à cigarette ? J'ai souri malgré moi. J'avais envie de lui dire que ces hésitations et ses « pas comme ça » désespérés étaient la vérité la plus pure que Lily puisse jamais entendre.`
+            en: `"— I’ve wanted to tell you for a long time... No, not like that. Lily, we’ve been together for an eternity... Damn it, no. Hmm... Lily, my feelings for you—they’re bigger than the universe. I love you... God, that sounds so stupid!"
+            
+            This went on for twenty minutes. The voice behind the wall would drop to a whisper, then break into a frustrated grumble—he kept changing the words, shifting the emphasis, and scolding himself again for being so clumsy. Did he know that in this new house, the walls were as thin as tissue paper? I smiled in spite of myself. I wanted to tell him that those stumbles and his desperate "not like that" were the purest truth Lily could ever hope to hear`
         },
         author: "Imani"
     }
