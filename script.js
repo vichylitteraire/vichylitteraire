@@ -37,17 +37,6 @@ currentStoryIndex = newIndex;
 
     // Обновляем всю рекламу внизу
     applyAds();
-setTimeout(() => {
-        // Убираем мешающий экран выбора языка (на всякий случай)
-        const langScreen = document.getElementById('language-screen');
-        if (langScreen) langScreen.style.display = 'none';
-
-        // Теперь прыгаем вверх
-        window.scrollTo(0, 0);
-        document.documentElement.scrollTop = 0;
-        document.body.scrollTop = 0;
-    }, 150);
-}
 
 // 4. УМНАЯ РЕКЛАМА И ПОЧТА
 function applyAds() {
