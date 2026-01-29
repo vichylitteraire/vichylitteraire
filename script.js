@@ -91,3 +91,13 @@ function applyAds() {
         cafeBox.style.display = 'none'; // Скрываем блок кафе, если хвостика нет
     }
 }
+
+// Этот код сработает ОДИН РАЗ при полной загрузке страницы,
+// даже если зашли по ссылке с "хвостиком"
+window.addEventListener('load', () => {
+    setTimeout(() => {
+        window.scrollTo(0, 0);
+        document.documentElement.scrollTop = 0;
+        document.body.scrollTop = 0;
+    }, 500); // Даем полсекунды, чтобы всё прогрузилось (реклама, шрифты)
+});
