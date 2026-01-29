@@ -37,9 +37,15 @@ currentStoryIndex = newIndex;
 
     // Обновляем всю рекламу внизу
     applyAds();
+    // ВОТ ЭТОТ КУСОК ВСТАВЛЯЕШЬ В САМЫЙ КОНЕЦ ФУНКЦИИ:
     setTimeout(() => {
-    window.scrollTo(0, 0);
-}, 100);
+        const titleElement = document.getElementById('story-title');
+        if (titleElement) {
+            titleElement.scrollIntoView({ behavior: 'instant', block: 'start' });
+        } else {
+            window.scrollTo(0, 0);
+        }
+    }, 150); 
 }
 
 // 4. УМНАЯ РЕКЛАМА И ПОЧТА
