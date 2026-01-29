@@ -39,9 +39,9 @@ currentStoryIndex = newIndex;
     applyAds();
     // ВОТ ЭТОТ КУСОК ВСТАВЛЯЕШЬ В САМЫЙ КОНЕЦ ФУНКЦИИ:
     setTimeout(() => {
-        const titleElement = document.getElementById('wrapper');
-        if (titleElement) {
-            titleElement.scrollIntoView({ behavior: 'instant', block: 'start' });
+        const topElement = document.querySelector('.wrapper');
+        if (topElement) {
+            topElement.scrollIntoView({ behavior: 'instant', block: 'start' });
         } else {
             window.scrollTo(0, 0);
         }
