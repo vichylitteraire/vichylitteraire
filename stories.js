@@ -18,13 +18,4 @@ const stories = [
         author: "Imani"
     },
 
-/*  {
-        title: { fr: "LILY", en: "LILY" },
-        content: { 
-            fr: "", 
-            en: "" 
-        },
-        author: "Imani"
-    },
-         */
 ];
