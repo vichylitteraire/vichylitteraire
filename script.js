@@ -17,7 +17,10 @@ function setLanguage(lang) {
 // 3. ЗАГРУЗКА ИСТОРИИ
 function loadStory() {
     // Выбираем случайную историю
-    currentStoryIndex = Math.floor(Math.random() * stories.length);
+   let newIndex;
+do { newIndex = Math.floor(Math.random() * stories.length); } 
+while (newIndex === currentStoryIndex && stories.length > 1);
+currentStoryIndex = newIndex;
     const story = stories[currentStoryIndex];
     
     // Вставляем тексты истории
