@@ -65,9 +65,8 @@ function applyAds() {
             text: { fr: " Soutenez notre projet culturel\n\n Devenez partenaire", en: "Support our cultural project\n\n Become a partner" },
             
         },
-        'luna': {
-            text: { fr: "🌙 Un cocktail offert chez Cafe Luna !", en: "🌙 A free cocktail at Cafe Luna!" },
-            url: "https://instagram.com/luna"
+        'colada': {
+            text: { fr: "Soutenez notre projet culturel\n\n Devenez partenaire", en: "Support our cultural project\n\n Become a partner" },
         }
     };
 
