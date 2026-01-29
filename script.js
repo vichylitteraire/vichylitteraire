@@ -37,21 +37,18 @@ currentStoryIndex = newIndex;
 
     // Обновляем всю рекламу внизу
     applyAds();
-  setTimeout(() => {
-        // 1. Создаем "невидимую точку" в самом верху, если её нет
-        let topAnchor = document.getElementById('top-anchor');
-        if (!topAnchor) {
-            topAnchor = document.createElement('div');
-            topAnchor.id = 'top-anchor';
-            document.body.prepend(topAnchor); // Вставляем в самое начало body
+ setTimeout(() => {
+        // Находим самый верхний блок, где лежит логотип и текст
+        const wrapper = document.querySelector('.wrapper');
+        if (wrapper) {
+            // Скроллим так, чтобы верхушка wrapper (вместе с логотипом) была видна
+            wrapper.scrollIntoView({ behavior: 'instant', block: 'start' });
         }
-
-        // 2. Ультимативный скролл к этой точке
-        topAnchor.scrollIntoView({ behavior: 'instant', block: 'start' });
-
-        // 3. Дублируем обычным скроллом для страховки
+        
+        // Дублируем жестким сбросом координат
         window.scrollTo(0, 0);
-    }, 150);
+        document.documentElement.scrollTop = 0;
+    }, 100);
 }
 
 // 4. УМНАЯ РЕКЛАМА И ПОЧТА
