@@ -37,7 +37,9 @@ currentStoryIndex = newIndex;
 
     // Обновляем всю рекламу внизу
     applyAds();
+    setTimeout(() => {
     window.scrollTo(0, 0);
+}, 100);
 }
 
 // 4. УМНАЯ РЕКЛАМА И ПОЧТА
