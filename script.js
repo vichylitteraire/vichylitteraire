@@ -66,7 +66,7 @@ function applyAds() {
             
         },
         'colada': {
-            text: { fr: "Soutenez notre projet culturel\n\n Devenez partenaire", en: "Support our cultural project\n\n Become a partner" },
+            text: { fr: "❀ VOTRE LOGO ICI ❀\n\n Soutenez ce projet local", en: "❀ YOUR LOGO HERE ❀\n\n Support this local project" },
         }
     };
 
