@@ -39,7 +39,7 @@ currentStoryIndex = newIndex;
     applyAds();
     // ВОТ ЭТОТ КУСОК ВСТАВЛЯЕШЬ В САМЫЙ КОНЕЦ ФУНКЦИИ:
     setTimeout(() => {
-        const titleElement = document.getElementById('story-title');
+        const titleElement = document.getElementById('wrapper');
         if (titleElement) {
             titleElement.scrollIntoView({ behavior: 'instant', block: 'start' });
         } else {
