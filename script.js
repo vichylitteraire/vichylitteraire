@@ -37,6 +37,7 @@ currentStoryIndex = newIndex;
 
     // Обновляем всю рекламу внизу
     applyAds();
+}
 
 // 4. УМНАЯ РЕКЛАМА И ПОЧТА
 function applyAds() {
