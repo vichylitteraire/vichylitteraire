@@ -38,9 +38,6 @@ function loadStory() {
     // Обновляем всю рекламу внизу
     applyAds();
 
-    // Скролл вверх при нажатии кнопки "Другая история"
-    window.scrollTo(0, 0);
-    document.documentElement.scrollTop = 0;
 } // <--- ВОТ ЭТА СКОБКА БЫЛА ПРОПУЩЕНА
 
 // 3. УМНАЯ РЕКЛАМА И ПОЧТА
@@ -82,10 +79,17 @@ function applyAds() {
 } // <--- ЭТА СКОБКА ТОЖЕ БЫЛА НУЖНА
 
 // 4. СКРОЛЛ ПРИ ПЕРВОЙ ЗАГРУЗКЕ (ДЛЯ ХВОСТИКА)
+// 4. ЕДИНЫЙ СКРОЛЛ ПРИ ЗАГРУЗКЕ И СМЕНЕ ИСТОРИИ
+function scrollUp() {
+    window.scrollTo({ top: 0, behavior: 'instant' });
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+}
+
+// При первой загрузке (ждем 500мс, чтобы реклама не "дергала" страницу)
 window.addEventListener('load', () => {
-    setTimeout(() => {
-        window.scrollTo(0, 0);
-        document.documentElement.scrollTop = 0;
-        document.body.scrollTop = 0;
-    }, 500);
+    setTimeout(scrollUp, 500);
+});
+
+// Добавь вызов scrollUp() в конец функции loadStory вместо старых строк
 });
