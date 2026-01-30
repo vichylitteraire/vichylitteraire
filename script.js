@@ -114,6 +114,3 @@ window.addEventListener('load', () => {
         document.body.scrollTop = 0;
     }, 600);
 });
-
-// Добавь вызов scrollUp() в конец функции loadStory вместо старых строк
-});
