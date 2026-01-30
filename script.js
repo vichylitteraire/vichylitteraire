@@ -5,7 +5,7 @@ let currentStoryIndex = 0;
 function setLanguage(lang) {
     currentLang = lang;
     
-    // Скрываем экран выбора, показываем контент
+    // Скрываем экран выбора, показываем основной контент
     const langScreen = document.getElementById('language-screen');
     const mainContent = document.getElementById('main-content');
     
@@ -17,7 +17,7 @@ function setLanguage(lang) {
 
 // 2. ЗАГРУЗКА ИСТОРИИ
 function loadStory() {
-    // Выбираем случайную историю
+    // Выбираем случайную историю из твоего файла stories.js
     let newIndex;
     do { 
         newIndex = Math.floor(Math.random() * stories.length); 
@@ -26,7 +26,7 @@ function loadStory() {
     currentStoryIndex = newIndex;
     const story = stories[currentStoryIndex];
     
-    // Вставляем тексты истории (проверяем наличие элементов, чтобы не было ошибок)
+    // Безопасно вставляем тексты истории
     const titleEl = document.getElementById('story-title');
     const contentEl = document.getElementById('story-content');
     const authorEl = document.getElementById('author-name');
@@ -46,14 +46,14 @@ function loadStory() {
         labelAuthor.innerText = (currentLang === 'en') ? "By" : "Par";
     }
 
-    // Обновляем рекламу
+    // Запускаем проверку рекламы (для твоих QR-кодов)
     applyAds();
 
-    // Скролл вверх при нажатии кнопки "Другая история"
+    // Мгновенный скролл вверх при нажатии кнопки "Другая история"
     window.scrollTo(0, 0);
 }
 
-// 3. УМНАЯ РЕКЛАМА И КОНТАКТЫ
+// 3. УМНАЯ РЕКЛАМА И КОНТАКТЫ (ДЛЯ QR-НАКЛЕЕК)
 function applyAds() {
     const urlParams = new URLSearchParams(window.location.search);
     const cafeName = urlParams.get('place');
@@ -67,7 +67,7 @@ function applyAds() {
 
     const myEmail = "vichylitteraire@gmail.com";
     
-    // Безопасное обновление почты
+    // Безопасно обновляем блок контактов
     if (contactLabel) {
         contactLabel.innerText = (currentLang === 'en') ? "Contact us:" : "Pour nous contacter :";
     }
@@ -76,10 +76,11 @@ function applyAds() {
         emailLink.href = "mailto:" + myEmail + "?subject=Publicité Vichy Littéraire"; 
     }
 
+    // Данные для партнеров
     const ads = {
         'paul': {
             text: { 
-                fr: "Soutenez наш проект культурный\n\n Devenez partenaire", 
+                fr: "Soutenez notre projet culturel\n\n Devenez partenaire", 
                 en: "Support our cultural project\n\n Become a partner" 
             },
             url: "#"
@@ -93,6 +94,7 @@ function applyAds() {
         }
     };
 
+    // Проверяем, есть ли хвостик в ссылке и существуют ли элементы на странице
     if (cafeName && ads[cafeName] && cafeBox) {
         cafeBox.style.display = 'block';
         if (adText) adText.innerText = ads[cafeName].text[currentLang];
@@ -101,13 +103,14 @@ function applyAds() {
             adLink.innerText = (currentLang === 'en') ? "Learn more →" : "En savoir plus →";
         }
     } else if (cafeBox) {
+        // Если хвостика нет, скрываем блок рекламы
         cafeBox.style.display = 'none';
     }
 }
 
-// 4. ФИНАЛЬНЫЙ СКРОЛЛ ДЛЯ ХВОСТИКОВ (QR-КОДОВ)
+// 4. ФИНАЛЬНЫЙ СКРОЛЛ ПРИ ЗАГРУЗКЕ ПО QR-КОДУ
 window.addEventListener('load', () => {
-    // Ждем 600мс, чтобы реклама точно прогрузилась и не сбила скролл
+    // Даем браузеру 600мс, чтобы всё (включая рекламу) успело встать на свои места
     setTimeout(() => {
         window.scrollTo(0, 0);
         document.documentElement.scrollTop = 0;
