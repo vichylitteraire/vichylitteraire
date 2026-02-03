@@ -20,5 +20,75 @@ Cela durait depuis vingt minutes. Derrière le mur, la voix tombait parfois dans
             This went on for twenty minutes. The voice behind the wall would drop to a whisper, then break into a frustrated grumble—he kept changing the words, shifting the emphasis, and scolding himself again for being so clumsy. Did he know that in this new house, the walls were as thin as tissue paper? I smiled in spite of myself. I wanted to tell him that those stumbles and his desperate "not like that" were the purest truth Lily could ever hope to hear.`
         },
         author: "Imani"
+    },
+
+    {
+        title: { fr: "La réceptacle", en: "The vessel" },
+        content: { 
+            fr: `L'idée est née un dimanche soir, entre une pizza froide et le silence assourdissant de son appartement de sixième étage. Il a imprimé cinquante tracts. Pas de graphisme, juste du texte brut, en Helvetica, comme un constat de décès.
+
+« Je loue mes oreilles. Je ne suis pas psy. Je ne donne pas de conseils. Je ne vous dirai pas que tout ira bien. Je prends juste votre vérité pour qu'elle ne vous étouffe plus. 20 euros l'heure. Payez avant, parlez après. »
+
+Il pensait que c'était une blague, une expérience sociale pour occuper son vide. Mais le premier appel est tombé deux heures après avoir collé la première affiche sur un poteau devant la poste.
+Une femme. Elle n'a pas dit « Allô ». 
+Elle a juste demandé : « C'est vrai ? Vous prenez tout ?».
+Thomas a avalé sa salive. « Tout. »
+
+Elle est venue. Elle n'avait pas l'air d'une folle. Elle avait l'air d'une femme qui aurait pu être votre voisine, celle qui achète son pain à 8h05 et qui sourit poliment au facteur. Elle s'est assise sur la seule chaise droite du studio de Thomas. Elle n'a pas enlevé son manteau. Elle a posé un billet de vingt euros sur la table basse, l'a lissé du bout des doigts, puis elle a commencé.
+Elle n'a pas raconté une histoire. Elle a déversé un poison. Elle a parlé d'une haine froide pour ses propres enfants, d'une envie de partir sans se retourner, de la sensation de ses mains qui se serrent chaque soir autour de son propre cou pour s'empêcher de hurler. Thomas écoutait. Au début, il essayait d'analyser, de comprendre les causes. Puis, il a arrêté. Il a senti le poids. C'était une pression physique, comme si l'air de la pièce devenait plus dense, plus lourd à respirer.
+
+Quand l'heure fut finie, elle s'est levée. Son visage n'était plus le même. Les rides semblaient s'être lissées. Elle était légère, presque aérienne. En partant, elle a dit : « Merci. C'est plus calme chez moi, maintenant que c'est chez vous ».
+Et c'est là que Thomas a compris l'arnaque. Il n'était pas un confident. Il était une décharge publique.
+
+Les semaines suivantes ont été une plongée dans l'égout humain. Un homme est venu lui avouer qu'il avait laissé son meilleur ami purger une peine de prison à sa place il y a dix ans. Une jeune fille lui a raconté comment elle sabotait systématiquement la vie de tous ceux qui l'aimaient, juste pour voir jusqu'où leur patience pouvait aller. Un vieillard lui a décrit, avec une précision chirurgicale, comment il avait noyé les chiots de sa chienne parce qu'il ne voulait pas s'en occuper.
+
+Thomas ne dormait plus. Chaque fois qu'il fermait les yeux, les voix revenaient. Ce n'étaient pas ses souvenirs, mais ceux des autres. Il se sentait sale, contaminé. Il avait l'impression d'avoir une peau faite de couches de secrets moisis.
+Le pire, c'était l'argent. Ces billets de vingt euros lui brûlaient les doigts. C'était l'argent du soulagement, le prix payé pour lui refiler la merde et repartir le cœur léger.
+
+Un soir, un type est arrivé. Un type ordinaire. Il s'est assis et a dit : « J'ai tué quelqu'un. Pas exprès. Mais je n'ai pas appelé la police. J'ai enterré le truc. Et depuis, je n'entends plus rien d'autre que le bruit de la terre qui tombe ».
+Thomas a regardé l'homme. Il a vu sa propre fin. Il a réalisé que s'il acceptait ce secret-là, il ne pourrait plus jamais ressortir de ce studio. Ce serait le secret de trop, celui qui ferait déborder le vase et briserait le verre.
+
+Il s'est levé. Il n'a pas pris le billet.
+— Partez, a-t-il dit d'une voix rauque.
+— Mais j'ai payé... enfin, je vais payer double !
+— Partez. Je suis plein. Il n'y a plus de place.
+
+L'homme est parti, furieux. Thomas a pris tous les tracts qui lui restaient, il a pris son briquet et il a tout brûlé dans l'évier. Il a regardé la fumée noire monter vers le plafond. Il a compris que pour survivre, il devait redevenir sourd. Il est descendu dans la rue, il a marché jusqu'au pont, et il a regardé l'eau couler. L'eau ne garde rien.
+Elle emporte tout, elle nettoie, elle ne juge pas, mais elle ne se souvient pas non plus.
+Désormais, Thomas ne louerait plus ses oreilles. Il allait apprendre à parler seul, dans le vent, pour vider enfin ce réceptacle qu'il était devenu. Il allait redevenir un homme sans histoires. Et c'était le plus beau cadeau qu'il pouvait s'offrir.`,
+            en: `The idea was born on a Sunday evening, somewhere between a cold pizza and the deafening silence of his sixth-floor apartment. He printed fifty flyers. No graphics, just raw text in Helvetica, looking like a death certificate:
+
+“Professional Listener. I am not a shrink. I don’t give advice. I won’t tell you everything will be fine. I simply take your truth so it no longer suffocates you. 20 euros an hour. Pay first, talk after.”
+
+He thought it was a joke, a social experiment to fill his own emptiness. But the first call came two hours after he’d taped the first flyer to a pole outside the post office.
+A woman. She didn’t say “Hello.” She simply asked: “Is it true? Do you take everything?”
+Thomas swallowed hard. “Everything.”
+
+She came. She didn’t look crazy. She looked like a woman who could have been your neighbor—the kind who buys her bread at 8:05 AM and smiles politely at the mailman. She sat on the only straight-backed chair in Thomas’s studio. She didn’t take off her coat. She placed a twenty-euro bill on the coffee table, smoothed it out with her fingertips, and began.
+
+She didn’t tell a story. She poured out poison. She spoke of a cold hatred for her own children, of a longing to leave without looking back, of the sensation of her hands tightening around her own neck every night to keep from screaming. Thomas listened. At first, he tried to analyze, to search for causes. Then, he stopped. He felt the weight. It was a physical pressure, as if the air in the room were becoming denser, heavier to breathe.
+
+When the hour was up, she stood. Her face had changed. The wrinkles seemed to have smoothed out. She was light, almost ethereal. As she left, she said: “Thank you. It’s quieter at my place now that it’s at yours.”
+
+And that was when Thomas understood the scam. He wasn’t a confidant. He was a public landfill.
+The following weeks were a plunge into the human sewer. A man came to confess that he had let his best friend serve a prison sentence in his place ten years ago. A young girl told him how she systematically sabotaged the lives of everyone who loved her, just to see how far their patience would go. An old man described, with surgical precision, how he had drowned his dog’s puppies because he didn’t want to deal with them.
+
+Thomas stopped sleeping. Every time he closed his eyes, the voices returned. They weren’t his memories, but those of others. He felt dirty, contaminated. He felt like his skin was made of layers of moldy secrets. The worst part was the money. Those twenty-euro bills burned his fingers. It was the money of relief—the price paid to dump the sh*t on him and walk away with a light heart.
+
+One evening, a guy showed up. An ordinary guy. He sat down and said: “I killed someone. Not on purpose. But I didn’t call the police. I buried the thing. And since then, I hear nothing but the sound of dirt falling.”
+
+Thomas looked at the man. He saw his own end. He realized that if he accepted this secret, he would never be able to leave that studio again. It would be the secret too many, the one that would make the vessel overflow and shatter the glass.
+
+He stood up. He didn’t take the bill.
+“Leave,” he said, his voice raspy.
+“But I paid... I’ll pay double!”
+“Leave. I’m full. There’s no more room.”
+
+The man left, furious. Thomas took all the flyers he had left, took his lighter, and burned them all in the sink. He watched the black smoke rise toward the ceiling.
+
+He understood that to survive, he had to become deaf again. He went down to the street, walked to the bridge, and watched the water flow. Water keeps nothing. It carries everything away, it cleanses, it doesn't judge, but it doesn't remember either.
+From now on, Thomas would no longer rent out his ears. He would learn to talk to himself, in the wind, to finally empty the vessel he had become. He would become a man without stories again. And it was the most beautiful gift he could give himself.`
+        },
+        author: "Imani"
     }
 ];
