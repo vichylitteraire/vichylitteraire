@@ -1,4 +1,4 @@
-let currentLang = 'fr';
+Let currentLang = 'fr';
 let currentStoryIndex = 0;
 
 // 1. ВЫБОР ЯЗЫКА
@@ -16,39 +16,28 @@ function setLanguage(lang) {
 }
 
 function loadStory() {
+    // 1. Получаем список прочитанных индексов из памяти
     let readStories = JSON.parse(localStorage.getItem('readStories')) || [];
 
-    // --- ПРОВЕРКА НА ЗАГЛУШКУ ---
-    if (readStories.length >= stories.length && stories.length > 0) {
-        const mainContent = document.getElementById('main-content');
-        if (mainContent) {
-            mainContent.innerHTML = `
-                <div style="text-align:center; padding: 50px 20px; font-family: 'Playfair Display', serif;">
-                    <h2 style="color: #d4a373;">${currentLang === 'en' ? 'Wow! You’ve read everything!' : 'Bravo ! Vous avez tout lu !'}</h2>
-                    <p style="margin: 20px 0;">${currentLang === 'en' ? 'New stories are coming soon.' : 'De nouvelles histoires arrivent bientôt.'}</p>
-                    <button onclick="localStorage.removeItem('readStories'); location.reload();" 
-                            style="background:#d4a373; color:white; border:none; padding:12px 25px; border-radius:5px; cursor:pointer;">
-                        ${currentLang === 'en' ? 'Read again ↻' : 'Relire depuis le début ↻'}
-                    </button>
-                </div>
-            `;
-            window.scrollTo(0, 0);
-            return; // Выходим из функции, чтобы не пытаться грузить историю
-        }
+    // 2. Если прочитали всё — обнуляем список, чтобы начать заново
+    if (readStories.length >= stories.length) {
+        readStories = [];
     }
 
-    // --- ДАЛЬШЕ ТВОЙ ОРИГИНАЛЬНЫЙ КОД ---
+    // 3. Выбираем случайный индекс, которого НЕТ в списке прочитанных
     let newIndex;
     do {
         newIndex = Math.floor(Math.random() * stories.length);
     } while (readStories.includes(newIndex));
 
+    // 4. Запоминаем этот выбор
     currentStoryIndex = newIndex;
     readStories.push(newIndex);
     localStorage.setItem('readStories', JSON.stringify(readStories));
 
     const story = stories[currentStoryIndex];
     
+    // Вставляем тексты истории
     const titleEl = document.getElementById('story-title');
     const contentEl = document.getElementById('story-content');
     const authorEl = document.getElementById('author-name');
@@ -57,6 +46,7 @@ function loadStory() {
     if (contentEl) contentEl.innerText = story.content[currentLang];
     if (authorEl) authorEl.innerText = story.author;
     
+    // Переводим кнопки
     const btnNext = document.getElementById('btn-next');
     const labelAuthor = document.getElementById('label-author');
     
@@ -64,6 +54,8 @@ function loadStory() {
     if (labelAuthor) labelAuthor.innerText = (currentLang === 'en') ? "By" : "Par";
 
     applyAds();
+
+    // Скролл вверх
     window.scrollTo(0, 0);
 }
 
@@ -109,7 +101,7 @@ function applyAds() {
     };
 
     // Проверяем, есть ли хвостик в ссылке и существуют ли элементы на странице
-    if (cafeName && ads[cafeName] && cafeBox) {
+    if (&& ads[cafeName] && cafeBox) {
         cafeBox.style.display = 'block';
         if (adText) adText.innerText = ads[cafeName].text[currentLang];
         if (adLink) {
