@@ -1,4 +1,4 @@
-Let currentLang = 'fr';
+let currentLang = 'fr';
 let currentStoryIndex = 0;
 
 // 1. ВЫБОР ЯЗЫКА
