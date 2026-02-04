@@ -16,28 +16,39 @@ function setLanguage(lang) {
 }
 
 function loadStory() {
-    // 1. Получаем список прочитанных индексов из памяти
     let readStories = JSON.parse(localStorage.getItem('readStories')) || [];
 
-    // 2. Если прочитали всё — обнуляем список, чтобы начать заново
-    if (readStories.length >= stories.length) {
-        readStories = [];
+    // --- ПРОВЕРКА НА ЗАГЛУШКУ ---
+    if (readStories.length >= stories.length && stories.length > 0) {
+        const mainContent = document.getElementById('main-content');
+        if (mainContent) {
+            mainContent.innerHTML = `
+                <div style="text-align:center; padding: 50px 20px; font-family: 'Playfair Display', serif;">
+                    <h2 style="color: #d4a373;">${currentLang === 'en' ? 'Wow! You’ve read everything!' : 'Bravo ! Vous avez tout lu !'}</h2>
+                    <p style="margin: 20px 0;">${currentLang === 'en' ? 'New stories are coming soon.' : 'De nouvelles histoires arrivent bientôt.'}</p>
+                    <button onclick="localStorage.removeItem('readStories'); location.reload();" 
+                            style="background:#d4a373; color:white; border:none; padding:12px 25px; border-radius:5px; cursor:pointer;">
+                        ${currentLang === 'en' ? 'Read again ↻' : 'Relire depuis le début ↻'}
+                    </button>
+                </div>
+            `;
+            window.scrollTo(0, 0);
+            return; // Выходим из функции, чтобы не пытаться грузить историю
+        }
     }
 
-    // 3. Выбираем случайный индекс, которого НЕТ в списке прочитанных
+    // --- ДАЛЬШЕ ТВОЙ ОРИГИНАЛЬНЫЙ КОД ---
     let newIndex;
     do {
         newIndex = Math.floor(Math.random() * stories.length);
     } while (readStories.includes(newIndex));
 
-    // 4. Запоминаем этот выбор
     currentStoryIndex = newIndex;
     readStories.push(newIndex);
     localStorage.setItem('readStories', JSON.stringify(readStories));
 
     const story = stories[currentStoryIndex];
     
-    // Вставляем тексты истории
     const titleEl = document.getElementById('story-title');
     const contentEl = document.getElementById('story-content');
     const authorEl = document.getElementById('author-name');
@@ -46,7 +57,6 @@ function loadStory() {
     if (contentEl) contentEl.innerText = story.content[currentLang];
     if (authorEl) authorEl.innerText = story.author;
     
-    // Переводим кнопки
     const btnNext = document.getElementById('btn-next');
     const labelAuthor = document.getElementById('label-author');
     
@@ -54,8 +64,6 @@ function loadStory() {
     if (labelAuthor) labelAuthor.innerText = (currentLang === 'en') ? "By" : "Par";
 
     applyAds();
-
-    // Скролл вверх
     window.scrollTo(0, 0);
 }
 
@@ -122,37 +130,4 @@ window.addEventListener('load', () => {
         document.documentElement.scrollTop = 0;
         document.body.scrollTop = 0;
     }, 600);
-});
-
-
-
-// Вставь это в самый конец твоего файла
-window.addEventListener('load', () => {
-    // Ждем чуть-чуть, чтобы основной скрипт успел сработать
-    setTimeout(() => {
-        let readStories = JSON.parse(localStorage.getItem('readStories')) || [];
-        
-        // Проверяем: если количество прочитанных равно или больше количества всех историй
-        if (readStories.length >= stories.length) {
-            const mainContent = document.getElementById('main-content');
-            if (mainContent) {
-                mainContent.innerHTML = `
-                    <div style="text-align:center; padding: 50px 20px; font-family: 'Playfair Display', serif; background: #fcfaf7; border-radius: 10px;">
-                        <h2 style="color: #d4a373;">
-                            ${currentLang === 'en' ? 'Wow! You’ve read everything!' : 'Bravo ! Vous avez tout lu !'}
-                        </h2>
-                        <p style="font-size: 1.1rem; color: #444;">
-                            ${currentLang === 'en' 
-                                ? 'You are a true literature lover. New stories are coming soon.' 
-                                : 'Vous êtes un véritable passionné. De nouvelles histoires arrivent bientôt.'}
-                        </p>
-                        <button onclick="localStorage.removeItem('readStories'); location.reload();" 
-                                style="background:#d4a373; color:white; border:none; padding:12px 25px; border-radius:5px; cursor:pointer; margin-top:20px; font-size: 1rem;">
-                            ${currentLang === 'en' ? 'Read again ↻' : 'Relire depuis le début ↻'}
-                        </button>
-                    </div>
-                `;
-            }
-        }
-    }, 700); // Задержка 700мс, чтобы не конфликтовать с твоим loadStory
 });
