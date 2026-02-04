@@ -101,7 +101,7 @@ function applyAds() {
     };
 
     // Проверяем, есть ли хвостик в ссылке и существуют ли элементы на странице
-    if (&& ads[cafeName] && cafeBox) {
+    if (ads[cafeName] && cafeBox) {
         cafeBox.style.display = 'block';
         if (adText) adText.innerText = ads[cafeName].text[currentLang];
         if (adLink) {
