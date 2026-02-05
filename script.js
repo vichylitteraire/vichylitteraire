@@ -91,8 +91,8 @@ function applyAds() {
         },
         'colada': {
             text: { 
-                fr: "❀ VOTRE LOGO ICI ❀\n\n Soutenez ce projet local", 
-                en: "❀ YOUR LOGO HERE ❀\n\n Support this local project" 
+                fr: "❀ Vous écrivez ? Votre texte pourrait être lu ici-même, par les clients de nos cafés partenaires.\n\nPartagez votre talent avec nous ! Envoyez vos textes par email ❀", 
+                en: "❀ Do you write? Your text could be read right here by the guests of our partner cafes.\n\nShare your talent with us! Send your stories via email ❀" 
             },
             url: "#"
         }
