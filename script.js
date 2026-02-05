@@ -16,37 +16,38 @@ function setLanguage(lang) {
 }
 
 function loadStory() {
-    // 1. Получаем список прочитанных индексов из памяти
+    // 1. Получаем список прочитанных
     let readStories = JSON.parse(localStorage.getItem('readStories')) || [];
 
-    // 2. Если прочитали всё — обнуляем список, чтобы начать заново
-    if (readStories.length >= stories.length) {
-        readStories = [];
+    // 2. Создаем список индексов, которые мы еще НЕ читали
+    let availableIndices = [];
+    for (let i = 0; i < stories.length; i++) {
+        if (!readStories.includes(i)) {
+            availableIndices.push(i);
+        }
     }
 
-    // 3. Выбираем случайный индекс, которого НЕТ в списке прочитанных
-    let newIndex;
-    do {
-        newIndex = Math.floor(Math.random() * stories.length);
-    } while (readStories.includes(newIndex));
+    // 3. Если все истории прочитаны — сбрасываем список и берем все доступные
+    if (availableIndices.length === 0) {
+        readStories = [];
+        availableIndices = stories.map((_, index) => index);
+    }
 
-    // 4. Запоминаем этот выбор
+    // 4. Выбираем случайный индекс из ТЕХ, ЧТО ОСТАЛИСЬ
+    const randomIndex = Math.floor(Math.random() * availableIndices.length);
+    const newIndex = availableIndices[randomIndex];
+
+    // 5. Сохраняем выбор
     currentStoryIndex = newIndex;
     readStories.push(newIndex);
     localStorage.setItem('readStories', JSON.stringify(readStories));
 
+    // 6. Выводим контент
     const story = stories[currentStoryIndex];
+    document.getElementById('story-title').innerText = story.title[currentLang];
+    document.getElementById('story-content').innerText = story.content[currentLang];
+    document.getElementById('author-name').innerText = story.author;
     
-    // Вставляем тексты истории
-    const titleEl = document.getElementById('story-title');
-    const contentEl = document.getElementById('story-content');
-    const authorEl = document.getElementById('author-name');
-    
-    if (titleEl) titleEl.innerText = story.title[currentLang];
-    if (contentEl) contentEl.innerText = story.content[currentLang];
-    if (authorEl) authorEl.innerText = story.author;
-    
-    // Переводим кнопки
     const btnNext = document.getElementById('btn-next');
     const labelAuthor = document.getElementById('label-author');
     
@@ -54,11 +55,8 @@ function loadStory() {
     if (labelAuthor) labelAuthor.innerText = (currentLang === 'en') ? "By" : "Par";
 
     applyAds();
-
-    // Скролл вверх
     window.scrollTo(0, 0);
 }
-
 // 3. УМНАЯ РЕКЛАМА И КОНТАКТЫ (ДЛЯ QR-НАКЛЕЕК)
 function applyAds() {
     const urlParams = new URLSearchParams(window.location.search);
