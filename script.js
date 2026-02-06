@@ -130,6 +130,7 @@ window.addEventListener('load', () => {
         document.documentElement.scrollTop = 0;
         document.body.scrollTop = 0;
     }, 600);
+});
 
     function openLegal() {
     const modal = document.getElementById('legal-modal');
@@ -146,4 +147,3 @@ function closeLegal() {
         document.body.style.overflow = 'auto'; // Возвращаем скролл
     }
 }
-});
