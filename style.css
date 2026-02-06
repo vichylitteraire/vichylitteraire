@@ -165,21 +165,100 @@ body {
     border-bottom-color: #d05b7a;
 }
 
+/* Надпись внизу главного экрана */
 .copyright-notice {
-    position: absolute; /* Фиксируем относительно экрана */
-    bottom: 30px;       /* Расстояние от нижнего края */
+    position: absolute;
+    bottom: 40px;
     left: 0;
-    width: 100%;        /* Растягиваем на всю ширину для центровки текста */
-    
+    width: 100%;
+    text-align: center;
     font-family: 'Inter', sans-serif;
-    font-size: 0.7rem; 
-    color: #bbb; 
-    line-height: 1.6;
+    font-size: 0.7rem;
+    color: #aaa;
     text-transform: uppercase;
     letter-spacing: 2px;
-    text-align: center; /* Центруем текст внутри блока */
 }
 
+.legal-link {
+    color: #aaa;
+    text-decoration: underline;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.legal-link:hover {
+    color: #d05b7a;
+}
+
+/* Модальное окно */
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(248, 245, 242, 0.98);
+    z-index: 10000;
+    overflow-y: auto;
+}
+
+.modal-content {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 40px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.06);
+    position: relative;
+    font-family: 'Inter', sans-serif;
+}
+
+.modal-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.modal-text h3 {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #d05b7a;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.modal-text p {
+    line-height: 1.6;
+    color: #444;
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+}
+
+.modal-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.modal-btn-close {
+    margin-top: 30px;
+    width: 100%;
+    padding: 18px;
+    background: #1a1a1a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+}
 .copyright-notice p {
     margin: 5px 0;
 }
