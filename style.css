@@ -166,15 +166,18 @@ body {
 }
 
 .copyright-notice {
-    display: block;
-    margin-top: 50px; /* Отступ от кнопок */
+    position: absolute; /* Фиксируем относительно экрана */
+    bottom: 30px;       /* Расстояние от нижнего края */
+    left: 0;
+    width: 100%;        /* Растягиваем на всю ширину для центровки текста */
+    
     font-family: 'Inter', sans-serif;
-    font-size: 0.75rem; /* Маленький аккуратный размер */
-    color: #aaa; /* Светло-серый, как в твоем блоке контактов */
+    font-size: 0.7rem; 
+    color: #bbb; 
     line-height: 1.6;
-    text-transform: uppercase; /* В стиле твоих меток */
-    letter-spacing: 1px;
-    padding-top: 150px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center; /* Центруем текст внутри блока */
 }
 
 .copyright-notice p {
