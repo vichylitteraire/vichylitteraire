@@ -160,3 +160,24 @@ body {
     color: #d05b7a;
     border-bottom-color: #d05b7a;
 }
+
+.copyright-notice {
+    margin-top: 50px; /* Отступ от кнопок */
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem; /* Маленький аккуратный размер */
+    color: #aaa; /* Светло-серый, как в твоем блоке контактов */
+    line-height: 1.6;
+    text-transform: uppercase; /* В стиле твоих меток */
+    letter-spacing: 1px;
+}
+
+.copyright-notice p {
+    margin: 5px 0;
+}
+
+/* На мобильных устройствах чуть уменьшим отступ */
+@media (max-height: 600px) {
+    .copyright-notice {
+        margin-top: 20px;
+    }
+}
