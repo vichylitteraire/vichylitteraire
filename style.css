@@ -165,6 +165,7 @@ body {
 }
 
 .copyright-notice {
+    display: block;
     margin-top: 60px; /* Отступ от кнопок */
     font-family: 'Inter', sans-serif;
     font-size: 0.75rem; /* Маленький аккуратный размер */
