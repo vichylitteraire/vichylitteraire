@@ -167,14 +167,14 @@ body {
 
 .copyright-notice {
     display: block;
-    margin-top: 100px; /* Отступ от кнопок */
+    margin-top: 50px; /* Отступ от кнопок */
     font-family: 'Inter', sans-serif;
     font-size: 0.75rem; /* Маленький аккуратный размер */
     color: #aaa; /* Светло-серый, как в твоем блоке контактов */
     line-height: 1.6;
     text-transform: uppercase; /* В стиле твоих меток */
     letter-spacing: 1px;
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
 .copyright-notice p {
