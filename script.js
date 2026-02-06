@@ -57,6 +57,7 @@ function loadStory() {
     applyAds();
     window.scrollTo(0, 0);
 }
+
 // 3. УМНАЯ РЕКЛАМА И КОНТАКТЫ (ДЛЯ QR-НАКЛЕЕК)
 function applyAds() {
     const urlParams = new URLSearchParams(window.location.search);
@@ -65,7 +66,8 @@ function applyAds() {
     const cafeBox = document.getElementById('cafe-ad-box');
     const adText = document.getElementById('ad-text');
     const adLink = document.getElementById('ad-link');
-    
+    const adImage = document.getElementById('ad-image'); // ДОБАВЛЕНО
+
     const contactLabel = document.getElementById('contact-label');
     const emailLink = document.getElementById('email-link');
 
@@ -83,6 +85,7 @@ function applyAds() {
     // Данные для партнеров
     const ads = {
         'paul': {
+            image: "images/paul.png", // ДОБАВЛЕНО
             text: { 
                 fr: "Soutenez notre projet culturel\n\n Devenez partenaire", 
                 en: "Support our cultural project\n\n Become a partner" 
@@ -90,6 +93,7 @@ function applyAds() {
             url: "#"
         },
         'colada': {
+            image: "6885583.jpg", // ДОБАВЛЕНО
             text: { 
                 fr: "❀❀❀ \n\n Vous écrivez ? Votre texte pourrait être lu ici-même, par les clients de nos cafés partenaires.\n\nPartagez votre talent avec nous ! Envoyez vos textes par email", 
                 en: "❀❀❀ \n\n Do you write? Your text could be read right here by the guests of our partner cafes.\n\nShare your talent with us! Send your stories via email" 
@@ -102,6 +106,12 @@ function applyAds() {
     if (ads[cafeName] && cafeBox) {
         cafeBox.style.display = 'block';
         if (adText) adText.innerText = ads[cafeName].text[currentLang];
+        
+        // ДОБАВЛЕНО: обновляем картинку если она есть
+        if (adImage && ads[cafeName].image) {
+            adImage.src = ads[cafeName].image;
+        }
+
         if (adLink) {
             adLink.href = ads[cafeName].url || "#";
             adLink.innerText = (currentLang === 'en') ? "Learn more →" : "En savoir plus →";
