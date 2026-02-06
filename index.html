@@ -18,41 +18,8 @@
                 <button onclick="setLanguage('en')">English 🇬🇧</button>
             </div>
         </div>
-    </div>
 
-    <div id="main-content" style="display: none;">
-        <header>
-            <div class="logo">VICHY LITTÉRAIRE</div>
-        </header>
 
-        <main class="wrapper">
-            <article class="paper">
-                <h2 id="story-title"></h2>
-                <div id="story-content">
-                    </div>
-                <div class="meta">
-                    <span id="label-author">Par</span> <strong id="author-name"></strong>
-                </div>
-            </article>
-
-            <button id="btn-next" onclick="loadStory()">Autre histoire 🎲</button>
-
-            <footer class="ad-container">
-                
-                <div id="cafe-ad-box" class="ad-box" style="display: none; margin-bottom: 25px;">
-                    <img id="ad-image" src="" alt="logo" style="width:100%; max-width:200px; display:block; margin: 0 auto 10px;">
-                    <p id="ad-text"></p>
-                 <a id="ad-link" href="#" target="_blank">En savoir plus</a>
-                </div>
-
-                <div class="contact-box">
-                    <p id="contact-label"> Pour nous contacter :</p>
-                    <a id="email-link" class="email-btn" href="mailto:vichylitteraire@gmail.com">vichylitteraire@gmail.com</a>
-                </div>
-
-            </footer>
-        </main>
-    </div>
 
 <div class="copyright-notice">
     <p>© 2026 Vichy Littéraire. All rights reserved.</p>
@@ -95,6 +62,44 @@
         <button class="modal-btn-close" onclick="closeLegal()">Fermer / Close</button>
     </div>
 </div>
+
+
+        
+    </div>
+
+    <div id="main-content" style="display: none;">
+        <header>
+            <div class="logo">VICHY LITTÉRAIRE</div>
+        </header>
+
+        <main class="wrapper">
+            <article class="paper">
+                <h2 id="story-title"></h2>
+                <div id="story-content">
+                    </div>
+                <div class="meta">
+                    <span id="label-author">Par</span> <strong id="author-name"></strong>
+                </div>
+            </article>
+
+            <button id="btn-next" onclick="loadStory()">Autre histoire 🎲</button>
+
+            <footer class="ad-container">
+                
+                <div id="cafe-ad-box" class="ad-box" style="display: none; margin-bottom: 25px;">
+                    <img id="ad-image" src="" alt="logo" style="width:100%; max-width:200px; display:block; margin: 0 auto 10px;">
+                    <p id="ad-text"></p>
+                 <a id="ad-link" href="#" target="_blank">En savoir plus</a>
+                </div>
+
+                <div class="contact-box">
+                    <p id="contact-label"> Pour nous contacter :</p>
+                    <a id="email-link" class="email-btn" href="mailto:vichylitteraire@gmail.com">vichylitteraire@gmail.com</a>
+                </div>
+
+            </footer>
+        </main>
+    </div>
     
     <script src="stories.js"></script>
     <script src="script.js"></script>
