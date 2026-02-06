@@ -130,4 +130,20 @@ window.addEventListener('load', () => {
         document.documentElement.scrollTop = 0;
         document.body.scrollTop = 0;
     }, 600);
+
+    function openLegal() {
+    const modal = document.getElementById('legal-modal');
+    if (modal) {
+        modal.style.display = 'block';
+        document.body.style.overflow = 'hidden'; // Запрещаем скролл фона
+    }
+}
+
+function closeLegal() {
+    const modal = document.getElementById('legal-modal');
+    if (modal) {
+        modal.style.display = 'none';
+        document.body.style.overflow = 'auto'; // Возвращаем скролл
+    }
+}
 });
