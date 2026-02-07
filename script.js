@@ -85,7 +85,7 @@ function applyAds() {
     // Данные для партнеров
     const ads = {
         'buveur': {
-            image: "6885583.jpg", // ДОБАВЛЕНО
+            image: "logo_publicite.jpg", // ДОБАВЛЕНО
             text: { 
                fr: "❀❀❀ \n\n Vous écrivez ? Votre texte pourrait être lu ici-même, par les clients de nos cafés partenaires.\n\nPartagez votre talent avec nous ! Envoyez vos textes par email", 
                 en: "❀❀❀ \n\n Do you write? Your text could be read right here by the guests of our partner cafes.\n\nShare your talent with us! Send your stories via email" 
@@ -93,7 +93,7 @@ function applyAds() {
             url: "#"
         },
         'colada': {
-            image: "6885583.jpg", // ДОБАВЛЕНО
+            image: "logo_publicite.jpg", // ДОБАВЛЕНО
             text: { 
                 fr: "❀❀❀ \n\n Vous écrivez ? Votre texte pourrait être lu ici-même, par les clients de nos cafés partenaires.\n\nPartagez votre talent avec nous ! Envoyez vos textes par email", 
                 en: "❀❀❀ \n\n Do you write? Your text could be read right here by the guests of our partner cafes.\n\nShare your talent with us! Send your stories via email" 
