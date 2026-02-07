@@ -22,8 +22,8 @@ const ads = {
     'colada': {
         image: "LOGO_S_BARA.jpg",
         text: { 
-           fr: "LIBÉRER SES ÉCRITS proposes des ateliers d'écriture et un accompagnement à la biographie à Vichy et en ligne", 
-           en: "LIBÉRER SES ÉCRITS offers writing workshops and biography coaching in Vichy and online." 
+           fr: "❀❀❀ \n\nLIBÉRER SES ÉCRITS proposes des ateliers d'écriture et un accompagnement à la biographie à Vichy et en ligne", 
+           en: "❀❀❀ \n\nLIBÉRER SES ÉCRITS offers writing workshops and biography coaching in Vichy and online." 
         },
         url: "https://liberersesecrits.podia.com/"
     }
