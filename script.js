@@ -19,7 +19,8 @@ const ads = {
         },
         url: "#"
     },
-    'colada': {LOGO_S_BARA.jpg",
+    'colada': {
+        image: "LOGO_S_BARA.jpg",
         text: { 
            fr: "LIBÉRER SES ÉCRITS proposes des ateliers d'écriture et un accompagnement à la biographie à Vichy et en ligne", 
            en: "LIBÉRER SES ÉCRITS offers writing workshops and biography coaching in Vichy and online." 
