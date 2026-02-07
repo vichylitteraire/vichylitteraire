@@ -84,6 +84,14 @@ function applyAds() {
 
     // Данные для партнеров
     const ads = {
+        'main': { // Реклама для главной страницы
+        image: "logo_publicite.jpg",
+        text: { 
+           fr: "Bienvenue ! Découvrez les talents locaux de Vichy. Vous écrivez ? Contactez-nous !", 
+           en: "Welcome! Discover Vichy's local talents. Do you write? Contact us!" 
+        },
+        url: "#"
+    },
         'buveur': {
             image: "logo_publicite.jpg", // ДОБАВЛЕНО
             text: { 
