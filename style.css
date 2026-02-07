@@ -168,7 +168,7 @@ body {
 /* Надпись внизу главного экрана */
 .copyright-notice {
     position: absolute;
-    bottom: 40px;
+    bottom: 30px;
     left: 0;
     width: 100%;
     text-align: center;
