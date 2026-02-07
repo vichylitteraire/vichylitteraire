@@ -25,12 +25,12 @@ body {
 }
 
 /* Заголовок (убираем лишний flex отсюда) */
-/* .lang-box h1 {
+ .lang-box h1 {
     font-family: 'Playfair Display', serif;
     font-size: 2.2rem;
     margin-bottom: 20px;
     display: block; /* Обычный блок */
-} */
+}
 
 .lang-buttons button {
     padding: 12px 25px;
