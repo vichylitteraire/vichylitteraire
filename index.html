@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vichy Littéraire</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://t.contentsquare.net/uxa/4d781090410cd.js"></script>
+</head>
+<body>
+
+    <div id="language-screen">
+        <div class="lang-box">
+            <img src="logomain.jpg" alt="Vichy Littéraire" style="width: 100%; max-width: 400px; height: auto; ">
+        <!--     <h1>VICHY LITTÉRAIRE</h1> -->
+            <p class="selectlang">Choisissez votre langue ❀ Select your language</p>
+            <div class="lang-buttons">
+                <button onclick="setLanguage('fr')">Français 🇫🇷</button>
+                <button onclick="setLanguage('en')">English 🇬🇧</button>
+            </div>
+        </div>
+
+
+
+<div class="copyright-notice">
+    <p>© 2026 Vichy Littéraire. All rights reserved.</p>
+    <p><a href="javascript:void(0)" onclick="openLegal()" class="legal-link">Mentions Légales & Copyright</a></p>
+</div>
+
+<div id="legal-modal" class="modal-overlay">
+    <div class="modal-content">
+        <button class="modal-close" onclick="closeLegal()">✕</button>
+        <h2 class="modal-title">Mentions Légales</h2>
+        
+        <div class="modal-text">
+            <section>
+                <h3>Propriété intellectuelle / Intellectual Property</h3>
+                <p>
+                    <strong>FR:</strong> Tous les textes publiés sur ce site sont la propriété exclusive de leurs auteurs respectifs. 
+                    Toute reproduction, modification, diffusion ou utilisation commerciale, même partielle, est strictement interdite sans l'autorisation écrite préalable de l'auteur.
+                </p>
+                <p>
+                    <strong>EN:</strong> All texts published on this website are the exclusive property of their respective authors. 
+                    Any reproduction, modification, distribution, or commercial use, even partial, is strictly prohibited without the prior written consent of the author.
+                </p>
+            </section>
+
+            <section>
+                <h3>Copyright</h3>
+                <p>© 2026 Vichy Littéraire. Les contenus sont protégés par le Code de la propriété intellectuelle et les conventions internationales sur le droit d'auteur.</p>
+            </section>
+
+            <section>
+                <h3>Contact & Autorisations</h3>
+                <p>
+                    Pour toute demande d'utilisation d'un texte ou pour entrer en contact avec un auteur, veuillez envoyer un e-mail à : 
+                    <br>
+                    <strong><a href="mailto: vichylitteraire@gmail.com" class="email-btn">vichylitteraire@gmail.com</a></strong>
+                </p>
+            </section>
+        </div>
+        
+        <button class="modal-btn-close" onclick="closeLegal()">Fermer / Close</button>
+    </div>
+</div>
+
+
+        
+    </div>
+
+    <div id="main-content" style="display: none;">
+        <header>
+            <div class="logo">VICHY LITTÉRAIRE</div>
+        </header>
+
+        <main class="wrapper">
+            <article class="paper">
+                <h2 id="story-title"></h2>
+                <div id="story-content">
+                    </div>
+                <div class="meta">
+                    <span id="label-author">Par</span> <strong id="author-name"></strong>
+                </div>
+            </article>
+
+            <button id="btn-next" onclick="loadStory()">Autre histoire 🎲</button>
+
+            <footer class="ad-container">
+                
+                <div id="cafe-ad-box" class="ad-box" style="display: none; margin-bottom: 25px;">
+                    <img id="ad-image" src="" alt="logo" style="width:100%; max-width:200px; display:block; margin: 0 auto 10px;">
+                    <p id="ad-text"></p>
+                 <a id="ad-link" href="#" target="_blank">En savoir plus</a>
+                </div>
+
+                <div class="contact-box">
+                    <p id="contact-label"> Pour nous contacter :</p>
+                    <a id="email-link" class="email-btn" href="mailto:vichylitteraire@gmail.com">vichylitteraire@gmail.com</a>
+                </div>
+
+            </footer>
+        </main>
+    </div>
+    
+    <script src="stories.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
