@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Garet';
-    src: url('Garet.woff2');
+    src: url('./Garet.woff2');
 }
 
 body {
