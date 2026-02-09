@@ -275,3 +275,46 @@ body {
         margin-top: 20px;
     }
 }
+
+.meta {
+    display: flex !important;
+    justify-content: space-between; /* Кнопка влево, автор вправо */
+    align-items: center;
+    margin-top: 30px;
+    font-style: normal; /* Убираем курсив для всего блока */
+    color: #999;
+    font-size: 0.9rem;
+}
+
+.like-button {
+    background: #fdfdfd;
+    border: 1px solid #eee;
+    padding: 6px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Garet', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #555;
+    transition: all 0.2s;
+}
+
+.like-button:hover {
+    background: #fff0f3;
+    border-color: #d05b7a;
+}
+
+/* Анимация сердечек */
+.heart-particle {
+    position: fixed;
+    pointer-events: none;
+    font-size: 20px;
+    z-index: 10001;
+    animation: fly-up 0.8s ease-out forwards;
+}
+
+@keyframes fly-up {
+    0% { transform: translate(0, 0) scale(1); opacity: 1; }
+    100% { transform: translate(var(--dx), var(--dy)) scale(0); opacity: 0; }
+}
