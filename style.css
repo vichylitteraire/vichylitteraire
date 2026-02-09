@@ -10,6 +10,7 @@ body {
     padding: 0;
     background-color: #f8f5f2; /* Мягкий кремовый фон */
     color: #2c2c2c;
+    font-family: 'Inter', serif;
 }
 
 /* Экран выбора языка */
