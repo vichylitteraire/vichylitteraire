@@ -318,3 +318,22 @@ body {
     0% { transform: translate(0, 0) scale(1); opacity: 1; }
     100% { transform: translate(var(--dx), var(--dy)) scale(0); opacity: 0; }
 }
+
+/* Состояние нажатой кнопки */
+.like-button.liked {
+    background-color: #ffdae0; /* Нежно-розовый фон */
+    border-color: #d05b7a;      /* Яркая рамка */
+    color: #d05b7a;             /* Цвет текста */
+}
+
+.like-button.liked .heart-icon {
+    /* Можно добавить легкую пульсацию при активации */
+    display: inline-block;
+    animation: pulse 0.3s ease-in-out;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.4); }
+    100% { transform: scale(1); }
+}
