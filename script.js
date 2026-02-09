@@ -61,8 +61,10 @@ function loadStory() {
     
     const btnNext = document.getElementById('btn-next');
     const labelAuthor = document.getElementById('label-author');
+    const likeText = document.getElementById('like-text');
     if (btnNext) btnNext.innerText = (currentLang === 'en') ? "Another story 🎲" : "Autre histoire 🎲";
     if (labelAuthor) labelAuthor.innerText = (currentLang === 'en') ? "By" : "Par";
+    if (likeText) likeText.innerText = (currentLang === 'en') ? "Like" : "J'aime";
 
     applyAds();
     window.scrollTo(0, 0);
@@ -116,4 +118,24 @@ function openLegal() {
 function closeLegal() {
     const modal = document.getElementById('legal-modal');
     if (modal) { modal.style.display = 'none'; document.body.style.overflow = 'auto'; }
+}
+
+
+function sparkle(e) {
+    const emojis = ['❤️', '💖', '✨', '🌸'];
+    for (let i = 0; i < 6; i++) {
+        const p = document.createElement('span');
+        p.classList.add('heart-particle');
+        p.innerHTML = emojis[Math.floor(Math.random() * emojis.length)];
+        p.style.left = e.clientX + 'px';
+        p.style.top = e.clientY + 'px';
+        
+        const dx = (Math.random() - 0.5) * 160;
+        const dy = (Math.random() - 0.5) * 160 - 40;
+        p.style.setProperty('--dx', `${dx}px`);
+        p.style.setProperty('--dy', `${dy}px`);
+        
+        document.body.appendChild(p);
+        p.addEventListener('animationend', () => p.remove());
+    }
 }
