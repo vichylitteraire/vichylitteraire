@@ -6,16 +6,16 @@ const ads = {
     'main': {
         image: "logopublicite.jpg",
         text: { 
-           fr: "Bienvenue ! \n\nDécouvrez les talents locaux de Vichy. \n\nVous écrivez ? Contactez-nous !", 
-           en: "Welcome! \n\nDiscover Vichy's local talents. \n\nDo you write? Contact us!" 
+           fr: "Bienvenue ! \n\nDécouvrez les talents de Vichy. \n\nVous écrivez ? Contactez-nous !", 
+           en: "Welcome! \n\nDiscover Vichy's talents. \n\nDo you write? Contact us!" 
         },
         url: "#"
     },
     'buveur': {
         image: "logopublicite.jpg",
         text: { 
-           fr: "❀❀❀ \n\n Vous écrivez ? Votre texte pourrait être lu ici-même, par les clients de nos cafés partenaires.\n\nPartagez votre talent avec nous ! Envoyez vos textes par email", 
-           en: "❀❀❀ \n\n Do you write? Your text could be read right here by the guests of our partner cafes.\n\nShare your talent with us! Send your stories via email" 
+            fr: "Bienvenue ! \n\nDécouvrez les talents de Vichy. \n\nVous écrivez ? Contactez-nous !", 
+           en: "Welcome! \n\nDiscover Vichy's talents. \n\nDo you write? Contact us!" 
         },
         url: "#"
     },
