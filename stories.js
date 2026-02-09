@@ -90,4 +90,4 @@ He understood that to survive, he had to become deaf again. He went down to the 
 From now on, Thomas would no longer rent out his ears. He would learn to talk to himself, in the wind, to finally empty the vessel he had become. He would become a man without stories again. And it was the most beautiful gift he could give himself.`
         },
         author: "Imani"
-    }
+    },
