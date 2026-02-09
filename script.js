@@ -66,6 +66,8 @@ function loadStory() {
     if (labelAuthor) labelAuthor.innerText = (currentLang === 'en') ? "By" : "Par";
     if (likeText) likeText.innerText = (currentLang === 'en') ? "Like" : "J'aime";
 
+    document.querySelector('.like-button').classList.remove('liked');
+    
     applyAds();
     window.scrollTo(0, 0);
 }
@@ -122,6 +124,11 @@ function closeLegal() {
 
 
 function sparkle(e) {
+    // 1. Переключаем красный цвет кнопки
+    // toggle значит: если класса нет — добавит, если есть — уберет
+    e.currentTarget.classList.toggle('liked');
+
+    // 2. Логика вылетающих сердечек
     const emojis = ['❤️', '💖', '✨', '🌸'];
     for (let i = 0; i < 6; i++) {
         const p = document.createElement('span');
