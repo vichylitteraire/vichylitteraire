@@ -14,7 +14,7 @@ const ads = {
     'buveur': {
         image: "logopublicite.jpg",
         text: { 
-            fr: "Bienvenue ! \n\nDécouvrez les talents de Vichy. \n\nVous écrivez ? Contactez-nous !", 
+           fr: "Bienvenue ! \n\nDécouvrez les talents de Vichy. \n\nVous écrivez ? Contactez-nous !", 
            en: "Welcome! \n\nDiscover Vichy's talents. \n\nDo you write? Contact us!" 
         },
         url: "#"
