@@ -91,8 +91,15 @@
                 <div id="story-content">
                     </div>
                 <div class="meta">
-                    <span id="label-author">Par</span> <strong id="author-name"></strong>
-                </div>
+    <button class="like-button" onclick="sparkle(event)">
+        <span class="heart-icon">❤️</span>
+        <span id="like-text">J'aime</span>
+    </button>
+
+    <div class="author-info">
+        <span id="label-author">Par</span> <strong id="author-name"></strong>
+    </div>
+</div>
             </article>
 
             <button id="btn-next" onclick="loadStory()">Autre histoire 🎲</button>
