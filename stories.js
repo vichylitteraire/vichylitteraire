@@ -91,4 +91,563 @@ From now on, Thomas would no longer rent out his ears. He would learn to talk to
         },
         author: "Imani"
     },
-    ]
+
+{
+        title: { fr: "Le père Milon", en: "Father Milon" },
+        content: { 
+            fr: `Depuis un mois, le large soleil jette aux champs sa flamme
+cuisante. La vie radieuse éclôt sous cette averse de feu ; la
+terre est verte à perte de vue. Jusqu’aux bords de l’horizon,
+le ciel est bleu. Les fermes normandes semées par la plaine
+semblent, de loin, de petits bois, enfermées dans leur
+ceinture de hêtres élancés. De près, quand on ouvre la
+barrière vermoulue, on croit voir un jardin géant, car tous
+les antiques pommiers, osseux comme les paysans, sont en
+fleurs. Les vieux troncs noirs, crochus, tortus, alignés par la
+cour, étalent sous le ciel leurs dômes éclatants, blancs et
+roses. Le doux parfum de leur épanouissement se mêle aux
+grasses senteurs des étables ouvertes et aux vapeurs du
+fumier qui fermente, couvert de poules.
+
+Il est midi. La famille dîne à l’ombre du poirier planté
+devant la porte : le père, la mère, les quatre enfants, les deux
+servantes et les trois valets. On ne parle guère. On mange la
+soupe, puis on découvre le plat de fricot plein de pommes de
+terre au lard.
+
+De temps en temps, une servante se lève et va remplir au
+cellier la cruche au cidre. L’homme, un grand gars de quarante ans, contemple, contre
+sa maison, une vigne restée nue, et courant, tordue comme
+un serpent, sous les volets, tout le long du mur.
+Il dit enfin : « La vigne au père bourgeonne de bonne heure
+c’t’année. P’t-être qu’a donnera. »
+
+La femme aussi se retourne et regarde, sans dire un mot.
+Cette vigne est plantée juste à la place où le père a été fusillé.
+C’était pendant la guerre de 1870. Les Prussiens occupaient
+tout le pays. Le général Faidherbe, avec l’armée du Nord,
+leur tenait tête. Or l’état-major prussien s’était posté dans cette ferme. Le
+vieux paysan qui la possédait, le père Milon, Pierre, les avait
+reçus et installés de son mieux.
+
+Depuis un mois l’avant-garde allemande restait en
+observation dans le village. Les Français demeuraient
+immobiles, à dix lieues de là ; et cependant, chaque nuit, des
+uhlans disparaissaient.
+
+Tous les éclaireurs isolés, ceux qu’on envoyait faire des
+rondes, alors qu’ils partaient à deux ou trois seulement, ne
+rentraient jamais.
+
+On les ramassait morts, au matin, dans un champ, au bord
+d’une cour, dans un fossé. Leurs chevaux eux-mêmes
+gisaient le long des routes, égorgés d’un coup de sabre.
+Ces meurtres semblaient accomplis par les mêmes hommes,
+qu’on ne pouvait découvrir.
+
+Le pays fut terrorisé. On fusilla des paysans sur une simple
+dénonciation, on emprisonna des femmes ; on voulut
+obtenir, par la peur, des révélations des enfants. On ne
+découvrit rien.
+
+Mais voilà qu’un matin, on aperçut le père Milon étendu
+dans son écurie, la figure coupée d’une balafre.
+Deux uhlans éventrés furent retrouvés à trois kilomètres de
+la ferme. Un d’eux tenait encore à la main son arme
+ensanglantée. Il s’était battu, défendu.
+
+Un conseil de guerre ayant été aussitôt constitué, en plein
+air, devant la ferme, le vieux fut amené.
+
+Il avait soixante-huit ans. Il était petit, maigre, un peu tors,
+avec de grandes mains pareilles à des pinces de crabe. Ses
+cheveux ternes, rares et légers comme un duvet de jeune
+canard, laissaient voir partout la chair du crâne. La peau
+brune et plissée du cou montrait de grosses veines qui
+s’enfonçaient sous les mâchoires et reparaissaient aux
+tempes. Il passait dans la contrée pour avare et difficile en
+affaires.
+
+On le plaça debout, entre quatre soldats, devant la table de
+cuisine tirée dehors. Cinq officiers et le colonel s’assirent en
+face de lui.
+
+Le colonel prit la parole en français.
+— Père Milon, depuis que nous sommes ici, nous n’avons eu
+qu’à nous louer de vous. Vous avez toujours été complaisant
+et même attentionné pour nous. Mais aujourd’hui une
+accusation terrible pèse sur vous, et il faut que la lumière se
+fasse. Comment avez-vous reçu la blessure que vous portez
+sur la figure ?
+
+Le paysan ne répondit rien.
+
+Le colonel reprit :
+— Votre silence vous condamne, père Milon. Mais je veux
+que vous me répondiez, entendez-vous ? Savez-vous qui a
+tué les deux uhlans qu’on a trouvés ce matin près du
+Calvaire ?
+
+Le vieux articula nettement :
+— C’est mé.
+
+Le colonel, surpris, se tut une seconde, regardant fixement le
+prisonnier. Le père Milon demeurait impassible, avec son air
+abruti de paysan, les yeux baissés comme s’il eût parlé à son
+curé. Une seule chose pouvait révéler un trouble intérieur,
+c’est qu’il avalait coup sur coup sa salive, avec un effort
+visible, comme si sa gorge eût été tout à fait étranglée.
+La famille du bonhomme, son fils Jean, sa bru et deux petits
+enfants se tenaient à dix pas en arrière, effarés et
+consternés.
+Le colonel reprit :
+— Savez-vous aussi qui a tué tous les éclaireurs de notre
+armée qu’on retrouve chaque matin, par la campagne,
+depuis un mois ?
+
+Le vieux répondit avec la même impassibilité de brute :
+— C’est mé.
+— C’est vous qui les avez tués tous ?
+— Tretous, oui, c’est mé.
+— Vous seul ?
+— Mé seul.
+— Dites-moi comment vous vous y preniez.
+
+Cette fois l’homme parut ému ; la nécessité de parler
+longtemps le gênait visiblement. Il balbutia :
+— Je sais-ti, mé ? J’ai fait ça comme ça s’ trouvait.
+
+Le colonel reprit :
+— Je vous préviens qu’il faudra que vous me disiez tout.
+Vous ferez donc bien de vous décider immédiatement.
+Comment avez-vous commencé ?
+
+L’homme jeta un regard inquiet sur sa famille attentive
+derrière lui. Il hésita un instant encore, puis, tout à coup, se
+décida.
+
+« Je r’venais un soir, qu’il était p’t-être dix heures, le
+lend’main que vous étiez ici. Vous, et pi vos soldats, vous
+m’aviez pris pour pu de chinquante écus de fourrage avec
+une vaque et deux moutons. Je me dis : Tant qu’i me
+prendront de fois vingt écus, tant que je leur y revaudrai ça.
+Et pi j’avais d’autres choses itou su l’cœur, que j’ vous dirai.
+V’là qu’ j’en aperçois un d’ vos cavaliers qui fumait sa pipe su
+mon fossé, derrière ma grange. J’allai décrocher ma faux et
+je r’vins à p’tits pas par derrière, qu’il n’entendit seulement
+rien. Et j’li coupai la tête d’un coup, d’un seul, comme un
+épi, qu’il n’a pas seulement dit “ouf !” Vous n’auriez qu’à
+chercher au fond d’ la mare : vous le trouveriez dans un sac à
+charbon, avec une pierre de la barrière.
+
+« J’avais mon idée. J’ pris tous ses effets d’puis les bottes
+jusqu’au bonnet et je les cachai dans le four à plâtre du bois
+Martin, derrière la cour. »
+
+Le vieux se tut. Les officiers, interdits, se regardaient.
+L’interrogatoire recommença ; et voici ce qu’ils apprirent.
+Une fois son meurtre accompli, l’homme avait vécu avec
+cette pensée : « Tuer des Prussiens ! » Il les haïssait d’une
+haine sournoise et acharnée de paysan cupide et patriote
+aussi. Il avait son idée, comme il disait. Il attendit quelques
+jours.
+
+On le laissait libre d’aller et de venir, d’entrer et de sortir à
+sa guise, tant il s’était montré humble envers les vainqueurs,
+soumis et complaisant. Or il voyait, chaque soir, partir les
+estafettes ; et il sortit, une nuit, ayant entendu le nom du
+village où se rendaient les cavaliers, et ayant appris, dans la
+fréquentation des soldats, les quelques mots d’allemand
+qu’il lui fallait.
+
+Il sortit de sa cour, se glissa dans le bois, gagna le four à
+plâtre, pénétra au fond de la longue galerie et, ayant
+retrouvé par terre les vêtements du mort, il s’en vêtit.
+Alors il se mit à rôder par les champs, rampant, suivant les
+talus pour se cacher, écoutant les moindres bruits, inquiet
+comme un braconnier.
+
+Lorsqu’il crut l’heure arrivée, il se rapprocha de la route et se
+cacha dans une broussaille. Il attendit encore. Enfin, vers
+minuit, un galop de cheval sonna sur la terre dure du
+chemin. L’homme mit l’oreille à terre pour s’assurer qu’un
+seul cavalier s’approchait, puis il s’apprêta.
+
+Le uhlan arrivait au grand trot, rapportant des dépêches. Il
+allait, l’œil en éveil, l’oreille tendue. Dès qu’il ne fut plus qu’à
+dix pas, le père Milon se traîna en travers de la route en
+gémissant : « Hilfe ! Hilfe ! À l’aide, à l’aide ! » Le cavalier
+s’arrêta, reconnut un Allemand démonté, le crut blessé,
+descendit de cheval, s’approcha sans soupçonner rien, et,
+comme il se penchait sur l’inconnu, il reçut au milieu du
+ventre la longue lame courbée du sabre. Il s’abattit, sans
+agonie, secoué seulement par quelques frissons suprêmes.
+Alors le Normand, radieux d’une joie muette de vieux
+paysan, se releva, et, pour son plaisir, coupa la gorge du
+cadavre. Puis, il le traîna jusqu’au fossé et l’y jeta.
+Le cheval, tranquille, attendait son maître. Le père Milon se
+mit en selle, et il partit au galop à travers les plaines.
+Au bout d’une heure, il aperçut encore deux uhlans côte à
+côte qui rentraient au quartier. Il alla droit sur eux, criant
+encore : « Hilfe ! Hilfe ! » Les Prussiens le laissaient venir,
+reconnaissant l’uniforme, sans méfiance aucune. Et il passa,
+le vieux, comme un boulet entre les deux, les abattant l’un et
+l’autre avec son sabre et un revolver.
+
+Puis il égorgea les chevaux, des chevaux allemands ! Puis il
+rentra doucement au four à plâtre et cacha un cheval au fond
+de la sombre galerie. Il y quitta son uniforme, reprit ses
+hardes de gueux et, regagnant son lit, dormit jusqu’au
+matin.
+
+Pendant quatre jours, il ne sortit pas, attendant la fin de
+l’enquête ouverte ; mais, le cinquième jour, il repartit, et tua
+encore deux soldats par le même stratagème. Dès lors, il ne
+s’arrêta plus. Chaque nuit, il errait, il rôdait à l’aventure,
+abattant des Prussiens tantôt ici, tantôt là, galopant par les
+champs déserts, sous la lune, uhlan perdu, chasseur
+d’hommes. Puis, sa tâche finie, laissant derrière lui des
+cadavres couchés le long des routes, le vieux cavalier rentrait
+cacher au fond du four à plâtre son cheval et son uniforme.
+Il allait vers midi, d’un air tranquille, porter de l’avoine et de
+l’eau à sa monture restée au fond du souterrain, et il la
+nourrissait à profusion, exigeant d’elle un grand travail.
+Mais, la veille, un de ceux qu’il avait attaqués se tenait sur
+ses gardes et avait coupé d’un coup de sabre la figure du
+vieux paysan.
+
+Il les avait tués cependant tous les deux ! Il était revenu
+encore, avait caché le cheval et repris ses humbles habits ;
+mais, en rentrant, une faiblesse l’avait saisi et il s’était traîné
+jusqu’à l’écurie, ne pouvant plus gagner la maison.
+On l’avait trouvé là tout sanglant, sur la paille...
+Quand il eut fini son récit, il releva soudain la tête et regarda
+fièrement les officiers prussiens.
+Le colonel, qui tirait sa moustache, lui demanda :
+— Vous n’avez plus rien à dire ?
+— Non, pu rien ; l’compte est juste : j’en ai tué seize, pas un
+de pus, pas un de moins.
+— Vous savez que vous allez mourir ?
+— J’ vous ai pas d’mandé de grâce.
+— Avez-vous été soldat ?
+— Oui. J’ai fait campagne, dans le temps. Et puis, c’est vous
+qu’avez tué mon père, qu’était soldat de l’Empereur premier.
+Sans compter que vous avez tué mon fils cadet, François, le
+mois dernier, auprès d’Évreux. Je vous en devais, j’ai payé.
+Je sommes quittes.
+Les officiers se regardaient.
+
+Le vieux reprit :
+— Huit pour mon père, huit pour mon fieu, je sommes
+quittes. J’ai pas été vous chercher querelle, mé ! J’ vous
+connais point ! J’ sais pas seulement d’où qu’vous v’nez.
+Vous v’là chez mé, que vous y commandez comme si c’était
+chez vous. Je m’suis vengé su l’s autres. J’ m’en r’pens point.
+Et, redressant son torse ankylosé, le vieux croisa ses bras
+dans une pose d’humble héros.
+
+Les Prussiens se parlèrent bas longtemps. Un capitaine, qui
+avait aussi perdu son fils, le mois dernier, défendait ce gueux
+magnanime.
+
+Alors le colonel se leva et, s’approchant du père Milon,
+baissant la voix :
+— Écoutez, le vieux, il y a peut-être un moyen de vous sauver
+la vie, c’est de...
+
+Mais le bonhomme n’écoutait point, et, les yeux plantés
+droit sur l’officier vainqueur, tandis que le vent agitait les
+poils follets de son crâne, il fit une grimace affreuse qui
+crispa sa maigre face toute coupée par la balafre, et, gonflant
+sa poitrine, il cracha, de toute sa force, en pleine figure du
+Prussien.
+
+Le colonel, affolé, leva la main, et l’homme, pour la seconde
+fois, lui cracha par la figure.
+Tous les officiers s’étaient dressés et hurlaient des ordres en
+même temps.
+
+En moins d’une minute, le bonhomme, toujours impassible,
+fut collé contre le mur et fusillé, alors qu’il envoyait des
+sourires à Jean, son fils aîné, à sa bru et aux deux petits, qui
+regardaient, éperdus.`,
+            en: `For a month the hot sun has been parching the fields.
+Nature is expanding beneath its rays; the fields are green as
+far as the eye can see. The big azure dome of the sky is
+unclouded. The farms of Normandy, scattered over the
+plains and surrounded by a belt of tall beeches, look, from a
+distance, like little woods. On closer view, after lowering
+the worm-eaten wooden bars, you imagine yourself in an
+immense garden, for all the ancient apple-trees, as gnarled
+as the peasants themselves, are in bloom. The sweet scent
+of their blossoms mingles with the heavy smell of the earth
+and the penetrating odor of the stables. It is noon. The
+family is eating under the shade of a pear tree planted in
+front of the door; father, mother, the four children, and the
+help—two women and three men are all there. All are
+silent. The soup is eaten and then a dish of potatoes fried
+with bacon is brought on.
+
+From time to time one of the women gets up and takes a
+pitcher down to the cellar to fetch more cider.
+The man, a big fellow about forty years old, is watching a
+grape vine, still bare, which is winding and twisting like a
+snake along the side of the house.
+
+At last he says: “Father's vine is budding early this year.
+Perhaps we may get something from it.”
+
+The woman then turns round and looks, without saying a
+word. This vine is planted on the spot where their father had been
+shot.
+
+It was during the war of 1870. The Prussians were
+occupying the whole country. General Faidherbe, with the
+Northern Division of the army, was opposing them.
+The Prussians had established their headquarters at this
+farm. The old farmer to whom it belonged, Father Pierre
+Milon, had received and quartered them to the best of his
+ability.
+
+For a month the German vanguard had been in this village.
+The French remained motionless, ten leagues away; and
+yet, every night, some of the Uhlans disappeared.
+Of all the isolated scouts, of all those who were sent to the
+outposts, in groups of not more than three, not one ever
+returned.
+
+They were picked up the next morning in a field or in a
+ditch. Even their horses were found along the roads with
+their throats cut.
+
+These murders seemed to be done by the same men, who
+could never be found.
+
+The country was terrorized. Farmers were shot on
+suspicion, women were imprisoned; children were
+frightened in order to try and obtain information. Nothing
+could be ascertained.
+
+But, one morning, Father Milon was found stretched out in
+the barn, with a sword gash across his face.
+Two Uhlans were found dead about a mile and a half from
+the farm. One of them was still holding his bloody sword in
+his hand. He had fought, tried to defend himself. A court-
+martial was immediately held in the open air, in front of the
+farm. The old man was brought before it.
+
+He was sixty-eight years old, small, thin, bent, with two big
+hands resembling the claws of a crab. His colorless hair was
+sparse and thin, like the down of a young duck, allowing
+patches of his scalp to be seen. The brown and wrinkled
+skin of his neck showed big veins which disappeared
+behind his jaws and came out again at the temples. He had
+the reputation of being miserly and hard to deal with.
+They stood him up between four soldiers, in front of the
+kitchen table, which had been dragged outside. Five officers
+and the colonel seated themselves opposite him.
+The colonel spoke in French:
+“Father Milon, since we have been here we have only had
+praise for you. You have always been obliging and even
+attentive to us. But to-day a terrible accusation is hanging
+over you, and you must clear the matter up. How did you
+receive that wound on your face?”
+The peasant answered nothing.
+
+The colonel continued:
+“Your silence accuses you, Father Milon. But I want you to
+answer me! Do you understand? Do you know who killed
+the two Uhlans who were found this morning near
+Calvaire?”
+The old man answered clearly
+“I did.”
+
+The colonel, surprised, was silent for a minute, looking
+straight at the prisoner. Father Milon stood impassive, with
+the stupid look of the peasant, his eyes lowered as though
+he were talking to the priest. Just one thing betrayed an
+uneasy mind; he was continually swallowing his saliva,
+with a visible effort, as though his throat were terribly
+contracted.
+
+The man's family, his son Jean, his daughter-in-law and his
+two grandchildren were standing a few feet behind him,
+bewildered and affrighted.
+
+The colonel went on:
+“Do you also know who killed all the scouts who have been
+found dead, for a month, throughout the country, every
+morning?”
+The old man answered with the same stupid look:
+“I did.”
+“You killed them all?”
+“Uh huh! I did.”
+“You alone? All alone?”
+“Uh huh!”
+“Tell me how you did it.”
+
+This time the man seemed moved; the necessity for talking
+any length of time annoyed him visibly. He stammered:
+“I dunno! I simply did it.”
+
+The colonel continued:
+“I warn you that you will have to tell me everything. You
+might as well make up your mind right away. How did you
+begin?”
+
+The man cast a troubled look toward his family, standing
+close behind him. He hesitated a minute longer, and then
+suddenly made up his mind to obey the order.
+
+“I was coming home one night at about ten o'clock, the
+night after you got here. You and your soldiers had taken
+more than fifty ecus worth of forage from me, as well as a
+cow and two sheep. I said to myself: 'As much as they take
+from you; just so much will you make them pay back.' And
+then I had other things on my mind which I will tell you.
+Just then I noticed one of your soldiers who was smoking
+his pipe by the ditch behind the barn. I went and got my
+scythe and crept up slowly behind him, so that he couldn't
+hear me. And I cut his head off with one single blow, just as
+I would a blade of grass, before he could say 'Booh!' If you
+should look at the bottom of the pond, you will find him
+tied up in a potato-sack, with a stone fastened to it.
+“I got an idea. I took all his clothes, from his boots to his
+cap, and hid them away in the little wood behind the yard.”
+The old man stopped. The officers remained speechless,
+looking at each other. The questioning began again, and this
+is what they learned.
+
+Once this murder committed, the man had lived with this
+one thought: “Kill the Prussians!” He hated them with the
+blind, fierce hate of the greedy yet patriotic peasant. He had
+his idea, as he said. He waited several days.
+
+He was allowed to go and come as he pleased, because he
+had shown himself so humble, submissive and obliging to
+the invaders. Each night he saw the outposts leave. One
+night he followed them, having heard the name of the
+village to which the men were going, and having learned
+the few words of German which he needed for his plan
+through associating with the soldiers.
+
+He left through the back yard, slipped into the woods,
+found the dead man's clothes and put them on. Then he
+began to crawl through the fields, following along the
+hedges in order to keep out of sight, listening to the
+slightest noises, as wary as a poacher.
+
+As soon as he thought the time ripe, he approached the road
+and hid behind a bush. He waited for a while. Finally,
+toward midnight, he heard the sound of a galloping horse.
+The man put his ear to the ground in order to make sure that
+only one horseman was approaching, then he got ready.
+An Uhlan came galloping along, carrying dispatches. As he
+went, he was all eyes and ears. When he was only a few
+feet away, Father Milon dragged himself across the road,
+moaning: “Hilfe! Hilfe!” ( Help! Help!) The horseman
+stopped, and recognizing a German, he thought he was
+wounded and dismounted, coming nearer without any
+suspicion, and just as he was leaning over the unknown
+man, he received, in the pit of his stomach, a heavy thrust
+from the long curved blade of the sabre. He dropped
+without suffering pain, quivering only in the final throes.
+Then the farmer, radiant with the silent joy of an old
+peasant, got up again, and, for his own pleasure, cut the
+dead man's throat. He then dragged the body to the ditch
+and threw it in.
+
+The horse quietly awaited its master. Father Milon mounted
+him and started galloping across the plains.
+About an hour later he noticed two more Uhlans who were
+returning home, side by side. He rode straight for them,
+once more crying “Hilfe! Hilfe!”
+
+The Prussians, recognizing the uniform, let him approach
+without distrust. The old man passed between them like a
+cannon-ball, felling them both, one with his sabre and the
+other with a revolver.
+
+Then he killed the horses, German horses! After that he
+quickly returned to the woods and hid one of the horses. He
+left his uniform there and again put on his old clothes; then
+going back into bed, he slept until morning.
+
+For four days he did not go out, waiting for the inquest to
+be terminated; but on the fifth day he went out again and
+killed two more soldiers by the same stratagem. From that
+time on he did not stop. Each night he wandered about in
+search of adventure, killing Prussians, sometimes here and
+sometimes there, galloping through deserted fields, in the
+moonlight, a lost Uhlan, a hunter of men. Then, his task
+accomplished, leaving behind him the bodies lying along
+the roads, the old farmer would return and hide his horse
+and uniform.
+
+He went, toward noon, to carry oats and water quietly to his
+mount, and he fed it well as he required from it a great
+amount of work.
+
+But one of those whom he had attacked the night before, in
+defending himself slashed the old peasant across the face
+with his sabre.
+
+However, he had killed them both. He had come back and
+hidden the horse and put on his ordinary clothes again; but
+as he reached home he began to feel faint, and had dragged
+himself as far as the stable, being unable to reach the house.
+They had found him there, bleeding, on the straw.
+When he had finished his tale, he suddenly lifted up his
+head and looked proudly at the Prussian officers.
+
+The colonel, who was gnawing at his mustache, asked:
+“You have nothing else to say?”
+“Nothing more; I have finished my task; I killed sixteen,
+not one more or less.”
+“Do you know that you are going to die?”
+“I haven't asked for mercy.”
+“Have you been a soldier?”
+“Yes, I served my time. And then, you had killed my father,
+who was a soldier of the first Emperor. And last month you
+killed my youngest son, Francois, near Evreux. I owed you
+one for that; I paid. We are quits.”
+The officers were looking at each other.
+
+The old man continued:
+“Eight for my father, eight for the boy—we are quits. I did
+not seek any quarrel with you. I don't know you. I don't
+even know where you come from. And here you are,
+ordering me about in my home as though it were your own.
+I took my revenge upon the others. I'm not sorry.”
+And, straightening up his bent back, the old man folded his
+arms in the attitude of a modest hero.
+
+The Prussians talked in a low tone for a long time. One of
+them, a captain, who had also lost his son the previous
+month, was defending the poor wretch. Then the colonel
+arose and, approaching Father Milon, said in a low voice:
+“Listen, old man, there is perhaps a way of saving your life,
+it is to—”
+
+But the man was not listening, and, his eyes fixed on the
+hated officer, while the wind played with the downy hair on
+his head, he distorted his slashed face, giving it a truly
+terrible expression, and, swelling out his chest, he spat, as
+hard as he could, right in the Prussian's face.
+
+The colonel, furious, raised his hand, and for the second
+time the man spat in his face.
+
+All the officers had jumped up and were shrieking orders at
+the same time.
+
+In less than a minute the old man, still impassive, was
+pushed up against the wall and shot, looking smilingly the
+while toward Jean, his eldest son, his daughter-in-law and
+his two grandchildren, who witnessed this scene in dumb
+terror.`
+        },
+        author: "Guy De Maupassant"
+    },
+    
+  ]
