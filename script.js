@@ -11,7 +11,7 @@ const ads = {
         },
         url: "#"
     },
-    'buveur': {
+    'parchouli': {
         image: "logopublicite.jpg",
         text: { 
            fr: "Bienvenue ! \n\nDécouvrez les talents de Vichy. \n\nVous écrivez ? Contactez-nous !", 
