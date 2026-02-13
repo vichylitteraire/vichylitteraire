@@ -359,3 +359,19 @@ body {
     50% { transform: scale(1.4); }
     100% { transform: scale(1); }
 }
+
+#read-more-btn {
+    display: block;
+    text-align: center;
+    font-family: 'serif'; /* или тот шрифт, что у тебя для контента */
+    font-style: italic;
+    color: #333;
+    text-decoration: underline;
+    font-size: 0.9rem;
+    margin: 15px auto; /* Центрирует и дает отступы */
+    transition: opacity 0.3s;
+}
+
+#read-more-btn:hover {
+    opacity: 0.7;
+}
