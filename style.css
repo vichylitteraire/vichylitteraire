@@ -89,7 +89,6 @@ meta {
     display: flex;
     justify-content: center;
     align-items: center; /* Выравнивает всех по центру вертикали */
-    flex-direction: column;
     border-top: 1px solid #eee;
     padding-top: 20px;
     margin-top: 20px;
