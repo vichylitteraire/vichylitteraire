@@ -95,115 +95,45 @@ From now on, Thomas would no longer rent out his ears. He would learn to talk to
 {
         title: { fr: "Le père Milon", en: "Father Milon" },
         content: { 
-            fr: `Depuis un mois, le large soleil jette aux champs sa flamme
-cuisante. La vie radieuse éclôt sous cette averse de feu ; la
-terre est verte à perte de vue. Jusqu’aux bords de l’horizon,
-le ciel est bleu. Les fermes normandes semées par la plaine
-semblent, de loin, de petits bois, enfermées dans leur
-ceinture de hêtres élancés. De près, quand on ouvre la
-barrière vermoulue, on croit voir un jardin géant, car tous
-les antiques pommiers, osseux comme les paysans, sont en
-fleurs. Les vieux troncs noirs, crochus, tortus, alignés par la
-cour, étalent sous le ciel leurs dômes éclatants, blancs et
-roses. Le doux parfum de leur épanouissement se mêle aux
-grasses senteurs des étables ouvertes et aux vapeurs du
-fumier qui fermente, couvert de poules.
+            fr: `Depuis un mois, le large soleil jette aux champs sa flamme cuisante. La vie radieuse éclôt sous cette averse de feu ; la terre est verte à perte de vue. Jusqu’aux bords de l’horizon, le ciel est bleu. Les fermes normandes semées par la plaine semblent, de loin, de petits bois, enfermées dans leur ceinture de hêtres élancés. De près, quand on ouvre la barrière vermoulue, on croit voir un jardin géant, car tous les antiques pommiers, osseux comme les paysans, sont en fleurs. Les vieux troncs noirs, crochus, tortus, alignés par la cour, étalent sous le ciel leurs dômes éclatants, blancs et roses. Le doux parfum de leur épanouissement se mêle aux grasses senteurs des étables ouvertes et aux vapeurs du fumier qui fermente, couvert de poules.
 
-Il est midi. La famille dîne à l’ombre du poirier planté
-devant la porte : le père, la mère, les quatre enfants, les deux
-servantes et les trois valets. On ne parle guère. On mange la
-soupe, puis on découvre le plat de fricot plein de pommes de
-terre au lard.
+Il est midi. La famille dîne à l’ombre du poirier planté devant la porte : le père, la mère, les quatre enfants, les deux servantes et les trois valets. On ne parle guère. On mange la soupe, puis on découvre le plat de fricot plein de pommes de terre au lard.
 
-De temps en temps, une servante se lève et va remplir au
-cellier la cruche au cidre. L’homme, un grand gars de quarante ans, contemple, contre
-sa maison, une vigne restée nue, et courant, tordue comme
-un serpent, sous les volets, tout le long du mur.
-Il dit enfin : « La vigne au père bourgeonne de bonne heure
-c’t’année. P’t-être qu’a donnera. »
+De temps en temps, une servante se lève et va remplir au cellier la cruche au cidre. L’homme, un grand gars de quarante ans, contemple, contre sa maison, une vigne restée nue, et courant, tordue comme un serpent, sous les volets, tout le long du mur. Il dit enfin : « La vigne au père bourgeonne de bonne heure c’t’année. P’t-être qu’a donnera. »
 
-La femme aussi se retourne et regarde, sans dire un mot.
-Cette vigne est plantée juste à la place où le père a été fusillé.
-C’était pendant la guerre de 1870. Les Prussiens occupaient
-tout le pays. Le général Faidherbe, avec l’armée du Nord,
-leur tenait tête. Or l’état-major prussien s’était posté dans cette ferme. Le
-vieux paysan qui la possédait, le père Milon, Pierre, les avait
-reçus et installés de son mieux.
+La femme aussi se retourne et regarde, sans dire un mot. Cette vigne est plantée juste à la place où le père a été fusillé. C’était pendant la guerre de 1870. Les Prussiens occupaient tout le pays. Le général Faidherbe, avec l’armée du Nord, leur tenait tête. Or l’état-major prussien s’était posté dans cette ferme. Le vieux paysan qui la possédait, le père Milon, Pierre, les avait reçus et installés de son mieux.
 
-Depuis un mois l’avant-garde allemande restait en
-observation dans le village. Les Français demeuraient
-immobiles, à dix lieues de là ; et cependant, chaque nuit, des
-uhlans disparaissaient.
+Depuis un mois l’avant-garde allemande restait en observation dans le village. Les Français demeuraient immobiles, à dix lieues de là ; et cependant, chaque nuit, des uhlans disparaissaient.
 
-Tous les éclaireurs isolés, ceux qu’on envoyait faire des
-rondes, alors qu’ils partaient à deux ou trois seulement, ne
-rentraient jamais.
+Tous les éclaireurs isolés, ceux qu’on envoyait faire des rondes, alors qu’ils partaient à deux ou trois seulement, ne rentraient jamais.
 
-On les ramassait morts, au matin, dans un champ, au bord
-d’une cour, dans un fossé. Leurs chevaux eux-mêmes
-gisaient le long des routes, égorgés d’un coup de sabre.
-Ces meurtres semblaient accomplis par les mêmes hommes,
-qu’on ne pouvait découvrir.
+On les ramassait morts, au matin, dans un champ, au bord d’une cour, dans un fossé. Leurs chevaux eux-mêmes gisaient le long des routes, égorgés d’un coup de sabre. Ces meurtres semblaient accomplis par les mêmes hommes, qu’on ne pouvait découvrir.
 
-Le pays fut terrorisé. On fusilla des paysans sur une simple
-dénonciation, on emprisonna des femmes ; on voulut
-obtenir, par la peur, des révélations des enfants. On ne
-découvrit rien.
+Le pays fut terrorisé. On fusilla des paysans sur une simple dénonciation, on emprisonna des femmes ; on voulut obtenir, par la peur, des révélations des enfants. On ne découvrit rien.
 
-Mais voilà qu’un matin, on aperçut le père Milon étendu
-dans son écurie, la figure coupée d’une balafre.
-Deux uhlans éventrés furent retrouvés à trois kilomètres de
-la ferme. Un d’eux tenait encore à la main son arme
-ensanglantée. Il s’était battu, défendu.
+Mais voilà qu’un matin, on aperçut le père Milon étendu dans son écurie, la figure coupée d’une balafre. Deux uhlans éventrés furent retrouvés à trois kilomètres de la ferme. Un d’eux tenait encore à la main son arme ensanglantée. Il s’était battu, défendu.
 
-Un conseil de guerre ayant été aussitôt constitué, en plein
-air, devant la ferme, le vieux fut amené.
+Un conseil de guerre ayant été aussitôt constitué, en plein air, devant la ferme, le vieux fut amené.
 
-Il avait soixante-huit ans. Il était petit, maigre, un peu tors,
-avec de grandes mains pareilles à des pinces de crabe. Ses
-cheveux ternes, rares et légers comme un duvet de jeune
-canard, laissaient voir partout la chair du crâne. La peau
-brune et plissée du cou montrait de grosses veines qui
-s’enfonçaient sous les mâchoires et reparaissaient aux
-tempes. Il passait dans la contrée pour avare et difficile en
-affaires.
+Il avait soixante-huit ans. Il était petit, maigre, un peu tors, avec de grandes mains pareilles à des pinces de crabe. Ses cheveux ternes, rares et légers comme un duvet de jeune canard, laissaient voir partout la chair du crâne. La peau brune et plissée du cou montrait de grosses veines qui s’enfonçaient sous les mâchoires et reparaissaient aux tempes. Il passait dans la contrée pour avare et difficile en affaires.
 
-On le plaça debout, entre quatre soldats, devant la table de
-cuisine tirée dehors. Cinq officiers et le colonel s’assirent en
-face de lui.
+On le plaça debout, entre quatre soldats, devant la table de cuisine tirée dehors. Cinq officiers et le colonel s’assirent en face de lui.
 
 Le colonel prit la parole en français.
-— Père Milon, depuis que nous sommes ici, nous n’avons eu
-qu’à nous louer de vous. Vous avez toujours été complaisant
-et même attentionné pour nous. Mais aujourd’hui une
-accusation terrible pèse sur vous, et il faut que la lumière se
-fasse. Comment avez-vous reçu la blessure que vous portez
-sur la figure ?
+— Père Milon, depuis que nous sommes ici, nous n’avons eu qu’à nous louer de vous. Vous avez toujours été complaisant et même attentionné pour nous. Mais aujourd’hui une accusation terrible pèse sur vous, et il faut que la lumière se fasse. Comment avez-vous reçu la blessure que vous portez sur la figure ?
 
 Le paysan ne répondit rien.
 
 Le colonel reprit :
-— Votre silence vous condamne, père Milon. Mais je veux
-que vous me répondiez, entendez-vous ? Savez-vous qui a
-tué les deux uhlans qu’on a trouvés ce matin près du
-Calvaire ?
+— Votre silence vous condamne, père Milon. Mais je veux que vous me répondiez, entendez-vous ? Savez-vous qui a tué les deux uhlans qu’on a trouvés ce matin près du Calvaire ?
 
 Le vieux articula nettement :
 — C’est mé.
 
-Le colonel, surpris, se tut une seconde, regardant fixement le
-prisonnier. Le père Milon demeurait impassible, avec son air
-abruti de paysan, les yeux baissés comme s’il eût parlé à son
-curé. Une seule chose pouvait révéler un trouble intérieur,
-c’est qu’il avalait coup sur coup sa salive, avec un effort
-visible, comme si sa gorge eût été tout à fait étranglée.
-La famille du bonhomme, son fils Jean, sa bru et deux petits
-enfants se tenaient à dix pas en arrière, effarés et
-consternés.
+Le colonel, surpris, se tut une seconde, regardant fixement le prisonnier. Le père Milon demeurait impassible, avec son air abruti de paysan, les yeux baissés comme s’il eût parlé à son curé. Une seule chose pouvait révéler un trouble intérieur, c’est qu’il avalait coup sur coup sa salive, avec un effort visible, comme si sa gorge eût été tout à fait étranglée. La famille du bonhomme, son fils Jean, sa bru et deux petits enfants se tenaient à dix pas en arrière, effarés et consternés.
+
 Le colonel reprit :
-— Savez-vous aussi qui a tué tous les éclaireurs de notre
-armée qu’on retrouve chaque matin, par la campagne,
-depuis un mois ?
+— Savez-vous aussi qui a tué tous les éclaireurs de notre armée qu’on retrouve chaque matin, par la campagne, depuis un mois ?
 
 Le vieux répondit avec la même impassibilité de brute :
 — C’est mé.
@@ -213,36 +143,17 @@ Le vieux répondit avec la même impassibilité de brute :
 — Mé seul.
 — Dites-moi comment vous vous y preniez.
 
-Cette fois l’homme parut ému ; la nécessité de parler
-longtemps le gênait visiblement. Il balbutia :
+Cette fois l’homme parut ému ; la nécessité de parler longtemps le gênait visiblement. Il balbutia :
 — Je sais-ti, mé ? J’ai fait ça comme ça s’ trouvait.
 
 Le colonel reprit :
-— Je vous préviens qu’il faudra que vous me disiez tout.
-Vous ferez donc bien de vous décider immédiatement.
-Comment avez-vous commencé ?
+— Je vous préviens qu’il faudra que vous me disiez tout. Vous ferez donc bien de vous décider immédiatement. Comment avez-vous commencé ?
 
-L’homme jeta un regard inquiet sur sa famille attentive
-derrière lui. Il hésita un instant encore, puis, tout à coup, se
-décida.
+L’homme jeta un regard inquiet sur sa famille attentive derrière lui. Il hésita un instant encore, puis, tout à coup, se décida.
 
-« Je r’venais un soir, qu’il était p’t-être dix heures, le
-lend’main que vous étiez ici. Vous, et pi vos soldats, vous
-m’aviez pris pour pu de chinquante écus de fourrage avec
-une vaque et deux moutons. Je me dis : Tant qu’i me
-prendront de fois vingt écus, tant que je leur y revaudrai ça.
-Et pi j’avais d’autres choses itou su l’cœur, que j’ vous dirai.
-V’là qu’ j’en aperçois un d’ vos cavaliers qui fumait sa pipe su
-mon fossé, derrière ma grange. J’allai décrocher ma faux et
-je r’vins à p’tits pas par derrière, qu’il n’entendit seulement
-rien. Et j’li coupai la tête d’un coup, d’un seul, comme un
-épi, qu’il n’a pas seulement dit “ouf !” Vous n’auriez qu’à
-chercher au fond d’ la mare : vous le trouveriez dans un sac à
-charbon, avec une pierre de la barrière.
+« Je r’venais un soir, qu’il était p’t-être dix heures, le lend’main que vous étiez ici. Vous, et pi vos soldats, vous m’aviez pris pour pu de chinquante écus de fourrage avec une vaque et deux moutons. Je me dis : Tant qu’i me prendront de fois vingt écus, tant que je leur y revaudrai ça. Et pi j’avais d’autres choses itou su l’cœur, que j’ vous dirai. V’là qu’ j’en aperçois un d’ vos cavaliers qui fumait sa pipe su mon fossé, derrière ma grange. J’allai décrocher ma faux et je r’vins à p’tits pas par derrière, qu’il n’entendit seulement rien. Et j’li coupai la tête d’un coup, d’un seul, comme un épi, qu’il n’a pas seulement dit “ouf !” Vous n’auriez qu’à chercher au fond d’ la mare : vous le trouveriez dans un sac à charbon, avec une pierre de la barrière.
 
-« J’avais mon idée. J’ pris tous ses effets d’puis les bottes
-jusqu’au bonnet et je les cachai dans le four à plâtre du bois
-Martin, derrière la cour. »
+« J’avais mon idée. J’ pris tous ses effets d’puis les bottes jusqu’au bonnet et je les cachai dans le four à plâtre du bois Martin, derrière la cour. »
 
 Le vieux se tut. Les officiers, interdits, se regardaient.
 L’interrogatoire recommença ; et voici ce qu’ils apprirent.
