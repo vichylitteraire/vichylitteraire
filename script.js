@@ -38,51 +38,42 @@ function setLanguage(lang) {
     loadStory(); 
 }
 
-function loadStory() {
-    let readStories = JSON.parse(localStorage.getItem('readStories')) || [];
-    let availableIndices = [];
-    for (let i = 0; i < stories.length; i++) {
-        if (!readStories.includes(i)) availableIndices.push(i);
-    }
-    if (availableIndices.length === 0) {
-        readStories = [];
-        availableIndices = stories.map((_, index) => index);
-    }
-    const randomIndex = Math.floor(Math.random() * availableIndices.length);
-    const newIndex = availableIndices[randomIndex];
-    currentStoryIndex = newIndex;
-    readStories.push(newIndex);
-    localStorage.setItem('readStories', JSON.stringify(readStories));
+function loadStory(story) {
+    const container = document.getElementById('story-container');
+    container.innerHTML = ''; 
 
-    const story = stories[currentStoryIndex];
-    document.getElementById('story-title').innerText = story.title[currentLang];
-    document.getElementById('story-content').innerText = story.content[currentLang];
-    document.getElementById('author-name').innerText = story.author;
+    // 1. Заголовок
+    const title = document.createElement('h1');
+    title.textContent = story.title[currentLanguage];
+    container.appendChild(title);
 
-    // --- НОВОЕ: ЛОГИКА КНОПКИ "ЧИТАТЬ БОЛЬШЕ" ---
-    const readMoreBtn = document.getElementById('read-more-btn'); // НОВОЕ
-    if (readMoreBtn) {                                           // НОВОЕ
-        if (story.link) {                                       // НОВОЕ
-            readMoreBtn.href = story.link;                      // НОВОЕ
-            readMoreBtn.innerText = (currentLang === 'en') ? "Read more →" : "Lire la suite →"; // НОВОЕ
-            readMoreBtn.style.display = 'inline-block';         // НОВОЕ
-        } else {                                                // НОВОЕ
-            readMoreBtn.style.display = 'none';                 // НОВОЕ
-        }                                                       // НОВОЕ
-    }                                                           // НОВОЕ
-    // ------------------------------------------
+    // 2. Контент
+    const content = document.createElement('div');
+    content.className = 'story-content';
+    content.textContent = story.content[currentLanguage];
+    container.appendChild(content);
+
+    // --- КНОПКА ПО ЦЕНТРУ ---
+    const btnWrapper = document.createElement('div');
+    btnWrapper.className = 'btn-center-wrapper';
+
+    const readMoreBtn = document.createElement('a');
+    readMoreBtn.className = 'read-more-link';
     
-    const btnNext = document.getElementById('btn-next');
-    const labelAuthor = document.getElementById('label-author');
-    const likeText = document.getElementById('like-text');
-    if (btnNext) btnNext.innerText = (currentLang === 'en') ? "Another story 🎲" : "Autre histoire 🎲";
-    if (labelAuthor) labelAuthor.innerText = (currentLang === 'en') ? "By" : "Par";
-    if (likeText) likeText.innerText = (currentLang === 'en') ? "Like" : "J'aime";
-
-    document.querySelector('.like-button').classList.remove('liked');
+    // Переключение между Французским и Английским
+    readMoreBtn.textContent = currentLanguage === 'fr' ? 'Lire la suite' : 'Read more';
     
-    applyAds();
-    window.scrollTo(0, 0);
+    readMoreBtn.href = story.link || '#';
+    readMoreBtn.target = '_blank';
+
+    btnWrapper.appendChild(readMoreBtn);
+    container.appendChild(btnWrapper); 
+
+    // --- АВТОР ---
+    const author = document.createElement('p');
+    author.className = 'author-name';
+    author.textContent = `Par ${story.author}`; // Можно оставить "Par", это понятно на обоих языках
+    container.appendChild(author);
 }
 
 function applyAds() {
