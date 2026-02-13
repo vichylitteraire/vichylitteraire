@@ -58,6 +58,19 @@ function loadStory() {
     document.getElementById('story-title').innerText = story.title[currentLang];
     document.getElementById('story-content').innerText = story.content[currentLang];
     document.getElementById('author-name').innerText = story.author;
+
+    // --- НОВОЕ: ЛОГИКА КНОПКИ "ЧИТАТЬ БОЛЬШЕ" ---
+    const readMoreBtn = document.getElementById('read-more-btn'); // НОВОЕ
+    if (readMoreBtn) {                                           // НОВОЕ
+        if (story.link) {                                       // НОВОЕ
+            readMoreBtn.href = story.link;                      // НОВОЕ
+            readMoreBtn.innerText = (currentLang === 'en') ? "Read more →" : "Lire la suite →"; // НОВОЕ
+            readMoreBtn.style.display = 'inline-block';         // НОВОЕ
+        } else {                                                // НОВОЕ
+            readMoreBtn.style.display = 'none';                 // НОВОЕ
+        }                                                       // НОВОЕ
+    }                                                           // НОВОЕ
+    // ------------------------------------------
     
     const btnNext = document.getElementById('btn-next');
     const labelAuthor = document.getElementById('label-author');
@@ -70,6 +83,7 @@ function loadStory() {
     
     applyAds();
     window.scrollTo(0, 0);
+}
 }
 
 function applyAds() {
