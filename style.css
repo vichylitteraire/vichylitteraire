@@ -85,37 +85,49 @@ h2#story-title {
     white-space: pre-line; /* Чтобы сохранялись абзацы */
 }
 
-.meta {
+meta {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; /* Выравнивает всех по центру вертикали */
     border-top: 1px solid #eee;
-    padding-top: 25px;
+    padding-top: 20px;
     margin-top: 20px;
 }
-.action-btn, .author-info {
-    height: 40px; /* Фиксированная высота для всех */
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+
+/* Общие правила для кнопок и автора */
+.action-btn, 
+.author-info {
+    /* Обнуляем отступы и ставим общую высоту */
+    margin: 0;
+    height: 38px; 
+    
+    /* Шрифт */
     font-size: 0.9rem;
     font-family: 'Georgia', serif;
-    padding: 0 20px;
-    box-sizing: border-box;
+    
+    /* Центрирование контента внутри */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.action-btn {
-   border: 1px solid #d1d1d1;
+ .action-btn {
+    border: 1px solid #d1d1d1;
     border-radius: 50px;
     background: transparent;
+    padding: 0 18px;
+    color: #555;
     cursor: pointer;
     text-decoration: none;
-    color: #555;
+    box-sizing: border-box;
     transition: 0.3s;
 }
 
 .author-info {
+    padding: 0; 
     font-style: italic;
     color: #333;
+    /* Добавляем невидимую рамку, чтобы высота была ровно как у кнопок */
+    border: 1px solid transparent; 
 }
 
 .action-btn:hover {
