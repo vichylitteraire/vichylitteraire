@@ -304,3 +304,21 @@ color: #c08081;
         opacity: 0;
     }
 }
+@media (max-width: 600px) {
+    .meta {
+        /* Кнопки остаются в ряд по краям или в центре */
+        justify-content: space-around; 
+        gap: 10px;
+    }
+
+    .author-info {
+        /* Занимает 100% ширины, поэтому падает на вторую строку */
+        width: 100%; 
+        order: 2; /* Принудительно ставим вниз */
+        margin-top: 10px;
+        padding-left: 0;
+    }
+    
+    #like-btn { order: 1; }
+    #read-more-btn { order: 1; }
+}
