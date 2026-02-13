@@ -38,29 +38,59 @@ function setLanguage(lang) {
     loadStory(); 
 }
 
+// 2. Основная функция загрузки истории
 function loadStory() {
-    // Получаем случайную историю (или текущую по индексу)
-    // Допустим, она передается или берется из массива stories
+    // Проверяем, существует ли массив stories (из файла stories.js)
+    if (typeof stories === 'undefined' || stories.length === 0) {
+        console.error("Массив 'stories' не найден. Проверь файл stories.js");
+        return;
+    }
+
+    // Выбираем случайную историю
     const story = stories[Math.floor(Math.random() * stories.length)];
-    
-    // 1. Находим элементы, которые уже есть в твоем HTML
+
+    // Находим элементы в твоем HTML (article class="paper")
     const titleEl = document.getElementById('story-title');
     const contentEl = document.getElementById('story-content');
-    const authorEl = document.getElementById('author-name');
+    const authorNameEl = document.getElementById('author-name');
     const readMoreBtn = document.getElementById('read-more-btn');
 
-    // 2. Заполняем их текстом
-    if (titleEl) titleEl.textContent = story.title[currentLanguage];
-    if (contentEl) contentEl.textContent = story.content[currentLanguage];
-    if (authorEl) authorEl.textContent = story.author;
+    // Заполняем заголовок и основной текст
+    if (titleEl) {
+        titleEl.textContent = story.title[currentLanguage] || story.title['fr'];
+    }
+    
+    if (contentEl) {
+        contentEl.textContent = story.content[currentLanguage] || story.content['fr'];
+    }
 
-    // 3. Настраиваем кнопку "Lire la suite"
+    // Заполняем имя автора
+    if (authorNameEl) {
+        authorNameEl.textContent = story.author;
+    }
+
+    // Настраиваем кнопку "Lire la suite / Read more"
     if (readMoreBtn) {
-        readMoreBtn.href = story.link || "#";
-        readMoreBtn.textContent = currentLanguage === 'fr' ? 'Lire la suite →' : 'Read more →';
-        readMoreBtn.style.display = 'inline-block'; // Показываем, если была скрыта
+        if (story.link && story.link !== "#") {
+            readMoreBtn.href = story.link;
+            readMoreBtn.textContent = currentLanguage === 'fr' ? 'Lire la suite →' : 'Read more →';
+            readMoreBtn.style.display = 'inline-block'; // Показываем кнопку
+        } else {
+            readMoreBtn.style.display = 'none'; // Скрываем, если ссылки нет в stories.js
+        }
     }
 }
+
+// 3. Запуск при загрузке страницы
+document.addEventListener('DOMContentLoaded', () => {
+    loadStory(); // Загружаем первую историю сразу
+    
+    // Вешаем событие на кнопку "Autre histoire"
+    const nextBtn = document.querySelector('.next-btn');
+    if (nextBtn) {
+        nextBtn.addEventListener('click', loadStory);
+    }
+});
 
 function openLegal() {
     const modal = document.getElementById('legal-modal');
