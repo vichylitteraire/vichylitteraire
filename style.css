@@ -97,9 +97,7 @@ meta {
 
 .action-btn, 
 .author-info {
-    height: 40px;             /* Единая высота */
     font-family: 'Georgia', serif;
-    display: flex;            /* Чтобы текст внутри тоже центрировался */
     align-items: center;
     justify-content: center;
     margin: 0;                /* Убираем внешние отступы */
@@ -108,6 +106,8 @@ meta {
 
 /* Кнопки: овальные и аккуратные */
 .action-btn {
+    display: flex;
+    justify-content: space-between;
     border: 1px solid #d1d1d1;
     border-radius: 40px;      /* Овальность */
     background: transparent;
