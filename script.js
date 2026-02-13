@@ -84,7 +84,6 @@ function loadStory() {
     applyAds();
     window.scrollTo(0, 0);
 }
-}
 
 function applyAds() {
     const urlParams = new URLSearchParams(window.location.search);
