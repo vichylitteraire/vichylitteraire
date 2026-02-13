@@ -158,10 +158,11 @@ body {
 }
 
 .btns {
-     display: block;
+     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: 5px;
 }
 .email-btn {
     border: 1px solid #fff0f3;
