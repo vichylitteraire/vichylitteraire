@@ -25,7 +25,7 @@ Tu es mon dernier fil. Tu es mon apaisement. Et pourtant, seulement pour un temp
 Je crie jusqu’à ce que revienne celle pour qui je suis encore en vie.
 `, 
                 author: "Imani S.",
-                hasMore: false
+                hasMore: true
             },
             { 
                 title: "Le père Milon", 
