@@ -360,16 +360,21 @@ body {
     100% { transform: scale(1); }
 }
 
+.author-info {
+    display: flex;
+    flex-direction: column; /* Кнопка над именем автора */
+    align-items: center;    /* Центрирование */
+    gap: 15px;
+    margin-top: 30px;
+}
+
 #read-more-btn {
-    display: block;
+    display: none; /* JS включит, если есть ссылка */
     text-align: center;
-    font-family: 'serif'; /* или тот шрифт, что у тебя для контента */
+    font-family: serif;
     font-style: italic;
-    color: #333;
     text-decoration: underline;
-    font-size: 0.9rem;
-    margin: 15px auto; /* Центрирует и дает отступы */
-    transition: opacity 0.3s;
+    color: #000;
 }
 
 #read-more-btn:hover {
