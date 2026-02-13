@@ -375,3 +375,11 @@ body {
 #read-more-btn:hover {
     opacity: 0.7;
 }
+
+/* Находим кнопку по тегу или классу */
+a[href*="http"] { 
+    display: table;    /* Позволяет центрировать через margin */
+    margin: 20px auto; /* Магия: auto ставит элемент по центру */
+    text-align: center;
+    width: auto;
+}
