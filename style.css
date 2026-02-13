@@ -376,10 +376,28 @@ body {
     opacity: 0.7;
 }
 
-/* Находим кнопку по тегу или классу */
-a[href*="http"] { 
-    display: table;    /* Позволяет центрировать через margin */
-    margin: 20px auto; /* Магия: auto ставит элемент по центру */
-    text-align: center;
-    width: auto;
+/* Обертка для центрирования */
+.btn-center-wrapper {
+    display: flex;
+    justify-content: center; /* Центр по горизонтали */
+    width: 100%;
+    margin: 25px 0;          /* Отступы сверху и снизу */
+}
+
+/* Сама ссылка */
+.read-more-link {
+    font-family: serif;
+    font-style: italic;
+    text-decoration: underline;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+/* Автор (останется справа, если нужно) */
+.author-name {
+    text-align: right;
+    width: 100%;
+    font-size: 14px;
 }
