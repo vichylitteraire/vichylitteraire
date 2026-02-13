@@ -21,40 +21,40 @@ function setLanguage(lang) {
 function loadStory() {
     if (typeof stories === 'undefined' || stories.length === 0) return;
 
-    // ЛОГИКА НЕПОВТОРЕНИЯ
-    if (availableStories.length === 0) {
-        availableStories = [...stories]; // Копируем массив, если он пуст
-    }
-    
-    // Выбираем случайный индекс из доступных
-    const randomIndex = Math.floor(Math.random() * availableStories.length);
-    const story = availableStories.splice(randomIndex, 1)[0]; // Забираем историю, чтобы она не повторилась
+    const story = stories[Math.floor(Math.random() * stories.length)];
 
     const titleEl = document.getElementById('story-title');
     const contentEl = document.getElementById('story-content');
     const authorNameEl = document.getElementById('author-name');
     const readMoreBtn = document.getElementById('read-more-btn');
 
-    // Наполнение контентом
-    if (titleEl) titleEl.textContent = story.title[currentLang] || story.title['fr'];
-    if (contentEl) contentEl.textContent = story.content[currentLang] || story.content['fr'];
-    if (authorNameEl) authorNameEl.textContent = story.author;
+    if (titleEl) {
+        titleEl.textContent = story.title[currentLang] || story.title['fr'];
+    }
+    
+    if (contentEl) {
+        // ВОЗВРАЩАЕМ ПРОБЕЛЫ И АБЗАЦЫ
+        contentEl.style.whiteSpace = 'pre-wrap'; 
+        contentEl.textContent = story.content[currentLang] || story.content['fr'];
+    }
 
-    // РАБОТА С КНОПКОЙ "ЧИТАТЬ ДАЛЕЕ"
+    if (authorNameEl) {
+        authorNameEl.textContent = story.author;
+    }
+
+    // КНОПКА ПОЯВИТСЯ ТУТ
     if (readMoreBtn) {
         if (story.link && story.link !== "#") {
             readMoreBtn.href = story.link;
             readMoreBtn.textContent = currentLang === 'fr' ? 'Lire la suite →' : 'Read more →';
-            readMoreBtn.style.display = 'inline-block';
+            readMoreBtn.style.display = 'inline-block'; 
         } else {
-            readMoreBtn.style.display = 'none';
+            readMoreBtn.style.display = 'none'; 
         }
     }
 
-    // СКРОЛЛ НАВЕРХ ПРИ СМЕНЕ ИСТОРИИ
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo(0, 0); // Твой скролл вверх
 }
-
 // 3. Запуск
 document.addEventListener('DOMContentLoaded', () => {
     loadStory();
