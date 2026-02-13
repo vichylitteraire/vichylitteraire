@@ -29,6 +29,7 @@ const ads = {
     }
 };
 
+// Функция переключения языка
 function setLanguage(lang) {
     currentLang = lang;
     const langScreen = document.getElementById('language-screen');
@@ -40,7 +41,7 @@ function setLanguage(lang) {
 
 // 2. Основная функция загрузки истории
 function loadStory() {
-    // Проверяем, существует ли массив stories (из файла stories.js)
+    // Проверяем наличие массива stories из файла stories.js
     if (typeof stories === 'undefined' || stories.length === 0) {
         console.error("Массив 'stories' не найден. Проверь файл stories.js");
         return;
@@ -49,19 +50,19 @@ function loadStory() {
     // Выбираем случайную историю
     const story = stories[Math.floor(Math.random() * stories.length)];
 
-    // Находим элементы в твоем HTML (article class="paper")
+    // Находим элементы в HTML
     const titleEl = document.getElementById('story-title');
     const contentEl = document.getElementById('story-content');
     const authorNameEl = document.getElementById('author-name');
     const readMoreBtn = document.getElementById('read-more-btn');
 
-    // Заполняем заголовок и основной текст
+    // Заполняем заголовок и контент, используя currentLang
     if (titleEl) {
-        titleEl.textContent = story.title[currentLanguage] || story.title['fr'];
+        titleEl.textContent = story.title[currentLang] || story.title['fr'];
     }
     
     if (contentEl) {
-        contentEl.textContent = story.content[currentLanguage] || story.content['fr'];
+        contentEl.textContent = story.content[currentLang] || story.content['fr'];
     }
 
     // Заполняем имя автора
@@ -69,29 +70,32 @@ function loadStory() {
         authorNameEl.textContent = story.author;
     }
 
-    // Настраиваем кнопку "Lire la suite / Read more"
+    // Настраиваем кнопку ссылки (Lire la suite / Read more)
     if (readMoreBtn) {
         if (story.link && story.link !== "#") {
             readMoreBtn.href = story.link;
-            readMoreBtn.textContent = currentLanguage === 'fr' ? 'Lire la suite →' : 'Read more →';
-            readMoreBtn.style.display = 'inline-block'; // Показываем кнопку
+            readMoreBtn.target = "_blank"; // Открывать в новой вкладке
+            readMoreBtn.textContent = currentLang === 'fr' ? 'Lire la suite →' : 'Read more →';
+            readMoreBtn.style.display = 'inline-block'; 
         } else {
-            readMoreBtn.style.display = 'none'; // Скрываем, если ссылки нет в stories.js
+            readMoreBtn.style.display = 'none'; // Скрываем, если ссылки нет
         }
     }
 }
 
 // 3. Запуск при загрузке страницы
 document.addEventListener('DOMContentLoaded', () => {
-    loadStory(); // Загружаем первую историю сразу
+    // Если экран выбора языка уже пройден или не нужен, загружаем историю
+    loadStory(); 
     
-    // Вешаем событие на кнопку "Autre histoire"
+    // Кнопка "Autre histoire"
     const nextBtn = document.querySelector('.next-btn');
     if (nextBtn) {
         nextBtn.addEventListener('click', loadStory);
     }
 });
 
+// Юридическая модалка
 function openLegal() {
     const modal = document.getElementById('legal-modal');
     if (modal) { modal.style.display = 'block'; document.body.style.overflow = 'hidden'; }
@@ -102,13 +106,10 @@ function closeLegal() {
     if (modal) { modal.style.display = 'none'; document.body.style.overflow = 'auto'; }
 }
 
-
+// Эффект Sparkle (лайк)
 function sparkle(e) {
-    // 1. Переключаем красный цвет кнопки
-    // toggle значит: если класса нет — добавит, если есть — уберет
     e.currentTarget.classList.toggle('liked');
 
-    // 2. Логика вылетающих сердечек
     const emojis = ['❤️', '💖', '✨', '🌸'];
     for (let i = 0; i < 6; i++) {
         const p = document.createElement('span');
