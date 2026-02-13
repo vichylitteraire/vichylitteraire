@@ -87,7 +87,7 @@ h2#story-title {
 
 meta {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center; /* Выравнивает всех по центру вертикали */
     flex-direction: row;
     border-top: 1px solid #eee;
@@ -97,7 +97,10 @@ meta {
 
 .action-btn, 
 .author-info {
+    height: 40px;             /* Единая высота */
+    font-size: 0.5rem;
     font-family: 'Georgia', serif;
+    display: flex;            /* Чтобы текст внутри тоже центрировался */
     align-items: center;
     justify-content: center;
     margin: 0;                /* Убираем внешние отступы */
@@ -106,8 +109,6 @@ meta {
 
 /* Кнопки: овальные и аккуратные */
 .action-btn {
-    display: flex;
-    justify-content: space-between;
     border: 1px solid #d1d1d1;
     border-radius: 40px;      /* Овальность */
     background: transparent;
