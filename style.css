@@ -85,11 +85,12 @@ h2#story-title {
     white-space: pre-line; /* Чтобы сохранялись абзацы */
 }
 
-meta {
+.meta {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center; /* Выравнивает всех по центру вертикали */
     border-top: 1px solid #eee;
+    width: 100%
     padding-top: 20px;
     margin-top: 20px;
 }
