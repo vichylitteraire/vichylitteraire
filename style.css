@@ -144,10 +144,6 @@ body {
 
 /* БЛОК ПОЧТЫ */
 .contact-box {
-    display: block;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     text-align: center;
     margin-top: 30px;
     padding-bottom: 40px;
@@ -161,6 +157,12 @@ body {
     margin-bottom: 8px;
 }
 
+.btns {
+     display: block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 .email-btn {
     border: 1px solid #fff0f3;
     color: #1a1a1a;
