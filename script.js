@@ -38,83 +38,29 @@ function setLanguage(lang) {
     loadStory(); 
 }
 
-function loadStory(story) {
-    const container = document.getElementById('story-container');
-    container.innerHTML = ''; 
-
-    // 1. Заголовок
-    const title = document.createElement('h1');
-    title.textContent = story.title[currentLanguage];
-    container.appendChild(title);
-
-    // 2. Контент
-    const content = document.createElement('div');
-    content.className = 'story-content';
-    content.textContent = story.content[currentLanguage];
-    container.appendChild(content);
-
-    // --- КНОПКА ПО ЦЕНТРУ ---
-    const btnWrapper = document.createElement('div');
-    btnWrapper.className = 'btn-center-wrapper';
-
-    const readMoreBtn = document.createElement('a');
-    readMoreBtn.className = 'read-more-link';
+function loadStory() {
+    // Получаем случайную историю (или текущую по индексу)
+    // Допустим, она передается или берется из массива stories
+    const story = stories[Math.floor(Math.random() * stories.length)];
     
-    // Переключение между Французским и Английским
-    readMoreBtn.textContent = currentLanguage === 'fr' ? 'Lire la suite' : 'Read more';
-    
-    readMoreBtn.href = story.link || '#';
-    readMoreBtn.target = '_blank';
+    // 1. Находим элементы, которые уже есть в твоем HTML
+    const titleEl = document.getElementById('story-title');
+    const contentEl = document.getElementById('story-content');
+    const authorEl = document.getElementById('author-name');
+    const readMoreBtn = document.getElementById('read-more-btn');
 
-    btnWrapper.appendChild(readMoreBtn);
-    container.appendChild(btnWrapper); 
+    // 2. Заполняем их текстом
+    if (titleEl) titleEl.textContent = story.title[currentLanguage];
+    if (contentEl) contentEl.textContent = story.content[currentLanguage];
+    if (authorEl) authorEl.textContent = story.author;
 
-    // --- АВТОР ---
-    const author = document.createElement('p');
-    author.className = 'author-name';
-    author.textContent = `Par ${story.author}`; // Можно оставить "Par", это понятно на обоих языках
-    container.appendChild(author);
-}
-
-function applyAds() {
-    const urlParams = new URLSearchParams(window.location.search);
-    let cafeName = urlParams.get('place');
-    
-    // Если в ссылке нет кафе, принудительно ставим 'main'
-    if (!cafeName || !ads[cafeName]) {
-        cafeName = 'main';
-    }
-    
-    const cafeBox = document.getElementById('cafe-ad-box');
-    const adText = document.getElementById('ad-text');
-    const adLink = document.getElementById('ad-link');
-    const adImage = document.getElementById('ad-image');
-    const contactLabel = document.getElementById('contact-label');
-    const emailLink = document.getElementById('email-link');
-    const myEmail = "vichylitteraire@gmail.com";
-    
-    if (contactLabel) contactLabel.innerText = (currentLang === 'en') ? "Contact us:" : "Pour nous contacter :";
-    if (emailLink) {
-        emailLink.innerText = myEmail;
-        emailLink.href = "mailto:" + myEmail + "?subject=Publicité Vichy Littéraire"; 
-    }
-
-    // Теперь блок всегда будет показываться, используя либо кафе, либо 'main'
-    if (cafeBox) {
-        cafeBox.style.display = 'block';
-        const currentAd = ads[cafeName];
-        if (adText) adText.innerText = currentAd.text[currentLang];
-        if (adImage && currentAd.image) adImage.src = currentAd.image;
-        if (adLink) {
-            adLink.href = currentAd.url || "#";
-            adLink.innerText = (currentLang === 'en') ? "Learn more →" : "En savoir plus →";
-        }
+    // 3. Настраиваем кнопку "Lire la suite"
+    if (readMoreBtn) {
+        readMoreBtn.href = story.link || "#";
+        readMoreBtn.textContent = currentLanguage === 'fr' ? 'Lire la suite →' : 'Read more →';
+        readMoreBtn.style.display = 'inline-block'; // Показываем, если была скрыта
     }
 }
-
-window.addEventListener('load', () => {
-    setTimeout(() => { window.scrollTo(0, 0); }, 600);
-});
 
 function openLegal() {
     const modal = document.getElementById('legal-modal');
