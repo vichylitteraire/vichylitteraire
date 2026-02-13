@@ -144,6 +144,7 @@ body {
 
 /* БЛОК ПОЧТЫ */
 .contact-box {
+    display: block;
     text-align: center;
     margin-top: 30px;
     padding-bottom: 40px;
@@ -171,6 +172,19 @@ body {
     border-bottom-color: #d05b7a;
 }
 
+.insta-btn {
+      color: #1a1a1a;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    border-bottom: 1px solid #ccc;
+    transition: 0.3s;
+}
+.insta-btn:hover {
+    color: #d05b7a;
+    border-bottom-color: #d05b7a;
+}
+    
 /* Надпись внизу главного экрана */
 .copyright-notice {
     position: absolute;
