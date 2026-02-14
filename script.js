@@ -46,21 +46,21 @@ function loadStory() {
 
    const readMoreBtn = document.getElementById('read-more-btn');
 
-    if (storyData.hasMore && storyData.buyLink) {
-        readMoreBtn.style.display = 'flex';
-        readMoreBtn.href = storyData.buyLink;
-        readMoreBtn.target = "_blank"; 
+if (storyData.hasMore && storyData.buyLink) {
+    readMoreBtn.style.display = 'flex';
+    readMoreBtn.href = storyData.buyLink;
+    readMoreBtn.target = "_blank";
 
-        // ВОТ ЭТА СТРОКА ВЕРНЕТ НАДПИСЬ:
-        // Если у тебя есть переменная langData, лучше так:
-        readMoreBtn.textContent = langData.readMore; 
-        
-        // Или если хочешь просто текстом (но тогда он не будет меняться на английский):
-        // readMoreBtn.textContent = 'Lire la suite'; 
-        
+    // Прямая проверка языка и установка текста
+    if (currentLang === 'fr') {
+        readMoreBtn.textContent = "Lire la suite";
     } else {
-        readMoreBtn.style.display = 'none';
+        readMoreBtn.textContent = "Read more";
     }
+    
+} else {
+    readMoreBtn.style.display = 'none';
+}
 
     document.getElementById('cafe-ad-box').style.display = 'flex';
     window.scrollTo({ top: 0, behavior: 'smooth' });
