@@ -48,8 +48,16 @@ function loadStory() {
 
     if (storyData.hasMore && storyData.buyLink) {
         readMoreBtn.style.display = 'flex';
-        readMoreBtn.href = storyData.buyLink; // Устанавливаем ссылку на издательство
-        readMoreBtn.target = "_blank";       // Чтобы открывалось в новой вкладке
+        readMoreBtn.href = storyData.buyLink;
+        readMoreBtn.target = "_blank"; 
+
+        // ВОТ ЭТА СТРОКА ВЕРНЕТ НАДПИСЬ:
+        // Если у тебя есть переменная langData, лучше так:
+        readMoreBtn.textContent = langData.readMore; 
+        
+        // Или если хочешь просто текстом (но тогда он не будет меняться на английский):
+        // readMoreBtn.textContent = 'Lire la suite'; 
+        
     } else {
         readMoreBtn.style.display = 'none';
     }
