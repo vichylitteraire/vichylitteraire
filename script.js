@@ -44,15 +44,14 @@ function loadStory() {
         hasLikedCurrentStory = false;
     }
 
-    // --- КНОПКА ЧИТАТЬ ДАЛЬШЕ ---
-    const readMoreBtn = document.getElementById('read-more-btn');
-    if (readMoreBtn) {
-        if (storyData.hasMore) {
-            readMoreBtn.innerText = langData.readMore || (currentLang === 'fr' ? "Lire la suite" : "Read more");
-            readMoreBtn.style.display = 'inline-flex';
-        } else {
-            readMoreBtn.style.display = 'none';
-        }
+   const readMoreBtn = document.getElementById('read-more-btn');
+
+    if (storyData.hasMore && storyData.buyLink) {
+        readMoreBtn.style.display = 'flex';
+        readMoreBtn.href = storyData.buyLink; // Устанавливаем ссылку на издательство
+        readMoreBtn.target = "_blank";       // Чтобы открывалось в новой вкладке
+    } else {
+        readMoreBtn.style.display = 'none';
     }
 
     document.getElementById('cafe-ad-box').style.display = 'flex';
