@@ -45,6 +45,9 @@ body {
     background: #c08081; /* При наведении становится розовым */
 }
 
+.copyright-notice {
+    margin-top: 100px;
+
 /* ГЛАВНЫЙ КОНТЕНТ */
 header {
     padding: 20px;
