@@ -19,6 +19,30 @@ function setLanguage(lang) {
     loadStory();
 }
 
+
+
+
+/* ЛОГИКА ХВОСТИКОВ ДЛЯ АНАЛИТИКИ (PLACE) */
+document.addEventListener('DOMContentLoaded', () => {
+    const params = new URLSearchParams(window.location.search);
+    const placeId = params.get('place'); // Теперь ищем "place"
+
+    if (placeId) {
+        // Чтобы хвостик не пропадал при кликах на кнопки
+        document.querySelectorAll('a, button').forEach(el => {
+            el.addEventListener('click', () => {
+                const url = new URL(window.location.href);
+                url.searchParams.set('place', placeId);
+                window.history.replaceState({}, '', url);
+            });
+        });
+        console.log("Локация зафиксирована: " + placeId);
+    }
+});
+
+
+
+
 function loadStory() {
     const langData = STORIES_DATA[currentLang];
     const storyData = langData.stories[shuffledIndices[currentIndex]];
