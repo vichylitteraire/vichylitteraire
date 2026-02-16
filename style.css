@@ -153,11 +153,6 @@ h2#story-title {
     color: #000;
 }
 
-#btn-next:hover {
-    background: #333;
-    color: white;
-}
-
 /* СВЕТЛО-РОЗОВЫЙ КВАДРАТ (Ad Box) */
 .ad-box {
     background-color: #fce4e4; /* Нежный светло-розовый */
@@ -204,7 +199,10 @@ h2#story-title {
     margin-bottom: 5px;
 }
 .inst-btn {
-box-shadow: 0 0 12px rgba(212, 132, 132, 0.3);
+color: #d48484;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 5px;
 }
 
 
