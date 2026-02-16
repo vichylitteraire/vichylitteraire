@@ -43,6 +43,7 @@ body {
 
 .lang-buttons button:hover {
     background: #c08081; /* При наведении становится розовым */
+    box-shadow: 0 0 12px rgba(212, 132, 132, 0.3);
 }
 
 /* ГЛАВНЫЙ КОНТЕНТ */
@@ -186,6 +187,10 @@ h2#story-title {
     background: #d48484;
 }
 
+#ad-link:hover {
+     box-shadow: 0 0 12px rgba(212, 132, 132, 0.3);
+}
+
 /* КОНТАКТЫ */
 .contact-box {
     text-align: center;
@@ -199,10 +204,9 @@ h2#story-title {
     margin-bottom: 5px;
 }
 .inst-btn {
-color: #d48484;
-    font-weight: bold;
-    text-decoration: none;
+box-shadow: 0 0 12px rgba(212, 132, 132, 0.3);
 }
+
 
 .btns {
     display: flex;
