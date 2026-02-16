@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    background-color: #fcfaf8; /* Светлый беж, как книжная бумага */
+    background-color: #fcfaf8; /* Очень светлый беж, как книжная бумага */
     line-height: 1.7;
 }
 
@@ -19,21 +19,30 @@ body {
     padding: 20px;
 }
 
+.lang-box {
+    max-width: 500px;
+}
+
+.selectlang {
+    font-style: italic;
+    margin: 30px 0 15px;
+    color: #666;
+}
+
 .lang-buttons button {
-    background: #00c2cb; /* ЦВЕТ С ВИЗИТКИ */
+    background: #00c2cb;
     color: white;
     border: none;
     padding: 12px 25px;
-    margin: 15px;
+    margin: 20px;
     font-family: inherit;
     cursor: pointer;
     transition: 0.3s;
     border-radius: 4px;
-    font-weight: bold;
 }
 
 .lang-buttons button:hover {
-    background: #00a8af; /* Чуть темнее при наведении */
+    background: #c08081; /* При наведении становится розовым */
 }
 
 /* ГЛАВНЫЙ КОНТЕНТ */
@@ -48,7 +57,6 @@ header {
     font-weight: bold;
     letter-spacing: 3px;
     font-size: 1.2rem;
-    color: #00c2cb; /* Лого в цвет визитки */
 }
 
 .wrapper {
@@ -71,44 +79,77 @@ h2#story-title {
     text-align: center;
 }
 
+#story-content {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    white-space: pre-line; /* Чтобы сохранялись абзацы */
+}
+
+.meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Выравнивает всех по центру вертикали */
+    border-top: 1px solid #eee;
+    width: 100%
+    padding-top: 20px;
+    margin-top: 30px;
+}
+
+.action-btn, 
+.author-info {
+    height: 40px;             /* Единая высота */
+    font-size: 0.7rem;
+    font-family: 'Georgia', serif;
+    display: flex;            /* Чтобы текст внутри тоже центрировался */
+    align-items: center;
+    justify-content: center;
+    margin: 0;                /* Убираем внешние отступы */
+    box-sizing: border-box;
+}
+
 /* Кнопки: овальные и аккуратные */
 .action-btn {
     border: 1px solid #00c2cb;
-    border-radius: 40px;
+    border-radius: 40px;      /* Овальность */
     background: transparent;
     padding: 0 15px;
-    color: #00c2cb;
+    color: #555;
     cursor: pointer;
     text-decoration: none;
-    white-space: nowrap;
+    white-space: nowrap;      /* Запрет переноса текста внутри кнопки */
+}
+ .action-btn {
     transition: 0.3s;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
 }
 
+
 .action-btn:hover {
-    background: #e6f9fa; /* Очень легкий оттенок бирюзы */
+    background: #fce4e4; /* Наш светлый розовый */
+    border-color: #c08081;
+}
+
+.author-info {
+    color: #333;
+    padding-left: 10px;       /* Небольшой отступ от центральной кнопки */
+}
+
+#author-name {
+    margin-left: 5px;
 }
 
 /* КНОПКА СЛЕДУЮЩАЯ ИСТОРИЯ */
 #btn-next {
     display: block;
-    width: 220px;
+    width: 200px;
     margin: 40px auto;
     background: #00c2cb;
     border: 1px solid #00c2cb;
-    padding: 12px;
+    padding: 10px;
     cursor: pointer;
     font-family: inherit;
     transition: 0.3s;
     border-radius: 5px;
-    color: white;
-    font-weight: bold;
-    text-align: center;
+    color: #000;
 }
 
 #btn-next:hover {
@@ -116,78 +157,170 @@ h2#story-title {
     color: white;
 }
 
-/* БИРЮЗОВЫЙ КВАДРАТ (Ad Box) — Теперь точно как визитка */
+/* СВЕТЛО-РОЗОВЫЙ КВАДРАТ (Ad Box) */
 .ad-box {
-    background-color: #00c2cb; 
-    color: white;
+    background-color: #fce4e4; /* Нежный светло-розовый */
     width: 100%;
     max-width: 400px;
-    margin: 20px auto;
+    margin: 0 auto;
     padding: 40px;
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 1 / 1; /* Квадрат */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     box-sizing: border-box;
-    border-radius: 8px;
+    border-radius: 5%;
 }
 
 #ad-link {
     display: inline-block;
-    margin-top: 20px;
-    padding: 10px 25px;
-    border: 1px solid white;
+    margin-top: 15px;
+    padding: 8px 20px;
+    border: 1px solid #000;
     text-decoration: none;
-    color: white;
+    color: #333;
     font-size: 0.9rem;
     border-radius: 5px;
-    background: rgba(255,255,255,0.1); /* Прозрачный белый */
-    transition: 0.3s;
-}
-
-#ad-link:hover {
-    background: white;
-    color: #00c2cb;
+    background: none;
 }
 
 /* КОНТАКТЫ */
-.email-btn, .inst-btn {
-    color: white;
-    background: #00c2cb;
+.contact-box {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.email-btn {
+    color: #00c2cb;
     font-weight: bold;
     text-decoration: none;
-    border: 1px solid #00c2cb;
+    margin-bottom: 5px;
+}
+.inst-btn {
+color: #00c2cb;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+}
+
+/* COPYRIGHT ВНИЗУ */
+.copyright-notice {
+    margin-top: 30px;
+    font-size: 0.8rem;
+    color: #888;
+}
+
+.legal-link {
+    color: #888;
+    text-decoration: underline;
+}
+
+/* МОДАЛЬНОЕ ОКНО (Mentions Légales) */
+.modal-overlay {
+    display: none; /* Скрыто по умолчанию */
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0,0,0,0.6);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 40px;
+    max-width: 600px;
+    max-height: 80vh;
+    overflow-y: auto;
+    position: relative;
+    border-radius: 8px;
+}
+
+.modal-close {
+    position: absolute;
+    top: 15px; right: 15px;
+    background: none; border: none; font-size: 1.5rem; cursor: pointer;
+}
+
+.modal-title { margin-top: 0; }
+.modal-text h3 { font-size: 1rem; margin-top: 20px; border-bottom: 1px solid #eee; }
+.modal-text p { font-size: 0.9rem; }
+
+.modal-btn-close {
+    width: 100%;
+    margin-top: 25px;
     padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 8px;
-    text-align: center;
-    transition: 0.3s;
-}
-
-.email-btn:hover, .inst-btn:hover {
     background: #333;
-    border-color: #333;
-}
-
-/* СТИЛИ ЛАЙКА И СЕРДЕЧЕК */
-.action-btn.liked {
-    background-color: #00c2cb;
     color: white;
+    border: none;
+    cursor: pointer;
 }
 
+/* Стили для активной (лайкнутой) кнопки "J'aime" */
+.action-btn.liked {
+    background-color: #fce4e4; /* Наш светло-розовый */
+    border-color: #c08081;     /* Цвет пыльной розы */
+    color: #c08081;
+}
+
+/* Стили для контейнера сердечек */
+#heart-container {
+    position: absolute; /* Будет летать над всем */
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Чтобы не блокировал клики */
+    overflow: hidden; /* Чтобы сердечки не вылетали за границы */
+    top: 0;
+    left: 0;
+}
+
+/* Стили для самих сердечек */
 .heart {
     position: absolute;
-    font-size: 1.5rem;
-    color: #00c2cb; /* Сердечки в цвет визитки */
-    animation: fly-up 2s forwards ease-out;
+    font-size: 1.5rem; /* Размер сердечка */
+    color: #c08081; /* Цвет пыльной розы */
+    animation: fly-up 2s forwards ease-out; /* Анимация полета */
     opacity: 0;
+    pointer-events: none;
+    text-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
 
-/* Остальные стили (модалки, анимации) оставляем как были */
-.modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.6); z-index: 1000; justify-content: center; align-items: center; }
-.modal-content { background: white; padding: 40px; max-width: 600px; border-radius: 8px; position: relative; }
-.modal-btn-close { width: 100%; margin-top: 25px; padding: 10px; background: #333; color: white; border: none; cursor: pointer; }
-@keyframes fly-up { 0% { transform: translateY(0) scale(0.5); opacity: 0; } 30% { opacity: 1; transform: translateY(-20px) scale(1); } 100% { transform: translateY(-100px) scale(1.2); opacity: 0; } }
-@media (max-width: 600px) { .meta { flex-wrap: wrap; justify-content: space-around; gap: 10px; } .author-info { width: 100%; order: 2; margin-top: 10px; text-align: center; } }
+/* Анимация полета сердечка */
+@keyframes fly-up {
+    0% {
+        transform: translateY(0) scale(0.5);
+        opacity: 0;
+    }
+    30% {
+        opacity: 1;
+        transform: translateY(-20px) scale(1);
+    }
+    100% {
+        transform: translateY(-100px) scale(1.2); /* Летят выше */
+        opacity: 0;
+    }
+}
+@media (max-width: 600px) {
+    .meta {
+        /* Кнопки остаются в ряд по краям или в центре */
+        justify-content: space-around; 
+        gap: 10px;
+    }
+
+    .author-info {
+        /* Занимает 100% ширины, поэтому падает на вторую строку */
+        width: 100%; 
+        order: 2; /* Принудительно ставим вниз */
+        margin-top: 10px;
+        padding-left: 0;
+    }
+    
+    #like-btn { order: 1; }
+    #read-more-btn { order: 1; }
+}
