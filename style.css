@@ -143,12 +143,13 @@ h2#story-title {
     width: 200px;
     margin: 40px auto;
     background: #00c2cb;
-    border: 1px solid #333;
+    border: 1px solid #00c2cb;
     padding: 10px;
     cursor: pointer;
     font-family: inherit;
     transition: 0.3s;
     border-radius: 5px;
+    color: #000;
 }
 
 #btn-next:hover {
@@ -177,11 +178,12 @@ h2#story-title {
     display: inline-block;
     margin-top: 15px;
     padding: 8px 20px;
-    border: 1px solid #333;
+    border: 1px solid #00c2cb;
     text-decoration: none;
     color: #333;
     font-size: 0.9rem;
     border-radius: 5px;
+    background: #00c2cb;
 }
 
 /* КОНТАКТЫ */
@@ -192,6 +194,7 @@ h2#story-title {
 
 .email-btn {
     color: #000;
+    background: #00c2cb;
     font-weight: bold;
     text-decoration: none;
     border: 1px solid #00c2cb;
@@ -199,6 +202,7 @@ h2#story-title {
 
 .inst-btn {
 color: #000;
+    background: #00c2cb;
     font-weight: bold;
     text-decoration: none;
     border: 1px solid #00c2cb;
