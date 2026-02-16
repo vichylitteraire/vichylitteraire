@@ -31,7 +31,7 @@ body {
 
 .lang-buttons button {
     background: #fce4e4;
-    color: white;
+    color: black;
     border: none;
     padding: 12px 25px;
     margin: 20px;
@@ -43,10 +43,6 @@ body {
 
 .lang-buttons button:hover {
     background: #c08081; /* При наведении становится розовым */
-}
-
-.copyright-notice {
-    margin-top: 100px;
 }
 
 /* ГЛАВНЫЙ КОНТЕНТ */
@@ -197,13 +193,13 @@ h2#story-title {
 }
 
 .email-btn {
-    color: #00c2cb;
+    color: black;
     font-weight: bold;
     text-decoration: none;
     margin-bottom: 5px;
 }
 .inst-btn {
-color: #00c2cb;
+color: black;
     font-weight: bold;
     text-decoration: none;
 }
