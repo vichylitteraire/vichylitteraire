@@ -3,8 +3,8 @@ body {
     font-family: 'Georgia', 'Times New Roman', serif;
     margin: 0;
     padding: 0;
-    color: #333;
-    background-color: #fcfaf8; /* Очень светлый беж, как книжная бумага */
+    color: #2c3e50; /* Глубокий темный для комфортного чтения */
+    background-color: #fdfcfb; /* Тон книжной бумаги */
     line-height: 1.7;
 }
 
@@ -26,23 +26,25 @@ body {
 .selectlang {
     font-style: italic;
     margin: 30px 0 15px;
-    color: #666;
+    color: #7f8c8d;
 }
 
 .lang-buttons button {
-    background: #00c2cb;
+    background: #008b94; /* Фирменный бирюзовый */
     color: white;
     border: none;
     padding: 12px 25px;
-    margin: 20px;
+    margin: 10px;
     font-family: inherit;
     cursor: pointer;
     transition: 0.3s;
     border-radius: 4px;
+    font-size: 1rem;
 }
 
 .lang-buttons button:hover {
-    background: #c08081; /* При наведении становится розовым */
+    background: #00767d; /* Темная бирюза при наведении */
+    transform: translateY(-2px);
 }
 
 /* ГЛАВНЫЙ КОНТЕНТ */
@@ -57,6 +59,7 @@ header {
     font-weight: bold;
     letter-spacing: 3px;
     font-size: 1.2rem;
+    color: #008b94;
 }
 
 .wrapper {
@@ -71,119 +74,131 @@ header {
     padding: 40px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.05);
     margin-bottom: 30px;
+    border-radius: 2px;
 }
 
 h2#story-title {
     font-size: 2rem;
     margin-bottom: 25px;
     text-align: center;
+    color: #2c3e50;
 }
 
 #story-content {
     font-size: 1.1rem;
     margin-bottom: 30px;
-    white-space: pre-line; /* Чтобы сохранялись абзацы */
+    white-space: pre-line;
 }
 
 .meta {
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Выравнивает всех по центру вертикали */
+    align-items: center;
     border-top: 1px solid #eee;
-    width: 100%
+    width: 100%;
     padding-top: 20px;
     margin-top: 30px;
 }
 
 .action-btn, 
 .author-info {
-    height: 40px;             /* Единая высота */
-    font-size: 0.7rem;
+    height: 40px;
+    font-size: 0.75rem;
     font-family: 'Georgia', serif;
-    display: flex;            /* Чтобы текст внутри тоже центрировался */
+    display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0;                /* Убираем внешние отступы */
+    margin: 0;
     box-sizing: border-box;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 /* Кнопки: овальные и аккуратные */
 .action-btn {
-    border: 1px solid #00c2cb;
-    border-radius: 40px;      /* Овальность */
+    border: 1px solid #008b94;
+    border-radius: 40px;
     background: transparent;
-    padding: 0 15px;
-    color: #555;
+    padding: 0 20px;
+    color: #008b94;
     cursor: pointer;
     text-decoration: none;
-    white-space: nowrap;      /* Запрет переноса текста внутри кнопки */
-}
- .action-btn {
+    white-space: nowrap;
     transition: 0.3s;
 }
 
-
 .action-btn:hover {
-    background: #fce4e4; /* Наш светлый розовый */
-    border-color: #c08081;
+    background: #e0f4f5; /* Нежная мята */
+    border-color: #008b94;
 }
 
 .author-info {
-    color: #333;
-    padding-left: 10px;       /* Небольшой отступ от центральной кнопки */
+    color: #7f8c8d;
+    padding-left: 10px;
 }
 
 #author-name {
     margin-left: 5px;
+    font-weight: bold;
+    color: #2c3e50;
 }
 
 /* КНОПКА СЛЕДУЮЩАЯ ИСТОРИЯ */
 #btn-next {
     display: block;
-    width: 200px;
+    width: 220px;
     margin: 40px auto;
-    background: #00c2cb;
-    border: 1px solid #00c2cb;
-    padding: 10px;
+    background: #008b94;
+    border: 1px solid #008b94;
+    padding: 12px;
     cursor: pointer;
     font-family: inherit;
     transition: 0.3s;
     border-radius: 5px;
-    color: #000;
+    color: white;
+    font-weight: bold;
+    text-align: center;
 }
 
 #btn-next:hover {
-    background: #333;
-    color: white;
+    background: #00767d;
+    border-color: #00767d;
 }
 
-/* СВЕТЛО-РОЗОВЫЙ КВАДРАТ (Ad Box) */
+/* БИРЮЗОВЫЙ КВАДРАТ (Ad Box) */
 .ad-box {
-    background-color: #00c2cb; /* Нежный светло-розовый */
+    background-color: #008b94;
+    color: white;
     width: 100%;
     max-width: 400px;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 40px;
-    aspect-ratio: 1 / 1; /* Квадрат */
+    aspect-ratio: 1 / 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     box-sizing: border-box;
-    border-radius: 5%;
+    border-radius: 12px;
 }
 
 #ad-link {
     display: inline-block;
-    margin-top: 15px;
-    padding: 8px 20px;
-    border: 1px solid #00c2cb;
+    margin-top: 20px;
+    padding: 10px 25px;
+    border: 1px solid white;
     text-decoration: none;
-    color: #333;
+    color: white;
     font-size: 0.9rem;
-    border-radius: 5px;
-    background: #00c2cb;
+    border-radius: 50px;
+    background: transparent;
+    transition: 0.3s;
+}
+
+#ad-link:hover {
+    background: white;
+    color: #008b94;
 }
 
 /* КОНТАКТЫ */
@@ -192,46 +207,49 @@ h2#story-title {
     margin-top: 50px;
 }
 
-.email-btn {
-    color: #000;
-    background: #00c2cb;
-    font-weight: bold;
-    text-decoration: none;
-    border: 1px solid #00c2cb;
-    margin-bottom: 5px;
-}
-
-.inst-btn {
-color: #000;
-    background: #00c2cb;
-    font-weight: bold;
-    text-decoration: none;
-    border: 1px solid #00c2cb;
-}
-
 .btns {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.email-btn, .inst-btn {
+    color: white;
+    background: #008b94;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid #008b94;
+    padding: 10px 30px;
+    border-radius: 5px;
+    width: 200px;
+    transition: 0.3s;
+}
+
+.email-btn:hover, .inst-btn:hover {
+    background: #00767d;
 }
 
 /* COPYRIGHT ВНИЗУ */
 .copyright-notice {
-    margin-top: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
     font-size: 0.8rem;
-    color: #888;
+    color: #bdc3c7;
+    text-align: center;
 }
 
 .legal-link {
-    color: #888;
+    color: #95a5a6;
     text-decoration: underline;
 }
 
-/* МОДАЛЬНОЕ ОКНО (Mentions Légales) */
+/* МОДАЛЬНОЕ ОКНО */
 .modal-overlay {
-    display: none; /* Скрыто по умолчанию */
+    display: none;
     position: fixed;
     top: 0; left: 0; width: 100%; height: 100%;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.7);
     z-index: 1000;
     justify-content: center;
     align-items: center;
@@ -251,81 +269,76 @@ color: #000;
     position: absolute;
     top: 15px; right: 15px;
     background: none; border: none; font-size: 1.5rem; cursor: pointer;
+    color: #bdc3c7;
 }
-
-.modal-title { margin-top: 0; }
-.modal-text h3 { font-size: 1rem; margin-top: 20px; border-bottom: 1px solid #eee; }
-.modal-text p { font-size: 0.9rem; }
 
 .modal-btn-close {
     width: 100%;
     margin-top: 25px;
-    padding: 10px;
-    background: #333;
+    padding: 12px;
+    background: #008b94;
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 4px;
 }
 
-/* Стили для активной (лайкнутой) кнопки "J'aime" */
+/* СТИЛИ ЛАЙКА */
 .action-btn.liked {
-    background-color: #fce4e4; /* Наш светло-розовый */
-    border-color: #c08081;     /* Цвет пыльной розы */
-    color: #c08081;
+    background-color: #008b94;
+    border-color: #008b94;
+    color: white;
 }
 
-/* Стили для контейнера сердечек */
 #heart-container {
-    position: absolute; /* Будет летать над всем */
+    position: absolute;
     width: 100%;
     height: 100%;
-    pointer-events: none; /* Чтобы не блокировал клики */
-    overflow: hidden; /* Чтобы сердечки не вылетали за границы */
+    pointer-events: none;
+    overflow: hidden;
     top: 0;
     left: 0;
 }
 
-/* Стили для самих сердечек */
 .heart {
     position: absolute;
-    font-size: 1.5rem; /* Размер сердечка */
-    color: #c08081; /* Цвет пыльной розы */
-    animation: fly-up 2s forwards ease-out; /* Анимация полета */
+    font-size: 1.5rem;
+    color: #008b94;
+    animation: fly-up 2s forwards ease-out;
     opacity: 0;
-    pointer-events: none;
-    text-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
 
-/* Анимация полета сердечка */
 @keyframes fly-up {
-    0% {
-        transform: translateY(0) scale(0.5);
-        opacity: 0;
-    }
-    30% {
-        opacity: 1;
-        transform: translateY(-20px) scale(1);
-    }
-    100% {
-        transform: translateY(-100px) scale(1.2); /* Летят выше */
-        opacity: 0;
-    }
+    0% { transform: translateY(0) scale(0.5); opacity: 0; }
+    30% { opacity: 1; transform: translateY(-20px) scale(1); }
+    100% { transform: translateY(-120px) scale(1.2); opacity: 0; }
 }
+
+/* АДАПТИВНОСТЬ */
 @media (max-width: 600px) {
     .meta {
-        /* Кнопки остаются в ряд по краям или в центре */
+        flex-wrap: wrap;
         justify-content: space-around; 
-        gap: 10px;
+        gap: 15px;
     }
 
     .author-info {
-        /* Занимает 100% ширины, поэтому падает на вторую строку */
         width: 100%; 
-        order: 2; /* Принудительно ставим вниз */
+        order: 2;
         margin-top: 10px;
         padding-left: 0;
+        border-top: 1px dashed #eee;
+        padding-top: 10px;
     }
     
     #like-btn { order: 1; }
     #read-more-btn { order: 1; }
+
+    .paper {
+        padding: 25px 20px;
+    }
+
+    h2#story-title {
+        font-size: 1.6rem;
+    }
 }
