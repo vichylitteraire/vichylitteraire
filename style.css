@@ -198,6 +198,7 @@ h2#story-title {
     font-weight: bold;
     text-decoration: none;
     border: 1px solid #00c2cb;
+    margin-bottom: 5px;
 }
 
 .inst-btn {
