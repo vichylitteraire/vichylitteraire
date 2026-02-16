@@ -30,7 +30,7 @@ body {
 }
 
 .lang-buttons button {
-    background: #00c2cb;
+    background: none;
     color: white;
     border: none;
     padding: 12px 25px;
@@ -112,7 +112,7 @@ h2#story-title {
 
 /* Кнопки: овальные и аккуратные */
 .action-btn {
-    border: 1px solid #00c2cb;
+    border: 1px solid #000;
     border-radius: 40px;      /* Овальность */
     background: transparent;
     padding: 0 15px;
