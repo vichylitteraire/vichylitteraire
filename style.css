@@ -30,7 +30,7 @@ body {
 }
 
 .lang-buttons button {
-    background: #fce4e4;
+    background: #d48484;
     color: black;
     border: none;
     padding: 12px 25px;
@@ -142,7 +142,7 @@ h2#story-title {
     display: block;
     width: 200px;
     margin: 40px auto;
-    background: none;
+    background: #d48484;
     border: 1px solid #000;
     padding: 10px;
     cursor: pointer;
@@ -180,10 +180,10 @@ h2#story-title {
     padding: 8px 20px;
     border: 1px solid #000;
     text-decoration: none;
-    color: #333;
+    color: #000;
     font-size: 0.9rem;
     border-radius: 5px;
-    background: none;
+    background: #d48484;
 }
 
 /* КОНТАКТЫ */
@@ -193,13 +193,13 @@ h2#story-title {
 }
 
 .email-btn {
-    color: black;
+    color: #d48484;
     font-weight: bold;
     text-decoration: none;
     margin-bottom: 5px;
 }
 .inst-btn {
-color: black;
+color: #d48484;
     font-weight: bold;
     text-decoration: none;
 }
