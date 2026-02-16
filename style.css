@@ -30,7 +30,7 @@ body {
 }
 
 .lang-buttons button {
-    background: #333;
+    background: #00c2cb;
     color: white;
     border: none;
     padding: 12px 25px;
@@ -109,7 +109,7 @@ h2#story-title {
 
 /* Кнопки: овальные и аккуратные */
 .action-btn {
-    border: 1px solid #d1d1d1;
+    border: 1px solid #00c2cb;
     border-radius: 40px;      /* Овальность */
     background: transparent;
     padding: 0 15px;
@@ -142,7 +142,7 @@ h2#story-title {
     display: block;
     width: 200px;
     margin: 40px auto;
-    background: none;
+    background: #00c2cb;
     border: 1px solid #333;
     padding: 10px;
     cursor: pointer;
@@ -194,12 +194,14 @@ h2#story-title {
     color: #c08081;
     font-weight: bold;
     text-decoration: none;
+    border: 1px solid #00c2cb;
 }
 
 .inst-btn {
 color: #c08081;
     font-weight: bold;
     text-decoration: none;
+    border: 1px solid #00c2cb;
 }
 
 .btns {
