@@ -30,7 +30,7 @@ body {
 }
 
 .lang-buttons button {
-    background: none;
+    background: #fce4e4;
     color: white;
     border: none;
     padding: 12px 25px;
@@ -146,8 +146,8 @@ h2#story-title {
     display: block;
     width: 200px;
     margin: 40px auto;
-    background: #00c2cb;
-    border: 1px solid #00c2cb;
+    background: none;
+    border: 1px solid #000;
     padding: 10px;
     cursor: pointer;
     font-family: inherit;
