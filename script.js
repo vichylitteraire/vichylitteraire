@@ -38,6 +38,14 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         console.log("Локация зафиксирована: " + placeId);
     }
+    // Проверяем, когда человек доскроллил до конца
+window.onscroll = function() {
+    if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 100) {
+        // Если до конца осталось 100 пикселей, отправляем сигнал в Метрику
+        ym(106821503, 'reachGoal', 'read_to_end'); 
+        console.log("Дочитал до конца!");
+    }
+};
 });
 
 
