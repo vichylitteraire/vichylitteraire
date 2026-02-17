@@ -56,7 +56,7 @@ const ads = {
             en: "Soutenez notre projet culturel\n\n Devenez partenaire"
         }
     }
-};
+}
 
 function setLanguage(lang) {
     currentLang = lang;
