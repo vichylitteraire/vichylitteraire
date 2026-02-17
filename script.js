@@ -7,15 +7,17 @@ let hasLikedCurrentStory = false;
 const ads = {
     'paul': {
         image: "images/paul.png",
+        url: "#",
         text: {
             fr: "Soutenez notre projet culturel\n\n Devenez partenaire",
             en: "Support our cultural project\n\n Become a partner"
         }
     },
     'colada': {
-        image: "./img/6885583.jpg",
+        image: "LOGO_S_BARA.jpg",
+        url: "https://liberersesecrits.podia.com/",
         text: {
-            fr: "*** \n\n Vous écrivez ? Votre texte pourrait être lu ici-même...",
+            fr: "*** \n\n Libérer ses écrits proposes des ateliers d'écriture et un accompagnement à la biographie à Vichy et en ligne",
             en: "*** \n\n Do you write? Your text could be read right here..."
         }
     }
