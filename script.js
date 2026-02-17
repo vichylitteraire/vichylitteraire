@@ -11,7 +11,8 @@ const ads = {
         text: {
             fr: "\n\n*** \n\nSoutenez notre projet culturel\n\n Devenez partenaire",
             en: "\n\n*** \n\nSupport our cultural project\n\n Become a partner"
-        }
+        },
+        showLink: false
     },
     'colada': {
         image: "LOGO_S_BARA.jpg",
@@ -51,16 +52,16 @@ const ads = {
     },
     'keks': {
         image: "logopub.jpg",
-       url: "#",
+        url: "#",
         text: {
-            fr: "\n\n*** \n\nSoutenez notre projet culturel\n\n Devenez partenaire",
+            fr: "\n\n*** \n\nSoutenez notre проект culturel\n\n Devenez partenaire",
             en: "\n\n*** \n\nSupport our cultural project\n\n Become a partner"
         },
         showLink: false
     },
     'edouard': {
         image: "logopub.jpg",
-       url: "#",
+        url: "#",
         text: {
             fr: "\n\n*** \n\nSoutenez notre projet culturel\n\n Devenez partenaire",
             en: "\n\n*** \n\nSupport our cultural project\n\n Become a partner"
@@ -93,7 +94,6 @@ document.addEventListener('DOMContentLoaded', () => {
     if (placeId && ads[placeId]) {
         console.log("Локация зафиксирована: " + placeId);
         
-        // Чтобы хвостик не пропадал при кликах
         document.querySelectorAll('a, button').forEach(el => {
             el.addEventListener('click', () => {
                 const url = new URL(window.location.href);
@@ -115,7 +115,6 @@ function loadStory() {
     const langData = STORIES_DATA[currentLang];
     const storyData = langData.stories[shuffledIndices[currentIndex]];
 
-    // Заполнение текстов
     document.getElementById('story-title').innerText = storyData.title || "";
     document.getElementById('story-content').innerText = storyData.text || "";
     document.getElementById('author-name').innerText = storyData.author || "";
@@ -133,15 +132,18 @@ function loadStory() {
     const adLink = document.getElementById('ad-link');
 
     if (placeId && ads[placeId]) {
-        // Если зашли через хвостик конкретного кафе
         const currentAd = ads[placeId];
         if (adImg) adImg.src = currentAd.image;
         if (adTxt) adTxt.innerText = currentAd.text[currentLang];
-        if (adLink) adLink.href = currentAd.url || "#";
+        if (adLink) {
+            adLink.href = currentAd.url || "#";
+            // СКРЫВАЕМ/ПОКАЗЫВАЕМ кнопку Info на основе showLink
+            adLink.style.display = (currentAd.showLink === false) ? 'none' : 'inline-block';
+        }
     } else {
-        // Общая реклама из stories.js
         if (adTxt) adTxt.innerText = langData.adText || "";
-        if (adImg) adImg.src = "logopub.jpg"; // Стандартное лого
+        if (adImg) adImg.src = "logopub.jpg";
+        if (adLink) adLink.style.display = 'inline-block'; // Показываем по умолчанию
     }
 
     if (adLink) adLink.innerText = langData.adLink || "Info";
@@ -174,7 +176,6 @@ function loadStory() {
     }
 }
 
-// Эффект сердечек
 document.addEventListener('click', function(e) {
     if (e.target && e.target.id === 'like-btn') {
         if (!hasLikedCurrentStory) {
