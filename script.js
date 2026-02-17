@@ -7,7 +7,7 @@ let hasLikedCurrentStory = false;
 const ads = {
     'paul': {
         image: "logopub.jpg",
-        url: "#",
+        /* url: "#", */
         text: {
             fr: "*** \n\nSoutenez notre projet culturel\n\n Devenez partenaire",
             en: "*** \n\nSupport our cultural project\n\n Become a partner"
@@ -23,7 +23,7 @@ const ads = {
     },
     'patchouli': {
         image: "logopub.jpg",
-        url: "#",
+        /* url: "#", */
         text: {
             fr: "*** \n\nSoutenez notre projet culturel\n\n Devenez partenaire",
             en: "*** \n\nSupport our cultural project\n\n Become a partner"
@@ -31,7 +31,7 @@ const ads = {
     },
     'buveur': {
         image: "logopub.jpg",
-        url: "#",
+        /* url: "#", */
         text: {
             fr: "*** \n\nSoutenez notre projet culturel\n\n Devenez partenaire",
             en: "*** \n\nSupport our cultural project\n\n Become a partner"
@@ -39,7 +39,7 @@ const ads = {
     },
     'venus': {
         image: "logopub.jpg",
-        url: "#",
+        /* url: "#", */
         text: {
             fr: "*** \n\nSoutenez notre projet culturel\n\n Devenez partenaire",
             en: "*** \n\nSupport our cultural project\n\n Become a partner"
@@ -47,7 +47,7 @@ const ads = {
     },
     'keks': {
         image: "logopub.jpg",
-        url: "#",
+       /*  url: "#", */
         text: {
             fr: "*** \n\nSoutenez notre projet culturel\n\n Devenez partenaire",
             en: "*** \n\nSupport our cultural project\n\n Become a partner"
@@ -55,7 +55,7 @@ const ads = {
     },
     'edouard': {
         image: "logopub.jpg",
-        url: "#",
+       /*  url: "#", */
         text: {
             fr: "*** \n\nSoutenez notre projet culturel\n\n Devenez partenaire",
             en: "*** \n\nSupport our cultural project\n\n Become a partner"
