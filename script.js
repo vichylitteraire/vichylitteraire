@@ -18,7 +18,7 @@ const ads = {
         url: "https://liberersesecrits.podia.com/",
         text: {
             fr: "*** \n\n Libérer ses écrits proposes des ateliers d'écriture et un accompagnement à la biographie à Vichy et en ligne",
-            en: "*** \n\n Do you write? Your text could be read right here..."
+            en: "*** \n\n Libérer ses écrits offers writing workshops and biography coaching in Vichy and online."
         }
     }
 };
