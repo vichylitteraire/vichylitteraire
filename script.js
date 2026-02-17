@@ -9,8 +9,8 @@ const ads = {
         image: "logopub.jpg",
         url: "#",
         text: {
-            fr: "Soutenez notre projet culturel\n\n Devenez partenaire",
-            en: "Support our cultural project\n\n Become a partner"
+            fr: "*** \n\nSoutenez notre projet culturel\n\n Devenez partenaire",
+            en: "*** \n\nSupport our cultural project\n\n Become a partner"
         }
     },
     'colada': {
@@ -25,40 +25,40 @@ const ads = {
         image: "logopub.jpg",
         url: "#",
         text: {
-            fr: "Soutenez notre projet culturel\n\n Devenez partenaire",
-            en: "Support our cultural project\n\n Become a partner"
+            fr: "*** \n\nSoutenez notre projet culturel\n\n Devenez partenaire",
+            en: "*** \n\nSupport our cultural project\n\n Become a partner"
         }
     },
     'buveur': {
         image: "logopub.jpg",
         url: "#",
         text: {
-            fr: "Soutenez notre projet culturel\n\n Devenez partenaire",
-            en: "Support our cultural project\n\n Become a partner"
+            fr: "*** \n\nSoutenez notre projet culturel\n\n Devenez partenaire",
+            en: "*** \n\nSupport our cultural project\n\n Become a partner"
         }
     },
     'venus': {
         image: "logopub.jpg",
         url: "#",
         text: {
-            fr: "Soutenez notre projet culturel\n\n Devenez partenaire",
-            en: "Support our cultural project\n\n Become a partner"
+            fr: "*** \n\nSoutenez notre projet culturel\n\n Devenez partenaire",
+            en: "*** \n\nSupport our cultural project\n\n Become a partner"
         }
     },
     'keks': {
         image: "logopub.jpg",
         url: "#",
         text: {
-            fr: "Soutenez notre projet culturel\n\n Devenez partenaire",
-            en: "Support our cultural project\n\n Become a partner"
+            fr: "*** \n\nSoutenez notre projet culturel\n\n Devenez partenaire",
+            en: "*** \n\nSupport our cultural project\n\n Become a partner"
         }
     },
     'edouard': {
         image: "logopub.jpg",
         url: "#",
         text: {
-            fr: "Soutenez notre projet culturel\n\n Devenez partenaire",
-            en: "Support our cultural project\n\n Become a partner"
+            fr: "*** \n\nSoutenez notre projet culturel\n\n Devenez partenaire",
+            en: "*** \n\nSupport our cultural project\n\n Become a partner"
         }
     }
 };
