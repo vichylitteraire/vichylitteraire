@@ -3,6 +3,24 @@ let shuffledIndices = [];
 let currentIndex = 0;
 let hasLikedCurrentStory = false;
 
+// --- ДАННЫЕ РЕКЛАМЫ ДЛЯ КАФЕ ---
+const ads = {
+    'paul': {
+        image: "images/paul.png",
+        text: {
+            fr: "Soutenez notre projet culturel\n\n Devenez partenaire",
+            en: "Support our cultural project\n\n Become a partner"
+        }
+    },
+    'colada': {
+        image: "./img/6885583.jpg",
+        text: {
+            fr: "*** \n\n Vous écrivez ? Votre texte pourrait être lu ici-même...",
+            en: "*** \n\n Do you write? Your text could be read right here..."
+        }
+    }
+};
+
 function setLanguage(lang) {
     currentLang = lang;
     document.getElementById('language-screen').style.display = 'none';
@@ -19,15 +37,22 @@ function setLanguage(lang) {
     loadStory();
 }
 
-
-
-
-/* ЛОГИКА ХВОСТИКОВ ДЛЯ АНАЛИТИКИ (PLACE) */
+/* ЛОГИКА ХВОСТИКОВ ДЛЯ АНАЛИТИКИ (PLACE) И ЗАМЕНЫ РЕКЛАМЫ */
 document.addEventListener('DOMContentLoaded', () => {
     const params = new URLSearchParams(window.location.search);
     const placeId = params.get('place'); // Теперь ищем "place"
 
     if (placeId) {
+        // Замена контента рекламы под конкретное кафе
+        if (ads[placeId]) {
+            const currentAd = ads[placeId];
+            const adImg = document.getElementById('ad-image');
+            const adTxt = document.getElementById('ad-text');
+
+            if (adImg) adImg.src = currentAd.image;
+            if (adTxt) adTxt.innerText = currentAd.text[currentLang];
+        }
+
         // Чтобы хвостик не пропадал при кликах на кнопки
         document.querySelectorAll('a, button').forEach(el => {
             el.addEventListener('click', () => {
@@ -38,18 +63,15 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         console.log("Локация зафиксирована: " + placeId);
     }
+    
     // Проверяем, когда человек доскроллил до конца
-window.onscroll = function() {
-    if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 100) {
-        // Если до конца осталось 100 пикселей, отправляем сигнал в Метрику
-        ym(106821503, 'reachGoal', 'read_to_end'); 
-        console.log("Дочитал до конца!");
-    }
-};
+    window.onscroll = function() {
+        if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 100) {
+            ym(106821503, 'reachGoal', 'read_to_end'); 
+            console.log("Дочитал до конца!");
+        }
+    };
 });
-
-
-
 
 function loadStory() {
     const langData = STORIES_DATA[currentLang];
@@ -64,35 +86,41 @@ function loadStory() {
     document.getElementById('label-author').innerText = langData.labelAuthor || (currentLang === 'fr' ? "Par" : "By");
     document.getElementById('btn-next').innerText = langData.nextBtn || "Next";
     document.getElementById('contact-label').innerText = langData.contactLabel || "Contact:";
-    document.getElementById('ad-text').innerText = langData.adText || "";
+    
+    // ПРИОРИТЕТ: Если есть спец. реклама для кафе - ставим её, если нет - берем общую из stories.js
+    const params = new URLSearchParams(window.location.search);
+    const placeId = params.get('place');
+    if (placeId && ads[placeId]) {
+        document.getElementById('ad-text').innerText = ads[placeId].text[currentLang];
+    } else {
+        document.getElementById('ad-text').innerText = langData.adText || "";
+    }
+
     document.getElementById('ad-link').innerText = langData.adLink || "Info";
 
     // --- КНОПКА LIKE ---
     const likeBtn = document.getElementById('like-btn');
     if (likeBtn) {
         likeBtn.classList.remove('liked'); 
-        // Если в stories.js нет likeText, пишем вручную
         likeBtn.innerText = langData.likeText || (currentLang === 'fr' ? "J'aime" : "Like");
         hasLikedCurrentStory = false;
     }
 
    const readMoreBtn = document.getElementById('read-more-btn');
 
-if (storyData.hasMore && storyData.buyLink) {
-    readMoreBtn.style.display = 'flex';
-    readMoreBtn.href = storyData.buyLink;
-    readMoreBtn.target = "_blank";
+    if (storyData.hasMore && storyData.buyLink) {
+        readMoreBtn.style.display = 'flex';
+        readMoreBtn.href = storyData.buyLink;
+        readMoreBtn.target = "_blank";
 
-    // Прямая проверка языка и установка текста
-    if (currentLang === 'fr') {
-        readMoreBtn.textContent = "Lire la suite";
+        if (currentLang === 'fr') {
+            readMoreBtn.textContent = "Lire la suite";
+        } else {
+            readMoreBtn.textContent = "Read more";
+        }
     } else {
-        readMoreBtn.textContent = "Read more";
+        readMoreBtn.style.display = 'none';
     }
-    
-} else {
-    readMoreBtn.style.display = 'none';
-}
 
     document.getElementById('cafe-ad-box').style.display = 'flex';
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -104,7 +132,7 @@ if (storyData.hasMore && storyData.buyLink) {
     }
 }
 
-// Эффект сердечек (остается прежним)
+// Эффект сердечек
 document.addEventListener('click', function(e) {
     if (e.target && e.target.id === 'like-btn') {
         if (!hasLikedCurrentStory) {
