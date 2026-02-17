@@ -170,7 +170,7 @@ h2#story-title {
     border-radius: 5%;
 }
 
-#ad-link {
+.ad-link {
     display: inline-block;
     margin-top: 15px;
     padding: 8px 20px;
