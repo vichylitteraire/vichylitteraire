@@ -19,43 +19,49 @@ const ads = {
         text: {
             fr: "*** \n\n Libérer ses écrits proposes des ateliers d'écriture et un accompagnement à la biographie à Vichy et en ligne",
             en: "*** \n\n Libérer ses écrits offers writing workshops and biography coaching in Vichy and online."
-        },
-         'patchouli': {
-        image: "logopub.jpg",
-        url: "#",
-        text: {
-            fr: "Soutenez notre projet culturel\n\n Devenez partenaire",
-            en: "Soutenez notre projet culturel\n\n Devenez partenaire"
-        },
-        'buveur': {
-        image: "logopub.jpg",
-        url: "#",
-        text: {
-            fr: "Soutenez notre projet culturel\n\n Devenez partenaire",
-            en: "Soutenez notre projet culturel\n\n Devenez partenaire"
-        },
-        'venus': {
-        image: "logopub.jpg",
-        url: "#",
-        text: {
-            fr: "Soutenez notre projet culturel\n\n Devenez partenaire",
-            en: "Soutenez notre projet culturel\n\n Devenez partenaire"
-        },
-        'keks': {
-        image: "logopub.jpg",
-        url: "#",
-        text: {
-            fr: "Soutenez notre projet culturel\n\n Devenez partenaire",
-            en: "Soutenez notre projet culturel\n\n Devenez partenaire"
-        },
-        'edouard': {
-        image: "logopub.jpg",
-        url: "#",
-        text: {
-            fr: "Soutenez notre projet culturel\n\n Devenez partenaire",
-            en: "Soutenez notre projet culturel\n\n Devenez partenaire"
         }
-    };
+    },
+    'patchouli': {
+        image: "logopub.jpg",
+        url: "#",
+        text: {
+            fr: "Soutenez notre projet culturel\n\n Devenez partenaire",
+            en: "Support our cultural project\n\n Become a partner"
+        }
+    },
+    'buveur': {
+        image: "logopub.jpg",
+        url: "#",
+        text: {
+            fr: "Soutenez notre projet culturel\n\n Devenez partenaire",
+            en: "Support our cultural project\n\n Become a partner"
+        }
+    },
+    'venus': {
+        image: "logopub.jpg",
+        url: "#",
+        text: {
+            fr: "Soutenez notre projet culturel\n\n Devenez partenaire",
+            en: "Support our cultural project\n\n Become a partner"
+        }
+    },
+    'keks': {
+        image: "logopub.jpg",
+        url: "#",
+        text: {
+            fr: "Soutenez notre projet culturel\n\n Devenez partenaire",
+            en: "Support our cultural project\n\n Become a partner"
+        }
+    },
+    'edouard': {
+        image: "logopub.jpg",
+        url: "#",
+        text: {
+            fr: "Soutenez notre projet culturel\n\n Devenez partenaire",
+            en: "Support our cultural project\n\n Become a partner"
+        }
+    }
+};
 
 function setLanguage(lang) {
     currentLang = lang;
@@ -76,20 +82,12 @@ function setLanguage(lang) {
 /* ЛОГИКА ХВОСТИКОВ ДЛЯ АНАЛИТИКИ (PLACE) И ЗАМЕНЫ РЕКЛАМЫ */
 document.addEventListener('DOMContentLoaded', () => {
     const params = new URLSearchParams(window.location.search);
-    const placeId = params.get('place'); // Теперь ищем "place"
+    const placeId = params.get('place'); 
 
-    if (placeId) {
-        // Замена контента рекламы под конкретное кафе
-        if (ads[placeId]) {
-            const currentAd = ads[placeId];
-            const adImg = document.getElementById('ad-image');
-            const adTxt = document.getElementById('ad-text');
-
-            if (adImg) adImg.src = currentAd.image;
-            if (adTxt) adTxt.innerText = currentAd.text[currentLang];
-        }
-
-        // Чтобы хвостик не пропадал при кликах на кнопки
+    if (placeId && ads[placeId]) {
+        console.log("Локация зафиксирована: " + placeId);
+        
+        // Чтобы хвостик не пропадал при кликах
         document.querySelectorAll('a, button').forEach(el => {
             el.addEventListener('click', () => {
                 const url = new URL(window.location.href);
@@ -97,13 +95,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 window.history.replaceState({}, '', url);
             });
         });
-        console.log("Локация зафиксирована: " + placeId);
     }
     
-    // Проверяем, когда человек доскроллил до конца
     window.onscroll = function() {
         if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 100) {
-            ym(106821503, 'reachGoal', 'read_to_end'); 
+            if (typeof ym !== 'undefined') ym(106821503, 'reachGoal', 'read_to_end'); 
             console.log("Дочитал до конца!");
         }
     };
@@ -113,28 +109,38 @@ function loadStory() {
     const langData = STORIES_DATA[currentLang];
     const storyData = langData.stories[shuffledIndices[currentIndex]];
 
-    // Заполнение основных текстов
+    // Заполнение текстов
     document.getElementById('story-title').innerText = storyData.title || "";
     document.getElementById('story-content').innerText = storyData.text || "";
     document.getElementById('author-name').innerText = storyData.author || "";
     
-    // Заполнение интерфейса (с защитой от undefined)
     document.getElementById('label-author').innerText = langData.labelAuthor || (currentLang === 'fr' ? "Par" : "By");
     document.getElementById('btn-next').innerText = langData.nextBtn || "Next";
     document.getElementById('contact-label').innerText = langData.contactLabel || "Contact:";
     
-    // ПРИОРИТЕТ: Если есть спец. реклама для кафе - ставим её, если нет - берем общую из stories.js
+    // ЛОГИКА РЕКЛАМЫ
     const params = new URLSearchParams(window.location.search);
     const placeId = params.get('place');
+    
+    const adImg = document.getElementById('ad-image');
+    const adTxt = document.getElementById('ad-text');
+    const adLink = document.getElementById('ad-link');
+
     if (placeId && ads[placeId]) {
-        document.getElementById('ad-text').innerText = ads[placeId].text[currentLang];
+        // Если зашли через хвостик конкретного кафе
+        const currentAd = ads[placeId];
+        if (adImg) adImg.src = currentAd.image;
+        if (adTxt) adTxt.innerText = currentAd.text[currentLang];
+        if (adLink) adLink.href = currentAd.url || "#";
     } else {
-        document.getElementById('ad-text').innerText = langData.adText || "";
+        // Общая реклама из stories.js
+        if (adTxt) adTxt.innerText = langData.adText || "";
+        if (adImg) adImg.src = "logopub.jpg"; // Стандартное лого
     }
 
-    document.getElementById('ad-link').innerText = langData.adLink || "Info";
+    if (adLink) adLink.innerText = langData.adLink || "Info";
 
-    // --- КНОПКА LIKE ---
+    // КНОПКА LIKE
     const likeBtn = document.getElementById('like-btn');
     if (likeBtn) {
         likeBtn.classList.remove('liked'); 
@@ -142,18 +148,12 @@ function loadStory() {
         hasLikedCurrentStory = false;
     }
 
-   const readMoreBtn = document.getElementById('read-more-btn');
-
+    const readMoreBtn = document.getElementById('read-more-btn');
     if (storyData.hasMore && storyData.buyLink) {
         readMoreBtn.style.display = 'flex';
         readMoreBtn.href = storyData.buyLink;
         readMoreBtn.target = "_blank";
-
-        if (currentLang === 'fr') {
-            readMoreBtn.textContent = "Lire la suite";
-        } else {
-            readMoreBtn.textContent = "Read more";
-        }
+        readMoreBtn.textContent = currentLang === 'fr' ? "Lire la suite" : "Read more";
     } else {
         readMoreBtn.style.display = 'none';
     }
