@@ -6,7 +6,7 @@ let hasLikedCurrentStory = false;
 // --- ДАННЫЕ РЕКЛАМЫ ДЛЯ КАФЕ ---
 const ads = {
     'paul': {
-        image: "images/paul.png",
+        image: "logopub.jpg",
         url: "#",
         text: {
             fr: "Soutenez notre projet culturel\n\n Devenez partenaire",
@@ -19,6 +19,41 @@ const ads = {
         text: {
             fr: "*** \n\n Libérer ses écrits proposes des ateliers d'écriture et un accompagnement à la biographie à Vichy et en ligne",
             en: "*** \n\n Libérer ses écrits offers writing workshops and biography coaching in Vichy and online."
+        },
+         'patchouli': {
+        image: "logopub.jpg",
+        url: "#",
+        text: {
+            fr: "Soutenez notre projet culturel\n\n Devenez partenaire",
+            en: "Soutenez notre projet culturel\n\n Devenez partenaire"
+        },
+        'buveur': {
+        image: "logopub.jpg",
+        url: "#",
+        text: {
+            fr: "Soutenez notre projet culturel\n\n Devenez partenaire",
+            en: "Soutenez notre projet culturel\n\n Devenez partenaire"
+        },
+        'venus': {
+        image: "logopub.jpg",
+        url: "#",
+        text: {
+            fr: "Soutenez notre projet culturel\n\n Devenez partenaire",
+            en: "Soutenez notre projet culturel\n\n Devenez partenaire"
+        },
+        'keks': {
+        image: "logopub.jpg",
+        url: "#",
+        text: {
+            fr: "Soutenez notre projet culturel\n\n Devenez partenaire",
+            en: "Soutenez notre projet culturel\n\n Devenez partenaire"
+        },
+        'edouard': {
+        image: "logopub.jpg",
+        url: "#",
+        text: {
+            fr: "Soutenez notre projet culturel\n\n Devenez partenaire",
+            en: "Soutenez notre projet culturel\n\n Devenez partenaire"
         }
     }
 };
