@@ -4,7 +4,6 @@ const supabaseKey = 'sb_publishable_AcsuGHJH7zZd1EEcCPmN4w_m65x6omh'; // вст�
 
 const _supabase = supabase.createClient(supabaseUrl, supabaseKey);
 
-
 let currentLang = 'fr';
 let shuffledIndices = [];
 let currentIndex = 0;
@@ -118,6 +117,23 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 });
 
+// --- ФУНКЦИЯ ЗАГРУЗКИ ЛАЙКОВ ---
+async function fetchLikes(storyId) {
+    const likeBtn = document.getElementById('like-btn');
+    if (!likeBtn || !storyId) return;
+
+    const { data, error } = await _supabase
+        .from('likes')
+        .select('count')
+        .eq('story_id', storyId)
+        .single();
+
+    const count = (data && data.count) ? data.count : 0;
+    const langData = STORIES_DATA[currentLang];
+    const baseText = langData.likeText || (currentLang === 'fr' ? "J'aime" : "Like");
+    likeBtn.innerText = `${baseText} (${count})`;
+}
+
 function loadStory() {
     const langData = STORIES_DATA[currentLang];
     const storyData = langData.stories[shuffledIndices[currentIndex]];
@@ -144,23 +160,23 @@ function loadStory() {
         if (adTxt) adTxt.innerText = currentAd.text[currentLang];
         if (adLink) {
             adLink.href = currentAd.url || "#";
-            // СКРЫВАЕМ/ПОКАЗЫВАЕМ кнопку Info на основе showLink
             adLink.style.display = (currentAd.showLink === false) ? 'none' : 'inline-block';
         }
     } else {
         if (adTxt) adTxt.innerText = langData.adText || "";
         if (adImg) adImg.src = "logopub.jpg";
-        if (adLink) adLink.style.display = 'inline-block'; // Показываем по умолчанию
+        if (adLink) adLink.style.display = 'inline-block'; 
     }
 
     if (adLink) adLink.innerText = langData.adLink || "Info";
 
-    // КНОПКА LIKE
+    // КНОПКА LIKE + ПОЛУЧЕНИЕ ДАННЫХ
     const likeBtn = document.getElementById('like-btn');
     if (likeBtn) {
         likeBtn.classList.remove('liked'); 
-        likeBtn.innerText = langData.likeText || (currentLang === 'fr' ? "J'aime" : "Like");
         hasLikedCurrentStory = false;
+        // Загружаем лайки для конкретного ID истории
+        fetchLikes(storyData.id);
     }
 
     const readMoreBtn = document.getElementById('read-more-btn');
@@ -183,13 +199,33 @@ function loadStory() {
     }
 }
 
-document.addEventListener('click', function(e) {
+// --- ОБРАБОТКА ЛАЙКА С СОХРАНЕНИЕМ ---
+document.addEventListener('click', async function(e) {
     if (e.target && e.target.id === 'like-btn') {
         if (!hasLikedCurrentStory) {
+            hasLikedCurrentStory = true;
+            
+            // Получаем данные текущей истории (она была загружена последней)
+            const prevIndex = (currentIndex === 0) ? shuffledIndices.length - 1 : currentIndex - 1;
+            const storyData = STORIES_DATA[currentLang].stories[shuffledIndices[prevIndex]];
+            const storyId = storyData.id;
+
+            if (storyId) {
+                // 1. Сначала проверяем, есть ли запись
+                const { data } = await _supabase.from('likes').select('count').eq('story_id', storyId).single();
+                
+                if (data) {
+                    await _supabase.from('likes').update({ count: data.count + 1 }).eq('story_id', storyId);
+                } else {
+                    await _supabase.from('likes').insert([{ story_id: storyId, count: 1 }]);
+                }
+                // Обновляем текст на кнопке после записи
+                fetchLikes(storyId);
+            }
+
             e.target.innerText = currentLang === 'fr' ? "Merci ! ♡" : "Thank you ! ♡";
             e.target.classList.add('liked');
             createHearts(e.target);
-            hasLikedCurrentStory = true;
         }
     }
 });
