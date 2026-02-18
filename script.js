@@ -1,3 +1,10 @@
+// Копируй аккуратно вместе с https://
+const supabaseUrl = 'https://gbpntxkkxabndhtpdaai.supabase.co'; 
+const supabaseKey = 'sb_publishable_AcsuGHJH7zZd1EEcCPmN4w_m65x6omh'; // вставь его весь
+
+const _supabase = supabase.createClient(supabaseUrl, supabaseKey);
+
+
 let currentLang = 'fr';
 let shuffledIndices = [];
 let currentIndex = 0;
