@@ -6,7 +6,7 @@ const STORIES_DATA = {
         adText: "Libérer ses écrits proposes des ateliers d'écriture et un accompagnement à la biographie à Vichy et en ligne ",
         adLink: "En savoir plus",
         stories: [
-            { 
+            { id: "confession"
                 title: "CONFESSION", 
                 text: `Combien de jours ont passé… combien d’années… je ne le sais pas, et je ne suis même pas sûr de vouloir le savoir. Le temps ne bouge pas ici : il s’est figé, dissous dans cette obscurité sans issue, emplie d’une douleur qui ne s’apaise pas un seul instant. Je suis mort pour ce monde-là, et vivant dans celui-ci. Mort pour tous, sauf pour toi. Rien que pour toi, j’existe encore dans cette agonie sans fin, dans cette malédiction devenue mon unique forme d’être. 
 
@@ -29,6 +29,7 @@ Je crie jusqu’à ce que revienne celle pour qui je suis encore en vie.
                 buyLink: "#"
             },
             { 
+                id: "peremilon"
                 title: "Le père Milon", 
                 text: `Depuis un mois, le large soleil jette aux champs sa flamme cuisante. La vie radieuse éclôt sous cette averse de feu ; la terre est verte à perte de vue. Jusqu’aux bords de l’horizon, le ciel est bleu. Les fermes normandes semées par la plaine semblent, de loin, de petits bois, enfermées dans leur ceinture de hêtres élancés. De près, quand on ouvre la barrière vermoulue, on croit voir un jardin géant, car tous les antiques pommiers, osseux comme les paysans, sont en fleurs. Les vieux troncs noirs, crochus, tortus, alignés par la cour, étalent sous le ciel leurs dômes éclatants, blancs et roses. Le doux parfum de leur épanouissement se mêle aux grasses senteurs des étables ouvertes et aux vapeurs du fumier qui fermente, couvert de poules.
 
@@ -130,6 +131,7 @@ En moins d’une minute, le bonhomme, toujours impassible, fut collé contre le 
                 hasMore: false
             },
             { 
+                id: "receptacle"
                 title: "La réceptacle", 
                 text: `L'idée est née un dimanche soir, entre une pizza froide et le silence assourdissant de son appartement de sixième étage. Il a imprimé cinquante tracts. Pas de graphisme, juste du texte brut, en Helvetica, comme un constat de décès.
 
@@ -194,6 +196,7 @@ Désormais, Thomas ne louerait plus ses oreilles. Il allait apprendre à parler 
         adLink: "Learn more",
         stories: [
             { 
+                id: "vesselen"
                 title: "The vessel", 
                 text: `The idea was born on a Sunday evening, somewhere between a cold pizza and the deafening silence of his sixth-floor apartment. He printed fifty flyers. No graphics, just raw text in Helvetica, looking like a death certificate:
 
@@ -231,6 +234,7 @@ From now on, Thomas would no longer rent out his ears. He would learn to talk to
                 hasMore: false
             },
             { 
+                id: "confessionen"
                 title: "CONFESSION", 
                 text: `How many days have passed… how many years… I don’t know, and I’m not sure I even want to know. Time does not move here; it has frozen, dissolved into this hopeless darkness, filled with pain that never subsides for a single moment. I am dead to that world, and alive in this one. Dead to everyone except you. Only for you do I still exist in this endless agony, in this curse that has become my only form of being.
 
@@ -251,6 +255,7 @@ I scream until she returns—the one for whom I am still alive.`,
                 hasMore: false
             },
             { 
+                id: "fathermilonen"
                 title: "Father Milon", 
                 text: `For a month the hot sun has been parching the fields. Nature is expanding beneath its rays; the fields are green as far as the eye can see. The big azure dome of the sky is unclouded. The farms of Normandy, scattered over the plains and surrounded by a belt of tall beeches, look, from a distance, like little woods. On closer view, after lowering the worm-eaten wooden bars, you imagine yourself in an immense garden, for all the ancient apple-trees, as gnarled as the peasants themselves, are in bloom. The sweet scent of their blossoms mingles with the heavy smell of the earth and the penetrating odor of the stables. It is noon. The family is eating under the shade of a pear tree planted in front of the door; father, mother, the four children, and the help—two women and three men are all there. All are silent. The soup is eaten and then a dish of potatoes fried with bacon is brought on.
 
