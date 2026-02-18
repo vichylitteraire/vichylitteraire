@@ -186,6 +186,3 @@ function createHearts(btn) {
 }
 function openLegal() { document.getElementById('legal-modal').style.display = 'flex'; }
 function closeLegal() { document.getElementById('legal-modal').style.display = 'none'; }
-}
-function openLegal() { document.getElementById('legal-modal').style.display = 'flex'; }
-function closeLegal() { document.getElementById('legal-modal').style.display = 'none'; }
