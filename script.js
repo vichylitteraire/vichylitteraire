@@ -50,7 +50,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-// --- ПРОВЕРКА ЛАЙКА В ПАМЯТИ БРАУЗЕРА ---
 function checkIfAlreadyLiked(storyId) {
     const likedStories = JSON.parse(localStorage.getItem('my_likes') || '[]');
     return likedStories.includes(storyId);
@@ -63,18 +62,21 @@ async function fetchLikes(storyId) {
     const { data } = await _supabase.from('likes').select('count').eq('story_id', storyId).single();
     const count = (data && data.count) ? data.count : 0;
     
+    // Если 0, то ничего не пишем, если больше 0 — пишем цифру без скобок
+    const countDisplay = count > 0 ? ` ${count}` : "";
+    
     const langData = STORIES_DATA[currentLang];
     const baseText = langData.likeText || (currentLang === 'fr' ? "J'aime" : "Like");
     
-    // Если уже лайкал — красим кнопку сразу
     if (checkIfAlreadyLiked(storyId)) {
         likeBtn.classList.add('liked');
         hasLikedCurrentStory = true;
-        likeBtn.innerText = (currentLang === 'fr' ? "Merci ! ♡" : "Thank you ! ♡") + ` (${count})`;
+        const thanksText = (currentLang === 'fr' ? "Merci ! ♡" : "Thank you ! ♡");
+        likeBtn.innerText = thanksText + countDisplay;
     } else {
         likeBtn.classList.remove('liked');
         hasLikedCurrentStory = false;
-        likeBtn.innerText = `${baseText} (${count})`;
+        likeBtn.innerText = baseText + countDisplay;
     }
 }
 
@@ -110,7 +112,6 @@ function loadStory() {
     }
     if (adLink) adLink.innerText = langData.adLink || "Info";
 
-    // ПРОВЕРЯЕМ ЛАЙКИ
     fetchLikes(storyData.id);
 
     const readMoreBtn = document.getElementById('read-more-btn');
@@ -143,12 +144,10 @@ document.addEventListener('click', async function(e) {
             if (storyId) {
                 hasLikedCurrentStory = true;
                 
-                // 1. Сохраняем в память браузера (чтобы не лайкать после обновления)
                 const likedStories = JSON.parse(localStorage.getItem('my_likes') || '[]');
                 likedStories.push(storyId);
                 localStorage.setItem('my_likes', JSON.stringify(likedStories));
 
-                // 2. Отправляем в Supabase
                 const { data } = await _supabase.from('likes').select('count').eq('story_id', storyId).single();
                 if (data) {
                     await _supabase.from('likes').update({ count: data.count + 1 }).eq('story_id', storyId);
@@ -156,7 +155,6 @@ document.addEventListener('click', async function(e) {
                     await _supabase.from('likes').insert([{ story_id: storyId, count: 1 }]);
                 }
                 
-                // 3. Обновляем кнопку
                 fetchLikes(storyId);
                 createHearts(e.target);
             }
@@ -176,8 +174,5 @@ function createHearts(btn) {
         setTimeout(() => heart.remove(), 1500);
     }
 }
-function openLegal() { document.getElementById('legal-modal').style.display = 'flex'; }
-function closeLegal() { document.getElementById('legal-modal').style.display = 'none'; }
-
 function openLegal() { document.getElementById('legal-modal').style.display = 'flex'; }
 function closeLegal() { document.getElementById('legal-modal').style.display = 'none'; }
