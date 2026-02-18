@@ -62,9 +62,7 @@ async function fetchLikes(storyId) {
     const { data } = await _supabase.from('likes').select('count').eq('story_id', storyId).single();
     const count = (data && data.count) ? data.count : 0;
     
-    // Если 0, то ничего не пишем, если больше 0 — пишем цифру без скобок
     const countDisplay = count > 0 ? ` ${count}` : "";
-    
     const langData = STORIES_DATA[currentLang];
     const baseText = langData.likeText || (currentLang === 'fr' ? "J'aime" : "Like");
     
@@ -136,29 +134,41 @@ function loadStory() {
 
 document.addEventListener('click', async function(e) {
     if (e.target && e.target.id === 'like-btn') {
+        const prevIndex = (currentIndex === 0) ? shuffledIndices.length - 1 : currentIndex - 1;
+        const storyData = STORIES_DATA[currentLang].stories[shuffledIndices[prevIndex]];
+        const storyId = storyData.id;
+
+        if (!storyId) return;
+
+        let likedStories = JSON.parse(localStorage.getItem('my_likes') || '[]');
+
         if (!hasLikedCurrentStory) {
-            const prevIndex = (currentIndex === 0) ? shuffledIndices.length - 1 : currentIndex - 1;
-            const storyData = STORIES_DATA[currentLang].stories[shuffledIndices[prevIndex]];
-            const storyId = storyData.id;
+            // --- СТАВИМ ЛАЙК ---
+            hasLikedCurrentStory = true;
+            likedStories.push(storyId);
+            localStorage.setItem('my_likes', JSON.stringify(likedStories));
 
-            if (storyId) {
-                hasLikedCurrentStory = true;
-                
-                const likedStories = JSON.parse(localStorage.getItem('my_likes') || '[]');
-                likedStories.push(storyId);
-                localStorage.setItem('my_likes', JSON.stringify(likedStories));
+            const { data } = await _supabase.from('likes').select('count').eq('story_id', storyId).single();
+            if (data) {
+                await _supabase.from('likes').update({ count: data.count + 1 }).eq('story_id', storyId);
+            } else {
+                await _supabase.from('likes').insert([{ story_id: storyId, count: 1 }]);
+            }
+            createHearts(e.target);
+        } else {
+            // --- УБИРАЕМ ЛАЙК ---
+            hasLikedCurrentStory = false;
+            likedStories = likedStories.filter(id => id !== storyId);
+            localStorage.setItem('my_likes', JSON.stringify(likedStories));
 
-                const { data } = await _supabase.from('likes').select('count').eq('story_id', storyId).single();
-                if (data) {
-                    await _supabase.from('likes').update({ count: data.count + 1 }).eq('story_id', storyId);
-                } else {
-                    await _supabase.from('likes').insert([{ story_id: storyId, count: 1 }]);
-                }
-                
-                fetchLikes(storyId);
-                createHearts(e.target);
+            const { data } = await _supabase.from('likes').select('count').eq('story_id', storyId).single();
+            if (data && data.count > 0) {
+                await _supabase.from('likes').update({ count: data.count - 1 }).eq('story_id', storyId);
             }
         }
+        
+        // В обоих случаях обновляем вид кнопки
+        fetchLikes(storyId);
     }
 });
 
@@ -173,6 +183,9 @@ function createHearts(btn) {
         document.body.appendChild(heart);
         setTimeout(() => heart.remove(), 1500);
     }
+}
+function openLegal() { document.getElementById('legal-modal').style.display = 'flex'; }
+function closeLegal() { document.getElementById('legal-modal').style.display = 'none'; }
 }
 function openLegal() { document.getElementById('legal-modal').style.display = 'flex'; }
 function closeLegal() { document.getElementById('legal-modal').style.display = 'none'; }
