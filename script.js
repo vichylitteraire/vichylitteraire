@@ -11,13 +11,13 @@ let hasLikedCurrentStory = false;
 
 // --- ДАННЫЕ РЕКЛАМЫ ДЛЯ КАФЕ ---
 const ads = {
-    'paul': { image: "logopub.jpg", url: "#", text: { fr: "\n\n*** \n\nSoutenez notre projet culturel\n\n Devenez partenaire", en: "\n\n*** \n\nSupport our cultural project\n\n Become a partner" }, showLink: false },
+    'paul': { image: "logopub.jpg", url: "#", text: { fr: "\n\n*** \n\nSoutenez notre projet culturel\n\n Votre LOGO ici", en: "\n\n*** \n\nSupport our cultural project\n\n Your LOGO here" }, showLink: false },
     'colada': { image: "LOGO_S_BARA.jpg", url: "https://liberersesecrits.podia.com/", text: { fr: "*** \n\n Libérer ses écrits proposes des ateliers d'écriture et un accompagnement à la biographie à Vichy et en ligne", en: "*** \n\n Libérer ses écrits offers writing workshops and biography coaching in Vichy and online." }, showLink: true },
-    'patchouli': { image: "logopub.jpg", url: "#", text: { fr: "\n\n*** \n\nSoutenez notre projet culturel\n\n Devenez partenaire", en: "\n\n*** \n\nSupport our cultural project\n\n Become a partner" }, showLink: false },
-    'buveur': { image: "logopub.jpg", url: "#", text: { fr: "\n\n*** \n\nSoutenez notre projet culturel\n\n Devenez partenaire", en: "\n\n*** \n\nSupport our cultural project\n\n Become a partner" }, showLink: false },
-    'venus': { image: "logopub.jpg", url: "#", text: { fr: "\n\n*** \n\nSoutenez notre projet culturel\n\n Devenez partenaire", en: "\n\n*** \n\nSupport our cultural project\n\n Become a partner" }, showLink: false },
-    'keks': { image: "logopub.jpg", url: "#", text: { fr: "\n\n*** \n\nSoutenez notre проект culturel\n\n Devenez partenaire", en: "\n\n*** \n\nSupport our cultural project\n\n Become a partner" }, showLink: false },
-    'edouard': { image: "logopub.jpg", url: "#", text: { fr: "\n\n*** \n\nSoutenez notre projet culturel\n\n Devenez partenaire", en: "\n\n*** \n\nSupport our cultural project\n\n Become a partner" }, showLink: false }
+    'patchouli': { image: "logopub.jpg", url: "#", text: { fr: "\n\n*** \n\nSoutenez notre projet culturel\n\n Votre LOGO ici", en: "\n\n*** \n\nSupport our cultural project\n\n Your LOGO here" }, showLink: false },
+    'buveur': { image: "logopub.jpg", url: "#", text: { fr: "\n\n*** \n\nSoutenez notre projet culturel\n\n Votre LOGO ici", en: "\n\n*** \n\nSupport our cultural project\n\n Your LOGO here" }, showLink: false },
+    'venus': { image: "logopub.jpg", url: "#", text: { fr: "\n\n*** \n\nSoutenez notre projet culturel\n\n Votre LOGO ici", en: "\n\n*** \n\nSupport our cultural project\n\n Your LOGO here" }, showLink: false },
+    'keks': { image: "logopub.jpg", url: "#", text: { fr: "\n\n*** \n\nSoutenez notre проект culturel\n\n Votre LOGO ici", en: "\n\n*** \n\nSupport our cultural project\n\n Your LOGO here" }, showLink: false },
+    'edouard': { image: "logopub.jpg", url: "#", text: { fr: "\n\n*** \n\nSoutenez notre projet culturel\n\n Votre LOGO ici", en: "\n\n*** \n\nSupport our cultural project\n\n Your LOGO here" }, showLink: false }
 };
 
 function setLanguage(lang) {
