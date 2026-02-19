@@ -3,7 +3,7 @@ const STORIES_DATA = {
         labelAuthor: "Par",
         nextBtn: "Autre histoire 🎲",
         contactLabel: "Pour nous contacter :",
-        adText: "Libérer ses écrits proposes des ateliers d'écriture et un accompagnement à la biographie à Vichy et en ligne ",
+        /* adText: "Libérer ses écrits proposes des ateliers d'écriture et un accompagnement à la biographie à Vichy et en ligne ", */
         adLink: "En savoir plus",
         stories: [
             { id: "confession",
@@ -25,7 +25,7 @@ Tu es mon dernier fil. Tu es mon apaisement. Et pourtant, seulement pour un temp
 Je crie jusqu’à ce que revienne celle pour qui je suis encore en vie.
 `, 
                 author: "Imani S.",
-                hasMore: true,
+                hasMore: false,
                 buyLink: "#"
             },
             { 
@@ -192,7 +192,7 @@ Désormais, Thomas ne louerait plus ses oreilles. Il allait apprendre à parler 
         labelAuthor: "By",
         nextBtn: "Another story 🎲",
         contactLabel: "To contact us:",
-        adText: "Libérer ses écrits provides writing workshops and personal biography support in Vichy and online.",
+        /* adText: "Libérer ses écrits provides writing workshops and personal biography support in Vichy and online.", */
         adLink: "Learn more",
         stories: [
             { 
