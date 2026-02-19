@@ -3,7 +3,7 @@ const STORIES_DATA = {
         labelAuthor: "Par",
         nextBtn: "Autre histoire 🎲",
         contactLabel: "Pour nous contacter :",
-        /* adText: "Libérer ses écrits proposes des ateliers d'écriture et un accompagnement à la biographie à Vichy et en ligne ", */
+        adText: "\n\n*** \n\nSoutenez notre projet culturel\n\n Votre LOGO ici",
         adLink: "En savoir plus",
         stories: [
             { id: "confession",
@@ -192,7 +192,7 @@ Désormais, Thomas ne louerait plus ses oreilles. Il allait apprendre à parler 
         labelAuthor: "By",
         nextBtn: "Another story 🎲",
         contactLabel: "To contact us:",
-        /* adText: "Libérer ses écrits provides writing workshops and personal biography support in Vichy and online.", */
+        adText: "\n\n*** \n\nSupport our cultural project\n\n Your LOGO here",
         adLink: "Learn more",
         stories: [
             { 
