@@ -3,8 +3,8 @@ const STORIES_DATA = {
         labelAuthor: "Par",
         nextBtn: "Autre histoire 🎲",
         contactLabel: "Pour nous contacter :",
-        adText: "\n\n*** \n\nSoutenez notre projet culturel\n\n Votre LOGO ici",
-        /* adLink: "En savoir plus", */
+        adText: "Soutenez notre projet culturel\n\n Votre LOGO ici",
+        adLink: "En savoir plus",
         stories: [
             { id: "confession",
                 title: "CONFESSION", 
@@ -192,8 +192,8 @@ Désormais, Thomas ne louerait plus ses oreilles. Il allait apprendre à parler 
         labelAuthor: "By",
         nextBtn: "Another story 🎲",
         contactLabel: "To contact us:",
-        adText: "\n\n*** \n\nSupport our cultural project\n\n Your LOGO here",
-        /* adLink: "Learn more", */
+        adText: "Support our cultural project\n\n Your LOGO here",
+        adLink: "Learn more",
         stories: [
             { 
                 id: "vesselen",
