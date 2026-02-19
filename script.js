@@ -104,9 +104,12 @@ function loadStory() {
             adLink.style.display = (currentAd.showLink === false) ? 'none' : 'inline-block';
         }
     } else {
+        // Логика для главной страницы (когда нет ?place=...)
         if (adTxt) adTxt.innerText = langData.adText || "";
         if (adImg) adImg.src = "logopub.jpg";
-        if (adLink) adLink.style.display = 'inline-block'; 
+        
+        // Прячем кнопку, если мы на главной странице без хвостика
+        if (adLink) adLink.style.display = 'none'; 
     }
     if (adLink) adLink.innerText = langData.adLink || "Info";
 
