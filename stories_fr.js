@@ -29,7 +29,7 @@ Je crie jusqu’à ce que revienne celle pour qui je suis encore en vie.
             },
             { 
                 id: "peremilon",
-                title: "Le père Milon", 
+                title: "LE PÈRE MILON", 
                 text: `Depuis un mois, le large soleil jette aux champs sa flamme cuisante. La vie radieuse éclôt sous cette averse de feu ; la terre est verte à perte de vue. Jusqu’aux bords de l’horizon, le ciel est bleu. Les fermes normandes semées par la plaine semblent, de loin, de petits bois, enfermées dans leur ceinture de hêtres élancés. De près, quand on ouvre la barrière vermoulue, on croit voir un jardin géant, car tous les antiques pommiers, osseux comme les paysans, sont en fleurs. Les vieux troncs noirs, crochus, tortus, alignés par la cour, étalent sous le ciel leurs dômes éclatants, blancs et roses. Le doux parfum de leur épanouissement se mêle aux grasses senteurs des étables ouvertes et aux vapeurs du fumier qui fermente, couvert de poules.
 
 Il est midi. La famille dîne à l’ombre du poirier planté devant la porte : le père, la mère, les quatre enfants, les deux servantes et les trois valets. On ne parle guère. On mange la soupe, puis on découvre le plat de fricot plein de pommes de terre au lard.
@@ -131,7 +131,7 @@ En moins d’une minute, le bonhomme, toujours impassible, fut collé contre le 
             },
             { 
                 id: "receptacle",
-                title: "La réceptacle", 
+                title: "LA RÉCEPTACLE", 
                 text: `L'idée est née un dimanche soir, entre une pizza froide et le silence assourdissant de son appartement de sixième étage. Il a imprimé cinquante tracts. Pas de graphisme, juste du texte brut, en Helvetica, comme un constat de décès.
 
 « Je loue mes oreilles. Je ne suis pas psy. Je ne donne pas de conseils. Je ne vous dirai pas que tout ira bien. Je prends juste votre vérité pour qu'elle ne vous étouffe plus. 20 euros l'heure. Payez avant, parlez après. »
@@ -440,7 +440,7 @@ J’aurais dit la vérité »… `,
             },
 
 { id: "extraitvichy",
-                title: "(extrait de « PAR HASARD A VICHY »", 
+                title: "Extrait de « PAR HASARD A VICHY »", 
                 text: `⁃ C'est là, me dit-il en me montrant la maison la moins en ruine.
 ⁃ Et on se gare où ?
 ⁃ Où vous voulez, y'a personne que nous en cette saison.
@@ -502,7 +502,7 @@ Si j'ai bien vu, elle a les yeux bleus et les cheveux châtain clair naturel. Ma
             },
 
 { id: "obscure",
-                title: "(Extrait de «ENQUÊTE OBSCURE A VICHY »", 
+                title: "Extrait de « ENQUÊTE OBSCURE A VICHY »", 
                 text: `C’est ce Jaurel-là, flottant entre deux eaux dans la boue glauque des comportements humains, qui se vit remettre par son collègue Lucas le mince dossier de sa nouvelle affaire. Compte tenu du fait qu’on le détachait à Vichy pour quelque temps, il estima qu’il pouvait commencer par prendre son après midi pour rentrer chez lui et lire ledit dossier. 
 
 Ce fut chose faite très rapidement, puisqu’il ne contenait que quatre documents importants. La demande d’exhumation du procureur, le rapport d’autopsie, la déposition du médecin et la désignation du juge d’instruction. 
@@ -525,7 +525,7 @@ Aujourd’hui, Achille Saulzet est un homme fait. Il approche de la soixantaine 
             },
 
 { id: "impossible",
-                title: "(Extrait de « LE LENDEMAIN DE L’IMPOSSIBLE»", 
+                title: "Extrait de « LE LENDEMAIN DE L’IMPOSSIBLE »", 
                 text: `— Vous avez bien fait de m’appeler, qui d’autre est au courant ?
 
 — Pierre-Henri m’a prévenue, mais il ne sait pas la suite et le majordome m’a juste signalé hier que monsieur avait pris une voiture.
