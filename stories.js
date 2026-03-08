@@ -166,7 +166,6 @@ Elle emporte tout, elle nettoie, elle ne juge pas, mais elle ne se souvient pas 
 Désormais, Thomas ne louerait plus ses oreilles. Il allait apprendre à parler seul, dans le vent, pour vider enfin ce réceptacle qu'il était devenu. Il allait redevenir un homme sans histoires. Et c'était le plus beau cadeau qu'il pouvait s'offrir.`, 
                 author: "Imani S.", 
                 hasMore: false
-            }
     },
     { id: "neiges",
                 title: "ET TUILES DES NEIGES", 
