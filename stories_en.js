@@ -1,5 +1,4 @@
 const STORIES_DATA_EN = {
-    en: {
         labelAuthor: "By",
         nextBtn: "Another story 🎲",
         contactLabel: "To contact us:",
@@ -1021,5 +1020,4 @@ He is just as good and sweet and lovable and unpretending as a man can be, but h
                 buyLink: "#"
             },
         ]
-    }
 };
