@@ -1,4 +1,3 @@
-// Копируй аккуратно вместе с https://
 const supabaseUrl = 'https://gbpntxkkxabndhtpdaai.supabase.co'; 
 const supabaseKey = 'sb_publishable_AcsuGHJH7zZd1EEcCPmN4w_m65x6omh'; 
 
@@ -25,10 +24,22 @@ function setLanguage(lang) {
     document.getElementById('language-screen').style.display = 'none';
     document.getElementById('main-content').style.display = 'block';
 
-    if (typeof STORIES_DATA === 'undefined') {
-        alert("Ошибка: Файл stories.js не найден!");
-        return;
+    // --- ЛОГИКА РАЗДЕЛЕНИЯ ФАЙЛОВ ---
+    // Мы создаем глобальный объект STORIES_DATA "на лету" из импортированных файлов
+    if (currentLang === 'fr') {
+        if (typeof STORIES_DATA_FR === 'undefined') {
+            alert("Ошибка: Файл stories_fr.js не загружен!");
+            return;
+        }
+        window.STORIES_DATA = { 'fr': STORIES_DATA_FR };
+    } else {
+        if (typeof STORIES_DATA_EN === 'undefined') {
+            alert("Ошибка: Файл stories_en.js не загружен!");
+            return;
+        }
+        window.STORIES_DATA = { 'en': STORIES_DATA_EN };
     }
+    // --------------------------------
 
     const langData = STORIES_DATA[currentLang];
     shuffledIndices = [...Array(langData.stories.length).keys()].sort(() => Math.random() - 0.5);
@@ -104,11 +115,8 @@ function loadStory() {
             adLink.style.display = (currentAd.showLink === false) ? 'none' : 'inline-block';
         }
     } else {
-        // Логика для главной страницы (когда нет ?place=...)
         if (adTxt) adTxt.innerText = langData.adText || "";
         if (adImg) adImg.src = "logopub.jpg";
-        
-        // Прячем кнопку, если мы на главной странице без хвостика
         if (adLink) adLink.style.display = 'none'; 
     }
     if (adLink) adLink.innerText = langData.adLink || "Info";
@@ -146,7 +154,6 @@ document.addEventListener('click', async function(e) {
         let likedStories = JSON.parse(localStorage.getItem('my_likes') || '[]');
 
         if (!hasLikedCurrentStory) {
-            // --- СТАВИМ ЛАЙК ---
             hasLikedCurrentStory = true;
             likedStories.push(storyId);
             localStorage.setItem('my_likes', JSON.stringify(likedStories));
@@ -159,7 +166,6 @@ document.addEventListener('click', async function(e) {
             }
             createHearts(e.target);
         } else {
-            // --- УБИРАЕМ ЛАЙК ---
             hasLikedCurrentStory = false;
             likedStories = likedStories.filter(id => id !== storyId);
             localStorage.setItem('my_likes', JSON.stringify(likedStories));
@@ -169,8 +175,6 @@ document.addEventListener('click', async function(e) {
                 await _supabase.from('likes').update({ count: data.count - 1 }).eq('story_id', storyId);
             }
         }
-        
-        // В обоих случаях обновляем вид кнопки
         fetchLikes(storyId);
     }
 });
