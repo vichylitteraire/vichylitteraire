@@ -1019,5 +1019,15 @@ He is just as good and sweet and lovable and unpretending as a man can be, but h
                 hasMore: false,
                 buyLink: "#"
             },
+
+            { id: "letter",
+                title: "LETTER", 
+                text: `I walk along the very edge — where possibilities end and prohibitions are broken. I turn my soul inside out, and there is no secret in it: it’s all for you. You are that dazzling light before which my inner darkness is powerless. 
+
+If you were music, I would listen to you forever, afraid of missing a single note. You are a whole world, vast and incomprehensible, which I want to absorb completely. My morning begins with you, and my sun sets in you. You are my dawn and my inevitable, beautiful sunset.`, 
+                author: "Imani S.",
+                hasMore: false,
+                buyLink: "#"
+            },    
         ]
 };
