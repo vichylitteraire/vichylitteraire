@@ -502,7 +502,7 @@ Si j'ai bien vu, elle a les yeux bleus et les cheveux châtain clair naturel. Ma
                 buyLink: "#"
             },
 
-{ id: "confession",
+{ id: "obscure",
                 title: "(Extrait de «ENQUÊTE OBSCURE A VICHY »", 
                 text: `C’est ce Jaurel-là, flottant entre deux eaux dans la boue glauque des comportements humains, qui se vit remettre par son collègue Lucas le mince dossier de sa nouvelle affaire. Compte tenu du fait qu’on le détachait à Vichy pour quelque temps, il estima qu’il pouvait commencer par prendre son après midi pour rentrer chez lui et lire ledit dossier. 
 
@@ -525,7 +525,7 @@ Aujourd’hui, Achille Saulzet est un homme fait. Il approche de la soixantaine 
                 buyLink: "#"
             },
 
-{ id: "confession",
+{ id: "impossible",
                 title: "(Extrait de « LE LENDEMAIN DE L’IMPOSSIBLE»", 
                 text: `— Vous avez bien fait de m’appeler, qui d’autre est au courant ?
 
