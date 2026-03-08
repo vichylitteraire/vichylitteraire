@@ -1476,6 +1476,860 @@ In less than a minute the old man, still impassive, was pushed up against the wa
                 author: "Guy de Maupassant", 
                 hasMore: false 
             },
+            { id: "potato",
+                title: "A POTATO", 
+                text: ` I am a potato. 
+I am a potato. 
+No, don't laugh, you don't have the right. 
+It's often underestimated, 
+yet it resembles us more than we think. 
+A potato is simple; it has skin, flesh, a history. 
+It doesn't attract attention. 
+A potato is bland, and of little interest if it's just there. 
+It can take different forms; as fries, chips, steamed, it adapts to everyone's tastes. 
+But deep down, it's just a potato. 
+Without accompaniment, it's not enough, doesn't fill the void in our stomachs. 
+That is what I am. 
+I am simple. 
+Made of skin, flesh and filled with history. 
+I attract attention only if I transform into what I am not. 
+I am forgotten, 
+I fade away. 
+I forget myself and I perish. 
+So no, don't laugh, because I am not the only one. 
+That's what we are. 
+Potatoes dreaming of sprouting, 
+Humans dreaming of changing, 
+children dreaming of freedom. `, 
+                author: "KHAE | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "lyce9",
+                title: "…", 
+                text: ` I saw her, one winter morning, 
+Round and brilliant 
+Hovering above Gaia 
+Her curves that only wanted to be eaten, 
+Her small, unique craters on her milk-white skin, 
+Her hair waving like a frozen river. 
+My beautiful Selene 
+She who watches over my dreams, 
+Who waits for me in the morning for a few months. 
+Those precious months when I can admire her divine features before her brother arrives. 
+And then when night falls, 
+She comes to my window and we chat for hours. 
+My beautiful Selene 
+Her halo that rocks me, 
+The imprint of her fingers on my heart, 
+The brushing of her words against my eyes. 
+I want to snuggle in her bosom, 
+Sleep forever. 
+And never see the Sun arrive on its chariot. 
+Celestial Star Goddess of the Moon 
+My beautiful Selene `, 
+                author: "Louise Deroche | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "free",
+                title: "FREE", 
+                text: ` Free
+Your skin is tinged with power
+Your body knows how to hear
+The whispers of sparrows
+The smile of swallows
+The moss at the corner of trees
+
+Free
+Your steps are invisible
+Wish to be invisible
+Secret
+They draw a path
+The path
+And only the initiated will know how to take it
+
+Free
+From your car kitchen diapers and errands
+To cross the river
+And let it cross you
+
+Free and women free
+Not against men but with some men
+In the hollow of the same breath
+That would draw
+Peace sex and difference
+
+Free
+At home reading becomes a slow gesture
+For you pen and ink tremble
+And scatter
+To give to create
+
+Free
+In the secret confidence
+That belongs only to you
+Confidence
+Of what dares not be said
+
+You tame the night and storms every day
+
+It's you again who bring back the fire
+Adopt the day
+Distribute again and again
+Free
+Because so often in intimacy
+Words fall silent
+With you
+Power is soft soft
+Or most often unaware of itself
+
+You again who teach them to leave
+Without fleeing
+To return and leave again
+With that extra soul
+That life sometimes grants`, 
+                author: "Louise DEROCHE | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "fear",
+                title: "FEAR", 
+                text: `Fear
+Fear that my bones turn to dust
+Fear that the spark in your irises goes out
+Fear that the night overwhelms me
+Fear that it never arrives
+Fear of being the last on Earth
+Fear of leaving first
+Fear that pressure crushes me
+Fear that my passions subside
+Fear of being alone again
+Fear of staying dead drunk
+Drunk with unfulfilled desires
+Drunk with imprisoned wishes
+Drunk with bottomless feelings
+Drunk with indistinct despair
+Fear that my tears become a torrent
+Fear that Dawn seizes me in the hollow of a dream
+Fear that the dream fades in its glimmers
+Opaque glimmers of pollution
+Glimmers of decomposition
+Glimmers of overpopulation
+Glimmers of dystopia become reality
+Fear finally of losing Hope
+Fear that the world suffocates me
+Fear that my dreams remain dreams
+And that reality is a reflection of my nightmares
+Fear that those I love will leave
+Fear of immobility
+Fear of conforming,
+Of getting used to no longer being myself
+Fear of being invisible
+
+Often freedom appears
+Simple abstract concept
+Has it ever really existed?
+From the deepest swamps
+Up to the aligned cobblestones
+From the most destitute
+To our ancestors
+Where is she? This beautiful one,
+Carefree and rebellious?
+All this time she has been hiding
+In a place we never looked
+She is everywhere and nowhere
+Crosses plains and ramparts
+In the rustling of leaves
+In the gaze of that one-eyed wolf
+In the soul of the condemned
+In those innocent killed
+In withered flowers
+Or even newborns
+You just need to know how to look
+To finally find her `, 
+                author: "Louise DEROCHE | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "stereol",
+                title: "STEREO LOVE", 
+                text: ` Like every day, 
+He comes home from school. 
+His father is still working, 
+But his mother waits for him. 
+She is always there, in the dimly lit living room, near the cd player, dvd, records and tapes. 
+His parents' wedding gift. 
+The little one took a cd and put it in the player 
+Music rang out. 
+The child took his mother's hands and they began to dance. 
+The rock drums? 
+The rock and roll guitars 
+The trumpets, the piano and the voice, form a sweet symphony. 
+
+Stereo Love 
+
+Their steps move in harmony, 
+As if surrounded by the great stars of rock and blues. 
+This moment belongs only to them, 
+To this love, mother, son. 
+Time stops, 
+Nothing else matters, 
+Only the music resonates, 
+And their words in unison. 
+Words so tender that inhabit his ears. 
+He knows every word, 
+Every word, 
+Every syllable, 
+Every letter, 
+As if he had written them. 
+
+Stereo Love 
+
+These words belong to his mother, 
+This angelic voice belongs to his mother, 
+This melody belongs to his mother, 
+This love comes from his mother. 
+She speaks to him like a song 
+Conveys her love with the help of Do. 
+Rocked him with Re, 
+Nourished him with Mi, 
+Dressed him with Fa, 
+Played with him with Sol, 
+Taught him life with La, 
+But left him with many Si (if onlys). 
+
+Stereo Love 
+
+And if his mother hadn't left? 
+And if she could still talk to him? 
+And if she could dance with him? 
+And if her voice didn't come out of the speakers but from her mouth? 
+And if he didn't fill the void in his heart with the simple message left behind? 
+This recorded message 
+That resonates like a song in his tears. `, 
+                author: "KHAE | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "happy",
+                title: "HAPPY", 
+                text: ` Happy 
+Happy In your arms 
+Lucky 
+Lucky 
+With you 
+One smile and everything disappears 
+Finally the worst 
+Seems to drift away 
+Heartbeats of your heart In the hollow of my ear 
+Gone are the pains 
+You relax me like no other 
+Your body against mine 
+If I spoke in the future tense 
+Now it's in the present 
+In your murmurs 
+My life truly begins `, 
+                author: "Derrey Zoé | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "lyce4",
+                title: "…", 
+                text: ` Breeze in your hair 
+Lightning in his life 
+Sun in her eyes 
+Gently rebuilds her 
+Everything is so calm 
+Only the sound of the wind 
+Disturbs her 
+Even if it's not strong 
+It destabilizes her 
+Facing the sea, that ocean 
+Flow torrents 
+Tears from her adolescent eyes `, 
+                author: "Derrey Zoé | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "fragments",
+                title: "A THOUSAND FRAGMENTS", 
+                text: ` Mirror, my beautiful mirror, you who see me every day, 
+Tell me why my heart is so heavy. 
+Mirror, my beautiful mirror, you whom I dread so much, 
+Why do you look at me while putting me down? 
+Mirror, my beautiful mirror, you who pretend to be so beautiful, 
+Tell me why I want so much to smash you into pieces. 
+Mirror, my beautiful mirror, you whom they think I appreciate, 
+I alone know that it is not so. 
+Mirror, my beautiful mirror, you are not broken, 
+Yet I see my reflection dilapidated. 
+Mirror, my beautiful mirror: 
+Will I ever stop contemplating myself in the dark`, 
+                author: "Lemoine Bidolet Johane | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "lostbattle",
+                title: "LOST BATTLE", 
+                text: ` Handsome knight, valiant knight. 
+Why wait for her arrival, 
+When she keeps lowering virtue. 
+The arrival of the beautiful princess in the rose garden. 
+The beauty who picks, removes each petal that flies away in the twilight wind. 
+The handsome prince with whom her heart is smitten is not you, 
+You are hardly a king. 
+Thus was born the shadow of a haunted kingdom, 
+Demons of your thorns of one evening. 
+There you are, arrived at the edge of the kingdoms, 
+The sparkling 
+Sun sets on the horizon. 
+Your armor becomes striped over the years, 
+The fights did not help you. 
+Winter arrives and there you are alone at the top of the turret. 
+The beauty dances with the prince under the snow, 
+And you, you watch this in the rain. `, 
+                author: "Lemoine Bidolet Johane | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "thetreads",
+                title: "THE THREADS OF MY LIFE", 
+                text: ` I am a puppet, the star of the show. 
+But I am locked in the dark, behind the theater curtains. 
+I am attached to strings that command what I should be or what I should do. 
+I have played so many roles, in so many different shows, 
+That I don't even know who the real me is. 
+Who is the man behind the wood? 
+The clock hand placed at the back of the room, 
+Beats the tempo, the music of my life. 
+I don't even have shoes, 
+Yet I have wounds. 
+But can a puppet feel things? 
+Do the strings I am attached to allow it? 
+Sometimes, I feel like scissors cut these strings, 
+And then I fall. 
+I fall into the dark, and I find myself on a sidewalk. 
+I lift my head, I see the light for the first time, It's dawn! 
+And if I walk following this light, 
+Maybe then I'll be the star of my own show, 
+In the most beautiful way...`, 
+                author: "Lemoine Bidolet Johane | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "lyce3",
+                title: "…", 
+                text: ` I gently slip into
+The blue,
+Soft and slow...
+Cold and soothing...
+Comforting in a way.
+Everything is controlled,
+Calculated,
+I know what to expect.
+I feel intoxicated,
+Damp hands caressing me,
+Cool breath on my skin.
+
+I close my eyes, plunging into the darkness.
+
+First breath.
+Liquid crosses my trachea.
+Second breath.
+Instinct tells me to fight,
+To spit out the venom.
+Third breath.
+Heart slows down,
+Limbs abandon me.
+
+I plunge into a dream.
+I glide to the bottom of the Styx.
+It's this first kiss with Hades
+That intoxicates me... `, 
+                author: "KHAE | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "freedom",
+                title: "FREEDOM", 
+                text: ` Freedom, so dreamed of,
+Freedom, so hoped for,
+Freedom, so loved,
+Comes,
+Is born,
+Is reborn,
+Lives,
+But never dies.
+So many adore you,
+So many have never seen you,
+Stay,
+Show us your face, show us your voice,
+But never be silent.`, 
+                author: "Ernest LOIZEAU | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "lyce2",
+                title: "…", 
+                text: ` An email, a list, a name, a trifle. 
+That day a new person appeared, unknown, full of will. 
+That day, 
+I discovered a world, 
+That day, 
+I read an email. Its author, a year later, 
+I hated him; 
+But its author, that year, 
+I cherished him. 
+I read that email, twice, then, 
+I was born. 
+I opened my eyes, they showed me the road and I ran. 
+I dreamed of the arrival, and I still dream. 
+That day, on that list, 
+I saw my name. 
+That day, on that list, 
+I learned passion; 
+That day, 
+I stood up; 
+That day, 
+I didn't understand what was happening; 
+But that day, 
+I was born, and since that day, 
+I live. `, 
+                author: "Ernest LOIZEAU | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "lyce1",
+                title: "…", 
+                text: ` The bark of your soul 
+The start of this drama 
+Walled in, unfathomable within you 
+Your courteous feelings 
+Coexist with the hatred 
+That gangrenes from the inside 
+The bark protects as much as it destroys 
+And keeps the night beneath it. 
+Destroy evil with light 
+Push back winter 
+Burn the bark of the tree 
+Set this macabre oration ablaze 
+Become nothingness again 
+Free from feelings `, 
+                author: "Louise DÉROCHE | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "rainbow",
+                title: "RAINBOW NIGHTMARE", 
+                text: ` 
+The moving flames of hell stir
+Hades and his disciples dance in the fire
+Their shadows reflect on the walls of these depths.
+Nightmare in red.
+
+The black stone of the stage contrasts with the vivid red of the fire.
+Suddenly the flame takes a human form and charges at me.
+I try to move
+My feet sink deeper and deeper into the ground
+Until my body disappears
+Entirely.
+
+On the other side of the ground a huge fine sand beach.
+The yellow sun reflects on the sea
+I find myself drained of all anxiety.
+My heart slows its beating and I begin to doze off.
+But then the sand began to swirl in the air.
+Nightmare in yellow
+
+I then run quickly towards the sea to escape this murderous tornado.
+The turquoise water shaded with blue and green
+Seems so pleasant to me that I begin to swim deeper and deeper.
+Beautiful multicolored fish swim brushing against me with their small fins.
+Suddenly the water became dark and the light cold.
+I began to faint in this icy water.
+Nightmare in blue
+
+The water suddenly seems black to me.
+It was just an illusion, the black I thought I saw was only the darkness of my room.
+Nightmare of my mind.
+
+My thoughts suddenly jostle.
+I was thinking back to this journey in my mind.
+"The rainbow of my nightmares hadn't been so terrible after all."`, 
+                author: "Mathieu DELAVEAU | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+{ id: "alone",
+                title: "ALONE", 
+                text: `From childhood’s hour I have not been
+As others were—I have not seen
+As others saw—I could not bring
+My passions from a common spring—
+ 
+From the same source I have not taken
+My sorrow—I could not awaken
+My heart to joy at the same tone—
+And all I lov’d—I lov’d alone—
+ 
+Then—in my childhood—in the dawn
+Of a most stormy life—was drawn
+From ev’ry depth of good and ill
+The mystery which binds me still—
+ 
+From the torrent, or the fountain—
+From the red cliff of the mountain—
+From the sun that ’round me roll’d
+In its autumn tint of gold—
+ 
+From the lightning in the sky
+As it pass’d me flying by—
+From the thunder, and the storm—
+And the cloud that took the form
+(When the rest of Heaven was blue)
+Of a demon in my view—
+`, 
+                author: "Edgar Allan Poe",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "themice",
+                title: "THE MICE AND THE WEASELS", 
+                text: `There was war between the Mice and the Weasels, in which the Mice always got the worst of it, numbers of them being killed and eaten by the Weasels. So they called a council of war, in which an old Mouse got up and said, “It’s no wonder we are always beaten, for we have no generals to plan our battles and direct our movements in the field.” Acting on his advice, they chose the biggest Mice to be their leaders, and these, in order to be distinguished from the rank and file, provided themselves with helmets bearing large plumes of straw. They then led out the Mice to battle, confident of victory: but they were defeated as usual, and were soon scampering as fast as they could to their holes. 
+All made their way to safety without difficulty except the leaders, who were so hampered by the badges of their rank that they could not get into their holes, and fell easy victims to their pursuers. `, 
+                author: "Aesop",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "themiller",
+                title: "THE MILLER, HIS SON, AND THEIR ASS", 
+                text: `Miller, accompanied by his young Son, was driving his Ass to market in hopes of finding a purchaser for him. On the road they met a troop of girls, laughing and talking, who exclaimed, “Did you ever see such a pair of fools? To be trudging along the dusty road when they might be riding!” The Miller thought there was sense in what they said; so he made his Son mount the Ass, and himself walked at the side. Presently they met some of his old cronies, who greeted them and said, “You’ll spoil that Son of yours, letting him ride while you toil along on foot! Make him walk, young lazybones! It’ll do him all the good in the world.” The Miller followed their advice, and took his Son’s place on the back of the Ass while the boy trudged along behind. They had not gone far when they overtook a party of women and children, and the Miller heard them say, “What a selfish old man! 
+
+He himself rides in comfort, but lets his poor little boy follow as best he can on his own legs!” So he made his Son get up behind him. Further along the road they met some travellers, who asked the Miller whether the Ass he was riding was his own property, or a beast hired for the occasion. He replied that it was his own, and that he was taking it to market to sell. “Good heavens!” said they, “with a load like that the poor beast will be so exhausted by the time he gets there that no one will look at him. Why, you’d do better to carry him!” “Anything to please you,” said the old man, “we can but try.” So they got off, tied the Ass’s legs together with a rope and slung him on a pole, and at last reached the town, carrying him between them. This was so absurd a sight that the people ran out in crowds to laugh at it, and chaffed the Father and Son unmercifully, some even calling them lunatics. They had then got to a bridge over the river, where the Ass, frightened by the noise and his unusual situation, kicked and struggled till he broke the ropes that bound him, and fell into the water and was drowned. Whereupon the unfortunate Miller, vexed and ashamed, made the best of his way home again, convinced that in trying to please all he had pleased none, and had lost his Ass into the bargain. `, 
+                author: "Aesop",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "theraven",
+                title: "THE RAVEN", 
+                text: `Once upon a midnight dreary, while I pondered, weak and weary,
+Over many a quaint and curious volume of forgotten lore—
+While I nodded, nearly napping, suddenly there came a tapping,
+As of some one gently rapping, rapping at my chamber door.
+“’Tis some visitor,” I muttered, “tapping at my chamber door—
+Only this and nothing more.”
+ 
+Ah, distinctly I remember it was in the bleak December;
+And each separate dying ember wrought its ghost upon the floor.
+Eagerly I wished the morrow;—vainly I had sought to borrow
+From my books surcease of sorrow—sorrow for the lost Lenore—
+For the rare and radiant maiden whom the angels name Lenore—
+Nameless here for evermore.
+ 
+And the silken, sad, uncertain rustling of each purple curtain
+Thrilled me—filled me with fantastic terrors never felt before;
+So that now, to still the beating of my heart, I stood repeating
+“’Tis some visitor entreating entrance at my chamber door—
+Some late visitor entreating entrance at my chamber door;—
+This it is and nothing more.”
+ 
+Presently my soul grew stronger; hesitating then no longer,
+“Sir,” said I, “or Madam, truly your forgiveness I implore;
+But the fact is I was napping, and so gently you came rapping,
+And so faintly you came tapping, tapping at my chamber door,
+That I scarce was sure I heard you”—here I opened wide the door;—
+Darkness there and nothing more.
+ 
+Deep into that darkness peering, long I stood there wondering, fearing,
+Doubting, dreaming dreams no mortal ever dared to dream before;
+But the silence was unbroken, and the stillness gave no token,
+And the only word there spoken was the whispered word, “Lenore?”
+This I whispered, and an echo murmured back the word, “Lenore!”—
+Merely this and nothing more.
+ 
+Back into the chamber turning, all my soul within me burning,
+Soon again I heard a tapping somewhat louder than before.
+“Surely,” said I, “surely that is something at my window lattice;
+Let me see, then, what thereat is, and this mystery explore—
+Let my heart be still a moment and this mystery explore;—
+’Tis the wind and nothing more!”
+ 
+Open here I flung the shutter, when, with many a flirt and flutter,
+In there stepped a stately Raven of the saintly days of yore;
+Not the least obeisance made he; not a minute stopped or stayed he;
+But, with mien of lord or lady, perched above my chamber door—
+Perched upon a bust of Pallas just above my chamber door—
+Perched, and sat, and nothing more.
+ 
+Then this ebony bird beguiling my sad fancy into smiling,
+By the grave and stern decorum of the countenance it wore,
+“Though thy crest be shorn and shaven, thou,” I said, “art sure no craven,
+Ghastly grim and ancient Raven wandering from the Nightly shore—
+Tell me what thy lordly name is on the Night’s Plutonian shore!”
+Quoth the Raven “Nevermore.”
+ 
+Much I marvelled this ungainly fowl to hear discourse so plainly,
+Though its answer little meaning—little relevancy bore;
+For we cannot help agreeing that no living human being
+Ever yet was blessed with seeing bird above his chamber door—
+Bird or beast upon the sculptured bust above his chamber door,
+With such name as “Nevermore.”
+ 
+But the Raven, sitting lonely on the placid bust, spoke only
+That one word, as if his soul in that one word he did outpour.
+Nothing farther then he uttered—not a feather then he fluttered—
+Till I scarcely more than muttered “Other friends have flown before—
+On the morrow he will leave me, as my Hopes have flown before.”
+Then the bird said “Nevermore.”
+ 
+Startled at the stillness broken by reply so aptly spoken,
+“Doubtless,” said I, “what it utters is its only stock and store
+Caught from some unhappy master whom unmerciful Disaster
+Followed fast and followed faster till his songs one burden bore—
+Till the dirges of his Hope that melancholy burden bore
+Of ‘Never—nevermore’.”
+ 
+But the Raven still beguiling all my fancy into smiling,
+Straight I wheeled a cushioned seat in front of bird, and bust and door;
+Then, upon the velvet sinking, I betook myself to linking
+Fancy unto fancy, thinking what this ominous bird of yore—
+What this grim, ungainly, ghastly, gaunt, and ominous bird of yore
+Meant in croaking “Nevermore.”
+ 
+This I sat engaged in guessing, but no syllable expressing
+To the fowl whose fiery eyes now burned into my bosom’s core;
+This and more I sat divining, with my head at ease reclining
+On the cushion’s velvet lining that the lamp-light gloated o’er,
+But whose velvet-violet lining with the lamp-light gloating o’er,
+She shall press, ah, nevermore!
+ 
+Then, methought, the air grew denser, perfumed from an unseen censer
+Swung by Seraphim whose foot-falls tinkled on the tufted floor.
+“Wretch,” I cried, “thy God hath lent thee—by these angels he hath sent thee
+Respite—respite and nepenthe from thy memories of Lenore;
+Quaff, oh quaff this kind nepenthe and forget this lost Lenore!”
+Quoth the Raven “Nevermore.”
+ 
+“Prophet!” said I, “thing of evil!—prophet still, if bird or devil!—
+Whether Tempter sent, or whether tempest tossed thee here ashore,
+Desolate yet all undaunted, on this desert land enchanted—
+On this home by Horror haunted—tell me truly, I implore—
+Is there—is there balm in Gilead?—tell me—tell me, I implore!”
+Quoth the Raven “Nevermore.”
+ 
+“Prophet!” said I, “thing of evil!—prophet still, if bird or devil!
+By that Heaven that bends above us—by that God we both adore—
+Tell this soul with sorrow laden if, within the distant Aidenn,
+It shall clasp a sainted maiden whom the angels name Lenore—
+Clasp a rare and radiant maiden whom the angels name Lenore.”
+Quoth the Raven “Nevermore.”
+ 
+“Be that word our sign of parting, bird or fiend!” I shrieked, upstarting—
+“Get thee back into the tempest and the Night’s Plutonian shore!
+Leave no black plume as a token of that lie thy soul hath spoken!
+Leave my loneliness unbroken!—quit the bust above my door!
+Take thy beak from out my heart, and take thy form from off my door!”
+Quoth the Raven “Nevermore.”
+ 
+And the Raven, never flitting, still is sitting, still is sitting
+On the pallid bust of Pallas just above my chamber door;
+And his eyes have all the seeming of a demon’s that is dreaming,
+And the lamp-light o’er him streaming throws his shadow on the floor;
+And my soul from out that shadow that lies floating on the floor
+Shall be lifted—nevermore!
+`, 
+                author: "Edgar Allan Poe",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "oldman",
+                title: "THE TERRIBLE OLD MAN", 
+                text: `It was the design of Angelo Ricci and Joe Czanek and Manuel Silva to call on the Terrible Old Man. This old man dwells all alone in a very ancient house on Water Street near the sea, and is reputed to be both exceedingly rich and exceedingly feeble; which forms a situation very attractive to men of the profession of Messrs. Ricci, Czanek, and Silva, for that profession was nothing less dignified than robbery.
+
+The inhabitants of Kingsport say and think many things about the Terrible Old Man which generally keep him safe from the attention of gentlemen like Mr. Ricci and his colleagues, despite the almost certain fact that he hides a fortune of indefinite magnitude somewhere about his musty and venerable abode. He is, in truth, a very strange person, believed to have been a captain of East India clipper ships in his day; so old that no one can remember when he was young, and so taciturn that few know his real name. Among the gnarled trees in the front yard of his aged and neglected place he maintains a strange collection of large stones, oddly grouped and painted so that they resemble the idols in some obscure Eastern temple. This collection frightens away most of the small boys who love to taunt the Terrible Old Man about his long white hair and beard, or to break the small-paned windows of his dwelling with wicked missiles; but there are other things which frighten the older and more curious folk who sometimes steal up to the house to peer in through the dusty panes. These folk say that on a table in a bare room on the ground floor are many peculiar bottles, in each a small piece of lead suspended pendulum-wise from a string. And they say that the Terrible Old Man talks to these bottles, addressing them by such names as Jack, Scar-Face, Long Tom, Spanish Joe, Peters, and Mate Ellis, and that whenever he speaks to a bottle the little lead pendulum within makes certain definite vibrations as if in answer. Those who have watched the tall, lean, Terrible Old Man in these peculiar conversations, do not watch him again. But Angelo Ricci and Joe Czanek and Manuel Silva were not of Kingsport blood; they were of that new and heterogeneous alien stock which lies outside the charmed circle of New England life and traditions, and they saw in the Terrible Old Man merely a tottering, almost helpless greybeard, who could not walk without the aid of his knotted cane, and whose thin, weak hands shook pitifully. They were really quite sorry in their way for the lonely, unpopular old fellow, whom everybody shunned, and at whom all the dogs barked singularly. But business is business, and to a robber whose soul is in his profession, there is a lure and a challenge about a very old and very feeble man who has no account at the bank, and who pays for his few necessities at the village store with Spanish gold and silver minted two centuries ago.
+
+Messrs. Ricci, Czanek, and Silva selected the night of April 11th for their call. Mr. Ricci and Mr. Silva were to interview the poor old gentleman, whilst Mr. Czanek waited for them and their presumable metallic burden with a covered motor-car in Ship Street, by the gate in the tall rear wall of their host’s grounds. Desire to avoid needless explanations in case of unexpected police intrusions prompted these plans for a quiet and unostentatious departure.
+
+As prearranged, the three adventurers started out separately in order to prevent any evil-minded suspicions afterward. Messrs. Ricci and Silva met in Water Street by the old man’s front gate, and although they did not like the way the moon shone down upon the painted stones through the budding branches of the gnarled trees, they had more important things to think about than mere idle superstition. They feared it might be unpleasant work making the Terrible Old Man loquacious concerning his hoarded gold and silver, for aged sea-captains are notably stubborn and perverse. Still, he was very old and very feeble, and there were two visitors. Messrs. Ricci and Silva were experienced in the art of making unwilling persons voluble, and the screams of a weak and exceptionally venerable man can be easily muffled. So they moved up to the one lighted window and heard the Terrible Old Man talking childishly to his bottles with pendulums. Then they donned masks and knocked politely at the weather-stained oaken door.
+
+Waiting seemed very long to Mr. Czanek as he fidgeted restlessly in the covered motor-car by the Terrible Old Man’s back gate in Ship Street. He was more than ordinarily tender-hearted, and he did not like the hideous screams he had heard in the ancient house just after the hour appointed for the deed. Had he not told his colleagues to be as gentle as possible with the pathetic old sea-captain? Very nervously he watched that narrow oaken gate in the high and ivy-clad stone wall. Frequently he consulted his watch, and wondered at the delay. Had the old man died before revealing where his treasure was hidden, and had a thorough search become necessary? Mr. Czanek did not like to wait so long in the dark in such a place. Then he sensed a soft tread or tapping on the walk inside the gate, heard a gentle fumbling at the rusty latch, and saw the narrow, heavy door swing inward. And in the pallid glow of the single dim street-lamp he strained his eyes to see what his colleagues had brought out of that sinister house which loomed so close behind. But when he looked, he did not see what he had expected; for his colleagues were not there at all, but only the Terrible Old Man leaning quietly on his knotted cane and smiling hideously. Mr. Czanek had never before noticed the colour of that man’s eyes; now he saw that they were yellow.
+Little things make considerable excitement in little towns, which is the reason that Kingsport people talked all that spring and summer about the three unidentifiable bodies, horribly slashed as with many cutlasses, and horribly mangled as by the tread of many cruel boot-heels, which the tide washed in. And some people even spoke of things as trivial as the deserted motor-car found in Ship Street, or certain especially inhuman cries, probably of a stray animal or migratory bird, heard in the night by wakeful citizens. But in this idle village gossip the Terrible Old Man took no interest at all. He was by nature reserved, and when one is aged and feeble one’s reserve is doubly strong. Besides, so ancient a sea-captain must have witnessed scores of things much more stirring in the far-off days of his unremembered youth.
+`, 
+                author: "H. P. Lovecraft",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "cat",
+                title: "THE CATS OF ULTHAR", 
+                text: `It is said that in Ulthar, which lies beyond the river Skai, no man may kill a cat; and this I can verily believe as I gaze upon him who sitteth purring before the fire. For the cat is cryptic, and close to strange things which men cannot see. He is the soul of antique Aegyptus, and bearer of tales from forgotten cities in Meroë and Ophir. He is the kin of the jungle’s lords, and heir to the secrets of hoary and sinister Africa. The Sphinx is his cousin, and he speaks her language; but he is more ancient than the Sphinx, and remembers that which she hath forgotten.
+
+In Ulthar, before ever the burgesses forbade the killing of cats, there dwelt an old cotter and his wife who delighted to trap and slay the cats of their neighbours. Why they did this I know not; save that many hate the voice of the cat in the night, and take it ill that cats should run stealthily about yards and gardens at twilight. But whatever the reason, this old man and woman took pleasure in trapping and slaying every cat which came near to their hovel; and from some of the sounds heard after dark, many villagers fancied that the manner of slaying was exceedingly peculiar. But the villagers did not discuss such things with the old man and his wife; because of the habitual expression on the withered faces of the two, and because their cottage was so small and so darkly hidden under spreading oaks at the back of a neglected yard. In truth, much as the owners of cats hated these odd folk, they feared them more; and instead of berating them as brutal assassins, merely took care that no cherished pet or mouser should stray toward the remote hovel under the dark trees. When through some unavoidable oversight a cat was missed, and sounds heard after dark, the loser would lament impotently; or console himself by thanking Fate that it was not one of his children who had thus vanished. For the people of Ulthar were simple, and knew not whence it is all cats first came.
+One day a caravan of strange wanderers from the South entered the narrow cobbled streets of Ulthar. Dark wanderers they were, and unlike the other roving folk who passed through the village twice every year. In the market-place they told fortunes for silver, and bought gay beads from the merchants. What was the land of these wanderers none could tell; but it was seen that they were given to strange prayers, and that they had painted on the sides of their wagons strange figures with human bodies and the heads of cats, hawks, rams, and lions. And the leader of the caravan wore a head-dress with two horns and a curious disc betwixt the horns.
+There was in this singular caravan a little boy with no father or mother, but only a tiny black kitten to cherish. The plague had not been kind to him, yet had left him this small furry thing to mitigate his sorrow; and when one is very young, one can find great relief in the lively antics of a black kitten. So the boy whom the dark people called Menes smiled more often than he wept as he sate playing with his graceful kitten on the steps of an oddly painted wagon.
+
+On the third morning of the wanderers’ stay in Ulthar, Menes could not find his kitten; and as he sobbed aloud in the market-place certain villagers told him of the old man and his wife, and of sounds heard in the night. And when he heard these things his sobbing gave place to meditation, and finally to prayer. He stretched out his arms toward the sun and prayed in a tongue no villager could understand; though indeed the villagers did not try very hard to understand, since their attention was mostly taken up by the sky and the odd shapes the clouds were assuming. It was very peculiar, but as the little boy uttered his petition there seemed to form overhead the shadowy, nebulous figures of exotic things; of hybrid creatures crowned with horn-flanked discs. Nature is full of such illusions to impress the imaginative.
+
+That night the wanderers left Ulthar, and were never seen again. And the householders were troubled when they noticed that in all the village there was not a cat to be found. From each hearth the familiar cat had vanished; cats large and small, black, grey, striped, yellow, and white. Old Kranon, the burgomaster, swore that the dark folk had taken the cats away in revenge for the killing of Menes’ kitten; and cursed the caravan and the little boy. But Nith, the lean notary, declared that the old cotter and his wife were more likely persons to suspect; for their hatred of cats was notorious and increasingly bold. Still, no one durst complain to the sinister couple; even when little Atal, the innkeeper’s son, vowed that he had at twilight seen all the cats of Ulthar in that accursed yard under the trees, pacing very slowly and solemnly in a circle around the cottage, two abreast, as if in performance of some unheard-of rite of beasts. The villagers did not know how much to believe from so small a boy; and though they feared that the evil pair had charmed the cats to their death, they preferred not to chide the old cotter till they met him outside his dark and repellent yard.
+So Ulthar went to sleep in vain anger; and when the people awaked at dawn—behold! every cat was back at his accustomed hearth! Large and small, black, grey, striped, yellow, and white, none was missing. Very sleek and fat did the cats appear, and sonorous with purring content. The citizens talked with one another of the affair, and marvelled not a little. Old Kranon again insisted that it was the dark folk who had taken them, since cats did not return alive from the cottage of the ancient man and his wife. But all agreed on one thing: that the refusal of all the cats to eat their portions of meat or drink their saucers of milk was exceedingly curious. And for two whole days the sleek, lazy cats of Ulthar would touch no food, but only doze by the fire or in the sun.
+
+It was fully a week before the villagers noticed that no lights were appearing at dusk in the windows of the cottage under the trees. Then the lean Nith remarked that no one had seen the old man or his wife since the night the cats were away. In another week the burgomaster decided to overcome his fears and call at the strangely silent dwelling as a matter of duty, though in so doing he was careful to take with him Shang the blacksmith and Thul the cutter of stone as witnesses. And when they had broken down the frail door they found only this: two cleanly picked human skeletons on the earthen floor, and a number of singular beetles crawling in the shadowy corners.
+
+There was subsequently much talk among the burgesses of Ulthar. Zath, the coroner, disputed at length with Nith, the lean notary; and Kranon and Shang and Thul were overwhelmed with questions. Even little Atal, the innkeeper’s son, was closely questioned and given a sweetmeat as reward. They talked of the old cotter and his wife, of the caravan of dark wanderers, of small Menes and his black kitten, of the prayer of Menes and of the sky during that prayer, of the doings of the cats on the night the caravan left, and of what was later found in the cottage under the dark trees in the repellent yard.
+And in the end the burgesses passed that remarkable law which is told of by traders in Hatheg and discussed by travellers in Nir; namely, that in Ulthar no man may kill a cat.
+`, 
+                author: "H. P. Lovecraft",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "themearl",
+                title: "THE PEARL OF LOVE", 
+                text: `he pearl is lovelier than the most brilliant of crystalline stones, the moralist declares, because it is made through the suffering of a living creature. About that I can say nothing because I feel none of the fascination of pearls. Their cloudy lustre moves me not at all. Nor can I decide for myself upon that age-long dispute whether the Pearl of Love is the cruellest of stories or only a gracious fable of the immortality of beauty.
+
+Both the story and the controversy will be familiar to students of mediaeval Persian prose. The story is a short one, though the commentary upon it is a respectable part of the literature of that period. They have treated it as a poetic invention and they have treated it as an allegory meaning this, that, or the other thing. Theologians have had their copious way with it, dealing with it particularly as concerning the restoration of the body after death, and it has been greatly used as a parable by those who write about aesthetics. And many have held it to be the statement of a fact, simply and baldly true.
+
+The story is laid in North India, which is the most fruitful soil for sublime love stories of all the lands in the world. It was in a country of sunshine and lakes and rich forests and hills and fertile valleys; and far away the great mountains hung in the sky, peaks, crests, ridges of inaccessible and eternal snow. There was a young prince, lord of all the land; and he found a maiden of indescribable beauty and delightfulness and he made her his queen and laid his heart at her feet. Love was theirs, full of joys and sweetness, full of hope, exquisite, brave and marvellous love, beyond anything you have ever dreamt of love. It was theirs for a year and part of a year, and then suddenly, because of some venomous sting that came to her in a thicket, she died.
+
+She died and for a while the prince was utterly prostrated. He was silent and motionless with grief. They feared he might kill himself, and he had neither sons nor brothers to succeed him. For two days and nights he lay upon his face, fasting, across the foot of the couch which bore her calm and lovely body. Then he arose and ate, and went about very quietly like one who has taken a great resolution. He caused her body to be put in a coffin of lead mixed with silver, and for that he had an outer coffin made of the most precious and scented woods wrought with gold, and about that there was to be a sarcophagus of alabaster, inlaid with precious stones. And while these things were being done he spent his time for the most part by the pools and in the garden-houses and pavilions and groves and in those chambers in the palace where they two had been most together, brooding upon her loveliness. He did not rend his garments nor defile himself with ashes and sackcloth as the custom was, for his love was too great for such extravagances. At last he came forth again among his councillors and before the people, and told them what he had a mind to do.
+
+He said he could never more touch woman, he could never more think of them, and so he would find a seemly youth to adopt for his heir and train him to his task, and that he would do his princely duties as became him; but that for the rest of it, he would give himself with all his power and all his strength and all his wealth, all that he could command, to make a monument worthy of his incomparable, dear, lost mistress. A building it should be of perfect grace and beauty, more marvellous than any other building had ever been or could ever be, so that to the end of time it should be a wonder, and men would treasure it and speak of it and desire to see it and come from all lands of the earth to visit and recall the name and memory of his queen. And this building he said was to be called the Pearl of Love.
+
+And this his councillors and people permitted him to do, and so he did.
+
+Year followed year, and all the years he devoted himself to building and adorning the Pearl of Love. A great foundation was hewn out of the living rock in a place whence one seemed to be looking at the snowy wilderness of the great mountains across the valley of the world. Villages and hills there were, a winding river, and very far away three great cities. Here they put the sarcophagus of alabaster beneath a pavilion of cunning workmanship; and about it there were set pillars of strange and lovely stone and wrought and fretted walls, and a great casket of masonry bearing a dome and pinnacles and cupolas, as exquisite as a jewel. At first the design of Pearl of Love was less bold and subtle than it became later. At first it was smaller and more wrought and encrusted; there were many pierced screens and delicate clusters of rosy-hued pillars, and the sarcophagus lay like a child that sleeps among flowers. The first dome was covered with green tiles, framed and held together by silver, but this was taken away again because it seemed close, because it did not soar grandly enough for the broadening imagination of the prince.
+
+For by this time he was no longer the graceful youth who had loved the girl queen. He was now a man, grave and intent, wholly set upon the building of the Pearl of Love. With every year of effort he had learnt new possibilities in arch and wall and buttress; he had acquired greater power over the material he had to use and he had learnt of a hundred stones and hues and effects that he could never have thought of in the beginning. His sense of colour had grown finer and colder; he cared no more for the enamelled gold-lined brightness that had pleased him first, the brightness of an illuminated missal; he sought now for blue colouring like the sky and for the subtle hues of great distances, for recondite shadows and sudden broads floods of purple opalescence and for grandeur and space. He wearied altogether of carvings and pictures and inlaid ornamentation and all the little careful work of men. “Those were pretty things,” he said of his earlier decorations; and had them put aside into subordinate buildings where they would not hamper his main design. Greater and greater grew his artistry. With awe and amazement people saw the Pearl of Love sweeping up from its first beginnings to a superhuman breadth and height and magnificence. They did not know clearly what they had expected, but never had they expected so sublime a thing as this. “Wonderful are the miracles,” they whispered, “that love can do,” and all the women in the world, whatever other loves they had, loved the prince for the splendour of his devotion.
+
+Through the middle of the building ran a great aisle, a vista, that the prince came to care for more and more. From the inner entrance of the building he looked along the length of an immense pillared gallery and across the central area from which the rose-hued columns had long since vanished, over the top the pavilion under which lay the sarcophagus, through a marvellously designed opening, to the snowy wilderness of the great mountain, the lord of all mountains, two hundred miles away. The pillars and arches and buttresses and galleries soared and floated on either side, perfect yet unobtrusive, like great archangels waiting in the shadows about the presence of God. When men saw that austere beauty for the first time they were exalted, and then they shivered and their hearts bowed down. Very often would the prince come to stand there and look at that vista, deeply moved and not yet fully satisfied. The Pearl of Love had still something for him to do, he felt, before his task was done. Always he would order some little alteration to be made or some recent alteration to be put back again. And one day he said that the sarcophagus would be clearer and simpler without the pavilion; and after regarding it very steadfastly for a long time, he had the pavilion dismantled and removed.
+
+The next day he came and said nothing, and the next day and the next. Then for two days he stayed away altogether. Then he returned, bringing with him an architect and two master craftsmen and a small retinue.
+
+All looked, standing together silently in a little group, amidst the serene vastness of their achievement. No trace of toil remained in its perfection. It was as if God of nature’s beauty had taken over their offspring to himself.
+Only one thing there was to mar the absolute harmony. There was a certain disproportion about the sarcophagus. It had never been enlarged, and indeed how could it have been enlarged since the early days? It challenged the eye; it nicked the streaming lines. In that sarcophagus was the casket of lead and silver, and in the casket of lead and silver was the queen, the dear immortal cause of all this beauty. But now that sarcophagus seemed no more than a little dark oblong that lay incongruously in the great vista of the Pearl of Love. It was as if someone had dropped a small valise upon the crystal sea of heaven.
+Long the prince mused, but no one knew the thoughts that passed through his mind.
+At last he spoke. He pointed.
+“Take that thing away,” he said.
+`, 
+                author: "H. G. Wells",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "theemperor",
+                title: "THE EMPEROR’S NEW CLOTHES", 
+                text: `Many years ago there lived an Emperor who was so monstrous fond of fine new clothes that he spent all his money on being really smart. He didn’t care about his army, he didn’t care for going to the play, or driving out in the park, unless it was to show his new clothes. He had a coat for every hour in the day; and just as people say about a king, that “he’s holding a council”, so in this country they always said, 
+
+“The Emperor is in his dressing room”. In the great city where he lived, life was very pleasant, lots of strangers came there every day; and one day there arrived two swindlers. They gave out that they were weavers, and said they knew how to make the loveliest stuff that could possibly be imagined. Not only were the colours and patterns extraordinarily pretty, but the clothes that were made of the stuff had this marvellous property: that they were invisible to anyone who was either unfit for his situation or else was intolerably stupid. “Very excellent clothes those must be,” thought the Emperor; “if I wore them I could tell which are the men in my realm who aren’t fit for the posts they hold. I could tell clever people from stupid ones: to be sure that stuff must be made for me directly.” Accordingly he gave the two swindlers a large sum in advance, so that they might begin their work. 
+
+They set up two looms and pretended to be working, but they hadn’t a vestige of anything on the looms. In hot haste they demanded the finest of silk and the best of gold, which they stuffed into their own pockets; and they worked away at the bare looms till any hour of the night.
+
+“I should like to know how they are getting on with the stuff,” thought the Emperor. But to tell the truth he had a little misgiving when he reflected that anyone who was stupid or unsuited to his post couldn’t see the stuff. Of course, he was confident that he needn’t be afraid for himself: all the same he decided to send someone else first to see how things were. Everybody in the whole city knew what a marvellous power was in the stuff, and everybody was agog to see how incompetent and how stupid his neighbour was.
+
+“I’ll send my good old minister down to the weavers,” thought the Emperor; “he can quite well see how the stuff is shaping: he’s an intelligent man, and no one is better fitted for his post than he.”
+
+So the worthy old minister went into the hall where the two swindlers were sitting working at the bare loom. “Heaven help us,” thought the old minister, staring with all his eyes; “I can’t see a thing”; but he didn’t say so.
+
+Both the swindlers begged him to be pleased to step nearer, and asked if here was not a pretty pattern, and beautiful colours; and they pointed to the bare looms, and the poor old minister kept staring at it, but he couldn’t see anything, because there was nothing to be seen. 
+
+“Gracious goodness!” thought he; “can I be stupid? I never thought so, and nobody must get to know it. Can I be unfit for my office? No, no! It won’t do for me to say I can’t see the stuff.” 
+
+“Well, have you nothing to say about it?” said the one who was weaving.
+
+“Oh, it’s charming! Most delightful!” said the old minister, looking through his spectacles. “The pattern! The colour! Yes, indeed, I must tell the Emperor I am infinitely pleased with it.”
+
+“We are glad indeed to hear it,” said both the weavers, and proceeded to describe the colours, naming them, and the uncommon pattern. The old minister listened carefully so as to be able to repeat it when he went back to the Emperor; and so he did. The swindlers now demanded more money and more silk and gold to be used in the weaving. They pocketed it all; not a thread was put up, but they went on, as before, weaving at the bare loom.
+
+Very soon, the Emperor sent another honest official over to see how the weaving progressed and whether the stuff would be ready soon. He fared just like the minister. He looked and looked, but as there was nothing there but the empty loom, nothing could be seen.
+
+“Well, isn’t that a fine piece of stuff?” said both the swindlers, exhibiting and explaining the lovely patterns that weren’t there at all. “Stupid, I am not,” thought the man; “it must be my nice post that I’m not fit for? That would be a good joke! But I mustn’t let people notice anything.” Whereupon he praised the stuff which he couldn’t see, and assured them of his pleasure in the pretty colours and the exquisite pattern. 
+
+“Yes, it is positively sweet,” he told the Emperor. Everybody in the city was talking of the splendid stuff.
+
+At last the Emperor decided to see it, while it was still on the loom, with a large suite of select people—among them the two worthy officials who had been there before. He went over to the two clever swindlers, who were now weaving with all their might; only without a vestige of a thread.
+
+“Now, is not that magnificent?” said both the worthy officials “Will Your Majesty deign to note the beauty of the pattern and the colours”; and they pointed to the bare loom, for they supposed that all the rest could certainly see the stuff. 
+
+“What’s the meaning of this?” thought the Emperor. “I can’t see a thing! This is terrible! Am I stupid? Am I not fit to be Emperor? That would be the most frightful thing that could befall me. Oh, it’s very pretty, it has my all-highest approval!” said he, nodding complacently and gazing on the empty loom: of course, he wouldn’t say he could see nothing. The whole of the suite he had with him looked and looked, but got no more out of that than the rest. However, they said, as the Emperor had said: “Oh, it’s very pretty!” And they advised him to put on this splendid new stuff for the first time, on the occasion of a great procession which was to take place shortly. “Magnificent! Exquisite! Excellent!” went from mouth to mouth; the whole company was in the highest state of gratification. The Emperor gave each of the swindlers a knight’s cross to hang in his buttonhole and the title of “Gentleman in Weaving”.
+
+The whole night, previous to the morning on which the procession was to take place, the swindlers sat up, and had upwards of sixteen candles lit; people could see they were hard put to it to get the Emperor’s new clothes finished. They pretended to be taking the stuff off the loom; they clipped with scissors in the air, they sewed with a needle without thread—and finally they said: “Look now! The clothes are finished.” 
+
+The Emperor with the noblest of his personal attendants came thither himself. Each of the swindlers raised an arm in the air as if holding something up, and said: “See, here are the hose, this is the coat, this is the mantle, and so on. It is as light as a spider’s web, you would think you had nothing whatever on; but that is, of course, the beauty of it.” “Yes,” said all the attendants; but they couldn’t see anything, for there was nothing to be seen.
+
+“Will Your Imperial Majesty be graciously pleased to take off your clothes?” said the swindlers. “We can then put the new ones upon you here, before the large mirror.” The Emperor took off all his clothes, and the swindlers behaved as if they were handing him each piece of the new suit which was supposed to have been made; and they put their hands about his waist and pretended to tie some thing securely. It was the train. The Emperor turned and twisted himself in front of the glass.
+
+“Heaven! How well it fits? How beautifully it sets,” said everyone. “The pattern! The colours! It is indeed a noble costume!”
+
+“They are waiting, outside, with the canopy which is to be borne over Your Majesty in the procession,” said the chief master of the ceremonies. “Very well, I am ready,” said the Emperor; “doesn’t it set well?” Once more he turned about in front of the glass that it might seem as if he was really examining his finery. The lords in waiting, who were to carry the train, fumbled with their hands in the direction of the floor as if they were picking the train up. They walked on, holding the air—they didn’t want to let it be noticed that they could see nothing at all.
+
+So the Emperor walked in the procession under the beautiful canopy, and everybody in the streets and at the windows said: “Lord! How splendid the Emperor’s new clothes are. What a lovely train he has to his coat! What a beautiful fit it is!” Nobody wanted to be detected seeing nothing: that would mean that he was no good at his job, or that he was very stupid. None of the Emperor’s costumes had ever been such a success.
+
+“But he hasn’t got anything on!” said a little child. “Lor! Just hark at the innocent,” said its father. And one whispered to the other what the child had said: “That little child there says he hasn’t got anything on.”
+
+“Why, he hasn’t got anything on!” the whole crowd was shouting at last; and the Emperor’s flesh crept, for it seemed to him they were right. 
+
+“But all the same,” he thought to himself, “I must go through with the procession.” So he held himself more proudly than before, and the lords in waiting walked on bearing the train—the train that wasn’t there at all.
+`, 
+                author: "H. C. Andersen.",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "luck",
+                title: "LUCK", 
+                text: `It was at a banquet in London in honor of one of the two or three conspicuously illustrious English military names of this generation. For reasons which will presently appear, I will withhold his real name and titles, and call him Lieutenant General Lord Arthur Scoresby, V.C., K.C.B., etc., etc., etc. What a fascination there is in a renowned name! There sat the man, in actual flesh, whom I had heard of so many thousands of times since that day, thirty years before, when his name shot suddenly to the zenith from a Crimean battlefield, to remain forever celebrated. It was food and drink to me to look, and look, and look at that demigod; scanning, searching, noting: the quietness, the reserve, the noble gravity of his countenance; the simple honesty that expressed itself all over him; the sweet unconsciousness of his greatness—unconsciousness of the hundreds of admiring eyes fastened upon him, unconsciousness of the deep, loving, sincere worship welling out of the breasts of those people and flowing toward him.
+
+The clergyman at my left was an old acquaintance of mine—clergyman now, but had spent the first half of his life in the camp and field, and as an instructor in the military school at Woolwich. Just at the moment I have been talking about, a veiled and singular light glimmered in his eyes, and he leaned down and muttered confidentially to me—indicating the hero of the banquet with a gesture:
+“Privately—he’s an absolute fool.”
+
+This verdict was a great surprise to me. If its subject had been Napoleon, or Socrates, or Solomon, my astonishment could not have been greater. Two things I was well aware of: that the Reverend was a man of strict veracity, and that his judgement of men was good. Therefore I knew, beyond doubt or question, that the world was mistaken about this hero: he was a fool. So I meant to find out, at a convenient moment, how the Reverend, all solitary and alone, had discovered the secret.
+
+Some days later the opportunity came, and this is what the Reverend told me.
+
+About forty years ago I was an instructor in the military academy at Woolwich. I was present in one of the sections when young Scoresby underwent his preliminary examination. I was touched to the quick with pity; for the rest of the class answered up brightly and handsomely, while he—why, dear me, he didn’t know anything, so to speak. He was evidently good, and sweet, and lovable, and guileless; and so it was exceedingly painful to see him stand there, as serene as a graven image, and deliver himself of answers which were veritably miraculous for stupidity and ignorance. All the compassion in me was aroused in his behalf. I said to myself, when he comes to be examined again, he will be flung over, of course; so it will be simply a harmless act of charity to ease his fall as much as I can. I took him aside, and found that he knew a little of Cæsar’s history; and as he didn’t know anything else, I went to work and drilled him like a galley slave on a certain line of stock questions concerning Cæsar which I knew would be used. If you’ll believe me, he went through with flying colors on examination day! He went through on that purely superficial “cram,” and got compliments too, while others, who knew a thousand times more than he, got plucked. By some strangely lucky accident—an accident not likely to happen twice in a century—he was asked no question outside of the narrow limits of his drill.
+
+It was stupefying. Well, all through his course I stood by him, with something of the sentiment which a mother feels for a crippled child; and he always saved himself—just by miracle, apparently.
+
+Now of course the thing that would expose him and kill him at last was mathematics. I resolved to make his death as easy as I could; so I drilled him and crammed him, and crammed him and drilled him, just on the line of questions which the examiners would be most likely to use, and then launching him on his fate. Well, sir, try to conceive of the result: to my consternation, he took the first prize! And with it he got a perfect ovation in the way of compliments.
+
+Sleep? There was no more sleep for me for a week. My conscience tortured me day and night. What I had done I had done purely through charity, and only to ease the poor youth’s fall—I never had dreamed of any such preposterous result as the thing that had happened. I felt as guilty and miserable as the creator of Frankenstein. Here was a woodenhead whom I had put in the way of glittering promotions and prodigious responsibilities, and but one thing could happen: he and his responsibilities would all go to ruin together at the first opportunity.
+The Crimean war had just broken out. Of course there had to be a war, I said to myself: we couldn’t have peace and give this donkey a chance to die before he is found out. I waited for the earthquake. It came. And it made me reel when it did come. He was actually gazetted to a captaincy in a marching regiment! Better men grow old and gray in the service before they climb to a sublimity like that. And who could ever have foreseen that they would go and put such a load of responsibility on such green and inadequate shoulders? I could just barely have stood it if they had made him a cornet; but a captain—think of it! I thought my hair would turn white.
+
+Consider what I did—I who so loved repose and inaction. I said to myself, I am responsible to the country for this, and I must go along with him and protect the country against him as far as I can. So I took my poor little capital that I had saved up through years of work and grinding economy, and went with a sigh and bought a cornetcy in his regiment, and away we went to the field.
+
+And there—oh dear, it was awful. Blunders? Why, he never did anything but blunder. But, you see, nobody was in the fellow’s secret—everybody had him focused wrong, and necessarily misinterpreted his performance every time—consequently they took his idiotic blunders for inspirations of genius; they did, honestly! His mildest blunders were enough to make a man in his right mind cry; and they did make me cry—and rage and rave too, privately. And the thing that kept me always in a sweat of apprehension was the fact that every fresh blunder he made increased the luster of his reputation! I kept saying to myself, he’ll get so high, that when discovery does finally come, it will be like the sun falling out of the sky.
+
+He went right along up, from grade to grade, over the dead bodies of his superiors, until at last, in the hottest moment of the battle of ——— down went our colonel, and my heart jumped into my mouth, for Scoresby was next in rank! Now for it, said I; we’ll all land in Sheol in ten minutes, sure.
+
+The battle was awfully hot; the allies were steadily giving way all over the field. Our regiment occupied a position that was vital; a blunder now must be destruction. At this crucial moment, what does this immortal fool do but detach the regiment from its place and order a charge over a neighboring hill where there wasn’t a suggestion of an enemy! “There you go!” I said to myself; “this is the end at last.”
+And away we did go, and were over the shoulder of the hill before the insane movement could be discovered and stopped. And what did we find? An entire and unsuspected Russian army in reserve! And what happened? We were eaten up? That is necessarily what would have happened in ninety-nine cases out of a hundred. But no, those Russians argued that no single regiment would come browsing around there at such a time. It must be the entire English army, and that the sly Russian game was detected and blocked; so they turned tail, and away they went, pell-mell, over the hill and down into the field, in wild confusion, and we after them; they themselves broke the solid Russian center in the field, and tore through, and in no time there was the most tremendous rout you ever saw, and the defeat of the allies was turned into a sweeping and splendid victory! Marshal Canrobert looked on, dizzy with astonishment, admiration,and delight; and sent right off for Scoresby, and hugged him, and decorated him on the field, in presence of all the armies!
+
+And what was Scoresby’s blunder that time? Merely the mistaking his right hand for his left—that was all. An order had come to him to fall back and support our right; and instead, he fell forward and went over the hill to the left. But the name he won that day as a marvelous military genius filled the world with his glory, and that glory will never fade while history books last.
+He is just as good and sweet and lovable and unpretending as a man can be, but he doesn’t know enough to come in when it rains. Now that is absolutely true. He is the supremest ass in the universe; and until half an hour ago nobody knew it but himself and me. He has been pursued, day by day and year by year, by a most phenomenal and astonishing luckiness. He has been a shining soldier in all our wars for a generation; he has littered his whole military life with blunders, and yet has never committed one that didn’t make him a knight or a baronet or a lord or something. Look at his breast; why, he is just clothed in domestic and foreign decorations. Well, sir, every one of them is the record of some shouting stupidity or other; and taken together, they are proof that the very best thing in all this world that can befall a man is to be born lucky. I say again, as I said at the banquet, Scoresby’s an absolute fool.
+`, 
+                author: "Mark Twain",
+                hasMore: false,
+                buyLink: "#"
+            },
         ]
     }
 };
