@@ -7,7 +7,7 @@ const STORIES_DATA_EN = {
         stories: [
             { 
                 id: "vesselen",
-                title: "The vessel", 
+                title: "THE VESSEL", 
                 text: `The idea was born on a Sunday evening, somewhere between a cold pizza and the deafening silence of his sixth-floor apartment. He printed fifty flyers. No graphics, just raw text in Helvetica, looking like a death certificate:
 
 “Professional Listener. I am not a shrink. I don’t give advice. I won’t tell you everything will be fine. I simply take your truth so it no longer suffocates you. 20 euros an hour. Pay first, talk after.”
@@ -66,7 +66,7 @@ I scream until she returns—the one for whom I am still alive.`,
             },
             { 
                 id: "fathermilonen",
-                title: "Father Milon", 
+                title: "FATHER MILON", 
                 text: `For a month the hot sun has been parching the fields. Nature is expanding beneath its rays; the fields are green as far as the eye can see. The big azure dome of the sky is unclouded. The farms of Normandy, scattered over the plains and surrounded by a belt of tall beeches, look, from a distance, like little woods. On closer view, after lowering the worm-eaten wooden bars, you imagine yourself in an immense garden, for all the ancient apple-trees, as gnarled as the peasants themselves, are in bloom. The sweet scent of their blossoms mingles with the heavy smell of the earth and the penetrating odor of the stables. It is noon. The family is eating under the shade of a pear tree planted in front of the door; father, mother, the four children, and the help—two women and three men are all there. All are silent. The soup is eaten and then a dish of potatoes fried with bacon is brought on.
 
 From time to time one of the women gets up and takes a pitcher down to the cellar to fetch more cider. The man, a big fellow about forty years old, is watching a grape vine, still bare, which is winding and twisting like a snake along the side of the house.
