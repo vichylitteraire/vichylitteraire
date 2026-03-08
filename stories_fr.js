@@ -1287,4 +1287,13 @@ Après une courte délibération, le prévenu fut acquitté.`,
                 hasMore: false,
                 buyLink: "#"
             },
+                { id: "lettre",
+                title: "LETTRE", 
+                text: `Je marche sur le fil du rasoir — là où les possibilités s'arrêtent et où les interdits sont brisés. Je retourne mon âme, et il n'y a aucun secret à cela : tout cela est pour toi. Tu es cette lumière éblouissante devant laquelle mon obscurité intérieure est impuissante. 
+
+Si tu étais de la musique, je t'écouterais éternellement, craignant de manquer une seule note. Tu es un monde entier, vaste et insaisissable, que je veux absorber sans laisser une miette. Ma journée commence avec toi, et c'est en toi que mon soleil se couche. Tu es mon aube et mon inévitable et magnifique crépuscule.`, 
+                author: "Imani S.",
+                hasMore: false,
+                buyLink: "#"
+            },
             ]};
