@@ -1,5 +1,4 @@
 const STORIES_DATA_FR = {
-    fr: {
         labelAuthor: "Par",
         nextBtn: "Autre histoire 🎲",
         contactLabel: "Pour nous contacter :",
@@ -1288,6 +1287,4 @@ Après une courte délibération, le prévenu fut acquitté.`,
                 hasMore: false,
                 buyLink: "#"
             },
-            ]},
-
-};
+            ]};
