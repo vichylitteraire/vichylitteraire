@@ -261,9 +261,15 @@ Free
 In the secret confidence
 That belongs only to you
 Confidence
-Of what dares not be said
+Of what dares not be said`,
+author: "KHAE | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
 
-You tame the night and storms every day
+{ id: "lyc123",
+                title: "...", 
+                text: `You tame the night and storms every day
 
 It's you again who bring back the fire
 Adopt the day
@@ -280,7 +286,7 @@ Without fleeing
 To return and leave again
 With that extra soul
 That life sometimes grants`, 
-                author: "Louise DEROCHE | Lycée Albert Londres",
+                author: "KHAE | Lycée Albert Londres",
                 hasMore: false,
                 buyLink: "#"
             },
@@ -317,9 +323,15 @@ Fear that those I love will leave
 Fear of immobility
 Fear of conforming,
 Of getting used to no longer being myself
-Fear of being invisible
+Fear of being invisible`, 
+                author: "Lizon BERGER | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
 
-Often freedom appears
+{ id: "lys124",
+                title: "...", 
+                text: `Often freedom appears
 Simple abstract concept
 Has it ever really existed?
 From the deepest swamps
@@ -462,7 +474,7 @@ Mirror, my beautiful mirror, you are not broken,
 Yet I see my reflection dilapidated. 
 Mirror, my beautiful mirror: 
 Will I ever stop contemplating myself in the dark`, 
-                author: "Lemoine Bidolet Johane | Lycée Albert Londres",
+                author: "SOLAR MILLS | Lycée Albert Londres",
                 hasMore: false,
                 buyLink: "#"
             },
@@ -486,7 +498,7 @@ The fights did not help you.
 Winter arrives and there you are alone at the top of the turret. 
 The beauty dances with the prince under the snow, 
 And you, you watch this in the rain. `, 
-                author: "Lemoine Bidolet Johane | Lycée Albert Londres",
+                author: "SOLAR MILLS | Lycée Albert Londres",
                 hasMore: false,
                 buyLink: "#"
             },
@@ -512,7 +524,7 @@ I lift my head, I see the light for the first time, It's dawn!
 And if I walk following this light, 
 Maybe then I'll be the star of my own show, 
 In the most beautiful way...`, 
-                author: "Lemoine Bidolet Johane | Lycée Albert Londres",
+                author: "SOLAR MILLS | Lycée Albert Londres",
                 hasMore: false,
                 buyLink: "#"
             },
