@@ -1146,4 +1146,749 @@ Je repensais à ce voyage dans mon esprit.
                 hasMore: false,
                 buyLink: "#"
             },
+                { id: "lyc10",
+                title: "…", 
+                text: `Assise sur un banc, je regarde les nuages. Je laisse les rayons réchauffer ma peau laiteuse. Voilà 2 jours que je n'ai pas dormi, mon imagination guide mes sens et contrôle mon sommeil lassant. La brise tiède du printemps faisait voleter mes cheveux bouclés avec délice, comme si elle les embrassait avec douceur.
+A gauche, une tortue, à droite un dauphin, je donnais au ciel des formes qu'il ne connaissait pas. Bercée par le doux ciel bleu, je fermai les yeux et me laissai emporter. Aucun bruit, seulement la douce mélodie des oiseaux résonnant dans mes os.
+
+Je me sentais libre, libre d'un monde de loi, libre d'un monde qui ne me correspond pas. Une perle de bonheur roule sur ma joue et pénètre mes lèvres rosies provoqué par les nombreux passages de ma langue. Ce jour là, je l'attendais, ce jour où tout arrêterait de tourner dans ma tête.
+Plus de pensée, plus de cris, plus rien, juste moi. Je suis résigné à la fin prochaine qui me gagne à petit feu. J'ai, il y a longtemps, cessé le combat contre celle provoquant mes saignements.
+Je l'attendais comme une vieille amie oubliée depuis longtemps.
+
+Vous dites chimère je dis illusion, vous dites cancer je dis suspension. Car oui, tout s'arrête là pour moi. Enfin non, je ne mourrai pas. Je sais que, quelque part, quelqu'un le même jour au même endroit, se souviendra sûrement de moi.`, 
+                author: "Olivia Vrecko | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "luc11",
+                title: "…", 
+                text: `Des rires. Je les entends au loin. Très loin même. D'ailleurs, ils sont si loin qu'ils effleurent à peine mon âme.
+
+Des fêtes. Je les vois, mes amis. Ils dansent sur un morceau de rap, un verre à la main. Mais dis donc, cette fois je ne les vois pas de si loin. Mais il faut leur dire ! Il faut leur dire qu'ils ne sont pas en sécurité ! Je crie : c'est dangereux ici !
+
+Soudain j'écoute des pas, ce sont ceux d'une femme. Elle est grande, belle et superbement bien habillée. Elle marche le long d'une ruelle sombre. Je ne la connais pas mais il faut lui dire ! Il faut lui dire qu'elle n'est pas en sécurité ! Qu'à tout moment elle peut se faire agresser!
+
+Alors des grattements se font entendre. Ce sont ceux des stylos sur une feuille : je suis dans une salle d'école. Tous ces élèves si concentrés, sont en train de passer leur bac. Mais il faut leur dire ! Il faut leur dire qu'ils ne sont pas en sécurité !
+Qu'ils risquent d'échouer ou pire, de se tromper ! Qu'ils peuvent rater leurs études et ne jamais avoir de travail !
+
+Tout à coup, je suis dans un hôpital. Ici, les bébés côtoient les personnes en fin de vie. Mais enfin, ces êtres qui n'ont que quelques heures, pourquoi ne ressentent-ils pas la frayeur de ce qui les attend? Et les mourants, sentent-ils la faucheuse sur leur épaule ? Pourquoi ne réagissent-ils pas ? Pourquoi ne paniquent-ils pas? Pourquoi laissons-nous la vie et la mort se toucher comme ça ? C'est un virus ! Mais qui est un virus ? La vie, la mort, la frayeur ?
+
+Et alors, j'ouvre les yeux. Je suis dans mon lit, dans le noir. C'est la nuit. Et ce virus, celui qui poisse dans mes mains, est celui de la vie, celui qui devrait nous pousser à apprécier et non pas à angoisser à chaque coin de rue, à chaque salle de classe, à chaque chambre d'hôpital. `, 
+                author: "Lilou | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "lyc13",
+                title: "…", 
+                text: `Il y a des années
+Un pêcheur s'en allait pêcher
+En ce beau matin d'été,
+Ensoleillé, sur ce lac, il naviguait
+Il laissa sa canne à pêche
+Dans l'eau tomber
+Et d'un coup rêche
+Un poisson fut attrapé
+
+Il était étrange
+En effet, bien qu'il soit orange,
+Il semblait porter des mi-bas
+Et une sorte de samara
+Il le regarda et s'exclama:
+"Qui es-tu pour m'attraper ainsi vêtu?
+Est-ce donc toi l'unique pêcheur têtu?
+Ou es-tu nouveau ici-bas?"
+
+Le pêcheur, sans ardeur
+Répondit avec mépris:
+"Insolent et railleur,
+Si tu continues, tu seras frit!"
+
+Et le poisson,
+À la stupeur du pêcheur
+Se mit à rire sans peur:
+"C'est notre disposition dans les bas-fonds"
+
+Quelle ne fut pas la surprise du compère,
+Étonné de l'apprendre de cette manière,
+Lui qui détestait cette tenue
+Et qui préférait être dévêtu
+
+Le poisson l'emmena donc
+Grâce à quelques incantations de magie
+Découvrir les fonds
+Malgré lui
+
+Et toute cette civilisation
+Portait une tenue
+La même sans distinction:
+Des jarretières et des mules
+
+Ainsi, le pêcheur se résolut
+À cette tenue, non sans dépit
+Et le poisson
+Fut ravi de sa mission `, 
+                author: "Olivia | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "tonjardin",
+                title: "TON JARDIN", 
+                text: `Je regarde le jardin à travers tes yeux
+Les hortensias bleus en fleur, sur le point de jaunir
+— Des feuilles tombées d'une branche d'arbre.
+Les transats au bord de la piscine, attendant l'été
+
+Je regarde ton jardin à travers tes yeux
+Avec la tristesse que tout cela engendre.
+Cette agitation singulière qui rend le mouvement difficile
+Comme elle me sourit à travers tes yeux.
+
+Tant d'immobilité te fait devenir mer,
+Vivre en Méditerranée te rend farouche. `, 
+                author: "ZILAN KAYA | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "unsouvenir",
+                title: "UN SOUVENIR", 
+                text: `Tous ces journaux que j'ai écrits pour qu'un souvenir demeure
+M'ont fait tout oublier
+À mesure que je lisais, je me suis perdue
+Dans la profondeur de l'inconnu et
+À mesure que je lisais,
+je me suis réduite au néant en voulant exister.
+
+L'écriture n'était-elle pas la permanence au fond ?
+Pourquoi est-ce que je disparais,
+Pourquoi est-ce que je meurs ?
+
+Je pleure. `, 
+                author: "ZILAN KAYA | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "caecrit",
+                title: "ÇA ÉCRIT", 
+                text: `Ça écrit, ça écrit, ça écrit !
+Ça écrit que les glaces entre les pays ont fondu.
+Ça écrit que tout le monde rira à nouveau.
+Que chacun se réjouisse ; de beaux jours sont en route, ils arrivent.
+La guerre est finie ! Tout revient à la normale !
+
+Le journal n'écrit pas les morts, mon enfant ;
+Tu ne peux pas savoir.
+Tu ne verras plus jamais quelqu'un rire.
+La douleur s'est infiltrée mille fois dans chaque parcelle de terre,
+Tu ne peux pas faire aimer l'avenir aux gens d'ici.
+
+Ça écrit, ça écrit, ça écrit !
+Ça écrit le nom de tous les morts.
+Le parlement dit qu'un monument sera érigé pour chaque disparu.
+La guerre est finie ! Tout revient à la normale !
+
+Une guerre de plus est finie, la colère de chacun est retombée.
+Les morts, au moins, n'ont pas vu l'ignominie de l'humanité.
+Nous avons dit que des millions sont morts, ils ont dit que grâce à cela la paix est venue.
+Ils ont ignoré tout un peuple dont l'âme s'est suicidée.
+
+Ceux qui ont vu la douleur et le chagrin d'aussi près
+Ne peuvent aimer personne jusqu'à la fin de leur vie.
+La douleur s'est répandue partout par la main des hommes
+Personne n'a eu honte de la femme pendue pour avoir ôté son voile.
+Tout le monde dit d'une seule voix que le silence est devenu notre destin
+Pourtant, chaque mot que l'on tait transforme ce monde en bain de sang. `, 
+                author: "ZILAN KAYA | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "soldat",
+                title: "SOLDAT", 
+                text: `Sang, violence, brutalité...
+Nous sommes là, mon commandant, à vos ordres, en vérité !
+Tue l'ennemi soldat, obéis au système sans pitié !
+À jamais sois soumis aux lois de l'État sacré !
+
+Boum ! Boum ! Boum !
+Victoire mon commandant, on a tué tous les ennemis.
+Toutes les femmes capturées, réduites à des trophées, des prix.
+Le pouvoir est à nous, on a gagné cette guerre maudite.
+Bravo soldat ! Va donc penser à tous les innocents que t'as détruits.
+
+Tic ! Tac ! Tic ! Tac !
+Les années ont passé, les morts se sont multipliés.
+Par ta faute, encore des millions d'âmes sacrifiées.
+Tu n'as rien dit, tu regardais la torture, la peine, l'inhumanité.
+
+Dis-moi, soldat, qui était ton vrai ennemi ?
+Les enfants morts de faim, sans abri ?
+Ou les bébés gelés, privés de chaleur et de vie ?
+Ou ce vieux cordonnier, pauvre et sans appui ? `, 
+                author: "ZILAN KAYA | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "unemachine",
+                title: "UNE MACHINE", 
+                text: `Il habite sa vie craintivement
+Il s'est endurci lamentablement
+Jamais il ne s'est opposé, il a accepté comme un esclave
+Acceptant avec calme, fierté et sagesse
+
+Imagine une machine qui doit fonctionner
+Toujours travailler et ne jamais s'arrêter
+Chaque jour est le même, perdre un peu plus
+Maintenant, il était une machine qui ne fonctionnait plus `, 
+                author: "ZILAN KAYA | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "lenavire",
+                title: "LE NAVIRE SANS CAPITAINE", 
+                text: `Vagues. Mer. Algues.
+Perpétuel mouvement.
+Plus personne ne m'appelle capitaine.
+J'imagine qu'attendre n'a servi à rien, je suis mort.
+Tu as pris mon navire, et je suis resté là.
+Tu as brisé mon cœur de tes mains, je l'ai regardé fixement.
+Il ne reste de moi qu'un corps,
+Ce pantalon déchiré, usé.
+Même mes yeux ne te trouvent plus.
+Ma chaise est devenue si vieille
+Qu'elle ne peut plus me porter.
+Ni moi, ni mon amour pour toi.
+Vraiment, dis-moi.
+Si tu ne revenais pas,
+Pourquoi as-tu quitté le navire sans capitaine ?
+Mon navire,
+Notre navire. `, 
+                author: "ZILAN KAYA | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "lapremiereannee",
+                title: "LA PREMIÈRE ANNÉE DE LA PERTE", 
+                text: `La première année de ma perte.
+Même sensation, même regard, moi un peu plus pâle.
+Lentement, calmement, je perds.
+Les gens, les pensées, et finalement moi-même.
+
+La première année de ma perte.
+Même visage, même beauté, mais ce regard qui n'aime plus.
+Un peu triste, un peu tombée dans le vide, je perds ;
+Les sourires qui existent parce que je n'existe pas.
+
+La millième année de ma perte.
+L'amour, la haine, et un peu de douleur.
+Comme si je tremblais de froid, je perds,
+Mon souffle et ma vie. `, 
+                author: "ZILAN KAYA | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "anarchie",
+                title: "ANARCHIE", 
+                text: `Pour se soulager un peu,
+elle s'est encore entaillée.
+Le désordre de son âme, tel une anarchie.
+Peut-être que tout irait mieux si elle pleurait un peu.
+Mais elle ne pleure pas, elle ne peut attirer l'attention de personne.
+
+Le danger des rues sombres a disparu.
+Le lampadaire a façonné le symbole de la peur.
+Le danger créé par la lumière l'a effrayée d'elle-même.
+
+Elle n'a jamais pu pleurer la mort de sa mère.
+Et pourtant, elle s'est ensevelie dans un profond silence.
+Ses rêves transformés en enfer,
+Elle ne s'est pas éveillée de l'espoir d'imaginer le chemin du paradis. `, 
+                author: "ZILAN KAYA | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "poememonsieur ",
+                title: "JE VEUX ÉCRIRE UN POÈME, MONSIEUR", 
+                text: `Je veux écrire un poème, monsieur.
+Qu'il crée une confusion de sens qui dise tout.
+Je voudrais qu'il soit un peu compréhensible,
+Qu'il rende cette confusion encore plus confuse.
+
+Je veux un bouquet de fleurs, monsieur.
+Si vous m'écoutez,
+Je veux mourir, dans cette neige,
+Tout au fond.
+Dans un puits,
+Dans mon sommeil. `, 
+                author: "ZILAN KAYA | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "solitudeenseignee",
+                title: "LA SOLITUDE ENSEIGNÉE", 
+                text: `Assise au bout d'un banc, j'écris.
+Je regarde les arbres et leurs feuilles, les fleurs et leurs racines,
+Je regarde les gens et ceux qu'ils aiment.
+Et puis il y a moi ; une fois partie de ce monde,
+Oubliée,
+Moi dont on ne retrouvera plus jamais la trace.
+J'ai fini par apprendre cette solitude qu'on enseigne.
+En retour, j'ai décidé d'écrire.
+Une solitude comme une fatigue,
+Silencieuse et pleine de douleurs,
+Qui pourtant, parfois, fait du bien,
+Cette indifférence que j'adopte envers les gens.
+J'ai cessé de questionner les raisons.
+Je ne fais que vivre, je ne fais que vivre.
+À force de répéter cette phrase, je sens que je vis,
+Et en vivant, je sens que je meurs.
+Je crois que,
+Je m'isole. `, 
+                author: "ZILAN KAYA | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "cesttoi",
+                title: "C’EST TOI, INCHANGÉ", 
+                text: `Tu ne t'attristes pas de la mort d'un inconnu, ce n'est pas dans ta nature.
+Tu pleures à l'enterrement parce que l'égoïsme est trop fort.
+Tu pleures, mais tu ne penses à personne d'autre qu'à toi-même.
+C'est inscrit en toi depuis longtemps, en l'humanité...
+
+Tu ne veux pas souffrir, tout en prenant plaisir à la douleur.
+Tu voudrais que ce soit bref, mais tu n'y parviens jamais : te suicider.
+En cherchant à te protéger, tu te blesses.
+C'est toi, voilà tout, inchangé. `, 
+                author: "ZILAN KAYA | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "septobject",
+                title: "SEPT OBJECTS", 
+                text: `Je suis morte.
+Je suis morte depuis toujours.
+Ce n'est sûrement pas la phrase que vous attendiez
+Savez-vous ce que c'est d'être moi depuis toujours?
+
+Laissez-moi vous expliquer ma mort.
+
+Je suis morte au moment précis où mon père n'a pas apprécié
+que je grandisse et mette du rouge à lèvres.
+Je suis morte depuis que mon oncle m'a frappée avec un câble pour avoir cassé la télé bébé
+Je suis morte quand mon frère m'a volé mon chouchou préféré
+Je suis morte au moment où ma mère m'a traitée de traînée
+pour une guêpière en ignorant que c'était un corset
+Je suis morte quand mon ex a pris ma liberté
+Je suis morte à la seconde
+où mon beau-père m'a balancé une chaise car j'ai refusé de l'accepter
+Je suis morte quand ma sœur a préféré son téléphone plutôt que de m'écouter parler
+
+Alors j'ai pris chacun de ces objets.
+7 objets,
+Sept le chiffre de Jésus,
+Lui revenu à la vie se trouve au Paradis,
+
+J'ai appliqué mon rouge à lèvres, mis mon corset pour que le spectacle puisse commencer. J'ai attaché le câble au plafond et laissé assez de mou pour le cou,
+retenu mes cheveux avec un chouchou,
+je me suis mise debout sur la chaise pour ôter ma liberté
+j'ai ensuite laissé le téléphone sonner.
+
+Je me suis attachée pour leur montrer qu'ils m'ont tuée,
+j'ai cédé et poussé...
+
+J'ai pleuré comme si j'étais un nouveau-né, ce jour-là alors je suis devenue une nouvelle morte, oui je l'ai inventé,
+
+C'est ce jour-là que je suis née. `, 
+                author: "DIVINE | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "papillons",
+                title: "SUIVEZ LES PAPILLONS ", 
+                text: `Entre les mailles du filet
+Des regards croisés
+À travers une fissure
+Dans le dôme opaque
+Qui recouvre la ville
+
+Fuyons
+Suivons les papillons
+
+Lorsque les falaises du réel
+Nous oppressent
+Que les lianes fatalistes
+Nous rattrapent
+
+Fuyons
+Suivons les papillons
+
+Frêle lueur d'espoir
+Fragile sentinelle
+D'une imagination
+En perdition
+Ils vacillent
+Le soupir des travailleurs
+Harassés
+Les écartent
+Ils vacillent
+Suspendus à ce fil
+De l'existence fugace
+D'un monde en apnée
+
+Ne les laissons pas devenir
+Souvenirs figés
+D'un temps disparu
+
+Fuyons
+Suivons les papillons
+`, 
+                author: "Lison Berger | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "silence",
+                title: "SILENCE!", 
+                text: `Les voix me submergent
+Vident mon langage
+Infiltrent des failles
+Et rebouchent mes voies
+Trop de tout
+Trop d'infos
+Trop de gens
+Trop de mots
+Trop de bruit
+Trop de fous
+Trop de vie
+Trop de vous
+Ma raison s'enfuit
+S'emmêle
+Trébuche
+S'échappe
+Et se blottit
+Ma raison s'en fut
+Fragile
+Branlante
+Boiteuse
+Si triste
+Mon esprit s'enfume
+Brouillard
+Ennui
+Petite mort
+Apathie
+Et les voix reviennent
+Brutales
+Funestes
+Achever les lambeaux
+Du temps
+Qu'il me reste `, 
+                author: "Lison Berger | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "lyc14",
+                title: "…", 
+                text: `L'innocence, en voilà un privilège.
+Lorsque notre seule occupation est de regarder le ciel.
+Cela part d'un rire d'enfant, honnête et franc.
+
+L'innocence, où rien n'avait de sens, où tout se mélange avec un peu de rien et d'enivrance.
+L'innocence, quand on n'avait rien vécu, où les seules blessures ne venaient de celle d'un inconnu.
+L'innocence, ce n'est pas l'ignorance.
+L'innocence, c'est la joie de créer, ou une joie jugée insensée.
+
+L'innocence est enviée par ceux qui ont vécu alors que ce qu'elle nous apporte n'est pas si loin.
+L'innocence, en voilà un privilège.
+
+Voilà ce que tout le monde me disait.
+
+Mais je ne suis pas d'accord, car en vérité l'innocence n'est pas la seule chose
+qui nous apporte un sourire ou une joie insensée.
+
+L'innocence c'est avant tout oser s'aimer. `, 
+                author: "Olivia VRECKO | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "lyc15",
+                title: "…", 
+                text: `Elle le voit de loin, avec ses amis.
+Il la voit de loin, seule sur un banc assise.
+Elle le trouve ensoleillé, comme en leur début.
+Il la trouve solaire et sereine, avec son joli haut en tissu.
+Elle va mal, son passé la traîne, et n'arrive plus à se relever.
+Il essaie de faire face mais continue de culpabiliser pour ce qu'il s'est passé.
+Elle se sent dépérir, se laisse partir de jour en jour.
+Il rêve de s'excuser et de recommencer comme si tout n'était qu'un mauvais tour.
+Elle l'aime mais doit le laisser partir.
+Il l'aime et ferait tout pour la voir revenir.`, 
+                author: "Lylou-Anne KAMBER | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "lyc16",
+                title: "…", 
+                text: `C'est ton silence qui est devenu mon quotidien
+Et ton absence qui me torture toujours aussi loin.
+C'est les photos qui me rappellent à quoi tu ressembles
+Celles-là même qui prouvent qu'on était bien ensemble.
+C'est les messages qui ont remplacé nos voix
+Les vidéos, les moments où j'étais avec toi.
+
+Après 10 ans j'aurais pu t'oublier.
+Après 10 ans j'aurais dû t'oublier.
+Pourtant, chaque jour tu passes dans mes pensées.
+Pourtant tu m'accompagnes à chaque minute de la journée.
+
+Même face à tes silences,
+J'ai fait preuve de résilience.
+Même face à la distance,
+J'ai fait preuve de résilience.
+
+Mon cerveau refuse de t'oublier, de te laisser partir.
+Il refuse de te voir me traiter comme un souvenir,
+Me traiter comme une page de ton passé.
+Je sais que tu le fais pour aller mieux
+Mais moi je ne pourrai jamais oublier
+Comment on était bien tous les deux.`, 
+                author: "Lylou-Anne KAMBER | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "lyc17",
+                title: "…", 
+                text: `Je me souviens d'une nuit
+Allongé sur une couverture, moi et lui.
+La lune brillait de son grain d'argent
+Et l'herbe chatouillait nos pieds.
+Lui, il connaissait les constellations parfaitement,
+Moi, j'écoutais ce qu'il disait, subjuguée.
+Les yeux grands ouverts, main dans la main
+A fixer le ciel jusqu'au petit matin.
+
+Et quand il est parti
+Je suis retournée chaque nuit
+Sous le grand peuplier et j'essayais
+De me rappeler les constellations qu'il pointait.
+Comme un dernier hommage,
+Maintenant que lui aussi
+Est au-dessus des nuages.
+
+Une vie de misère et de douleur,
+Voilà ce qu'il a vécu jusqu'à l'heure.
+La violence et la mort sont ses ancrages,
+Il les côtoie depuis son plus jeune âge.
+Ses cauchemars et ses peurs l'emprisonnent ;
+L'écho de son enfance en lui résonne.
+
+Une vie de fortune et de bonheur,
+Voilà ce qu'elle a vécu jusqu'à l'heure.
+La douceur et la vie sont ses ancrages,
+Elle les côtoie depuis son plus jeune âge.
+Son rêve et sa quiétude la libèrent ;
+L'écho de son enfance vibre dans l'air.
+
+Tous les sépare et rien ne les unit,
+Mais leurs différences ne sont pas infinies.
+La lumière brille sur leur chemin ;
+Deux étoiles qui se retrouvent enfin.
+
+Deux êtres unis pour ne faire qu'un,
+Ils sont reliés par un amour sans fin.`, 
+                author: "Mathilde | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "lyc18",
+                title: "…", 
+                text: `Je plonge. Je nage. Je m'y noie.
+Une vaste étendue bleue aux reflets verts, turquoise et ambrés.
+Un abysse, profond, envoûtant, mystérieux...
+Le souffle me manque, mes poumons me brûlent.
+Je dois respirer. Pourtant je n'y parviens pas.
+Ton regard intense et brûlant me happe, me submerge.
+Comment m'échapper ? En ai-je d'ailleurs envie ? Rien n'est plus sûr quand tu es là...
+En ta présence le temps s'arrête. Je ne sais plus comment réfléchir, comment me mouvoir,
+Comment agir. J'en oublie jusqu'au monde qui nous entoure.
+Plus rien n'a de valeur à mes yeux, mise à part toi...
+Tes paupières se referment, ton regard se détourne. Mon palpitant quant à lui s'apaise
+bien qu'il ressente ton absence.
+Tu me manques déjà en attendant la prochaine fois. `, 
+                author: "Mathilde | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "temps",
+                title: "LE TEMPS", 
+                text: `Le temps, si court mais si long
+Ce temps, éphémère à peine imaginable
+On peut seulement le frôler du bout des doigts
+Ce n'est que des chiffres, tournant à l'infini
+Ce monde qui tourne autour d'une image
+Elle n'existe pas pourtant, le temps nous poursuit
+
+Nous n'avons jamais le temps, car le temps est transparent
+Savourer le temps, c'est comme un rêve
+Ceux qui ne prennent jamais fin
+Ceux qui nous englobent dans un univers magique
+Car le temps est sublime`, 
+                author: "Charlo | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "lyc19",
+                title: "…", 
+                text: `Elle courait, encore et encore
+Son petit chat noir gambadait avec elle
+Le sourire plaqué aux lèvres, elle se jeta dans l'herbe
+Cet air frais du printemps soufflait sur elle
+Le soleil scintillait et se reflétait sur son visage
+Cela faisait si longtemps qu'elle était loin de lui
+Il paraissait intouchable, ou peut-être qu'il l'était vraiment
+
+Derrière sa joie, ils étaient là, ils la regardaient une dernière fois
+Elle, elle pouvait profiter de ce champ de fleurs
+Eux n'auraient que la tempête qu'elle laissait derrière elle
+Ils ont perdu leur petit soleil `, 
+                author: "Charlo | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "fabricantdebrume",
+                title: "LE PETIT FABRICANT DE BRUME", 
+                text: `
+Niché au creux d'un vallon dans une petite chaumière
+Bâtie de chaume, de verre et de pierre
+Elle abrite en son cœur une machine mugissante
+Cet ensemble de boulons et d'acier fait geindre la charpente
+
+Mais sort alors de cette cheminée de pierres trouvées
+Nombre de filaments de buée éthérée
+Qui se tissent entre eux jusqu'à devenir tapisserie
+Dont le tissage s'étend sur la montagne et la prairie
+
+Un vieil homme venu du fond des âges
+Veille sur cette usine à nuages
+Et régit le brouillard et la brume
+Sans jamais attraper le moindre rhume`, 
+                author: "Zoé Deroche | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "lamour",
+                title: "L’AMOUR", 
+                text: `On me parlait de lui, je ne le voyais pas.
+On le disait si beau, si agréable.
+On disait aussi de s'en méfier.
+On disait qu'il était souvent malhonnête, manipulateur.
+Qu'une fois tombé dans ses filets,
+On n'en sortait plus jamais.
+
+Curieuse, je l'ai cherché bien longtemps
+Je ne l'ai pas trouvé.
+Je me suis convaincue que c'était mieux ainsi
+Qu'il me faisait trop peur
+Pour oser l'approcher.
+Et j'ai fini par abandonner.
+
+Un jour, un éclair passa.
+Si vite que j'eus à peine le temps de le voir.
+Je sentais sa présence mais préférais l'ignorer.
+Jusqu'au jour où on me l'a présenté.
+Je l'ai tout de suite reconnu.
+Un petit garçon au sourire espiègle.
+Ses yeux pétillaient, de son visage transparaissait l'innocence.
+Il était joli, l'amour.
+Celui dont on m'avait tant parlé.
+Il était brave, rafraîchissant.
+Et surtout, il n'était pas si effrayant que ça.
+
+Chaque parole qui sortait de sa bouche
+Était une mélodie, un éclat de rire.
+Chaque geste qu'il esquissait
+Était danse improvisée.
+Aucune partition
+Aucune chorégraphie. `, 
+                author: "Lilie Rose | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "peurmaelle",
+                title: "PEUR", 
+                text: `Pire des sentiments,
+incontrôlable,
+emprisonne les enfants.
+
+Caché au fond de notre âme
+pureté sans égale,
+Paradoxalement
+Il pousse à la trahison, les hommes, les amants.
+
+Naît au fond de notre estomac et en sort en hurlant.
+Je l'ai vu chez un ami,
+C'était un tremblement,
+Je l'ai vu chez une femme au visage...
+Souriant?
+
+C'est la peur, le pire de l'humanité,
+Le pire de vous, le pire pour moi.
+Elle rend les gens fous et accable mes bras.
+Mais elle protège aussi de certains dangers,
+Un instinct dans nos cœurs aux touchés si glacés. `, 
+                author: "Mangeret Maelle | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "coeursseches",
+                title: "CŒURS SÉCHÉS", 
+                text: `Je t'aime, je crois mais tu m'ennuies.
+Être à tes côtés me fait sourire,
+Mais nos émotions entachent le parchemin,
+De notre amitié.
+
+J'ai longtemps suivi le chemin,
+Qui jadis, par nos rires et nos tracas,
+Tissait les lignes unies d'un ami.
+
+Lorsque fatiguée j'ouvre le palais des souvenirs,
+Seul un ennui profond, sans soupir
+Résonne au creux de mes bras.
+
+Personne pour nous accueillir et la Terre sèche de nos histoires,
+M'empêche de m'y retrouver un instant.
+
+Je sors la tête de l'eau et te vois, mais ne te reconnais pas.
+Seul l'ennui accompagne notre marche lente,
+celle de deux larmes qui se connaissent,
+mais de deux âmes qui ne se reconnaissent plus.
+
+Je crois que je ne t'aime pas. `, 
+                author: "Mangeret Maelle | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
             ]};
