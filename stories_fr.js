@@ -712,7 +712,7 @@ Et ne plus voir le Soleil arriver sur son char.
 Astre du Ciel
 Déesse de la Lune
 Ma belle Séléné`, 
-                author: "Louise DEROCHE | Lycée Albert Londres",
+                author: "KHAE | Lycée Albert Londres",
                 hasMore: false,
                 buyLink: "#"
             },
@@ -754,10 +754,14 @@ Libres
 Dans la secrète confidence
 Qui n'appartient qu'à vous
 Confidence
-De ce qui n'ose se dire
-
-Vous apprivoisez chaque jour la nuit et les tempêtes
-
+De ce qui n'ose se dire `,
+author: "KHAE | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+{ id: "lyc2",
+                title: "…", 
+                text: `Vous apprivoisez chaque jour la nuit et les tempête
 C'est vous encore qui rapportez le feu
 Adoptez le jour
 Distribuez encore encore
@@ -773,7 +777,7 @@ Sans fuir
 Pour revenir et repartir
 Avec ce supplément d'âme
 Que parfois la vie accorde `, 
-                author: "Louise DEROCHE | Lycée Albert Londres",
+                author: "KHAE | Lycée Albert Londres",
                 hasMore: false,
                 buyLink: "#"
             },
@@ -809,9 +813,14 @@ Peur que ceux que j'aime ne s'en aillent
 Peur de l'immobilité
 Peur de me conformer,
 De m'habituer à ne plus être moi
-Peur d'être invisible
-
-Souvent apparaît la liberté
+Peur d'être invisible `, 
+                author: "Lizon BERGER | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+{ id: "lyc1",
+                title: "…", 
+                text: ` Souvent apparaît la liberté
 Simple concept abstrait
 A-t-elle un jour vraiment existé ?
 Du plus profond des marais
@@ -973,7 +982,7 @@ Les combats ne t'ont point aidé.
 L'hiver arrive et te voilà seul au sommet de la tourelle.
 La belle danse avec le prince sous la neige,
 Et toi, tu regardes cela sous la pluie. `, 
-                author: "Lemoine Bidolet Johane | Lycée Albert Londres",
+                author: "SOLAR MILLS | Lycée Albert Londres",
                 hasMore: false,
                 buyLink: "#"
             },
@@ -999,7 +1008,7 @@ C'est l'aube !
 Et si je marche en suivant cette lumière,
 Peut-être serais-je alors la vedette de mon propre spectacle,
 Dans la plus belle des manières... `, 
-                author: "Lemoine Bidolet Johane | Lycée Albert Londres",
+                author: "SOLAR MILLS | Lycée Albert Londres",
                 hasMore: false,
                 buyLink: "#"
             },
@@ -1134,165 +1143,6 @@ Mes pensées soudain se bousculent.
 Je repensais à ce voyage dans mon esprit.
 "L'arc-en-ciel de mes cauchemars n'avait finalement pas été si terrible"`, 
                 author: "Mathieu DELAVEAU | Lycée Albert Londres",
-                hasMore: false,
-                buyLink: "#"
-            },
-{ id: "lamijoseph",
-                title: "L’AMI JOSEPH", 
-                text: `On s’était connu intimement pendant tout l’hiver à Paris. Après s’être perdus de vue, comme toujours, à la sortie du collège, les deux amis s’étaient retrouvés, un soir, dans le monde, déjà vieux et blanchis, l’un garçon, l’autre marié.
-
-M. de Méroul habitait six mois Paris, et six mois son petit château de Tourbeville. Ayant épousé la fille d’un châtelain des environs, il avait vécu d’une vie paisible et bonne dans l’indolence d’un homme qui n’a rien à faire. De tempérament calme et d’esprit rassis, sans audaces d’intelligence, ni révoltes indépendantes, il passait son temps à regretter doucement le passé, à déplorer les mœurs et les institutions d’aujourd’hui, et à répéter à tout moment à sa femme, qui levait les yeux au ciel, et parfois aussi les mains en signe d’assentiment énergique : « Sous quel gouvernement vivons-nous, mon Dieu ? »
-
-Mme de Méroul ressemblait intellectuellement à son mari, comme s’ils eussent été frère et sœur. Elle savait, par tradition, qu’on doit d’abord respecter le Pape et le Roi !
-
-Et elle les aimait et les respectait du fond du cœur, sans les connaître, avec une exaltation poétique, avec un dévouement héréditaire, avec un attendrissement de femme bien née. Elle était bonne jusque dans tous les replis de l’âme. Elle n’avait point eu d’enfant et le regrettait sans cesse.
-
-Lorsque M. de Méroul retrouva dans un bal Joseph Mouradour, son ancien camarade, il éprouva de cette rencontre une joie profonde et naïve, car ils s’étaient beaucoup aimés dans leur jeunesse.
-
-Après les exclamations d’étonnement sur les changements que l’âge avait apportés à leur corps et à leur figure, ils s’étaient informés réciproquement de leurs existences.
-
-Joseph Mouradour, un Méridional, était devenu conseiller général dans son pays. D’allures franches, il parlait vivement et sans retenue, disant toute sa pensée avec ignorance des ménagements. Il était républicain ; de cette race de républicains bons garçons qui se font une loi du sans-gêne et qui posent pour l’indépendance de parole allant jusqu’à la brutalité.
-
-Il vint dans la maison de son ami, et y fut tout de suite aimé pour sa cordialité facile, malgré ses opinions avancées. Mme de Méroul s’écriait : « Quel malheur ! un si charmant homme ! »
-M. de Méroul disait à son ami, d’un ton pénétré et confidentiel : « Tu ne te doutes pas du mal que vous faites à notre pays. » Il le chérissait cependant ; car rien n’est plus solide que les liaisons d’enfance reprises à l’âge mûr. Joseph Mouradour blaguait la femme et le mari, les appelait « mes aimables tortues », et parfois se laissait aller à des déclamations sonores contre les gens arriérés, contre les préjugés et les traditions.
-
-Quand il déversait ainsi le flot de son éloquence démocratique, le ménage, mal à l’aise, se taisait par convenance et savoir-vivre ; puis le mari tâchait de détourner la conversation, pour éviter les froissements. On ne voyait Joseph Mouradour que dans l’intimité.
-
-L’été vint. Les Méroul n’avaient pas de plus grande joie que de recevoir leurs amis dans leur propriété de Tourbeville. C’était une joie intime et saine, une joie de braves gens et de propriétaires campagnards. Ils allaient au-devant des invités jusqu’à la gare voisine et les ramenaient dans leur voiture, guettant les compliments sur leur pays, sur la végétation, sur l’état des routes dans le département, sur la propreté des maisons des paysans, sur la grosseur des bestiaux qu’on apercevait dans les champs, sur tout ce qu’on voyait par l’horizon.
-Ils faisaient remarquer que leur cheval trottait d’une façon surprenante pour une bête employée une partie de l’année aux travaux des champs ; et ils attendaient avec anxiété l’opinion du nouveau venu sur leur domaine de famille, sensibles au moindre mot, reconnaissants de la moindre intention gracieuse.
-
-Joseph Mouradour fut invité, et il annonça son arrivée.
-
-La femme et le mari étaient venus au train, ravis d’avoir à faire les honneurs de leur logis.
-Dès qu’il les aperçut, Joseph Mouradour sauta de son wagon avec une vivacité qui augmenta leur satisfaction. Il leur serrait les mains, les félicitait, les enivrait de compliments.
-Tout le long de la route il fut charmant, s’étonna de la hauteur des arbres, de l’épaisseur des récoltes, de la rapidité du cheval.
-Quand il mit le pied sur le perron du château, M. de Méroul lui dit avec une certaine solennité amicale :
-— Tu es chez toi, maintenant.
-Joseph Mouradour répondit :
-— Merci, mon cher, j’y comptais. Moi, d’ailleurs, je ne me gêne pas avec mes amis. Je ne comprends l’hospitalité que comme ça.
-Puis il monta dans sa chambre, pour se vêtir en paysan, disait-il, et il redescendit tout costumé de toile bleue, coiffé d’un chapeau canotier, chaussé de cuir jaune, dans un négligé complet de Parisien en goguette. Il semblait aussi devenu plus commun, plus jovial, plus familier, ayant revêtu avec son costume des champs un laisser-aller et une désinvolture qu’il jugeait de circonstance. Sa tenue nouvelle choqua quelque peu M. et Mme de Méroul qui demeuraient toujours sérieux et dignes, même en leurs terres, comme si la particule qui précédait leur nom les eût forcés à un certain cérémonial jusque dans l’intimité.
-
-Après le déjeuner, on alla visiter les fermes : et le Parisien abrutit les paysans respectueux par le ton camarade de sa parole.
-Le soir, le curé dînait à la maison, un vieux gros curé, habitué des dimanches, qu’on avait prié ce jour-là exceptionnellement en l’honneur du nouveau venu.
-
-Joseph, en l’apercevant, fit une grimace, puis il le considéra avec étonnement, comme un être rare d’une race particulière qu’il n’avait jamais vue de si près. Il eut, dans le cours du repas, des anecdotes libres, permises dans l’intimité, mais qui semblèrent déplacées aux Méroul, en présence d’un ecclésiastique. Il ne disait point : « Monsieur l’abbé », mais : « Monsieur » tout court ; et il embarrassa le prêtre par des considérations philosophiques sur les diverses superstitions établies à la surface du globe. Il disait : « Votre Dieu, monsieur, est de ceux qu’il faut respecter, mais aussi de ceux qu’il faut discuter. Le mien s’appelle Raison : il a été de tout temps l’ennemi du vôtre... »
-Les Méroul, désespérés, s’efforçaient de détourner les idées. Le curé partit de très bonne heure.
-
-Alors le mari prononça doucement :
-— Tu as peut-être été un peu loin devant ce prêtre ?
-Mais Joseph aussitôt s’écria :
-— Elle est bien bonne, celle-là ! Avec ça que je me gênerais pour un calotin ! Tu sais, d’ailleurs, tu vas me faire le plaisir de ne plus m’imposer ce bonhomme-là pendant les repas. Usez-en, vous autres, autant que vous voudrez, dimanches et jours ouvrables, mais ne le servez pas aux amis, saperlipopette !
-— Mais, mon cher, son caractère sacré...
-Joseph Mouradour l’interrompit :
-— Oui, je sais, il faut les traiter comme des rosières ! Connu, mon bon ! Quand ces gens-là respecteront mes convictions, je respecterai les leurs !
-
-Ce fut tout, ce jour-là.
-Lorsque Mme de Méroul entra dans son salon, le lendemain matin, elle aperçut au milieu de sa table trois journaux qui la firent reculer : Le Voltaire, La République française et La Justice.
-Aussitôt Joseph Mouradour, toujours en bleu, parut sur le seuil, lisant avec attention 
-L’Intransigeant. Il s’écria :
-— Il y a, là-dedans, un fameux article de Rochefort. Ce gaillard-là est surprenant.
-Il en fit la lecture à haute voix, appuyant sur les traits, tellement enthousiasmé, qu’il ne remarqua pas l’entrée de son ami.
-M. de Méroul tenait à la main le Gaulois pour lui, le Claironpour sa femme.
-
-La prose ardente du maître écrivain qui jeta bas l’empire, déclamée avec violence, chantée dans l’accent du Midi, sonnait par le salon pacifique, secouait les vieux rideaux à plis droits, semblait éclabousser les murs, les grands fauteuils de tapisserie, les meubles graves posés depuis un siècle aux mêmes endroits, d’une grêle de mots bondissants, effrontés, ironiques et saccageurs.
-L’homme et la femme, l’un debout, l’autre assise, écoutaient avec stupeur, tellement scandalisés qu’ils ne faisaient pas un geste.
-Mouradour lança le trait final comme on tire un bouquet d’artifice, puis déclara d’un ton triomphant :
-— Hein ? C’est salé, cela ?
-Mais soudain il aperçut les deux feuilles qu’apportait son ami, et il demeura lui-même perclus d’étonnement. Puis il marcha vers lui, à grands pas, demandant d’un ton furieux :
-— Qu’est-ce que tu veux faire de ces papiers-là ?
-M. de Méroul répondit en hésitant :
-— Mais... ce sont mes... mes journaux !
-— Tes journaux... Ça, voyons, tu te moques de moi ! Tu vas me faire le plaisir de lire les miens, qui te dégourdiront les idées, et, quant aux tiens... voici ce que j’en fais, moi...
-Et, avant que son hôte interdit eût pu s’en défendre, il avait saisi les deux feuilles et les lançait par la fenêtre. Puis il déposa gravement La Justice entre les mains de Mme de Méroul, remit Le Voltaire au mari, et il s’enfonça dans un fauteuil pour achever L’Intransigeant.
-
-L’homme et la femme, par délicatesse, firent semblant de lire un peu, puis lui rendirent les feuilles républicaines qu’ils touchaient du bout des doigts comme si elles eussent été empoisonnées.
-
-Alors il se remit à rire et déclara :
-— Huit jours de cette nourriture-là, et je vous convertis à mes idées.
-Au bout de huit jours, en effet, il gouvernait la maison. Il avait fermé la porte au curé, que Mme de Méroul allait voir en secret ; il avait interdit l’entrée au château du Gaulois et du Clairon, qu’un domestique allait mystérieusement chercher au bureau de poste et qu’on cachait, lorsqu’il entrait, sous les coussins du canapé ; il réglait tout à sa guise, toujours charmant, toujours bonhomme, tyran jovial et tout-puissant.
-
-D’autres amis devaient venir, des gens pieux et légitimistes. Les châtelains jugèrent une rencontre impossible et, ne sachant que faire, annoncèrent un soir à Joseph Mouradour qu’ils étaient obligés de s’absenter quelques jours pour une petite affaire, et ils le prièrent de rester seul. Il ne s’émut pas et répondit :
-— Très bien, cela m’est égal, je vous attendrai ici autant que vous voudrez. Je vous l’ai dit : entre amis pas de gêne. Vous avez raison d’aller à vos affaires, que diable ! Je ne me formaliserai pas pour cela, bien au contraire ; ça me met tout à fait à l’aise avec vous. Allez, mes amis, je vous attends.
-
-M. et Mme de Méroul partirent le lendemain.
-Il les attend.`, 
-                author: "Guy de Maupassant",
-                hasMore: false,
-                buyLink: "#"
-            },
-
-{ id: "assasin",
-                title: "L’ASSASSIN", 
-                text: `Le coupable était défendu par un tout jeune avocat, un débutant qui parla ainsi :
-***
-Les faits sont indéniables, messieurs les jurés. Mon client, un honnête homme, un employé irréprochable, doux et timide, a assassiné son patron dans un mouvement de colère qui paraît incompréhensible. Voulez-vous me permettre de faire la psychologie de ce crime, si je puis ainsi parler, sans rien atténuer, sans rien excuser ? Vous jugerez ensuite.
-
-Jean-Nicolas Lougère est fils de gens très honorables qui ont fait de lui un homme simple et respectueux.
-
-Là est son crime : le respect ! C’est un sentiment, messieurs, que nous ne connaissons plus guère aujourd’hui, dont le nom seul semble exister encore et dont toute la puissance a disparu. Il faut entrer dans certaines familles arriérées et modestes, pour y retrouver cette tradition sévère, cette religion de la chose ou de l’homme, du sentiment ou de la croyance revêtus d’un caractère sacré, cette foi qui ne supporte ni le doute ni le sourire, ni l’effleurement d’un soupçon.
-
-On ne peut être un honnête homme, vraiment un honnête homme, dans toute la force de ce terme, que si on est un respectueux. L’homme qui respecte a les yeux fermés. Il croit. Nous autres, dont les yeux sont grands ouverts sur le monde, qui vivons ici, dans ce palais de la justice qui est l’égout de la société, où viennent échouer toutes les infamies, nous autres qui sommes les confidents de toutes les hontes, les défenseurs dévoués de toutes les gredineries humaines, les soutiens, pour ne pas dire souteneurs, de tous les drôles et de toutes les drôlesses, depuis les princes jusqu’aux rôdeurs de barrière, nous qui accueillons avec indulgence, avec complaisance, avec une bienveillance souriante tous les coupables pour les défendre devant vous, nous qui, si nous aimons vraiment notre métier, mesurons notre sympathie d’avocat à la grandeur du forfait, nous ne pouvons plus avoir l’âme respectueuse. Nous voyons trop ce fleuve de corruption qui va des chefs du Pouvoir aux derniers des gueux, nous savons trop comment tout se passe, comment tout se donne, comment tout se vend. Places, fonctions, honneurs, brutalement en échange d’un peu d’or, adroitement en échange de titres et de parts dans les entreprises industrielles, ou plus simplement contre un baiser de femme. Notre devoir et notre profession nous forcent à ne rien ignorer, à soupçonner tout le monde, car tout le monde est suspect ; et nous demeurons surpris quand nous nous trouvons en face d’un homme qui a, comme l’assassin assis devant vous, la religion du respect assez puissante pour en devenir un martyr.
-
-Nous autres, messieurs, nous avons de l’honneur comme on a des soins de propreté, par dégoût de la bassesse, par un sentiment de dignité personnelle et d’orgueil ; mais nous n’en portons pas au fond du cœur la foi aveugle, innée, brutale, comme cet homme.
-Laissez-moi vous raconter sa vie.
-
-Il fut élevé, comme on élevait autrefois les enfants, en faisant deux parts de tous les actes humains : ce qui est bien et ce qui est mal. On lui montra le bien avec une autorité irrésistible qui le lui fit distinguer du mal, comme on distingue le jour de la nuit. Son père n’appartenait pas à la race des esprits supérieurs qui, regardant de très haut, voient les sources des croyances et reconnaissent les nécessités sociales d’où sont nées ces distinctions.
-
-Il grandit donc, religieux et confiant, enthousiaste et borné.
-
-À vingt-deux ans il se maria. On lui fit épouser une cousine, élevée comme lui, simple comme lui, pure comme lui. Il eut cette chance inestimable d’avoir pour compagne une honnête femme au cœur droit, c’est-à-dire ce qu’il y a de plus rare et de plus respectable au monde. Il avait pour sa mère la vénération qui entoure les mères dans les familles patriarcales, ce culte profond qu’on réserve aux divinités. Il reporta sur sa femme un peu de cette religion, à peine atténuée par les familiarités conjugales. Et il vécut dans une ignorance absolue de la fourberie, dans un état de droiture obstinée et de bonheur tranquille qui fit de lui un être à part. Ne trompant personne, il ne soupçonnait pas qu’on pût le tromper, lui.
-
-Quelque temps avant son mariage, il était entré comme caissier chez M. Langlais, assassiné par lui dernièrement.
-
-Nous savons, messieurs les jurés, par les témoignages de Mme Langlais, de son frère M. Perthuis, associé de son mari, de toute la famille et de tous les employés supérieurs de cette banque, que Lougère fut un employé modèle, comme probité, comme soumission, comme douceur, comme déférence envers ses chefs et comme régularité.
-On le traitait d’ailleurs avec la considération méritée par sa conduite exemplaire. Il était habitué à cet hommage et à l’espèce de vénération témoignée à Mme Lougère, dont l’éloge était sur toutes les bouches.
-Elle mourut d’une fièvre typhoïde en quelques jours.
-Il ressentit assurément une douleur profonde, mais une douleur froide et calme de cœur méthodique. On vit seulement à sa pâleur et à l’altération de ses traits jusqu’à quel point il avait été blessé.
-
-Alors, messieurs, il se passa une chose bien naturelle.
-
-Cet homme était marié depuis dix ans. Depuis dix ans il avait l’habitude de sentir une femme près de lui, toujours. Il était accoutumé à ses soins, à cette voix familière quand on rentre, à l’adieu du soir, au bonjour du matin, à ce doux bruit de robe si cher aux féminins, à cette caresse tantôt amoureuse et tantôt maternelle qui rend légère l’existence, à cette présence aimée qui fait moins lentes les heures. Il était aussi accoutumé aux gâteries matérielles de la table peut-être, à toutes les attentions qu’on ne sent pas et qui nous deviennent peu à peu indispensables. Il ne pouvait plus vivre seul. Alors, pour passer les interminables soirées, il prit l’habitude d’aller s’asseoir une heure ou deux dans une brasserie voisine. Il buvait un bock et restait là, immobile, suivant d’un œil distrait les billes du billard courant l’une après l’autre sous la fumée des pipes, écoutant sans y songer les disputes des joueurs, les discussions de ses voisins sur la politique et les éclats de rire que soulevait parfois une lourde plaisanterie à l’autre bout de la salle. Il finissait souvent par s’endormir de lassitude et d’ennui. Mais il avait au fond du cœur et au fond de la chair le besoin irrésistible d’un cœur et d’une chair de femme ; et, sans y songer, il se rapprochait un peu, chaque soir, du comptoir où trônait la caissière, une petite blonde, attiré vers elle invinciblement parce qu’elle était une femme.
-
-Bientôt ils causèrent, et il prit l’habitude, très douce pour lui, de passer toutes ses soirées à ses côtés. Elle était gracieuse et prévenante comme il convient dans ces commerces à sourires, et elle s’amusait à renouveler sa consommation le plus souvent possible, ce qui faisait aller les affaires. Mais chaque jour Lougère s’attachait davantage à cette femme qu’il ne connaissait pas, dont il ignorait toute l’existence et qu’il aima uniquement parce qu’il n’en voyait pas d’autre.
-
-La petite, qui était rusée, s’aperçut bientôt qu’elle pourrait tirer parti de ce naïf et elle chercha quelle serait la meilleure façon de l’exploiter. La plus fine assurément était de se faire épouser.
-
-Elle y parvint sans aucune peine.
-Ai-je besoin de vous dire, messieurs les jurés, que la conduite de cette fille était des plus irrégulières et que le mariage, loin de mettre un frein à ses écarts, sembla au contraire les rendre plus éhontés ?
-
-Par un jeu naturel de l’astuce féminine, elle sembla prendre plaisir à tromper cet honnête homme avec tous les employés de son bureau. Je dis : avec tous. Nous avons des lettres, messieurs. Ce fut bientôt un scandale public que le mari seul, comme toujours, ignorait.
-Enfin cette gueuse, dans un intérêt facile à concevoir, séduisit le fils même du patron, jeune homme de dix-neuf ans, sur l’esprit et sur les sens duquel elle eut bientôt une influence déplorable. M. Langlais, qui avait jusque-là fermé les yeux par bonté, par amitié pour son employé, ressentit en voyant son fils entre les mains, je devrais dire entre les bras de cette dangereuse créature, une colère bien légitime.
-Il eut le tort d’appeler immédiatement Lougère et de lui parler sous le coup de son indignation paternelle.
-
-Il ne me reste, messieurs, qu’à vous lire le récit du crime, fait par les lèvres mêmes du moribond, et recueilli par l’instruction.
-
-« Je venais d’apprendre que mon fils avait donné, la veille même, dix mille francs à cette femme, et ma colère a été plus forte que ma raison. Certes, je n’ai jamais soupçonné l’honorabilité de Lougère, mais certains aveuglements sont plus dangereux que des fautes.
-
-« Je le fis donc appeler près de moi et je lui dis que je me voyais obligé de me priver de ses services.
-
-« Il restait debout devant moi, effaré, ne comprenant pas. Il finit par demander des explications avec une certaine vivacité.
-
-« Je refusai de lui en donner, en affirmant que mes raisons étaient d’ordre tout intime. Il crut alors que je le soupçonnais d’indélicatesse, et, très pâle, m’adjura, me somma de m’expliquer. Parti sur cette idée, il était fort et prenait le droit de parler haut.
-
-« Comme je me taisais toujours, il m’injuria, m’insulta, arrivé à un tel degré d’exaspération que je craignais des voies de fait.
-
-« Or, soudain, sur un mot blessant qui m’atteignit en plein cœur, je lui jetai à la face la vérité.
-
-« Il demeura debout quelques secondes, me regardant avec des yeux hagards ; puis je le vis prendre sur mon bureau les longs ciseaux dont je me sers pour émarger certains registres, puis je le vis tomber sur moi le bras levé, et je sentis entrer quelque chose dans ma gorge, au sommet de la poitrine, sans éprouver aucune douleur. »
-
-Voici, messieurs les jurés, le simple récit de ce meurtre. Que dire de plus pour sa défense ? Il a respecté sa seconde femme avec aveuglement parce qu’il avait respecté la première avec raison.
-***
-Après une courte délibération, le prévenu fut acquitté.`, 
-                author: "Guy de Maupassant",
-                hasMore: false,
-                buyLink: "#"
-            },
-                { id: "lettre",
-                title: "LETTRE", 
-                text: `Je marche sur le fil du rasoir — là où les possibilités s'arrêtent et où les interdits sont brisés. Je retourne mon âme, et il n'y a aucun secret à cela : tout cela est pour toi. Tu es cette lumière éblouissante devant laquelle mon obscurité intérieure est impuissante. 
-
-Si tu étais de la musique, je t'écouterais éternellement, craignant de manquer une seule note. Tu es un monde entier, vaste et insaisissable, que je veux absorber sans laisser une miette. Ma journée commence avec toi, et c'est en toi que mon soleil se couche. Tu es mon aube et mon inévitable et magnifique crépuscule.`, 
-                author: "Imani S.",
                 hasMore: false,
                 buyLink: "#"
             },
