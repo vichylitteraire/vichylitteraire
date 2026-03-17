@@ -1041,5 +1041,749 @@ If you were music, I would listen to you forever, afraid of missing a single not
                 hasMore: false,
                 buyLink: "#"
             },    
+                { id: "lyc10",
+                title: "…", 
+                text: `Sitting on a bench, I watch the clouds. I let the rays warm my milky skin. It's been 2 days since I slept, my imagination guides my senses and controls my weary sleep. The warm spring breeze made my curly hair flutter with delight, as if it were kissing them gently.
+To the left, a turtle, to the right, a dolphin, I gave the sky shapes it didn't know. Lulled by the soft blue sky, I closed my eyes and let myself be carried away. No noise, only the sweet melody of birds resonating in my bones.
+
+I felt free, free from a world of law, free from a world that doesn't suit me. A pearl of happiness rolls down my cheek and penetrates my lips, reddened by the many passes of my tongue. That day, I was waiting for it, that day when everything would stop spinning in my head.
+No more thoughts, no more screams, nothing more, just me. I am resigned to the impending end that is slowly overcoming me. I long ago stopped fighting the one causing my bleeding.
+I was waiting for it like an old friend long forgotten.
+
+You say chimera, I say illusion, you say cancer, I say suspension. Because yes, everything stops there for me. Well no, I will not die. I know that, somewhere, someone on the same day in the same place, will surely remember me. `, 
+                author: "Olivia Vrecko | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "luc11",
+                title: "…", 
+                text: `Laughter. I hear it in the distance. Very far away, even. Moreover, they are so far away they barely graze my soul.
+
+Parties. I see them, my friends. They are dancing to a rap song, glass in hand. But hey, this time I don't see them from so far away. But we have to tell them! We have to tell them they're not safe! I shout: it's dangerous here!
+
+Suddenly I hear footsteps, those of a woman. She is tall, beautiful, and superbly well-dressed. She walks along a dark alley. I don't know her but we have to tell her! We have to tell her she's not safe! That at any moment she could be attacked!
+
+Then scratching sounds are heard. They are the sounds of pens on paper: I'm in a school room. All these students, so concentrated, are taking their final exams. But we have to tell them! We have to tell them they're not safe!
+That they risk failing or worse, making a mistake! That they can mess up their studies and never have a job!
+
+Suddenly, I'm in a hospital. Here, newborns rub shoulders with people at the end of their lives. But really, these beings who are only a few hours old, why don't they feel the dread of what awaits them? And the dying, do they feel the Grim Reaper on their shoulder? Why don't they react? Why don't they panic? Why do we let life and death touch like that? It's a virus! But who is the virus? Life, death, fear?
+
+And then, I open my eyes. I'm in my bed, in the dark. It's night. And this virus, the one that makes my hands clammy, is the virus of life, the one that should push us to appreciate and not to angst on every street corner, in every classroom, in every hospital room. `, 
+                author: "Lilou | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "lyc13",
+                title: "…", 
+                text: `Years ago
+A fisherman went fishing
+On that beautiful summer morning,
+Sunny, on this lake, he sailed
+He let his fishing rod
+Fall into the water
+And with a rough tug
+A fish was caught
+
+It was strange
+Indeed, although it was orange,
+It seemed to be wearing knee-highs
+And a kind of samara
+He looked at it and exclaimed:
+"Who are you to catch me dressed like this?
+Are you then the one stubborn fisherman?
+Or are you new around here?"
+
+The fisherman, without enthusiasm
+Replied with disdain:
+"Insolent and mocking,
+If you continue, you'll be fried!"
+
+And the fish,
+To the fisherman's astonishment
+Began to laugh without fear:
+"That's our disposition in the depths"
+
+Great was the surprise of the fellow,
+Amazed to learn of it this way,
+He who hated this outfit
+And preferred to be unclothed
+
+The fish therefore took him
+Thanks to some magic incantations
+To discover the depths
+Against his will
+
+And all this civilization
+Wore an outfit
+The same without distinction:
+Garters and mules
+
+Thus, the fisherman resigned himself
+To this outfit, not without vexation
+And the fish
+Was delighted with its mission `, 
+                author: "Olivia | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "yourgarden",
+                title: "YOUR GARDEN", 
+                text: `I look at the garden through your eyes
+The blue hydrangeas in bloom, about to turn yellow
+— Leaves fallen from a tree branch.
+The deckchairs by the pool, waiting for summer
+
+I look at your garden through your eyes
+With the sadness that all this brings.
+This singular agitation that makes movement difficult
+How it smiles at me through your eyes.
+
+So much stillness makes you become the sea,
+Living in the Mediterranean makes you wild. `, 
+                author: "ZILAN KAYA | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "amemory",
+                title: "A MEMORY", 
+                text: `All those journals I wrote so that a memory would remain
+Made me forget everything
+As I read, I lost myself
+In the depth of the unknown and
+As I read,
+I reduced myself to nothingness while wanting to exist.
+
+Wasn't writing permanence after all?
+Why am I disappearing,
+Why am I dying?
+
+I cry. `, 
+                author: "ZILAN KAYA | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "itwrites",
+                title: "IT WRITES", 
+                text: `It writes, it writes, it writes!
+It writes that the ice between countries has melted.
+It writes that everyone will laugh again.
+Let everyone rejoice; good days are coming, they are on their way.
+The war is over! Everything is returning to normal!
+
+The newspaper doesn't write the dead, my child;
+You cannot know.
+You will never see anyone laugh again.
+Pain has seeped a thousand times into every particle of the earth,
+You cannot make the people here love the future.
+
+It writes, it writes, it writes!
+It writes the names of all the dead.
+Parliament says a monument will be erected for each victim.
+The war is over! Everything is returning to normal!
+
+One more war is over, everyone's anger has subsided.
+The dead, at least, did not see the ignominy of humanity.
+We said millions died, they said thanks to this peace has come.
+They ignored an entire people whose soul committed suicide.
+
+Those who have seen pain and grief up close
+Can love no one until the end of their lives.
+Pain spread everywhere by the hand of man
+No one was ashamed of the woman hanged for removing her veil.
+Everyone says in unison that silence has become our destiny
+Yet every word left unspoken turns this world into a bloodbath. `, 
+                author: "ZILAN KAYA | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "soldier",
+                title: "SOLDIER", 
+                text: `Blood, violence, brutality...
+Here we are, my commander, at your command, truly!
+Kill the enemy soldier, obey the merciless system!
+Be forever subject to the laws of the sacred State!
+
+Boom! Boom! Boom!
+Victory my commander, we killed all the enemies.
+All the women captured, reduced to trophies, to prizes.
+Power is ours, we won this damn war.
+Bravo soldier! Go on, think about all the innocents you destroyed.
+
+Tick! Tock! Tick! Tock!
+The years passed, the dead multiplied.
+Because of you, millions more souls sacrificed.
+You said nothing, you watched the torture, the pain, the inhumanity.
+
+Tell me, soldier, who was your real enemy?
+The children dead from hunger, homeless?
+Or the babies frozen, deprived of warmth and life?
+Or that old cobbler, poor and without support? `, 
+                author: "ZILAN KAYA | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "amachine",
+                title: "A MACHINE", 
+                text: `He lives his life fearfully
+He hardened himself lamentably
+He never opposed, he accepted like a slave
+Accepting calmly, with pride and wisdom
+
+Imagine a machine that must function
+Always work and never stop
+Each day is the same, losing a little more
+Now, he was a machine that no longer worked `, 
+                author: "ZILAN KAYA | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "ship",
+                title: "THE SHIP WITHOUT A CAPTAIN", 
+                text: `Waves. Sea. Seaweed.
+Perpetual motion.
+No one calls me captain anymore.
+I guess waiting was useless, I am dead.
+You took my ship, and I stayed there.
+You broke my heart with your hands, I stared at it.
+All that's left of me is a body,
+These torn, worn-out pants.
+Even my eyes can't find you anymore.
+My chair has become so old
+It can no longer carry me.
+Neither me, nor my love for you.
+Really, tell me.
+If you weren't coming back,
+Why did you leave the ship without a captain?
+My ship,
+Our ship. `, 
+                author: "ZILAN KAYA | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "lapremiereannee",
+                title: "THE FIRST YEAR OF THE LOSS", 
+                text: `The first year of my loss.
+Same feeling, same look, me a little paler.
+Slowly, calmly, I lose.
+People, thoughts, and finally myself.
+
+The first year of my loss.
+Same face, same beauty, but that look that no longer loves.
+A little sad, a little fallen into the void, I lose;
+The smiles that exist because I do not exist.
+
+The thousandth year of my loss.
+Love, hate, and a little pain.
+As if shivering from cold, I lose,
+My breath and my life. `, 
+                author: "ZILAN KAYA | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "anarchy",
+                title: "ANARCHY", 
+                text: `To relieve herself a little,
+she cut herself again.
+The disorder of her soul, like an anarchy.
+Maybe everything would be better if she cried a little.
+But she doesn't cry, she can't attract anyone's attention.
+
+The danger of dark streets has disappeared.
+The streetlamp shaped the symbol of fear.
+The danger created by the light frightened her of herself.
+
+She could never cry for her mother's death.
+And yet, she buried herself in deep silence.
+Her dreams turned into hell,
+She did not awaken from the hope of imagining the path to paradise. `, 
+                author: "ZILAN KAYA | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "poememonsieur ",
+                title: "I WANT TO WRITE A POEM, SIR", 
+                text: `I want to write a poem, sir.
+Let it create a confusion of meaning that says everything.
+I would like it to be a little understandable,
+To make this confusion even more confusing.
+
+I want a bouquet of flowers, sir.
+If you are listening to me,
+I want to die, in this snow,
+Deep down.
+In a well,
+In my sleep. `, 
+                author: "ZILAN KAYA | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "solitudeenseignee",
+                title: "THE SOLITUDE TAUGHT", 
+                text: `Sitting at the end of a bench, I write.
+I look at the trees and their leaves, the flowers and their roots,
+I look at people and those they love.
+And then there's me; once I've left this world,
+Forgotten,
+Me, whose trace will never be found again.
+I ended up learning this solitude they teach.
+In return, I decided to write.
+A solitude like fatigue,
+Silent and full of pain,
+Which yet, sometimes, feels good,
+This indifference I adopt towards people.
+I stopped questioning the reasons.
+I just live, I just live.
+By repeating this phrase, I feel that I am living,
+And in living, I feel that I am dying.
+I think,
+I am isolating myself. `, 
+                author: "ZILAN KAYA | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "cesttoi",
+                title: "IT'S YOU, UNCHANGED", 
+                text: `You don't grieve the death of a stranger, it's not in your nature.
+You cry at the funeral because selfishness is too strong.
+You cry, but you think of no one but yourself.
+It's been inscribed in you for a long time, in humanity...
+
+You don't want to suffer, while taking pleasure in pain.
+You would like it to be brief, but you never succeed: killing yourself.
+While trying to protect yourself, you hurt yourself.
+It's you, that's all, unchanged.`, 
+                author: "ZILAN KAYA | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "sevenobjects",
+                title: "SEVEN OBJECTS", 
+                text: `I am dead.
+I have been dead forever.
+That's surely not the sentence you were expecting
+Do you know what it's like to be me forever?
+
+Let me explain my death to you.
+
+I died at the exact moment my father didn't appreciate
+that I grew up and wore lipstick.
+I have been dead since my uncle hit me with a cable for breaking the TV as a baby
+I died when my brother stole my favorite scrunchie
+I died the moment my mother called me a slut
+for a bustier, ignoring that it was a corset
+I died when my ex took my freedom
+I died the second
+my stepfather threw a chair at me because I refused to accept him
+I died when my sister preferred her phone rather than listening to me talk
+
+So I took each of these objects.
+7 objects,
+Seven, the number of Jesus,
+He who came back to life is in Paradise,
+
+I applied my lipstick, put on my corset so the show could begin. I attached the cable to the ceiling and left enough slack for the neck,
+held my hair back with a scrunchie,
+I stood on the chair to remove my freedom
+I then let the phone ring.
+
+I tied myself up to show them they killed me,
+I gave in and pushed...
+
+I cried as if I were a newborn, that day so I became a new dead woman, yes I invented it,
+
+It's that day that I was born. `, 
+                author: "DIVINE | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "papillons",
+                title: "FOLLOW THE BUTTERFLIES ", 
+                text: `Between the meshes of the net
+Of exchanged glances
+Through a crack
+In the opaque dome
+That covers the city
+
+Let's flee
+Let's follow the butterflies
+
+When the cliffs of reality
+Oppress us
+When the fatalistic vines
+Catch up to us
+
+Let's flee
+Let's follow the butterflies
+
+Fragile glimmer of hope
+Fragile sentinel
+Of an imagination
+In distress
+They flicker
+The sigh of exhausted
+Workers
+Pushes them away
+They flicker
+Hanging by that thread
+Of the fleeting existence
+Of a world holding its breath
+
+Let's not let them become
+Fixed memories
+Of a bygone time
+
+Let's flee
+Let's follow the butterflies`, 
+                author: "Lison Berger | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "silence",
+                title: "SILENCE!", 
+                text: `The voices overwhelm me
+Empty my language
+Infiltrate cracks
+And plug my paths
+Too much of everything
+Too much info
+Too many people
+Too many words
+Too much noise
+Too many madmen
+Too much life
+Too much of you
+My reason flees
+Gets tangled
+Stumbles
+Escapes
+And snuggles up
+My reason went away
+Fragile
+Shaky
+Limping
+So sad
+My mind fumes
+Fog
+Boredom
+Little death
+Apathy
+And the voices return
+Brutal
+Ominous
+To finish off the shreds
+Of time
+That I have left `, 
+                author: "Lison Berger | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "lyc14",
+                title: "…", 
+                text: `Innocence, what a privilege that is.
+When our only occupation is to watch the sky.
+It starts with a child's laugh, honest and frank.
+
+Innocence, where nothing made sense, where everything mingles with a little bit of nothing and intoxication.
+Innocence, when we had experienced nothing, where the only wounds came from those of a stranger.
+Innocence, it's not ignorance.
+Innocence, it's the joy of creating, or a joy deemed senseless.
+
+Innocence is envied by those who have lived, while what it brings us is not so far away.
+Innocence, what a privilege that is.
+
+That's what everyone told me.
+
+But I disagree, because in truth innocence is not the only thing
+that brings us a smile or senseless joy.
+
+Innocence is above all daring to love oneself. `, 
+                author: "Olivia VRECKO | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "lyc15",
+                title: "…", 
+                text: `She sees him from afar, with his friends.
+He sees her from afar, sitting alone on a bench.
+She finds him sunny, like at their beginning.
+He finds her radiant and serene, in her pretty fabric top.
+She is unwell, her past drags her down, and she can no longer get up.
+He tries to cope but keeps blaming himself for what happened.
+She feels herself wasting away, letting herself go day by day.
+He dreams of apologizing and starting over as if it were all just a bad joke.
+She loves him but must let him go.
+He loves her and would do anything to see her come back. `, 
+                author: "Lylou-Anne KAMBER | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "lyc16",
+                title: "…", 
+                text: `It's your silence that became my daily life
+And your absence that still tortures me from afar.
+It's the photos that remind me what you look like
+Those very ones that prove we were good together.
+It's the messages that replaced our voices
+The videos, the moments I was with you.
+
+After 10 years I could have forgotten you.
+After 10 years I should have forgotten you.
+Yet every day you cross my mind.
+Yet you accompany me every minute of the day.
+
+Even in the face of your silences,
+I showed resilience.
+Even in the face of distance,
+I showed resilience.
+
+My brain refuses to forget you, to let you go.
+It refuses to see you treat me like a memory,
+Treat me like a page from your past.
+I know you do it to feel better
+But I can never forget
+How good we were together. `, 
+                author: "Lylou-Anne KAMBER | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "lyc17",
+                title: "…", 
+                text: `I remember one night
+Lying on a blanket, me and him.
+The moon shone with its silver grain
+And the grass tickled our feet.
+He knew the constellations perfectly,
+I listened to what he said, spellbound.
+Eyes wide open, hand in hand
+Staring at the sky until dawn.
+
+And when he left
+I returned every night
+Under the tall poplar tree and I tried
+To remember the constellations he pointed out.
+Like a final tribute,
+Now that he too
+Is above the clouds.
+
+A life of misery and pain,
+That's what he lived until the end.
+Violence and death are his anchors,
+He's known them since his youngest age.
+His nightmares and fears imprison him;
+The echo of his childhood resonates in him.
+
+A life of fortune and happiness,
+That's what she lived until the end.
+Gentleness and life are her anchors,
+She's known them since her youngest age.
+Her dream and her peace liberate her;
+The echo of her childhood vibrates in the air.
+
+Everything separates them and nothing unites them,
+But their differences are not infinite.
+Light shines on their path;
+Two stars that finally find each other.
+
+Two beings united to become one,
+They are connected by an endless love. `, 
+                author: "Mathilde | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "lyc18",
+                title: "…", 
+                text: `I dive. I swim. I drown in it.
+A vast blue expanse with green, turquoise, and amber reflections.
+An abyss, deep, enchanting, mysterious...
+I'm out of breath, my lungs burn.
+I have to breathe. Yet I can't.
+Your intense and burning gaze pulls me in, overwhelms me.
+How can I escape? Do I even want to? Nothing is less certain when you're here...
+In your presence, time stops. I no longer know how to think, how to move,
+How to act. I forget even the world around us.
+Nothing has value in my eyes anymore, except you...
+Your eyelids close, your gaze turns away. My heart, however, calms down
+although it feels your absence.
+I already miss you while waiting for the next time.`, 
+                author: "Mathilde | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "time",
+                title: "TIME", 
+                text: `Time, so short yet so long
+This time, ephemeral, barely imaginable
+You can only brush it with your fingertips
+It's just numbers, spinning infinitely
+This world turning around an image
+It doesn't exist though, time pursues us
+
+We never have time, because time is transparent
+To savor time is like a dream
+Those that never end
+Those that envelop us in a magical universe
+Because time is sublime`, 
+                author: "Charlo | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "lyc19",
+                title: "…", 
+                text: `She ran, again and again
+Her little black cat frolicked with her
+Smile plastered on her lips, she threw herself into the grass
+That fresh spring air blew on her
+The sun sparkled and reflected on her face
+It had been so long since she'd been near him
+He seemed untouchable, or maybe he really was
+
+Behind her joy, they were there, watching her one last time
+She could enjoy this field of flowers
+They would only have the storm she left behind
+They lost their little sun `, 
+                author: "Charlo | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "mistmaker",
+                title: "THE LITTLE MIST MAKER", 
+                text: `
+Nestled in a hollow of a valley in a small cottage
+Built of thatch, glass, and stone
+It shelters in its heart a groaning machine
+This assembly of bolts and steel makes the framework creak
+
+But out of this chimney of found stones comes
+Numerous filaments of ethereal mist
+Which weave together until they become tapestry
+Whose weaving spreads over the mountain and the meadow
+
+An old man from the depths of time
+Watches over this cloud factory
+And governs the fog and the mist
+Without ever catching so much as a cold `, 
+                author: "Zoé Deroche | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "love",
+                title: "LOVE", 
+                text: `They spoke to me of him, I did not see him.
+They said he was so beautiful, so pleasant.
+They also said to be wary of him.
+They said he was often dishonest, manipulative.
+That once you fell into his nets,
+You never got out again.
+
+Curious, I searched for him for a long time
+I did not find him.
+I convinced myself it was better this way
+That he scared me too much
+To dare approach him.
+And I ended up giving up.
+
+One day, a flash passed by.
+So fast I barely had time to see it.
+I felt his presence but preferred to ignore it.
+Until the day he was introduced to me.
+I recognized him immediately.
+A little boy with a mischievous smile.
+His eyes sparkled, innocence shone from his face.
+He was pretty, love.
+The one they had talked to me so much about.
+He was brave, refreshing.
+And above all, he wasn't so scary after all.
+
+Every word that came out of his mouth
+Was a melody, a burst of laughter.
+Every gesture he made
+Was improvised dance.
+No score
+No choreography. `, 
+                author: "Lilie Rose | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "fear1",
+                title: "FEAR", 
+                text: `Worst of feelings,
+uncontrollable,
+imprisons children.
+
+Hidden deep in our soul
+unparalleled purity,
+Paradoxically
+It drives men, lovers, to betrayal.
+
+Is born deep in our stomach and comes out screaming.
+I saw it in a friend,
+It was a trembling,
+I saw it in a woman with a...
+Smiling face?
+
+It is fear, the worst of humanity,
+The worst of you, the worst for me.
+It drives people crazy and weighs down my arms.
+But it also protects from certain dangers,
+An instinct in our hearts with such icy touches. `, 
+                author: "Mangeret Maelle | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "driedhearts",
+                title: "DRIED HEARTS", 
+                text: `I love you, I think, but you bore me.
+Being by your side makes me smile,
+But our emotions stain the parchment,
+Of our friendship.
+
+I long followed the path,
+That once, by our laughter and our troubles,
+Wove the united lines of a friend.
+
+When tired I open the palace of memories,
+Only a deep boredom, without a sigh
+Echoes in the hollow of my arms.
+
+No one to welcome us and the dry earth of our stories,
+Prevents me from finding myself there for a moment.
+
+I lift my head out of the water and see you, but don't recognize you.
+Only boredom accompanies our slow walk,
+that of two tears that know each other,
+but of two souls that no longer recognize each other.
+
+I think I don't love you. `, 
+                author: "Mangeret Maelle | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
         ]
 };
