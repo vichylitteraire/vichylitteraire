@@ -960,7 +960,7 @@ Miroir mon beau miroir, tu n'es pas brisé,
 Mais je vois pourtant mon reflet délabré.
 Miroir mon beau miroir :
 Vais-je un jour arrêter de me contempler dans le noir ? `, 
-                author: "Lemoine Bidolet Johane | Lycée Albert Londres",
+                author: "SOLAR MILLS | Lycée Albert Londres",
                 hasMore: false,
                 buyLink: "#"
             },
