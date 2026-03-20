@@ -1,6 +1,6 @@
 const STORIES_DATA_EN = {
         labelAuthor: "By",
-        nextBtn: "Another story 🎲",
+        nextBtn: "Another text 🎲",
         contactLabel: "To contact us:",
         adText: "Support our cultural project\n\n Your LOGO here",
         adLink: "Learn more",
