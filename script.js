@@ -158,7 +158,7 @@ document.addEventListener('click', async function(e) {
             likedStories.push(storyId);
             localStorage.setItem('my_likes', JSON.stringify(likedStories));
 
-            const { data } = await _supabase.from('likes').select('count').eq('story_id', storyId).single();
+            const { data } = await _supabase.from('likes').select('count').eq('story_id', storyId).maybeSingle();
             if (data) {
                 await _supabase.from('likes').update({ count: data.count + 1 }).eq('story_id', storyId);
             } else {
