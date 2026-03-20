@@ -205,7 +205,8 @@ Pour la glace, la pendaison.
 Au verglas, la geôle.
 La tempête, en tôle !
 C'est qu'à trop promettre
-A l'électeur fait maître,On confine au délire
+A l'électeur fait maître,
+On confine au délire
 Pour se faire réélire.
 Annoncer la croissance
 Et c'est la panne d'essence.
@@ -497,8 +498,8 @@ Si on met à part le bordel qui règne partout, l'ensemble serait agréable à c
 Finalement, elle n'est pas si mal que ça. Je dois dire que j'ai eu un a priori négatif, vu la tournure prise par notre rencontre mais, en y regardant de plus près, elle n'est pas vilaine. Un petit mètre soixante-dix, plutôt mince, petite poitrine, petit cul, la bonne quarantaine bien conservée. 
 Si j'ai bien vu, elle a les yeux bleus et les cheveux châtain clair naturel. Mais alors, la coiffure ! Ou plutôt l'absence de coiffure ! Elle a une bonne tignasse, mais l'ensemble est retenu en l'air par deux grosses pinces en plastique imitation écaille. Ajoutez à ça qu'elle porte un jean style retour de Katmandou et un gilet informe en tricot sur un T shirt délavé et vous aurez une idée de la gravure de mode ! Ah, y'a pas à dire, elle est coquette la maman !`, 
                 author: "Frédéric FOSSAERT",
-                hasMore: false,
-                buyLink: "#"
+                hasMore: true,
+                buyLink: "https://www.librairiealapage.fr/livre/9782332525550-a-vichy-par-hasard-frederic-fossaert/"
             },
 
 { id: "obscure",
@@ -520,8 +521,8 @@ Vichy, puis sa médecine à Clermont- Ferrand avant de rentrer au bercail. C’e
 
 Aujourd’hui, Achille Saulzet est un homme fait. Il approche de la soixantaine avec sérénité, aussi à l’aise dans la vie qu’un pied dans une charentaise. Il est marié à Justine, son ancienne secrétaire, avec laquelle il a eu deux enfants. L’aînée, Juliette, a fait une école de commerce et elle travaille en région parisienne. Le cadet, Stéphane, a fait médecine — c’est de famille — et il exerce au CHU de Clermont. Stéphane n’exclut pas de prendre, lui aussi, la suite de son père d’ici quelques années, pour finir sa carrière peinard. Une précision de taille, toute la famille est catholique. Ce sont même des catholiques pratiquants. Sont-ils des croyants sincères pour autant ? Qui sait ? En ce qui concerne les enfants, c’est peu probable. Ils ne vont plus guère à la messe et leur crise de foi semble s’être terminée en forme d’agnosticisme. Pour ce qui est des parents, c’est plus compliqué. Justine et Achille assistent à l’office tous les dimanches et ils participent à certaines bonnes œuvres. Le bénitier n’est pas leur piscine, mais c’est leur tasse de thé… Cette précision est importante, car c’est de là que part l’histoire de Christine Rochemont. `, 
                 author: "Frédéric FOSSAERT",
-                hasMore: false,
-                buyLink: "#"
+                hasMore: true,
+                buyLink: "https://www.librairiealapage.fr/livre/9791096494156-enquete-obscure-a-vichy-fossaert-frederic/"
             },
 
 { id: "impossible",
@@ -659,8 +660,8 @@ de la même personne.
 
 — Merci Michel… `, 
                 author: "Frédéric FOSSAERT",
-                hasMore: false,
-                buyLink: "#"
+                hasMore: true,
+                buyLink: "https://www.abebooks.fr/lendemain-limpossible-Fossaert-Fr%C3%A9d%C3%A9ric/30980141935/bd"
             },
 { id: "patate",
                 title: "UNE PATATE", 
