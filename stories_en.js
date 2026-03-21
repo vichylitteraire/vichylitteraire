@@ -1785,5 +1785,114 @@ I think I don't love you. `,
                 hasMore: false,
                 buyLink: "#"
             },
+                { id: "orangesyrup",
+                title: "THE TASTE OF ORANGE SYRUP", 
+                text: `How did this door ever learn to open?
+
+How did it learn to let through humans, dogs, cats…?
+
+How did it leave muddy clogs and brooms on the stoop?
+
+It is so small.
+
+The grass so tall.
+
+The road so near.
+
+It sinks in. Swallowed by brambles and time.
+
+Everything seems much larger to me than back then, when, hand in hand with my mother, my grandmother, or my great-grandmother, I would cross its threshold. I would discover its cement floor with tiny swirls, the kitchen with its stove, the television draped in a piece of velvet.
+
+There, one of these three women would tell me to sit down. I would be served orange syrup in a glass that was already sticky, along with butter-laden biscuits. They would tell me I had grown since last time.
+
+This tiny, fragile door no longer tastes of orange syrup.
+
+It tastes of everything that happened between yesterday and today. `, 
+                author: "Stéphanie BARA",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "criesofsilence",
+                title: "THE CRIES OF SILENCE", 
+                text: `If I close my eyes for a moment to open my ears to all those lives before me. I hear now the clatter of wooden clogs on the floor, now a forest at night and wolves howling.
+
+I also hear slate split by a man's hand, wheat being cut, earth being turned, cows in the fields. I hear the quiet sound of hemp thread, the needle piercing cloth.
+
+I hear children playing and others getting hurt. I hear the laughter of children shut between the walls that surround the garden.
+
+And above all, I hear silence. I hear the thick silence that lies between lives.
+
+I hear the cries of silence that drive one to write. `, 
+                author: "Stéphanie BARA",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "howtoswim",
+                title: "HE DOESN’T KNOW HOW TO SWIM", 
+                text: `He knows how to write.
+
+He doesn't know how to swim.
+
+I never knew my maternal great-grandfather.
+
+The one they called "Verdun."
+
+The one they would find in ditches with his bicycle and a few grams of wine.
+
+I unearthed his military record book among my grandmother's things.
+
+There I learned everything one must know about a man of his family.
+
+His height.
+
+The color of his eyes.
+
+The shape of his face.
+
+Mobilized in '14.
+
+He knew how to write.
+
+He didn't know how to swim. `, 
+                author: "Stéphanie BARA",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "we",
+                title: "WE", 
+                text: `One day, I will grasp what binds us together.
+
+They, silent. Me, talkative.
+
+They, entrenched in secrets.
+
+Me, both feet planted in forbidden questions.
+
+They, monuments of silence.
+
+Me, outbursts of voice and truth.
+
+They, an entire life on the same soil.
+
+Me, departure grafted to my body.
+
+They, lips sealed until the very last day.
+
+She, eyes closed until the very end.
+
+She, a life cut short to better keep silent.
+
+Me, eyes and words wide open to tell their stories.
+
+We, disunited by life.
+
+We, united by words. `, 
+                author: "Stéphanie BARA",
+                hasMore: false,
+                buyLink: "#"
+            },
         ]
 };
