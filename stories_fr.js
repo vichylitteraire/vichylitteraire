@@ -1892,4 +1892,98 @@ Je crois que je ne t'aime pas. `,
                 hasMore: false,
                 buyLink: "#"
             },
+                { id: "goutsirop",
+                title: "LE GOÛT DU SIROP A L’ORANGE", 
+                text: `Comment cette porte a-t-elle un jour su s’ouvrir ? 
+Comment a-t-elle su laisser passer humains, chiens, chats… ? 
+Comment a-t-elle laissé sur le perron sabots terreux et balais ? 
+ 
+Elle est si petite.
+Les herbes si hautes.
+La route si près.
+ 
+Elle s’enfonce. Avalée par les ronces et le temps. 
+ 
+Tout me paraît beaucoup plus qu’à l’époque où, main dans la main avec ma mère, ma grand-mère ou mon arrière-grand-mère, j’en franchissais le seuil. J’en découvrais le sol de ciment aux petites volutes, la cuisine et son poêle, la télé recouverte d’un morceau de velours. 
+ 
+Là, une de ces trois femmes me disait de m’assoir. On me servait un sirop à l’orange dans un verre déjà collant et des biscuits bien beurrés. On me disait que j’avais grandi depuis la dernière fois. 
+ 
+Cette porte minuscule et fragile n’a plus le goût du sirop à l’orange. 
+Elle a le goût de tout ce qui s’est passé entre hier et aujourd’hui.
+`, 
+                author: "Stéphanie BARA",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "crisilence",
+                title: "LES CRIS DU SILENCE", 
+                text: `Si je ferme les yeux un instant pour ouvrir l’oreille à toutes ces vies d’avant moi. J’entends tantôt des sabots de bois claquer sur le sol, tantôt une forêt la nuit et des loups qui hurlent. 
+ 
+J’entends aussi l’ardoise fendue de main d’homme, le blé coupé, la terre retournée, les vaches dans les champs. J’entends le son discret du fil de chanvre, de l’aiguille qui pique le tissu. 
+ 
+J’entends des enfants qui jouent et d’autres qui se blessent. J’entends des rires d’enfants enfermés entre les murs qui entourent le jardin. 
+ 
+Et par-dessus tout, j’entends le silence. J’entends l’épais silence entre les vies. 
+ 
+J’entends les cris du silence qui poussent à écrire.`, 
+                author: "Stéphanie BARA",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "saispasnager",
+                title: "IL NE SAIT PAS NAGER ", 
+                text: `Il sait écrire.
+Il ne sait pas nager.
+ 
+Je n’ai pas connu mon arrière-grand-père maternel.
+ 
+Celui qu’on surnommait « Verdun ».
+Celui qu’on retrouvait dans les fossés avec son vélo et quelques grammes de vin.
+ 
+J’ai déniché son livret militaire dans les affaires de ma grand-mère.
+ 
+J’y ai appris tout ce qu’on doit savoir sur un homme de sa famille.
+ 
+Sa taille.
+La couleur de ses yeux.
+La forme de son visage.
+ 
+Mobilisé en 14.
+ 
+Il savait écrire.
+ 
+Il ne savait pas nager.`, 
+                author: "Stéphanie BARA",
+                hasMore: false,
+                buyLink: "#"
+            },
+
+{ id: "nous",
+                title: "NOUS", 
+                text: `Un jour, je saisirai ce qui nous réunit.
+ 
+Elles taiseuses. Moi bavarde.
+Elles terrées dans les secrets.
+Moi, les deux pieds dans les questions interdites.
+Elles monuments de silence.
+Moi, éclats de voix et de vérité.
+ 
+Elles, une vie entière sur la même terre.
+Moi, le départ vissé au corps.
+Elles, les lèvres serrées jusqu’au dernier jour.
+ 
+Elle, les yeux fermés jusqu’à la fin.
+Elle, la vie courte pour mieux se taire.
+ 
+Moi, les yeux et les mots grand ouverts pour les raconter elles.
+ 
+Nous, désunies par la vie.
+ 
+Nous, réunies par les mots.`, 
+                author: "Stéphanie BARA",
+                hasMore: false,
+                buyLink: "#"
+            },
             ]};
