@@ -7,6 +7,7 @@ let currentLang = 'fr';
 let shuffledIndices = [];
 let currentIndex = 0;
 let hasLikedCurrentStory = false;
+let currentStoryId = null; // 1. ДОБАВЛЕНО: Храним ID текущей истории
 
 // --- ДАННЫЕ РЕКЛАМЫ ДЛЯ КАФЕ ---
 const ads = {
@@ -24,8 +25,6 @@ function setLanguage(lang) {
     document.getElementById('language-screen').style.display = 'none';
     document.getElementById('main-content').style.display = 'block';
 
-    // --- ЛОГИКА РАЗДЕЛЕНИЯ ФАЙЛОВ ---
-    // Мы создаем глобальный объект STORIES_DATA "на лету" из импортированных файлов
     if (currentLang === 'fr') {
         if (typeof STORIES_DATA_FR === 'undefined') {
             alert("Ошибка: Файл stories_fr.js не загружен!");
@@ -39,7 +38,6 @@ function setLanguage(lang) {
         }
         window.STORIES_DATA = { 'en': STORIES_DATA_EN };
     }
-    // --------------------------------
 
     const langData = STORIES_DATA[currentLang];
     shuffledIndices = [...Array(langData.stories.length).keys()].sort(() => Math.random() - 0.5);
@@ -79,7 +77,7 @@ async function fetchLikes(storyId) {
     
     if (checkIfAlreadyLiked(storyId)) {
         likeBtn.classList.add('liked');
-        hasLikedCurrentStory = true;
+        hasLikedCurrentStory = true; // Фиксируем статус для логики клика
         const thanksText = (currentLang === 'fr' ? "Merci ! ♡" : "Thank you ! ♡");
         likeBtn.innerText = thanksText + countDisplay;
     } else {
@@ -92,6 +90,9 @@ async function fetchLikes(storyId) {
 function loadStory() {
     const langData = STORIES_DATA[currentLang];
     const storyData = langData.stories[shuffledIndices[currentIndex]];
+
+    // 2. ИЗМЕНЕНО: Запоминаем ID и передаем в fetchLikes напрямую
+    currentStoryId = storyData.id; 
 
     document.getElementById('story-title').innerText = storyData.title || "";
     document.getElementById('story-content').innerText = storyData.text || "";
@@ -121,7 +122,7 @@ function loadStory() {
     }
     if (adLink) adLink.innerText = langData.adLink || "Info";
 
-    fetchLikes(storyData.id);
+    fetchLikes(currentStoryId); // Проверяем лайки по актуальному ID
 
     const readMoreBtn = document.getElementById('read-more-btn');
     if (storyData.hasMore && storyData.buyLink) {
@@ -145,10 +146,8 @@ function loadStory() {
 
 document.addEventListener('click', async function(e) {
     if (e.target && e.target.id === 'like-btn') {
-        const prevIndex = (currentIndex === 0) ? shuffledIndices.length - 1 : currentIndex - 1;
-        const storyData = STORIES_DATA[currentLang].stories[shuffledIndices[prevIndex]];
-        const storyId = storyData.id;
-
+        // 3. ИЗМЕНЕНО: Используем currentStoryId вместо вычисления индекса
+        const storyId = currentStoryId; 
         if (!storyId) return;
 
         let likedStories = JSON.parse(localStorage.getItem('my_likes') || '[]');
