@@ -1986,4 +1986,27 @@ Nous, réunies par les mots.`,
                 hasMore: false,
                 buyLink: "#"
             },
+                { id: "goeland",
+                title: "LE GOÉLAND", 
+                text: `L’air marin vivifiant,
+Cette écume abrogeant les sens
+De ce tout petit goéland
+Qui s’éloigne en voletant.
+
+Quelle ne fut sa surprise
+De découvrir que cette brume exquise
+Était en réalité un brin d’empâtements,
+La touche d’un peintre savant.
+
+Alors il fureta dans les profondeurs
+De cette marine vieillissante.
+Et il le fit avec tant d’ardeur,
+
+Que soudain ! Un goéland se mit à pleurer
+Dans le hall d’un immense musée,
+Dont les œuvres permettent de voyager.`, 
+                author: "Gwen",
+                hasMore: false,
+                buyLink: "#"
+            },
             ]};
