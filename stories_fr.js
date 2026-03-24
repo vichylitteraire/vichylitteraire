@@ -1477,7 +1477,7 @@ C'est toi, voilà tout, inchangé. `,
             },
 
 { id: "septobject",
-                title: "SEPT OBJECTS", 
+                title: "SEPT OBJETS", 
                 text: `Je suis morte.
 Je suis morte depuis toujours.
 Ce n'est sûrement pas la phrase que vous attendiez
