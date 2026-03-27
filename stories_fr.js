@@ -2009,4 +2009,100 @@ Dont les œuvres permettent de voyager.`,
                 hasMore: false,
                 buyLink: "#"
             },
+                { id: "status",
+                title: "STATUES", 
+                text: `Figer les statues idéales
+
+Autour de moi
+Dans le musée
+
+Il y a les couples
+Cheveux de pierre neigeuse
+Lèvres jointes gelées
+Leurs mains de marbre lissent
+Les plis secs de leurs habits
+
+Il y a les maisons
+Fleuries de moulures aux fenêtres
+Avenantes façades
+Et des scènes au travail
+Beaux bureaux sourires de Vierge
+Pots de départs polis
+
+Pas un souffle
+
+Le rouge monte à mes joues
+Une fois le tour fini
+J’observe les débris
+Les restes de mon socle
+
+Qu’On m’apporte un balai !
+Qu’On m’indique une issue !
+
+Il doit bien exister
+Une porte cachée
+Panneau clignotant vert
+Pour les cas d’incendie`, 
+                author: "Marjolaine CLEUX",
+                hasMore: false,
+                buyLink: "#"
+            },
+{ id: "bouches",
+                title: "PAR NOS BOUCHES", 
+                text: `Ma langue maternelle est sifflante et pointue
+Elle érafle les bras et poignarde les dos
+On ne peut la parler sans connaître le mot
+Brutal et venimeux qui prend l'âme et la tue
+
+Je n'ai jamais bien su en prononcer les angles
+J'ai l'accent arrondi l'incisive en dentelle
+La répartie trop lente et la voix tourterelle
+J'ai beau m'y appliquer le feulement m'étrangle
+
+J'ai quitté le foyer recherché les échos
+Des sons vivants en moi chez les loups les oiseaux
+Mais mes vibrations ne trouvent pas leur clan
+
+Alors je m'inventai des chansons inouïes
+Et mon ventre créa une éclatante enfant
+Qui sans rien imiter parle sa poésie`, 
+                author: "Marjolaine CLEUX",
+                hasMore: false,
+                buyLink: "#"
+            },
+{ id: "pantoun",
+                title: "PANTOUN DU RETOUR", 
+                text: `Je revins sur ma terre après des mois d'errance
+Les ronces amollies ne m'égratignaient plus
+Je retrouvai la langue où s'éveillaient mes sens
+En foulant les chemins que je pensais perdus
+
+Les ronces amollies ne m'égratignaient plus
+Les serpents endormis scintillaient au soleil
+En foulant les chemins que je pensais perdus
+Je suçais sur mes doigts le sucre des groseilles
+
+Les serpents endormis scintillaient au soleil
+Grelot de cascabelles et venin foudroyant
+Je suçais sur mes doigts le sucre des groseilles
+J'empêchais les baisers des insectes gourmands
+
+Grelot de cascabelles et venin foudroyant
+J'observai mes pieds nus et m'affolai soudain
+J'empêchais les baisers des insectes gourmands
+Oubliant le péril de scorpions assassins
+
+J'observai mes pieds nus et m'affolai soudain
+Sentis le dard glisser dans ma chair attendrie
+Oubliant le péril de scorpions assassins
+Je chutai sans un son sur les dunes amies
+
+Sentis le dard glisser dans ma chair attendrie
+En regrettant le temps où j'avais du bon sens
+Je chutai sans un son sur les dunes amies
+Je revins sur ma terre après des mois d'errance`, 
+                author: "Marjolaine CLEUX",
+                hasMore: false,
+                buyLink: "#"
+            },
             ]};
