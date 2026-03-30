@@ -1894,5 +1894,380 @@ We, united by words. `,
                 hasMore: false,
                 buyLink: "#"
             },
+                { id: "quitterhomme",
+title: "DIFFICULT TO LEAVE A MAN",
+text: `It is difficult to leave the man you desired against all odds.
+It is difficult to leave the man you chose out of defiance,
+Thus flouting family, propriety, morality.
+It is difficult to leave the man you loved madly.
+It is difficult to leave the man for whom you gave everything, let go of everything, hoped for everything.
+
+It is difficult to leave the man you admired,
+For his freedom of thought, his critical mind, his audacity, his generosity,
+For his passions, his whims, his desires, his life choices, his excesses,
+For his imagination, his creativity, his keen observation, his ability to experiment.
+
+It is difficult to leave the man you wanted to save
+From his demons, from his wounds, from his cracks.
+Without denying yourself, without feeling guilty.
+
+It is difficult to leave the man you love.
+Even if his gestures are violent, his words humiliating.
+You always hope that things will get better.
+
+The first time you are struck, you don’t believe it.
+Or rather, you refuse to believe,
+In the violence dealt by the man you love.
+
+Why this violence? What have you done?
+It is your fault, you don’t know how to handle things.
+You must have done something wrong.
+You think you are not good enough.
+You deliberately belittle yourself.
+
+No one has the right to be violent towards another, love does not excuse everything.
+To refuse violent gestures, slaps, blows,
+To refuse humiliating, hurtful words.
+Yes, it is obvious.
+But to refuse is not so easy.
+
+Loving a violent person is the worst kind of addiction.
+Wanting to break free requires courage and time.
+Mourning a love that has been trampled is painful.
+It is a long process,
+That demands self-compassion, patience with yourself and your feelings.
+
+Violence is never acceptable.
+Not knowing how to react is the worst weakness.
+It is difficult to break free from this vicious circle.
+
+It is difficult to admit you were wrong about the person you loved.
+It is difficult to acknowledge the error of your choices,
+It is difficult to take responsibility for choosing your mistakes.
+It is difficult to accept that this love is a pernicious drug.
+It is difficult to run away in order not to die.
+
+It is difficult to ask for help.
+Shame is a feeling you keep to yourself.
+Too painful to share.
+Shame for accepting the blows without fighting.
+Shame and fear of crying.
+Crying from shame and fear.
+And sinking forever.
+
+Tears remain the only weapon against the unspeakable.
+Crying veils the anguish.
+But the brutality intensifies.
+Fear then seeps through every pore of the skin,
+And annihilates all freedom of thought.
+
+Allowing yourself to be humiliated by words or blows is the worst offence.
+Violence should be unacceptable.
+But love for another can sometimes embrace this addiction.
+
+Learning to respect yourself.
+To stand up against violence.
+To refuse the blows, the humiliations from the one you love.
+To refuse shame and fear to find your dignity.
+There are limits that must not be crossed.
+
+You managed to escape before hatred consumed you.
+When your feelings were torn to shreds, fell to tatters,
+Your eyes, your ears, your heart awoke to life.
+You left, steeped in sadness, nostalgia, and radiant memories.`,
+author: "Soizick Roche Jagu",
+},
+
+---
+
+{ id: "amoursmarines",
+title: "SEA LOVE",
+text: `Beacon
+A headland to embark upon
+Suitcase
+A journey to sublime
+
+Lighthouse at the gateway of an emerged land
+Resting on your bed of rocks
+Grey, black, golden,
+Gashed
+By the sea spray of time.
+
+From tide to tide
+Gulls, cormorants, gannets
+Visit you between flights.
+
+The sea arrives with small steps
+Gives a few licks of salty tongue
+Swirls in a slow waltz,
+Leaves, returns,
+Begins again day after day.
+Disappears anew
+Without a trace.
+Reappears on another shore,
+Surprise,
+No routine.
+
+Little by little, the sea reveals itself
+Its waves roll, coil, unroll their charms
+Prance at full speed
+Bold, voluptuous caresses,
+Sensual tenderness.
+The sea kisses you, embraces you, holds you tight.
+Its swells unleash,
+Crash, purr, roar with solemn din,
+Splash against your flanks
+Soar towards the sky like geysers of lava.
+
+The sea gives itself entirely.
+No half-measures,
+No ordinariness,
+With it, it is ecstasy or nothing.
+
+Inside your walls
+You feel
+The vibrations of your stones,
+Your spine trembles, twists
+Under the gallop
+Of this wild and mad love.
+You drown beneath this blaze.
+You take flight
+You finally breathe
+In this journey to the end of the world
+
+The sky joins in unison
+Shades of grey
+To let the sea explode with joy
+Burst of colours
+Indigo, emerald, slate, pearl, blue-green,
+
+Your bursts of light
+Applaud with all their might
+This nascent passion.
+
+Slow waltz of the gulls
+Against the light of the sky
+Tears of silk
+Against the light of time
+
+Grief of wind
+Against the light of the sky
+Tears of rage
+Against the light of time
+
+Today is no longer a time for tears.`,
+author: "Soizick Roche Jagu",
+},
+
+---
+
+{ id: "etredanslepaysage",
+title: "BEING IN THE LANDSCAPE",
+text: `Being in the landscape
+On my island
+Frolicking in the wind
+Like the tern, the gull,
+The herring gull, the cormorant, the gannet
+Playing with the updrafts
+
+Being in the landscape
+Being at ease among the stone giants,
+Who tell me of fairies, korrigans, mermaids
+And also of pirates, shipwrecked sailors
+
+Being in the landscape
+Like the polished pebbles
+By the sea, the wind and the salt,
+They distil their thoughts with the rhythm of the surf
+
+Being in the landscape
+Among the sheep and the goats
+Grazing serenely, free
+On the heathland dressed
+In brown ferns, purple thrift, golden gorse
+
+Being in the landscape
+Melting into the storm
+To rid oneself of the dross of sorrows
+Mingling with the winter drizzle
+To cleanse the island of touristy residues
+
+Being in the landscape
+Like the foam atop the waves
+On days of high tide
+Breathing in the sea spray
+Until the blood turns salty
+
+Being in the landscape
+Among the volcanoes
+Listening to the cranes flying south
+Like a kite tossed in the breeze
+A banner waltzing in the sunset
+
+Being in the landscape
+Letting yourself be surprised
+Around a bend in the path
+By the joyful flight of a titmouse
+The majesty of a red kite
+The tawny coat of a watchful fox
+The graceful bounds of a roe deer
+
+Being in the landscape
+Drinking in the colours of autumn
+Streaming down from the trees
+Under the November sun
+Balm of warmth for every soul
+
+This morning,
+A wink from the sky
+Ouessant is drawn in white cotton
+I recognised the Pointe de Pern, the Créac’h,
+Porz Doun, Cadoran,
+Pen Arlan, the Stiff
+And the bay of Lampaul
+Then the wind swept away the clouds
+My island scattered like a frayed silk scarf
+
+Being in the landscape
+Feeling I belong
+In this living world`,
+author: "Soizick Roche Jagu",
+},
+
+---
+
+{ id: "lechantdelariviere",
+title: "THE SONG OF THE RIVER",
+text: `Walking along a river in a state of elsewhere,
+My mind takes flight, escapes, fades away to the rhythm of its music.
+
+If the river sways, dances, pitches wildly,
+The walk quickens,
+To stride with light step along the deserted paths,
+To clear the mind of budding melancholy, of lurking fears,
+To tear away the anxiety faced with the shifting, howling crowd.
+
+If the river languishes tenderly,
+Then it’s time for dawdling,
+To listen to the birds chirping amidst the lapping of the water.
+To discover hares running and frolicking in the neighbouring meadows.
+To search for the perfect light for a new image,
+To be viewed later, on a flat screen.
+
+I love to hear its voice.
+When it rolls over pebbles,
+When it roars, growls, crashes against rocks,
+When it plunges headlong, challenges itself,
+When it drips between mossy stones,
+When it flows without flinching with the current,
+Without letting itself be overwhelmed or invaded by its torments,
+When it glides through its meanders among the sandbanked trees.
+
+I love its exultant song,
+Accompanied by the wind rustling through the leaves in the treetops.
+I let myself be enveloped by its flow,
+Guiding my steps along its banks.
+It soothes me and takes me far into this maze of memories.
+It calms the anxieties of my former city-dweller self.
+
+I love the soft melody of its waves,
+It cradles the melancholy of my sorrowful soul,
+It sweeps me away, letting me wander into my maritime reveries.
+
+I love its murmur that caresses the polished stones,
+Casually,
+As if touching nothing.
+
+I love to breathe
+The nascent bubbles on the surface of its waves,
+The scents of rotting wood beneath the moss,
+The crunch of brown leaves underfoot.
+
+I love the trees that line it,
+Their branches play with the sun,
+Then surrender to the tumult of its ripples,
+Undulating smiles for a nascent love.
+
+I love the shadow puppets drawn
+Against the blue sky or the tender green of the meadows.
+These majestic oaks, still bare from winter,
+These giant statues, with their multiple tentacle-like arms,
+Like Shiva or Vishnu,
+Ready to dance to invoke the rain.
+
+The murmur of the river soothes me, calms me,
+Its tumult uplifts me, intoxicates me,
+Its breath shakes me, quenches me, and nourishes me.`,
+author: "Soizick Roche Jagu",
+},
+
+---
+
+{ id: "maryline",
+title: "MARYLINE",
+text: `A viscous atmosphere reigned over the village. A sweet smell had invaded everything, the streets, the houses, the gardens. Everyone went out with a handkerchief over their nose, masks were welcome. People avoided going out on windy days, because it was worse. By constantly breathing in this sweet perfume, gorging themselves, and no longer playing sports, the population had become obese.
+
+The village was called Maryline.
+The fruit paste and candy factory had been built to the west of the village, on a former industrial wasteland. The mayor and his municipal council had approved the installation, for the village had been stagnating for many years, ever since the plastic factory had left to relocate to a country in Eastern Europe. The mayor had wept bitterly to the directors, but it had been no use. So when a saving opportunity presented itself, everyone applauded, the municipal council and the villagers alike. The new company promised substantial hiring. The unemployed would find work again and regain their dignity, not to mention the beneficial consequences for local businesses. And besides, candy and fruit pastes, it seemed pleasant and wholesome, as a product, nothing like plastic or nuclear waste. Everyone salivated at the idea of working for "Saveurs d’enfance" (Tastes of Childhood). And so, with enthusiasm, the village welcomed the company. A grand celebration was held for its opening.
+
+All was well. The factory ran at full capacity, employing nearly half the village’s inhabitants. Everyone was happy, those who had found work again, of course, but the others too. Good humour reigned in Maryline. Making candy and fruit pastes had a certain joyful quality, a feeling of transgressing a taboo. Creating pleasure was rewarding, respectable, and no small thing… The management also invited employees to take home some samples. They could thus contribute to improving production by giving their opinion on the quality of new products; their families were enlisted. Everyone willingly participated in this exercise.
+The employees loved their work, and the company was booming.
+
+But one day, a particularly violent wind struck the region. Its gusts carried the factory’s effluents towards the village. What a surprise, that smell, very sweet, almost nauseating, persistent. It rushed into the alleyways, settling here and there as the wind wandered. Then calm returned after the storm, everyone forgot the mishap.
+
+But again, the west wind made its appearance, and the sweet smell returned to invade the village. The inhabitants tolerated this pervasive smell less and less. No matter how much they washed, and rewashed, their laundry again and again, the smell was always there, insidious, forcing its way into every crevice. They had sealed up their houses, never opening windows when the west wind seemed about to set in. Gradually, the situation deteriorated between the villagers. Those who worked at the factory said nothing, for they especially did not want to lose their jobs; the others became increasingly virulent, no longer able to stand the employees and their pestilence. War was imminent between the two clans.
+Not to mention the medical problems. The employees had become obese from eating confectionery all day long. Their decayed teeth were falling out one after another; the dentist was at his wit's end. They no longer did any sports. In the streets, they were recognisable from afar by their roly-poly figures.
+
+One day, anger boiled over. Two men violently attacked one of the employees. It was like two weaklings facing a sumo wrestler. The village square served as a tatami for the brawlers. Quickly, a crowd gathered, nearly escalating into a fistfight between the two clans. Fortunately, a flash of lucidity stopped the two men. They abruptly halted their exchange of blows.
+An emergency meeting was organised with the town hall, the company, and all the villagers. A solution had to be found quickly, otherwise violence would completely annihilate the village. Experts looked for a way to divert the wind; scientists tried to eliminate the overly sweet fumes from the factory. Detox cures were offered to employees too addicted to candy. The fruit pastes put to the test were rationed. A gym was set up on the company’s premises. Employees and all the villagers were invited to come for an hour each day.
+This sporting conviviality proved to be a major asset in restoring peace and joy of living.
+
+The scientists worked even harder to find a solution. For several months, they worked tirelessly, working in shifts day and night. The smells were sealed in vials to be examined, tested, mixed with other substances. After sniffing the perfumes so much, the scientists didn’t know which way was up; some skirted madness, others threw in the towel. One of them finally let his shirt fall by mistake into a cauldron filled with smells. No one ever knew why the stench then transformed into a light, barely perceptible bouquet. Victory was declared!!! However, the experts found no solution to change the direction of the wind. Too bad! They installed wind turbines around the factory to harness the energy of the flavoured wind…
+And so it was that after a few weeks of this regime, serenity regained its rights in Maryline.
+
+But the experts had made a big mistake. The wind turbines were a very good idea for attracting the wind, but they made an infernal noise as they turned.
+Yet another difficulty to unravel quickly, before the hot-headed spirits woke up…`,
+author: "Soizick Roche Jagu",
+},
+
+---
+
+{ id: "paysage",
+title: "LANDSCAPE IN THE FOG",
+text: `The clouds block the horizon.
+This opaque cover obscures everything.
+Dark, worrying masses press upon the gaze.
+Beyond the fog is nothingness.
+I dare not imagine what is brewing beyond.
+
+Memory plays tricks on me.
+Behind the clouds, I recognise nothing anymore.
+I have forgotten the valleys, the rooftops, the woods, the fields, the meadows, and the paths.
+Yet I know these landscapes by heart.
+But there, before this white wall, my memory plays tricks on me.
+The fog has invaded everything, caressing the vestiges, the thoughts, the darkest memories.
+
+Only the rounded crests, capped with brown tufts, emerge from this pallid rampart.
+A tongue of mist slips between the houses, then snakes and embeds itself in the valley.
+Through the bare trees, a silhouette stands out, an imposing square tower.
+Who hides behind these stones?
+The keep of a castle, a dovecote, or the lair of a witch?
+Further on, a few wattle-and-daub hovels with red roofs emerge from this milky sea.
+All huddled, nestled against one another,
+They face the violent wind, the icy cold, the solitude, the fear of the night.
+
+In this muffled, silent, misty atmosphere,
+A terrifying sound pierces through me, terrifies me.
+It is the sound of a machine, a metallic dragon decimating the mountain.
+With its machine of many arms, the forester works alone.
+With one sharp cut, he fells the pines, strips them shamelessly,
+Then cuts them into two-meter sections which he stacks at the edge of the path.
+Of this green plot, nothing remains.
+Only a few branches covered in needles litter the ground.
+The forest’s final tears have frozen forever before this dispossessed nature.
+The man has decapitated the hillside.
+And I feel sick before this devastated terrain, bled dry forever.`,
+author: "Soizick Roche Jagu",
+},
         ]
 };
