@@ -2105,4 +2105,379 @@ Je revins sur ma terre après des mois d'errance`,
                 hasMore: false,
                 buyLink: "#"
             },
+                { id: "quitterhomme",
+                title: "DIFFICILE DE QUITTER UN HOMME", 
+                text: `Difficile de quitter l’homme que tu as désiré contre vents et marées.
+Difficile de quitter l’homme que tu as choisi par défi,
+Narguant ainsi la famille, la bienséance, la morale.
+Difficile de quitter l’homme que tu as aimé à la folie.
+Difficile de quitter l’homme pour qui, tu as tout donné, tout lâché, tout espéré.
+ 
+Difficile de quitter l’homme que tu as admiré,
+Pour sa liberté de penser, son sens critique, son audace, sa générosité,
+Pour ses coups de cœur, ses envies, ses passions, ses choix de vie, ses excès,
+Pour son imagination, sa créativité, sa justesse d’observation,sa capacité à expérimenter.
+ 
+Difficile de quitter l’homme que tu as voulu sauver
+De ses démons, de ses blessures, de ses fêlures.
+Sans te renier, sans culpabiliser.
+ 
+Difficile de quitter l’homme que tu aimes.
+Même si ses gestes sont violents, ses paroles humiliantes.
+Tu espères toujours que cela va s’arranger.
+ 
+La première fois que tu reçois des coups, tu n’y crois pas.
+Ou plutôt, tu refuses de croire,
+A la violence assénée par l’homme que tu aimes.
+ 
+Pourquoi cette violence ? Qu’as-tu fait ?
+C’est ta faute, tu ne sais pas t’y prendre.
+Tu as forcément fait quelque chose de travers.
+Tu penses ne pas être à la hauteur.
+Tu te dénigres volontairement.
+ 
+Personne n’a le droit de violenter l’autre, l’amour n’excuse pas tout.
+Refuser les gestes violents, les gifles, les coups,
+Refuser les paroles humiliantes, blessantes.
+Oui, c’est une évidence.
+Mais refuser, n’est pas aussi facile.
+ 
+Aimer une personne violente est la pire des dépendances.
+Vouloir s’en détacher demande du courage et du temps.
+Faire le deuil d’un amour bafoué est douloureux.
+C’est un long travail,
+Qui réclame indulgence, patience envers soi et ses sentiments.
+ 
+La violence n’est jamais acceptable.
+Ne pas savoir réagir est la pire des faiblesses.
+Difficile de sortir de ce cercle vicieux.
+ 
+Difficile d’admettre t’être trompée sur la personne aimée.
+Difficile de reconnaître l’erreur de tes choix,
+Difficile d’assumer le choix de tes erreurs.
+Difficile d’accepter que cet amour est une drogue pernicieuse.
+Difficile de fuir pour ne pas mourir.
+ 
+Difficile de demander de l’aide.
+La honte est un sentiment que tu gardes pour toi.
+Trop douloureux à partager.
+Honte d’accepter les coups sans combattre.
+Honte et peur de pleurer.
+Pleurer de honte et de peur.
+Et sombrer à jamais.
+ 
+Les larmes restent la seule arme face à l’indicible.
+Les pleurs voilent l’angoisse.
+Mais la brutalité redouble.
+La peur s’immisce alors par toutes les parcelles de la peau,
+Et anéantit toute liberté de penser.
+ 
+Se laisser humilier par des mots ou des coups est la pire des offenses.
+La violence devrait être inacceptable.
+Mais l’amour de l’autre peut parfois embrasser cette dépendance.
+ 
+Apprendre à se respecter soi-même.
+Pour s’opposer à la violence.
+Refuser les coups, les humiliations, de la personne aimée.
+Refuser la honte et la peur pour retrouver sa dignité.
+Il y a des limites à ne pas dépasser.
+ 
+Tu as réussi à t’évader avant que la haine te dévore.
+Quand tes sentiments se sont déchirés en lambeaux, sont tombés en charpie,
+Tes yeux, tes oreilles, ton cœur se sont réveillés à la vie.
+Tu es partie imprégnée de tristesse, de nostalgie et de souvenirs radieux.`, 
+                author: "Soizick Roche Jagu",
+            },
+
+{ id: "amoursmarines",
+                title: "AMOURS MARINES", 
+                text: `Balise
+Un cap à embarquer
+Valise
+Un voyage à sublimer
+ 
+Phare aux portes d’une terre émergée
+Posé sur ton lit de rochers
+Gris, noirs, dorés,
+Tailladés
+Par les embruns du temps.
+ 
+De marées en marées
+Goélands, cormorans, fous de Bassan
+Te visitent entre deux envolées.
+ 
+La mer arrive à petits pas
+Donne quelques coups de langues salées
+Tournoie dans une valse lente,
+Part, revient,
+Recommence jour après jour.
+Disparait à nouveau
+Sans laisser de trace.
+Réapparait sur un autre bord,
+Surprise,
+Pas de routine.
+ 
+Peu à peu, la mer se dévoile
+Ses vagues roulent, s’enroulent, déroulent leurs charmes
+Caracolent à toute allureCaresses audacieuses, voluptueuses,
+Tendresse sensuelle.
+La mer t’embrasse, t’enlace, t’étreint.
+Ses rouleaux se déchainent,
+Claquent, ronronnent, mugissent dans un fracas solennel,
+Eclaboussent tes flancs
+S’élancent vers le ciel tel des geysers de lave.
+ 
+La mer se donne entière.
+Pas de demi-mesure,
+Pas d’ordinaire,
+Avec elle, c’est l’extase ou rien.
+ 
+A l’intérieur de tes murs
+Tu ressens
+Les vibrations de tes pierres,
+Ton échine tremble, se vrille
+Sous la chevauchée
+De cet amour sauvage et fou.
+Tu te noies sous ce flamboiement.
+Tu t’envoles
+Tu respires enfin
+Dans ce voyage du bout du monde
+ 
+Le ciel se met à l’unisson
+Camaïeu de gris
+Pour laisser la mer exploser de joie
+Jaillissement de couleurs
+Indigo, émeraude, ardoise, perle, bleu vert,
+ 
+Tes éclats de lumière
+Applaudissent à tout vent
+Cette passion naissante.
+ 
+Valse lente des goélands
+A contre-jour du ciel
+Larmes de soie
+A contre-jour du temps
+ 
+Chagrin de vent
+A contre-jour du ciel
+Larmes de rage
+A contre-jour du temps
+ 
+Aujourd’hui n’est plus le temps des larmes.`, 
+                author: "Soizick Roche Jagu",
+            },
+
+{ id: "etredanslepaysage",
+                title: "ÊTRE DANS LE PAYSAGE", 
+                text: `Être dans le paysage
+Sur mon île
+Batifoler dans le vent
+Comme la sterne, la mouette,
+Le goéland, le cormoran, le fou de Bassan
+Qui jouent avec les ascendants
+ 
+ 
+Être dans le paysage
+Être en confiance au milieu des géants de pierre,
+Qui me racontent les fées, les korrigans, les sirènes
+Et aussi les pirates, les marins naufragés
+ 
+ 
+Être dans le paysage
+Comme les galets polis
+Par la mer le vent et le sel,
+Ils distillent leurs pensées au fil du ressac
+ 
+ 
+Être dans le paysage
+Au milieu des moutons et des chèvres
+Qui paissent sereinement en liberté
+Sur la lande habillée
+De fougères brunes, d’arméries violettes, d’ajoncs dorés
+ 
+ 
+Être dans le paysage
+Se fondre dans la tempête
+Pour se débarrasser des scories des chagrins
+Se mêler au crachin de l’hiver
+Pour nettoyer l’île des relents touristiques
+ 
+ 
+Être dans le paysage
+Comme l’écume au sommet des vagues
+Les jours de grande marée
+Respirer les embruns
+Jusqu’à ce que le sang devienne salé
+ 
+ 
+Être dans le paysage
+Au milieu des volcans
+En écoutant les grues filer vers le sud
+Comme un cerf-volant balloté dans la brise
+Bannière valsant dans le couchant
+ 
+ 
+Être dans le paysage
+Se laisser surprendre 
+Au détour d’un chemin
+Par l’envolée joyeuse d’une mésange
+La majesté d’un milan royal
+La robe fauve d’un renard aux aguets
+Les bonds graciles d’un chevreuil
+ 
+ 
+Être dans le paysage
+S’abreuver des couleurs de l’automne
+Qui ruissellent des arbres
+Sous le soleil de novembre
+Baume de chaleur pour toutes les âmes
+ 
+ 
+Ce matin,
+Clin d’œil du ciel
+Ouessant est dessiné en coton blanc
+J’ai reconnu la pointe de Pern, le Créach’,
+Porz Doun, Cadoran,
+Pen Arlan, le Stiff
+Et la baie de Lampaul
+Puis le vent a balayé les nuages
+Mon île s’est dispersée en écharpe de soie effilochée
+ 
+ 
+Être dans le paysage
+Se sentir à ma place
+Dans ce monde vivant`, 
+                author: "Soizick Roche Jagu",
+            },
+
+{ id: "lechantdelariviere",
+                title: "LE CHANT DE LA RIVIERE", 
+                text: `Marcher le long d’une rivière dans un état d’ailleurs,
+Mon esprit s’envole, s’évade, s’éclipse au rythme de sa musique.
+ 
+Si la rivière se balance, danse, tangue follement,
+La balade s’accélère,
+Pour arpenter d’un pas allègre les sentiers désertés,
+Pour vider la tête du cafard naissant, de la peur des monstres latents,
+Pour déchirer l’angoisse face à la foule mouvante et hurlante.
+ 
+Si la rivière s’alanguit tendrement,
+La musardise est de mise,
+Pour écouter le gazouillis des oiseaux au milieu du clapotis de l’eau.
+Pour découvrir des lièvres courir et chahuter dans les prés d’à côté.
+Pour chercher le bon éclairage d’une nouvelle image,
+A visionner plus tard, sur un écran plat.
+ 
+J’aime entendre sa voix.
+Quand elle roule sur les galets,
+Quand elle rugit, gronde, se fracasse sur les rochers,
+Quand elle se jette à cœur perdue, se lance des défis,
+Quand elle dégouline entre les pierres moussues,
+Quand elle coule sans ciller au gré du courant,
+Sans se laisser déborder ni envahir par ses tourments,
+Quand elle glisse dans ses méandres parmi les arbres ensablés.
+ 
+J’aime son chant qui exulte,
+Accompagné du vent bruissant dans les feuilles des cimes.
+Je me laisse envahir par son roulement,
+Guidant mes pas le long de ses rives.
+Elle m’apaise et m’emmène loin dans ce dédale de souvenirs.
+Elle calme mes angoisses d’ancienne citadine.
+
+ 
+J’aime la mélodie douce de ses vagues,
+Elle berce la mélancolie de mon âme chagrine,
+Elle m’embarque divaguer vers mes rêveries marines.
+ 
+J’aime son murmure qui caresse les pierres polies,
+L’air de rien,
+L’air de ne toucher à rien.
+ 
+J’aime respirer
+Les bulles naissantes à la surface de ses vagues,
+Les odeurs de bois pourrissant sous la mousse,
+Le craquement des feuilles brunes sous les pas.
+ 
+J’aime les arbres qui la bordent,
+Leurs branches jouent avec le soleil,
+Puis s’abandonnent au tumulte de ses rides,
+Sourires ondulants pour un amour naissant.
+ 
+J’aime les ombres chinoises dessinées
+Sur le bleu du ciel ou le vert tendre des prairies.
+Ces chênes majestueux encore nus de l’hiver,
+Ces statues géantes, aux multiples bras tentaculaires,
+Telles Shiva ou Vishnou,
+Prêts à danser pour invoquer la pluie.
+ 
+Le murmure de la rivière m’apaise, me calme,
+Son tumulte me soule, m’enivre, me grise,
+Son souffle me bouscule, m’assoiffe et me nourrit.`, 
+                author: "Soizick Roche Jagu",
+            },
+
+{ id: "maryline",
+                title: "MARYLINE", 
+                text: `Une ambiance visqueuse régnait sur le village. Une odeur sucrée avait tout envahi, les rues, les maisons, les jardins. Tout le monde sortait avec un mouchoir sur le nez, les masques étaient les bienvenus. On évitait de sortir les jours de grand vent, car cela était pire. A force de respirer ce parfum suave, de se goinfrer, de ne plus faire de sport, la population était devenue obèse. 
+
+Le village s’appelait Marilyne.
+L’usine de pâtes de fruits et de bonbons s’était construite à l’ouest du village, sur une ancienne friche industrielle. Le maire et son conseil municipal avaient approuvé cette installation, car le village végétait depuis de longues années, en fait depuis le départ de l’usine de plastique qui avait préférée se délocaliser dans un pays d’Europe de l’Est. Le maire avait pleuré auprès des dirigeants mais cela n’avait servi à rien. Aussi, quand une opportunité salvatrice se présenta, tout le monde applaudit, le conseil municipal et les villageois. La nouvelle entreprise avait promis des embauches conséquentes. Les chômeurs allaient retrouver du travail et leur dignité, sans parler des conséquences bienheureuses sur le commerce local. Et puis des bonbons, des pâtes de fruits, cela semble plaisant et bon enfant, comme production, rien à voir avec du plastique ou des déchets nucléaires. Tout le mondesalivait à l’idée de travailler chez « Saveurs d’enfance ». Ce fut donc avec entrain que le village accueillit l’entreprise. Une grande fête fut célébrée pour son ouverture.
+
+Tout allait bien. L’usine tournait à plein régime, elle employait près de la moitié des habitants du village. Tous étaient contents, ceux qui avaient retrouvé un emploi, bien sûr, mais les autres aussi. La bonne humeur régnait à Marilyne. Fabriquer des bonbons et des pâtes de fruits avait un côté jouissif, on avait la sensation de transgresser un interdit. Créer du plaisir, c’était valorisant, respectable, et ce n’était pas rien… La direction invitait également les employés à emporter quelques échantillons chez eux. Ils pouvaient ainsi contribuer à l’amélioration de la production en donnant leur avis sur la qualité des nouveautés, leur famille était mise à contribution. Tous se prêtaient volontiers à cet exercice. 
+Les employés adoraient leur travail et la société était en plein essor.
+
+Mais un jour, un vent particulièrement violent s’abattit sur la région. Ses bourrasques emportèrent les effluves de l’usine vers le village. Quelle surprise, cette odeur, très sucrée, presque écœurante, tenace.Elle s’engouffrait dans les ruelles, se déposant un peu partout au gré des périples du vent. Puis le calme revint après la tempête, tout le monde oublia cette mésaventure. 
+
+Mais, de nouveau, le vent d’ouest fit son apparition, l’odeur suave revint envahir le village. Les habitants supportaient de moins en moins cette odeur très prégnante. Ils avaient beau laver, relaver, encore et encore leur linge, l’odeur était toujours là, insidieuse, se frayant un passage dans tous les interstices. Ils avaient calfeutré leur maison, n’ouvrant jamais les fenêtres quand le vent d’ouest faisait mine de s’installer. Peu à peu la situation s’est dégradée entre les villageois. Ceux qui travaillaient à l’usine ne disaient rien, car ils ne voulaient surtout pas perdre leur emploi, les autres devenaient de plus en plus virulents, ne supportant plus les employés et leur pestilence. La guerre était imminente entre les deux clans. 
+
+Sans parler des problèmes médicaux. Les employés étaient devenus obèses à force de manger des confiseries à longueur de journée. Leurs dents cariées tombaient les unes après les autres, le dentiste ne savait plus où donner de la tête. Ils ne faisaient plus de sport. Dans les rues on les reconnaissait de loin avec leur allure de culbuto.  
+
+Un jour la colère déborda. Deux hommes s’en prirent violemment à un des employés. On aurait dit deux gringalets face à un sumo. La place du village servit de tatami aux belligérants. Rapidement, un attroupement failli dégénérer en pugilat entre les deux clans. Heureusement qu’un éclair de lucidité arrêta les deux compères. Ils stoppèrent net leurs échanges de coups. 
+En urgence, une réunion fut organisée avec la mairie, l’entreprise et tous les villageois. Il fallait vite trouver une solution sinon la violence allait complètement anéantir le village. Des experts cherchèrent un moyen de détourner le vent, des scientifiques tentèrent de supprimer les relents trop sucrés de l’usine. Des cures de désintoxication furent proposées aux employés trop addicts aux bonbons. Les pâtes de fruits mises à l’essai furent distribuées au compte-goutte. Une salle de sport fut aménagée dans les locaux de l’entreprise. Les employés et tous les habitants du village étaient invités à y venir une heure par jour. 
+Cette convivialité sportive fut un atout majeur pour retrouver la paix et la joie de vivre.
+
+Les scientifiques se mirent encore plus au travail pour trouver une solution. Pendant plusieurs mois, ils s’adonnèrent d’arrache-pied, se relayant jour et nuit. Les odeurs furent enfermées dans des fioles pour être examinées, testées, mélangées à d’autres substances. À force de renifler les parfums, les scientifiques ne savaient plus où donner de la tête, certains frôlèrent la folie, d’autres jetèrent l’éponge. Un dernier laissa tomber par erreur sa chemise dans une marmite remplie d’odeurs. On ne saura jamais pourquoi la puanteur se transforma dès lors en un bouquet léger à peine perceptible. On cria victoire !!! En revanche, les experts ne trouvèrent pasde solution pour changer la direction du vent. Tant pis ! Ils installèrent des éoliennes autour de l’usine afin de récupérer l’énergie du vent aromatisé…
+Ce fut ainsi qu’après quelques semaines de ce régime, la sérénité reprit ses droits à Maryline. 
+
+Mais, les experts avaient fait une grosse erreur. Les éoliennes, c’était une très bonne idée pour attirer le vent mais elles faisaient un bruit d’enfer en tournant. 
+Encore une difficulté à démêler au plus vite avant le réveil des esprits colériques…`, 
+                author: "Soizick Roche Jagu",
+            },
+
+{ id: "paysage",
+                title: "PAYSAGE DANS LE BROUILLARD", 
+                text: `Les nuages bloquent l’horizon.
+Cette couverture opaque occulte tout.
+Des masses sombres, inquiétantes oppressent le regard.
+Derrière le brouillard, c’est le néant.
+Je n’ose imaginer ce qui se trame au-delà.
+ 
+La mémoire me joue des tours.
+Derrière les nuages, je ne reconnais plus rien.
+J’ai oublié les vallons, les toits des maisons, les bois, les champs, les prés et les chemins.Pourtant je connais par cœur ces paysages.
+Mais là devant ce mur blanc, ma mémoire me joue des tours.
+Le brouillard a tout envahi, caressant les vestiges, les pensées, les souvenirs les plus noirs.
+ 
+Seules les crêtes arrondies, coiffées de touffes brunes, surgissent de ce rempart blafard.
+Une langue de brume s’immisce entre les maisons, puis serpente et s’incruste dans le vallon.
+A travers les arbres dégarnis, une silhouette se détache, une imposante tour carré.
+Qui se cache derrière ces pierres ?
+Le donjon d’un château fort, un pigeonnier ou l’antre d’une sorcière ?
+Plus loin, quelques masures en torchis, et toits rouges, émergent de cette mer laiteuse.
+Toutes recroquevillées, blotties les unes contre autres,
+Elles font face au vent violent, au froid glacial, à la solitude, à la peur de la nuit.
+ 
+Dans cette ambiance ouatée, silencieuse et brumeuse,
+Un bruit épouvantable me transperce, me terrorise.
+C’est le bruit d’une machine, d’un dragon métallique qui décime la montagne.
+Avec son engin aux bras multiples, le forestier travaille seul.
+Il abat d’un seul coup tranchant les pins, les déshabille sans pudeur,
+Puis les débite en tronçons de deux mètres qu’il empile sur le bord du chemin.
+De cette parcelle verte, il ne reste plus rien.
+Seules quelques branches couvertes d’épines jonchent le sol.
+Les dernières larmes de la forêt se sont figées à jamais devant cette nature dépossédée.
+L’homme a décapité la colline.
+Et moi, j’ai la nausée devant ce terrain dévasté, saigné à jamais.`, 
+                author: "Soizick Roche Jagu",
+            },
             ]};
