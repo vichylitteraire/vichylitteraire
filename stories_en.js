@@ -1978,8 +1978,6 @@ You left, steeped in sadness, nostalgia, and radiant memories.`,
 author: "Soizick Roche Jagu",
 },
 
----
-
 { id: "amoursmarines",
 title: "SEA LOVE",
 text: `Beacon
@@ -2059,8 +2057,6 @@ Today is no longer a time for tears.`,
 author: "Soizick Roche Jagu",
 },
 
----
-
 { id: "etredanslepaysage",
 title: "BEING IN THE LANDSCAPE",
 text: `Being in the landscape
@@ -2134,8 +2130,6 @@ In this living world`,
 author: "Soizick Roche Jagu",
 },
 
----
-
 { id: "lechantdelariviere",
 title: "THE SONG OF THE RIVER",
 text: `Walking along a river in a state of elsewhere,
@@ -2201,8 +2195,6 @@ Its breath shakes me, quenches me, and nourishes me.`,
 author: "Soizick Roche Jagu",
 },
 
----
-
 { id: "maryline",
 title: "MARYLINE",
 text: `A viscous atmosphere reigned over the village. A sweet smell had invaded everything, the streets, the houses, the gardens. Everyone went out with a handkerchief over their nose, masks were welcome. People avoided going out on windy days, because it was worse. By constantly breathing in this sweet perfume, gorging themselves, and no longer playing sports, the population had become obese.
@@ -2229,8 +2221,6 @@ But the experts had made a big mistake. The wind turbines were a very good idea 
 Yet another difficulty to unravel quickly, before the hot-headed spirits woke up…`,
 author: "Soizick Roche Jagu",
 },
-
----
 
 { id: "paysage",
 title: "LANDSCAPE IN THE FOG",
