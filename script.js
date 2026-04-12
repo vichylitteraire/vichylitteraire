@@ -11,13 +11,13 @@ let currentStoryId = null; // 1. ДОБАВЛЕНО: Храним ID текущ�
 
 // --- ДАННЫЕ РЕКЛАМЫ ДЛЯ КАФЕ ---
 const ads = {
-    'paul': { image: "logopub.jpg", url: "#", text: { fr: "\n\n*** \n\nSoutenez notre projet \n\n Votre LOGO ici", en: "\n\n*** \n\nSupport our  project\n\n Your LOGO here" }, showLink: false },
-    'colada': { image: "logopub.jpg", url: "#", text: { fr: "\n\n*** \n\nSoutenez notre projet \n\n Votre LOGO ici", en: "\n\n*** \n\nSupport our  project\n\n Your LOGO here" }, showLink: false },
-    'patchouli': { image: "logopub.jpg", url: "#", text: { fr: "\n\n*** \n\nSoutenez notre projet \n\n Votre LOGO ici", en: "\n\n*** \n\nSupport our  project\n\n Your LOGO here" }, showLink: false },
-    'columbus': { image: "logopub.jpg", url: "#", text: { fr: "\n\n*** \n\nSoutenez notre projet \n\n Votre LOGO ici", en: "\n\n*** \n\nSupport our  project\n\n Your LOGO here" }, showLink: false },
-    'venus': { image: "logopub.jpg", url: "#", text: { fr: "\n\n*** \n\nSoutenez notre projet \n\n Votre LOGO ici", en: "\n\n*** \n\nSupport our  project\n\n Your LOGO here" }, showLink: false },
-    'kecks': { image: "logopub.jpg", url: "#", text: { fr: "\n\n*** \n\nSoutenez notre проект \n\n Votre LOGO ici", en: "\n\n*** \n\nSupport our  project\n\n Your LOGO here" }, showLink: false },
-    'edouard': { image: "logopub.jpg", url: "#", text: { fr: "\n\n*** \n\nSoutenez notre projet \n\n Votre LOGO ici", en: "\n\n*** \n\nSupport our  project\n\n Your LOGO here" }, showLink: false }
+    'paul': { image: "logopub.jpg", url: "#", text: { fr: " \n\n Votre LOGO ici", en: "\n\n Your LOGO here" }, showLink: false },
+    'colada': { image: "logopub.jpg", url: "#", text: { fr: " \n\n Votre LOGO ici", en: "\n\n Your LOGO here" }, showLink: false },
+    'patchouli': { image: "logopub.jpg", url: "#", text: { fr: " \n\n Votre LOGO ici", en: "\n\n Your LOGO here" }, showLink: false },
+    'columbus': { image: "logopub.jpg", url: "#", text: { fr: " \n\n Votre LOGO ici", en: "\n\n Your LOGO here" }, showLink: false },
+    'venus': { image: "logopub.jpg", url: "#", text: { fr: " \n\n Votre LOGO ici", en: "\n\n Your LOGO here" }, showLink: false },
+    'kecks': { image: "logopub.jpg", url: "#", text: { fr: " \n\n Votre LOGO ici", en: "\n\n Your LOGO here" }, showLink: false },
+    'edouard': { image: "logopub.jpg", url: "#", text: { fr: " \n\n Votre LOGO ici", en: "\n\n Your LOGO here" }, showLink: false }
 };
 
 function setLanguage(lang) {
