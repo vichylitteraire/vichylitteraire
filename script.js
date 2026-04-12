@@ -14,7 +14,7 @@ const ads = {
     'paul': { image: "logopub.jpg", url: "#", text: { fr: "\n\n*** \n\nSoutenez notre projet \n\n Votre LOGO ici", en: "\n\n*** \n\nSupport our  project\n\n Your LOGO here" }, showLink: false },
     'colada': { image: "logopub.jpg", url: "#", text: { fr: "\n\n*** \n\nSoutenez notre projet \n\n Votre LOGO ici", en: "\n\n*** \n\nSupport our  project\n\n Your LOGO here" }, showLink: false },
     'patchouli': { image: "logopub.jpg", url: "#", text: { fr: "\n\n*** \n\nSoutenez notre projet \n\n Votre LOGO ici", en: "\n\n*** \n\nSupport our  project\n\n Your LOGO here" }, showLink: false },
-    'columbus': { image: "LOGO_S_BARA.jpg", url: "https://liberersesecrits.podia.com/", text: { fr: "*** \n\n Libérer ses écrits propose des ateliers d'écriture et un accompagnement à la biographie à Vichy et en ligne", en: "*** \n\n Libérer ses écrits offers writing workshops and biography coaching in Vichy and online." }, showLink: true },
+    'columbus': { image: "logopub.jpg", url: "#", text: { fr: "\n\n*** \n\nSoutenez notre projet \n\n Votre LOGO ici", en: "\n\n*** \n\nSupport our  project\n\n Your LOGO here" }, showLink: false },
     'venus': { image: "logopub.jpg", url: "#", text: { fr: "\n\n*** \n\nSoutenez notre projet \n\n Votre LOGO ici", en: "\n\n*** \n\nSupport our  project\n\n Your LOGO here" }, showLink: false },
     'kecks': { image: "logopub.jpg", url: "#", text: { fr: "\n\n*** \n\nSoutenez notre проект \n\n Votre LOGO ici", en: "\n\n*** \n\nSupport our  project\n\n Your LOGO here" }, showLink: false },
     'edouard': { image: "logopub.jpg", url: "#", text: { fr: "\n\n*** \n\nSoutenez notre projet \n\n Votre LOGO ici", en: "\n\n*** \n\nSupport our  project\n\n Your LOGO here" }, showLink: false }
