@@ -2480,4 +2480,780 @@ L’homme a décapité la colline.
 Et moi, j’ai la nausée devant ce terrain dévasté, saigné à jamais.`, 
                 author: "Soizick Roche Jagu",
             },
+                { id: "efface",
+                title: "***", 
+                text: `Efface les traces
+Ce qui pourrait se voir
+Reste à ta place
+Ils seront mieux sans moi
+Voici ce qu’on m’a fait croire
+Des années des années
+Je sais qu’ils mentent
+Je n’arrive à le penser
+Un regard de travers
+Ma journée sabotée
+Je repars en arrière
+Je me tords de regrets
+Juste ce fond droit de classe`, 
+                author: "Zoé | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+                  { id: "trouver",
+                title: "***", 
+                text: `Trouver les mots justes
+Les mots forts
+Il est devenu roi
+Maintenant le plus fort
+Roi de son royaume du matin
+Enfin il a osé
+Parler à la fille du terrain
+Jeune femme solitaire
+Margaux Margaux
+Oh ne plus revenir en arrière
+Et lui demander son numéro
+Non
+Elle lui a répondu non
+Il lui a fait entendre raison
+Se marier pourquoi pas ?
+Et surtout prendre le train
+Ensemble
+Tous les deux à côtés`, 
+                author: "Zoé | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+                  { id: "letempsdi",
+                title: "***", 
+                text: `Le temps si court si long
+Le temps éphémère à peine imaginable
+seulement le frôler à peine du bout des doigts
+Il n’est que chiffres, tournant à l’infini
+ce monde qui tourne autour d’une image
+si elle n’existe pas, pourtant le temps nous poursuit
+nous n’avons jamais le temps, ce temps si transparent
+et savourer le temps, c’est presque comme un rêve
+Ce qui ne prend jamais fin
+ce qui nous englobe dans un univers magique
+ce temps
+oui ce temps est sublime`, 
+                author: "Charlotte | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+                    { id: "courrait",
+                title: "***", 
+                text: `Elle courrait encore et encore
+son petit chat noir gambadait avec elle
+le sourire plaqué aux lèvres, elle se jeta dans l’herbe
+cet air frais du printemps soufflait soufflait
+le soleil frétillait et reflétait son visage
+Si longtemps qu’elle était loin de lui
+lui qui paraissait intouchable ou peut-être l’était-il vraiment ?
+derrière sa joie, eux étaient là, la regardaient une dernière fois
+Elle pouvait profiter de ce champs de fleurs
+eux n’auraient que la tempête qu’elle laissait derrière elle
+Ils ont perdu leur petit soleil`, 
+                author: "Charlotte | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+                { id: "abadonne",
+                title: "***", 
+                text: `Seul
+Abandonné ?
+Question à se poser
+Sommes-nous «l'autre » ?
+La personne qu'ils ne veulent pas voir
+Celle-là même à qui ils sourient pour ne pas être,
+Méchant ?
+Ils le sont, ils t'oublient
+Se justifient par un « désolé »
+Comme mettre du sctoch sur un verre brisé pour qu'il tienne le coup
+On peut boire dedans mais,
+Il sera vide, fade, sans intérêt
+Ils continuent de nous parler
+Pour qu'on se sente pas à,
+L'écart
+Plus on avance avec eux, plus nous reculons
+On se met de côté pour ne pas déranger
+On s'efface pour eux
+On encaisse
+On se brise
+Peut-être on nous dira
+« C’est votre faute »
+On voulait juste être accepté`, 
+                author: "Charlotte | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+                { id: "avecvent",
+                title: "***", 
+                text: `Avec Vent, j'ai coupé les fils.
+Fil avec mon pouce, que j'ai coupé après le fil de mes premiers amis.
+Coupé le fil de mes deuxièmes amis et qui sait ?
+Couper le fil de mes trois cents autres amis.
+Couper le fil avec la maison. Couper le fil des fruits de mers, couper le
+rose,
+Couper le sourire puis refaire le fil.
+Couper fil de l'index, fil de majeur.
+Puis retrouver index et chercher majeur.
+Je n'ai pas coupé les petits doigts. Peut être que je le ferais.
+J'ai tout coupé avec du vent,
+Transpercé avec ma lame,
+Mais je reconstruis avec le marteau.`, 
+                author: "KHAE | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+                { id: "danscemonde",
+                title: "***", 
+                text: `Dans ce monde tout n'est qu'imposture,
+Danse, valse au rythme des injures.
+Nous engourdit alors une douce froidure,
+Qui tétanise sur la plume l'encre azur.
+Je ne puis continuer d'écrire,
+Le monde, mes yeux peuvent le décrire.
+Une larme coule, emplie d'anciens sourires
+Où les cœurs flamboyaient d'éclats de rires.
+Nouvelle ère ou simple poursuite du temps ?
+Le monde n'est que perpétuel mouvement
+Sur le papier, la plume poursuit le chant,
+Ce tremblement éternel du temps.`, 
+                author: "Louise D. | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+                { id: "tuetue",
+                title: "***", 
+                text: `Tue! Tue!
+- Qui est cet homme ?
+- Je ne sais pas.
+- Qu'a-t-il fait ?
+- Je n'en sais rien.
+Au bûcher !
+- Pourquoi est-il sur le bûcher ?
+- Car il doit mourir.
+- Pourquoi tuer cet homme ?
+À mort !
+- Car il le faut.
+- Qui l'a dit ?
+- Ils l'ont dit.
+- Tu les crois ?
+- Oui
+- Fais attention tu commences à brûler.
+- Mais.... pourquoi ?
+- Qui es-tu ?
+- Une honnête personne.
+- Qu'as-tu fait ?
+- Rien je le jure !
+- Pourquoi es-tu sur le bûcher ?
+- Car je dois.... Non je ne dois pas mourir !
+- Et pourquoi pas ?
+- Car il le faut.
+- Qui l'a dit ?
+- Moi.
+- Eux ne sont pas de cet avis.
+La prochaine fois
+Regarde la victime
+Veille à ce que ce ne soit pas toi`, 
+                author: "Louise D. | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+                { id: "ciel",
+                title: "***", 
+                text: `Ciel
+Je suis de bleu.
+Je suis de nuage.
+Je suis de vent,
+D'oiseaux
+Et d'atmosphère.
+Tantôt je pleure des rivières,
+Tantôt un océan.
+Mes larmes froides tapissent le sol d'une poudre immaculée.
+Même si le soleil se couche, je continue de briller.
+Qui peut cacher ma lune ?
+Qui peut faire taire mes ouragans ?
+Je suis d'oxygène.
+Je suis de poussière.
+Je suis d'Homme,
+D'univers
+Et de vert.
+Je suis le ciel.`, 
+                author: "KHAE | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+                { id: "libe",
+                title: "***", 
+                text: `Liberté, tant rêvée,
+Liberté, tant espérée,
+Liberté, tant aimé,
+Vient,
+Nait,
+Renait,
+Vit,
+Mais ne meurt jamais.
+Tant t'adorent,
+Tant ne t'ont jamais vue,
+Reste,
+Montre nous ton visage, montre nous ta voix,
+Mais jamais ne te tais.`, 
+                author: "Ernest | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+                { id: "maman",
+                title: "Maman", 
+                text: `
+Mon corps ne parvient plus à porter le poids de mon âme.
+Je souffre des pointes de mes cheveux jusqu’au bout de mes ongles.
+Mon existence me peine plus que mon absence.
+Je ne veux plus être moi.
+Je ne tombe plus dans le vide : je suis devenue le vide.
+Si jeune, je suis épuisée.
+Alors que je suis écrasée, impuissante, sous ce fardeau,
+Dans mon état d’enfant,
+je suis devenue la mort.
+Respirer me lacère la gorge, je ne veux pas respirer.
+Plus je pense, plus mon âme s’assombrit,
+je ne veux pas penser.
+Je me perds lentement, doucement, tièdement.
+S’il te plaît, maman, ne fais pas ça,
+je ne veux pas mourir encore`, 
+                author: "Zilan | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+                { id: "naissance",
+                title: "***", 
+                text: `
+Ma deuxième naissance fut silencieuse. Presque vide, un peu comme
+les restes délaissés dans le frigo ;
+Elle est passée sans artifice.
+La première, en revanche, fut autre chose.
+Beaucoup plus spontanée, je dirais.
+Ça a été salissant, ardu, bruyant. Entre quatre murs blancs,
+Des équipements stérilisés, des infirmières stressées.
+Des cris, des cris, et des cris, comme un violon aux cordes trop
+frottées.
+Et puis des pleurs. Et du sang. Une scène aussi élégante que peut l’être
+une naissance depuis longtemps maudite.
+Lors de ma deuxième naissance, pas un cri, pas un sanglot, ni même
+un rire confus.
+Rien. C’est arrivé. Point.
+Telle une réalisation brutale, dans les champs aux herbes
+broussailleuses,
+et les orties qui brûlaient mes jambes, comme un serpent qui glissait
+contre ma peau.
+La lune se trouvait haute cette nuit-là, sa lueur perçante, témoin de ce
+qui m’arriva.
+Dame d’argent, je t’en conjure, pardonne-moi d’avoir taché tes rayons
+purs d’éclaboussures.
+C’était un accident, je le promets.
+Suis-je tarrée ? Assez pour l’accompagner une nuit, enterrer notre
+crime.
+J’ai aidé à creuser de mes mains, la crasse sous mes ongles, l’odeur
+humide - boueuse - de la terre, je me suis relevée
+et j’ai contemplé.
+Ma deuxième naissance.
+Etalée là, à mes pieds, à ma place. Entre les racines et les vers.
+Elle représentait ma colère, tout ce que j’aurais voulu crier, exprimer,
+lancer à la figure du premier venu
+et pourtant son visage ne contenait aucune haine,
+seulement des traits délicats et presque sereins.
+S’il te plait, Dame d’argent, acquitte-moi de la jalousie, qu’à cet
+instant, j’ai tenue entre mes mains.
+Après, sans un mot sur le sentier, celui qui longe la ferme d’un vieux
+barbu qui parle à ses vaches,
+j’ai compris que j’avais peut-être péché.
+Je pensais que moi aussi je m’étendrais dans ce lit de terre. Mais ça ne
+m’a rien fait.
+Pas un pet de jeu dans les rotules. Pas une accélération de bpm.
+Pas une sueur froide. Juste une solitude, là, cachée entre mes côtes.
+Une immense solitude
+J’ai reconnu cela comme une solitude qui fait trébucher dans les
+escaliers.
+De celle qui oublie la beauté, de celle qui alourdit le cœur déjà bien
+trop épuisé.
+J’avais imaginé ça plus joli de renaître !
+De la même façon qu’un bateau retrouve la lumière d’un phare après
+une longue tempête, je pensais trouver une
+accroche, une perche à attraper, et, des réponses.
+J’imaginais que les ailes me pousseraient, qu’enfin, je laisserais cette
+terre désolée derrière moi.
+A la place, il n’y avait qu’un vide glacé dans lequel mes os avaient
+commencé à geler.`, 
+                author: "Anissa | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+                { id: "republique",
+                title: "***", 
+                text: `La république en marche
+Je rentre parfaitement dans cette
+Petite case
+Petite capacité émotionnelle
+Petites empathies
+Comme si les angles de mon rectangle
+Reflétaient ma petitesse
+Alors je cherche d’autres cases
+Je m’efforce d’y entrer
+De glisser mon corps trop gros qui déborde
+Il y a toujours quelque chose qui déborde
+Je gonfle comme une brioche
+Hors du moule
+Retiens mon souffle pour rester
+Un peu plus dans ce nid acéré
+Qui plante ses côtés dans mes côtes
+Ses bordures dans mes os
+Ses sommets dans mon cerveau
+Je reste en apnée
+Tout doit être carré
+Linéaire ordonné
+Précis conforme
+Fidèle docile
+Je prends une bouffée
+Et redevient difforme
+Conforme à mes pensées
+Hors de ma case
+Hors de ma petitesse feinte
+Hors de ce qu’ils veulent m’imposer
+Hors du joug de mon esprit
+Hors de contrôle
+Je gribouille avec mon sang
+Pour brouiller les limites de ma case-prison
+Mes pleurs effacent son encre
+Je me saigne pour vivre
+Et meurt avec sur mes lèvres
+Le goût doux-amer
+De Liberté`, 
+                author: "Lison | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+                { id: "silen",
+                title: "Silence!", 
+                text: `silence !
+Les voix me submergent
+Vident mon langage
+Infiltrent des failles
+Et rebouchent mes voies
+Trop de tout
+Trop d’infos
+Trop de gens
+Trop de mots
+Trop de bruit
+Trop de fous
+Trop de vie
+Trop de vous
+Ma raison s’enfuit
+S’emmêle
+Trébuche
+S'échappe
+Et se blottie
+Ma raison s’en fut
+Fragile
+Branlante
+Boiteuse
+Et Triste
+Mon esprit s’enfume
+Brouillard
+Ennui
+Petite mort
+Et Apathie
+Et les voix reviennent
+Brutales
+Funestes
+Achever les lambeaux
+Du temps
+Qu’il me
+Reste`, 
+                author: "Lison | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+                { id: "sacrifies",
+                title: "***", 
+                text: `Sacrifiés
+Âme se projette sur les toits grelottants
+D’un monde de cris de géants.
+La pluie noie
+Les voix des passagers qui étouffent,
+Tandis que le long du ruisseau est couché
+Un homme,
+Si petit qu'il entrerait dans une tasse.
+A ses pieds,
+Force sombre
+Se trouvent les corps souffrants d'un monde sans vie.
+Son couteau est tâché, familles détruites, cœurs fracturés,
+Il regarde à côté.
+Âme projetés contre la vitre de la cruauté,
+Leurs têtes sont en sang, ils voudraient se relever.
+L'homme minuscule détourne le regard.
+Fait semblant de ne pas voir,
+De son couteau admire le reflet.
+Dommages collatéraux vous disiez?`, 
+                author: "Maelle | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+                { id: "pompier",
+                title: "***", 
+                text: `Les pompiers déversent l'eau
+Les automates sont prêts:
+il n'y a pas de quoi tirer!
+Déserts et fumée,
+J'en ai rêvé la nuit dernière.
+C'était l'été
+La vie comme dans les profondeurs de la mer:
+Pas de feu
+Eau qui s'écoule
+Dans l'abime et sous terre.
+Eau souterraine
+Qui refroidit
+Mon esprit.
+Eau qui s'écoule
+Dans le monde d'après`, 
+                author: "Elvira | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+                { id: "unevie",
+                title: "***", 
+                text: `Une vie de misère et de douleur,
+Voilà ce qu’il a vécu jusqu’à l’heure.
+La violence et la mort sont ses ancrages,
+Il les côtoie depuis son plus jeune âge.
+Ses cauchemars et ses peurs l’emprisonnent ;
+L’écho de son enfance résonne.
+Une vie de fortune et de bonheur,
+Voilà ce qu’elle a vécu jusqu’à l’heure.
+La douceur et la vie sont ses ancrages,
+Elle les côtoie depuis son plus jeune âge.
+Son rêve et sa quiétude la libèrent ;
+L’écho de son enfance vibre dans l’air.
+TouT les sépare et rien ne les unit,
+Mais leurs différents ne sont pas infinis.
+La lumière brille sur leur chemin ;
+Deux étoiles qui se retrouvent enfin.
+Deux êtres unis pour ne faire qu’un,
+Ils sont reliés par un amour sans fin.`, 
+                author: "Mathilde | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+                { id: "petite",
+                title: "***", 
+                text: `Petite, je courais,
+Dans cette période tiède et vibrante.
+Du marron, du bleu, du vert,
+Tout me paraissait plus clair.
+Le vent dans les cheveux, la brise chatouillant ma peau.
+Je courais trébuchais
+Je riais et je continuais.
+Quand la cloche sonnait, je faisais demi-tour
+Piétinant dans la boue, salissant mes chaussures blanches,
+Retrouvant maman qui essuyait mon front, faisait un bisou sur ma
+joue sale et m’enlaçait.
+Je me dépêchais de manger pour y retourner.
+Dans cette forêt qui m’engloutissait.
+Le rouge, l’orange, le jaune.
+Tout s’effaçait autour de moi,
+Je courais encore et encore jusqu’à en perdre la voix.
+Petite, je courais.
+Voilà la seule chose à laquelle je pensais.
+Je regardais mon doigt, sans un mot.
+L’émeraude qui y brillait m’éclairant de nouveau.
+Je n’entendais plus rien.
+Ni les mots, ni les couverts, ni les pas,
+Seulement le bruit des feuilles, de l’eau, de la terre qui crissaient sous
+mes mains.
+Soudain, la cloche retentit.
+Premier coup.
+“Rentre”
+Deuxième coup.
+“À”
+Troisième coup.
+“La”
+Quatrième coup.
+“Maison”
+Je regardai par la fenêtre.
+Gris, noir, blanc,
+Plus de vert, plus de bleu,
+Plus d’air, plus de jeu.
+Trop de mots, trop de fleurs,
+Trop de maux, trop de trop.
+Alors je courus, écoutant ma voix
+Déchirant le voile blanc qui m’empêchait de voir.
+Plus de gris, plus de noir, plus de blanc.
+Juste moi,
+La vraie moi.
+Salissant ses vêtements, dans les bras de sa maman,
+Celle qui ne pleurait pas,
+Celle qu’on ne frappait pas.
+Alors je courais, le vent dans les cheveux
+Salissant mes chaussures blanches.
+Et je m’arrêtais, le coeur battant.
+J’inspirai.
+Enfin je la ressentais,
+Cette liberté que j’aimais tant.`, 
+                author: "Olivia | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+                { id: "parasite",
+                title: "Parasite", 
+                text: `Comme une créature accrochée à mon dos
+Elle m'écrase, me pèse, me brise
+et rend mon coeur si lourd
+Je suis l’hirondelle portant sur son dos une enclume
+Ce démon me fait ressentir comme un être coincé dans la brume
+Mon corps devient fardeau, draine mon énergie
+Mes mouvements se bloquent
+Je suis spectatrice de ma vie
+Comme un poisson sur le sol,
+je suffoque, je m'affole
+Soudain
+Tout devient léger, je ne sens plus ce monstre,
+je m'envole`, 
+                author: "Aube | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+                { id: "nosdouce",
+                title: "***", 
+                text: `Nos douces contraintes façonnent nos vies
+Elles nous bloquent, pèsent et réveillent la nuit
+Sans elles pas de cage
+Sans elles tu dérapes
+Besoin d'elles pour survivre
+Mais elles finiront par te nuire
+Tu veux t'en libérer pour ne plus souffrir
+Sans elles tu as peur, il te faut des limites
+Alors tu suis ta raison, ne change pas de position
+Tu étouffes, tombes et ne vois plus la sortie
+On t'a toujours dit de rester dans les clous
+Tu finis par craquer casser toutes les chaînes
+Tu es enfin toi même, toi pour vivre ton rêve
+Est-ce si dur de se libérer ?
+Pas le risque de te faire tuer !
+Tu peux te plaindre mais n'oublies pas ce que tu as
+Ta nation n’est pas la plus cruelle de toute
+Alors, accueille tes sentiments, reste à ton écoute
+Ces contraintes malheureusement imposées
+Restent douces quand les autres doivent tant endurer`, 
+                author: "Aube | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+            { id: "nosdouce",
+                title: "***", 
+                text: `Nos douces contraintes façonnent nos vies
+Elles nous bloquent, pèsent et réveillent la nuit
+Sans elles pas de cage
+Sans elles tu dérapes
+Besoin d'elles pour survivre
+Mais elles finiront par te nuire
+Tu veux t'en libérer pour ne plus souffrir
+Sans elles tu as peur, il te faut des limites
+Alors tu suis ta raison, ne change pas de position
+Tu étouffes, tombes et ne vois plus la sortie
+On t'a toujours dit de rester dans les clous
+Tu finis par craquer casser toutes les chaînes
+Tu es enfin toi même, toi pour vivre ton rêve
+Est-ce si dur de se libérer ?
+Pas le risque de te faire tuer !
+Tu peux te plaindre mais n'oublies pas ce que tu as
+Ta nation n’est pas la plus cruelle de toute
+Alors, accueille tes sentiments, reste à ton écoute
+Ces contraintes malheureusement imposées
+Restent douces quand les autres doivent tant endurer`, 
+                author: "Aube | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+                { id: "desespere",
+                title: "***", 
+                text: `Désespéré de révéler mes sentiments,
+Je les garde cachés pour ne pas révéler
+qui je suis vraiment
+Mes sentiments refoulés par mes défauts,
+Cette voix garde ma tête sous l'eau
+Pitié sors moi de cette froideur
+Ces draps froids noircissent mon coeur
+S'il te plaît accepte-moi mon amour,
+Toi seul pourras venir à mon secours`, 
+                author: "Romane | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+                { id: "cheremaman",
+                title: "***", 
+                text: `Chère Maman,
+5 mois maintenant
+Que j'ai quitté le lycée
+Pour entrer à la faculté.
+Enfin je devrais dire “ at the university”
+C'est comme ça qu'on dit en Australie.
+Il fait toujours beau ici
+Et tu adorerais le chat de la fraternité : Winnie.
+Celui là fait plus de conneries que moi dans toute une vie!
+Il y a aussi la mer, je la rejoins chaque jour.
+J'y plonge, j'y nage, j'y surfe et j'y viens
+Et tout le Pacifique m'appartient.
+Naturellement que je vais en cours
+Mais c'est pas pareil qu'en France.
+On ne travaille que le matin
+Ne t'inquiètes pas, je m'accommode très bien!
+Bien sûr il y a cette langue que je ne parle pas très bien
+Heureusement je me suis fait quelques potes, on discute de tout et de
+rien.
+Oui, vous me manquez pas mal,
+je ne regrette pas d'avoir quitté le pays.
+Sans mes frères c'est moi qui râle
+Mais c'est toi qui me manques le plus, promis!
+Bref comme tu l'as compris j'ai jamais été aussi heureux que
+maintenant
+Et j'espère pouvoir rentrer pour les fêtes, maman.
+Je pourrais passer te voir
+Au fond de cette forêt, ton immense cercueil.
+Je te parlerai de cette fille aux beaux yeux noirs
+Et te posant un bouquet de lys et de chèvrefeuille.
+Ton fils.`, 
+                author: "Lylou | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+                { id: "pareil",
+                title: "***", 
+                text: `Toujours pareil, toujours
+C’est un peu toujours pareil au fond.
+Chaque matin : même heure, même routine.
+D’abord s’habiller, puis manger.
+Se brosser les dents, mettre les chaussures et enfin prendre le sac
+et partir.
+Toujours les mêmes rues empruntées.
+Toujours le même emploi du temps, les mêmes professeurs.
+Les mêmes horaires, à quelques variations près.
+Toujours la même agitation au sein de cette routine infinie.
+Toujours le même rythme effréné d’inconnus qui ne se ressemblent
+jamais.
+Toujours la même file d’attente, le vendredi soir, devant le vendeur de
+poulet rôti.
+Heureusement, parfois, une pause.
+Une bulle d’air
+Une respiration.
+Parfois minuscule,
+Mais toujours une vague de sérénité.
+Souvent une randonnée.
+Toujours sous les arbres, les pieds nus dans l’herbe douce et les mots
+libres dans le ciel bleu.
+Ce toujours là est bien plus agréable que n’importe quel autre.
+J’aimerais qu’il soit LE toujours.
+Qu’il soit éternel.
+Que cette sensation reste, se diffuse et m’engloutisse.
+Ce serait le toujours éternel parfait.`, 
+                author: "Louise Y. | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+                { id: "qqun",
+                title: "***", 
+                text: `Quelqu’un quelque part
+Quelqu’un quelque part pleure
+Quelque part il pleut
+Quelqu’un veut partir
+Quelqu’un veut rentrer
+Quelqu’un veut rester et ne plus bouger
+Quelqu’un ne sait rien
+Mais quelque part la joie, un foyer
+Quelque part la chaleur, les corps
+Quelque part des sentiments, doux
+Quelqu’un, quelque part, tout à la fois`, 
+                author: "Louise Y. | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+                { id: "fracture",
+                title: "***", 
+                text: `Fractures innocentes
+Elle chantait.
+Perdue dans les champs, ou bien la forêt.
+Dans ses cheveux emmêlés,
+Des épis de blé.
+Une auréole autour de son visage
+Jolis cheveux dorés.
+Elle chantait
+Même après la nuit tombée,
+Dans le noir. Rien ne comptait.
+Les bruits inquiétants, les couleurs disparues, rien.
+Seulement cette douce mélodie, qui à travers l’espace
+Résonnait.
+Rien ne comptait.
+Le temps, la fatigue, l’inquiétude de ses proches, rien.
+Elle chantait.
+Elle s’évadait.
+Rupture avec le monde,
+Du haut de ses huit ans.
+Rien n’aurait pu la faire taire.
+L’aiguille de l’horloge, dans sa course effrénée,
+Même l’air sévère de sa mère
+Et Dieu sait qu’elle le redoutait.
+Elle était inconsciente,
+Elle était insouciante,
+Ne songeait pas à rentrer.
+Elle s’accordait avec la réalité,
+Trop sérieuse pour la laisser rêver,
+Une fracture innocente.`, 
+                author: "Lili | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
+                { id: "nuage",
+                title: "***", 
+                text: `Les nuages
+Ils m’ont toujours intriguée.
+Nuages dans le ciel.
+Vapeurs étourdissantes
+Aux formes éblouissantes.
+Ils peuvent tout représenter, si tu imagines si tu imagines
+Ils planent tranquillement
+Au-dessus de nos vies
+Au-dessus de tous les problèmes
+En dessous des tracas.
+Ils virevoltent librement, inconsciemment,
+Laissant le vent les porter
+Là où les mène une destinée.
+On m’a toujours dit « tu as tête dans les nuages »
+MOI je refuse de voir le monde en noir et blanc.
+Depuis toute petite, on me traite de rêveuse.
+Est-ce de ma faute si je ne veux pas d’une vie blafarde ?
+Moi je vois les couleurs,
+Moi je vois les formes.
+Je vois ce que certains ne peuvent plus,
+Oubliés leurs yeux d’enfant
+Je vois les dragons flotter dans le ciel,
+Et d’étranges fées les accompagner.
+Moi je vois les aurores boréales
+je sens le renouveau chaque matin.
+On m’a toujours dit que j’avais la tête dans les nuages,
+Mon esprit à des centaines de mètres d’ici.
+On m’a dit de revenir sur terre.
+On m’a dit d’ouvrir les yeux.
+Mais pourquoi voudrais-je descendre ?
+Et pourquoi voudrais-je ouvrir les yeux ?
+Si ce n’est que pour voir des sols de goudron et des murs en béton ?
+Je suis si bien là-haut.
+J’espère y rester toute ma vie.
+Parce qu’en haut, rien n’a d’importance.
+Et tout est plus simple
+Plus coloré
+Plus joyeux
+Plus beau.`, 
+                author: "Lili | Lycée Albert Londres",
+                hasMore: false,
+                buyLink: "#"
+            },
             ]};
