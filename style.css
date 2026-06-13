@@ -107,24 +107,6 @@ body {
     fill: none;
 }
 
-/* --- Модальные окна --- */
-.modal { 
-    display: none; position: fixed; z-index: 9999; left: 0; top: 0;
-    width: 100%; height: 100%;
-    background-color: rgba(161, 56, 66, 0.2); /* Легкий оттенок фона */
-}
-
-.modal-content { 
-    background-color: var(--bg-color);
-    margin: 10% auto;
-    padding: 30px;
-    border: 2px solid var(--accent-color);
-    width: 90%;
-    max-width: 500px;
-    color: var(--text-color);
-    position: relative;
-}
-
 .close { 
     position: absolute; right: 15px; top: 5px; cursor: pointer;
     font-size: 28px; color: var(--accent-color); 
@@ -143,20 +125,31 @@ body {
     text-align: center;
 }
 
-.merch-footer a, .ateliers-footer a, .don-footer a {
+.merch-footer a, .ateliers-footer a {
     color: var(--accent-color);
     text-decoration: none;
     font-weight: bold;
     border-bottom: 1px solid currentColor;
 }
 
+.don-footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid var(--accent-color);
+}
+
 .don-footer a {
-    display: inline-block;
+    display: inline-block !important; /* Это заставит кнопку сжаться */
     padding: 10px 25px;
     background-color: var(--accent-color);
-    color: #fff;
+    color: #fff !important;           /* Принудительно белый цвет */
     text-transform: uppercase;
     letter-spacing: 1px;
+    text-decoration: none !important;
+    border: none !important;          /* Убираем нижнее подчеркивание */
+    width: auto !important;           /* Кнопка по ширине текста */
+    margin: 0 auto;
 }
 
 /* --- Футер --- */
