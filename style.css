@@ -179,3 +179,35 @@ footer a { color: var(--accent-color); text-decoration: none; margin: 0 20px; }
     .main-nav.active { display: block; }
     .main-nav ul { flex-direction: column; gap: 30px; }
 }
+
+/* Базовые стили для модального окна (адаптив) */
+.modal-content {
+    background-color: #f2e8d5; /* Цвет бумаги */
+    color: #4a282b;
+    padding: 30px;
+    border: 2px solid #a13842;
+    border-radius: 12px;
+    
+    /* АДАПТИВНОСТЬ */
+    width: 90%;       /* Занимает 90% ширины экрана */
+    max-width: 500px; /* Не шире 500px даже на десктопе */
+    max-height: 80vh; /* Не выше 80% высоты экрана */
+    
+    overflow-y: auto; /* Появится прокрутка, если текст длинный */
+    position: relative;
+    margin: 10% auto; /* Центрируем */
+}
+
+/* На мобильных телефонах (экраны до 600px) */
+@media (max-width: 600px) {
+    .modal-content {
+        padding: 20px;
+        margin: 5% auto;
+        width: 95%; /* Чуть шире на самых маленьких экранах */
+    }
+    
+    /* Уменьшаем шрифты внутри окна для мобилки */
+    .modal-content h2 {
+        font-size: 1.5rem;
+    }
+}
