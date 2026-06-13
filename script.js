@@ -9,25 +9,21 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     };
 
-    // 2. Функция открытия окон
-    window.openModal = function(id) {
-        const modal = document.getElementById(id);
-        if (modal) {
-            modal.style.display = "block";
-            document.body.style.overflow = "hidden";
-        } else {
-            console.error("Окно с ID " + id + " не найдено");
-        }
-    };
+  function openModal(modalId) {
+    // Показываем нужное окно
+    document.getElementById(modalId).style.display = "block";
+    
+    // Добавляем размытие на основной контент сайта
+    document.querySelector('.container').classList.add('blur-background');
+}
 
-    // 3. Функция закрытия окон
-    window.closeModal = function(id) {
-        const modal = document.getElementById(id);
-        if (modal) {
-            modal.style.display = "none";
-            document.body.style.overflow = "auto";
-        }
-    };
+function closeModal(modalId) {
+    // Скрываем окно
+    document.getElementById(modalId).style.display = "none";
+    
+    // Убираем размытие
+    document.querySelector('.container').classList.remove('blur-background');
+}
 
     // 4. Закрытие окон при клике на фон
     window.onclick = function(event) {
