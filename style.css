@@ -157,6 +157,7 @@ body {
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
+    color: var(--accent-color);
 }
 
 /* --- Футер --- */
