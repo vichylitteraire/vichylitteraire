@@ -143,7 +143,7 @@ body {
     text-align: center;
 }
 
-.merch-footer a, .ateliers-footer a {
+.merch-footer a, .ateliers-footer a, .don-footer a {
     color: var(--accent-color);
     text-decoration: none;
     font-weight: bold;
@@ -151,15 +151,12 @@ body {
 }
 
 .don-footer a {
-    display: inline-block; /* Теперь кнопка не будет растягиваться */
+    display: inline-block;
     padding: 10px 25px;
     background-color: var(--accent-color);
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
-    text-decoration: none; /* Убираем подчеркивание для кнопки */
-    border-bottom: none;   /* Убираем border-bottom от общих стилей */
-    border-radius: 4px;    /* Можно добавить скругление, если нравится */
 }
 
 /* --- Футер --- */
