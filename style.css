@@ -184,30 +184,27 @@ footer a { color: var(--accent-color); text-decoration: none; margin: 0 20px; }
 .modal-content {
     background-color: #f2e8d5; /* Цвет бумаги */
     color: #4a282b;
-    padding: 30px;
+    padding: 25px;
     border: 2px solid #a13842;
     border-radius: 12px;
     
-    /* АДАПТИВНОСТЬ */
-    width: 90%;       /* Занимает 90% ширины экрана */
-    max-width: 500px; /* Не шире 500px даже на десктопе */
-    max-height: 80vh; /* Не выше 80% высоты экрана */
+    /* ФИКСИРУЕМ РАЗМЕР */
+    width: 85%;          /* Оставляем 15% для воздуха (по 7.5% с каждой стороны) */
+    max-width: 400px;    /* Делаем окно уже, чтобы текст читался легче */
+    max-height: 85vh;    /* Ограничиваем высоту, чтобы не выходило за экран */
     
-    overflow-y: auto; /* Появится прокрутка, если текст длинный */
+    overflow-y: auto;    /* Прокрутка внутри, если текст длинный */
     position: relative;
-    margin: 10% auto; /* Центрируем */
+    margin: 5% auto;     /* Центрируем окно */
+    
+    /* Тень для объема */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
 
-/* На мобильных телефонах (экраны до 600px) */
-@media (max-width: 600px) {
+/* Дополнительно для очень узких экранов */
+@media (max-width: 480px) {
     .modal-content {
+        width: 90%;      /* На совсем маленьких экранах чуть шире */
         padding: 20px;
-        margin: 5% auto;
-        width: 95%; /* Чуть шире на самых маленьких экранах */
-    }
-    
-    /* Уменьшаем шрифты внутри окна для мобилки */
-    .modal-content h2 {
-        font-size: 1.5rem;
     }
 }
