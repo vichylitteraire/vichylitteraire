@@ -208,3 +208,23 @@ footer a { color: var(--accent-color); text-decoration: none; margin: 0 20px; }
         padding: 20px;
     }
 }
+
+/* Эффект размытия для контента */
+.blur-background {
+    filter: blur(8px);
+    transition: filter 0.3s ease;
+}
+
+/* Стили для всех ваших модальных окон */
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    /* Полупрозрачный фон поверх всего */
+    background-color: rgba(242, 232, 213, 0.4); 
+}
