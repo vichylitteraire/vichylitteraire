@@ -9,27 +9,31 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     };
 
-  function openModal(modalId) {
-    // Показываем нужное окно
-    document.getElementById(modalId).style.display = "block";
-    
-    // Добавляем размытие на основной контент сайта
-    document.querySelector('.container').classList.add('blur-background');
+ function openModal(modalId) {
+    const modal = document.getElementById(modalId);
+    if (modal) {
+        modal.style.display = "block";
+        // Размываем основной контейнер
+        document.querySelector('.container').classList.add('blur-background');
+        // Если нужно размывать еще и навигацию, добавьте эту строку:
+        // document.querySelector('.main-nav').classList.add('blur-background');
+    }
 }
 
 function closeModal(modalId) {
-    // Скрываем окно
-    document.getElementById(modalId).style.display = "none";
-    
-    // Убираем размытие
-    document.querySelector('.container').classList.remove('blur-background');
+    const modal = document.getElementById(modalId);
+    if (modal) {
+        modal.style.display = "none";
+        // Убираем размытие
+        document.querySelector('.container').classList.remove('blur-background');
+        // document.querySelector('.main-nav').classList.remove('blur-background');
+    }
 }
 
-    // 4. Закрытие окон при клике на фон
-    window.onclick = function(event) {
-        if (event.target.classList.contains('modal')) {
-            event.target.style.display = "none";
-            document.body.style.overflow = "auto";
-        }
-    };
-});
+// Дополнительно: закрытие при клике по фону (самому оверлею)
+window.onclick = function(event) {
+    if (event.target.classList.contains('modal')) {
+        event.target.style.display = "none";
+        document.querySelector('.container').classList.remove('blur-background');
+    }
+}
