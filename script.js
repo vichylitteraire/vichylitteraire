@@ -13,10 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const modal = document.getElementById(modalId);
     if (modal) {
         modal.style.display = "block";
-        // Размываем основной контейнер
         document.querySelector('.container').classList.add('blur-background');
-        // Если нужно размывать еще и навигацию, добавьте эту строку:
-        // document.querySelector('.main-nav').classList.add('blur-background');
     }
 }
 
@@ -24,13 +21,10 @@ function closeModal(modalId) {
     const modal = document.getElementById(modalId);
     if (modal) {
         modal.style.display = "none";
-        // Убираем размытие
         document.querySelector('.container').classList.remove('blur-background');
-        // document.querySelector('.main-nav').classList.remove('blur-background');
     }
 }
 
-// Дополнительно: закрытие при клике по фону (самому оверлею)
 window.onclick = function(event) {
     if (event.target.classList.contains('modal')) {
         event.target.style.display = "none";
