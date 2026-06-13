@@ -204,7 +204,7 @@ footer a { color: var(--accent-color); text-decoration: none; margin: 0 20px; }
 /* Дополнительно для очень узких экранов */
 @media (max-width: 480px) {
     .modal-content {
-        width: 90%;      /* На совсем маленьких экранах чуть шире */
+        width: 80%;      /* На совсем маленьких экранах чуть шире */
         padding: 20px;
     }
 }
