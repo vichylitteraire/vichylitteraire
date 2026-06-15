@@ -15,7 +15,9 @@ body{
     overflow-x: hidden;
 }
 
-
+.imglogo {
+    width: 50px;
+}
 
 /* HEADER */
 
