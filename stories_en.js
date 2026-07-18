@@ -3,7 +3,7 @@ const STORIES_DATA = {
         labelAuthor: "Par",
         nextBtn: "Autre histoire 🎲",
         contactLabel: "Pour nous contacter :",
-        adText: "VICHY LITTÉRAIRE ",
+        adText: "VICHY LITTÉRAIRE",
         adLink: "En savoir plus",
         stories: [
             { 
