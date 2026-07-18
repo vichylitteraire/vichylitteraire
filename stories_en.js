@@ -3,7 +3,7 @@ const STORIES_DATA = {
         labelAuthor: "By",
         nextBtn: "Another story 🎲",
         contactLabel: "To contact us:",
-        adText: "Libérer ses écrits provides writing workshops and personal biography support in Vichy and online.",
+        adText: "VICHY LITTÉRAIRE",
         adLink: "Learn more",
         stories: [
             { 
