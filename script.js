@@ -19,7 +19,7 @@ function setLanguage(lang) {
     // Обратите внимание: если у вас в файле структура { fr: { stories: [...] } }, 
     // то langData.stories может быть langData.fr.stories. 
     // Я оставил langData.stories, как в вашем коде.
-    shuffledIndices = [...Array(langData.stories.length).keys()].sort(() => Math.random() - 0.5);
+    shuffledIndices = [...Array(langData[currentLang].stories.length).keys()].sort(() => Math.random() - 0.5);
     currentIndex = 0;
     loadStory();
 }
