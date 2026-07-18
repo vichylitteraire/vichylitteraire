@@ -1,4 +1,4 @@
-const STORIES_DATA = {
+const STORIES_DATA_FR = {
     fr: {
         labelAuthor: "Par",
         nextBtn: "Autre histoire 🎲",
