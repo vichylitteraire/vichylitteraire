@@ -25,26 +25,32 @@ function setLanguage(lang) {
 }
 
 function loadStory() {
+    // 1. Выбираем нужный объект данных (на основе выбора языка)
     const langData = (currentLang === 'fr') ? STORIES_DATA_FR : STORIES_DATA_EN;
-const storyData = langData[currentLang].stories[shuffledIndices[currentIndex]];
+    
+    // 2. Получаем конкретный блок текстов для выбранного языка (fr или en)
+    const texts = langData[currentLang];
+    
+    // 3. Получаем данные текущей истории
+    const storyData = texts.stories[shuffledIndices[currentIndex]];
 
-    // Заполнение основных текстов
+    // 4. Заполнение основных текстов истории
     document.getElementById('story-title').innerText = storyData.title || "";
     document.getElementById('story-content').innerText = storyData.text || "";
     document.getElementById('author-name').innerText = storyData.author || "";
     
-    // Заполнение интерфейса
-    document.getElementById('label-author').innerText = langData.labelAuthor || (currentLang === 'fr' ? "Par" : "By");
-    document.getElementById('btn-next').innerText = langData[currentLang].nextBtn || "Next";
-    document.getElementById('contact-label').innerText = langData.contactLabel || "Contact:";
-    document.getElementById('ad-text').innerText = langData.adText || "";
-    document.getElementById('ad-link').innerText = langData.adLink || "Info";
+    // 5. Заполнение интерфейса (теперь всё берется из переменной texts)
+    document.getElementById('label-author').innerText = texts.labelAuthor || (currentLang === 'fr' ? "Par" : "By");
+    document.getElementById('btn-next').innerText = texts.nextBtn || "Next";
+    document.getElementById('contact-label').innerText = texts.contactLabel || "Contact:";
+    document.getElementById('ad-text').innerText = texts.adText || "";
+    document.getElementById('ad-link').innerText = texts.adLink || "Info";
 
     // --- КНОПКА ЧИТАТЬ ДАЛЬШЕ ---
     const readMoreBtn = document.getElementById('read-more-btn');
     if (readMoreBtn) {
         if (storyData.hasMore) {
-            readMoreBtn.innerText = langData.readMore || (currentLang === 'fr' ? "Lire la suite" : "Read more");
+            readMoreBtn.innerText = texts.readMore || (currentLang === 'fr' ? "Lire la suite" : "Read more");
             readMoreBtn.style.display = 'inline-flex';
         } else {
             readMoreBtn.style.display = 'none';
