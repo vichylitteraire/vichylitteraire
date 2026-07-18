@@ -26,7 +26,7 @@ function setLanguage(lang) {
 
 function loadStory() {
     const langData = (currentLang === 'fr') ? STORIES_DATA_FR : STORIES_DATA_EN;
-    const storyData = langData.stories[shuffledIndices[currentIndex]];
+    const storyData = langData[currentLang].stories[shuffledIndices[currentIndex]];
 
     // Заполнение основных текстов
     document.getElementById('story-title').innerText = storyData.title || "";
