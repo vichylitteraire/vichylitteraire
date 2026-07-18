@@ -4,7 +4,7 @@ const STORIES_DATA = {
         nextBtn: "Autre histoire 🎲",
         contactLabel: "Pour nous contacter :",
         adText: "VICHY LITTÉRAIRE",
-        /* adLink: "En savoir plus", */
+        adLink: "En savoir plus",
         stories: [
             { 
                 title: "CONFESSION", 
