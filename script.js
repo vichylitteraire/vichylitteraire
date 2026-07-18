@@ -35,7 +35,7 @@ const storyData = langData[currentLang].stories[shuffledIndices[currentIndex]];
     
     // Заполнение интерфейса
     document.getElementById('label-author').innerText = langData.labelAuthor || (currentLang === 'fr' ? "Par" : "By");
-    document.getElementById('btn-next').innerText = langData.nextBtn || "Next";
+    document.getElementById('btn-next').innerText = langData[currentLang].nextBtn || "Next";
     document.getElementById('contact-label').innerText = langData.contactLabel || "Contact:";
     document.getElementById('ad-text').innerText = langData.adText || "";
     document.getElementById('ad-link').innerText = langData.adLink || "Info";
